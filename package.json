@@ -4,7 +4,7 @@
   "description": "code for okc open budget project",
   "scripts": {
     "start": "cd _src && harp server",
-    "build": "cd _src && harp compile --pretty ./ ../www",
+    "build": "cd _src && harp compile ./ ../www",
     "test": "karma start"
   },
   "repository": {
@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/codeforokc/openbudgetokc#readme",
   "dependencies": {
-    "harp": "https://github.com/sintaxi/harp.git#v0.21.0-pre"
+    "harp": "git+https://github.com/sintaxi/harp.git#v0.21.0-pre"
   },
   "devDependencies": {
     "jasmine-core": "^2.5.1",
