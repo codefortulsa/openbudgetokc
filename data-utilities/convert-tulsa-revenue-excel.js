@@ -19,15 +19,12 @@ var xlsx = require('xlsx');
 var jsonfile = require('jsonfile');
 var colIndex = require('./convert-tulsa-common').colIndex;
 var getFundDescriptions = require('./convert-tulsa-common').getFundDescriptions;
+var getFundNumbers = require('./convert-tulsa-common').getFundNumbers;
+var FUND_INFO = require('./convert-tulsa-common').FUND_INFO;
 
 //Descriptions of each of the revenue sources
 var FIRST_DESC_ROW = 3;
 var FINAL_DESC_ROW = 35;
-
-//Fund codes where the revenue was credited
-var FINAL_FUND_COL = 43;
-var TOTAL_FUND_COL = 'AR';
-var FIRST_FUND_COL = 1;
 
 //Columns for revenue categories and amounts; we have to map amounts back to categories to get the right description
 var COL_FOR_REV_CATG = 'A';
@@ -42,24 +39,6 @@ var INPUT_SPREADSHEET_LOCATION = '../_src/data/tulsa/originals/FY17 Revenues.xls
 var OUTPUT_JSON_LOCATION = '../_src/data/tulsa/c4tul_fy2017Revenue.json';
 var AMOUNT_TBL_SHEET_NM = 'ADOPTED Rev Table';
 var CATG_SHEET_NM = 'REVenue(2)';
-
-/**
- * Get the fund numbers for each column in the revenue table
- * @param TulsaRevenueBudgetWksht The revenue worksheet table with dollar amounts for each fund
- * @returns {Array} a map of columns to fund numbers
- */
-function getFundNumbers(TulsaRevenueBudgetWksht) {
-    var funds = [];
-
-    for (var i = FIRST_FUND_COL; i < FINAL_FUND_COL; i++) {
-        var cell = colIndex(i) + '2';
-        console.log('Account number for index ', cell, TulsaRevenueBudgetWksht[cell].v);
-
-        funds[i] = TulsaRevenueBudgetWksht[cell].v;
-    }
-
-    return funds;
-}
 
 /**
  * Find the revenue descriptions for each row in the revenue table
@@ -130,14 +109,14 @@ function getRevenueAmounts(TulsaRevenueBudgetWksht, fundNumbers, fundDescription
         var logRow = '';
         var delim = '';
 
-        for(var col=FIRST_FUND_COL; col<FINAL_FUND_COL; col++) {
+        for(var col=FUND_INFO.FIRST_FUND_COL; col<FUND_INFO.FINAL_FUND_COL; col++) {
             var colLetter = colIndex(col);
             var amt = TulsaRevenueBudgetWksht[colLetter + row].v;
             var fundCode = fundNumbers[col];
             var category = categoryMap[amt];
 
             if(!category) {
-                var newCategoryAmt = TulsaRevenueBudgetWksht[TOTAL_FUND_COL + row].v;
+                var newCategoryAmt = TulsaRevenueBudgetWksht[FUND_INFO.TOTAL_FUND_COL + row].v;
                 category = categoryMap[newCategoryAmt];
                 console.log('Amount ' + amt + ' on row ' + row + ' has no exact match, subtotal was ' + newCategoryAmt + ' which is associated with ' + category);
             }

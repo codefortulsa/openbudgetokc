@@ -10,7 +10,7 @@ var FINAL_FUND_CODE = 49;
 
 //Categories from Section 9 of the Budget Book
 var CATEGORY_CODES = [
-    {categoryCode: 1080, desc:'General Fund'},
+    {categoryCode: 1080, desc: 'General Fund'},
     {categoryCode: 2000, desc: 'Special Revenue'},
     {categoryCode: 3000, desc: 'Trust & Agency Enterprise'},
     {categoryCode: 4100, desc: 'Special Assessment'},
@@ -21,6 +21,16 @@ var CATEGORY_CODES = [
     {categoryCode: 8000, desc: 'Internal Service'}
 ];
 
+//Fund group codes.  These were not provided in the spreadsheet.
+//According to Nathan, the codes are all the same under State Law, though, so they were copied from OKC's data.
+var characterClasses = [];
+characterClasses[51] = 'Personnel Services';
+characterClasses[52] = 'Professional Services';
+characterClasses[53] = 'Materials and Supplies';
+characterClasses[54] = 'Capital Purchase';
+characterClasses[55] = 'Debt Service';
+characterClasses[59] = 'Transfers';
+
 /**
  * Get the fund's 'category,' listed in Appendix 9 of the city's Budget Book.  This is not useful (yet).
  * @param fundNumber The fund number
@@ -29,8 +39,8 @@ var CATEGORY_CODES = [
 function getFundCategory(fundNumber) {
     var catg;
 
-    for(var i=0; i<CATEGORY_CODES.length; i++) {
-        if(CATEGORY_CODES[i].categoryCode > fundNumber) {
+    for (var i = 0; i < CATEGORY_CODES.length; i++) {
+        if (CATEGORY_CODES[i].categoryCode > fundNumber) {
             break;
         } else {
             catg = CATEGORY_CODES[i].desc;
@@ -45,9 +55,9 @@ function getFundCategory(fundNumber) {
  * @param index the number of letters after the letter 'A'; if this number is above 26, an 'A' is prefixed
  * @returns {string} the correct column in Excel for the given ASCII letter
  */
-var colIndex = function(index) {
+function colIndex(index) {
     var NUM_LETTERS_IN_ALPHABET = 26;
-    if(index >= NUM_LETTERS_IN_ALPHABET) {
+    if (index >= NUM_LETTERS_IN_ALPHABET) {
         return 'A' + colIndex(index - NUM_LETTERS_IN_ALPHABET);
     } else {
         return String.fromCharCode('A'.charCodeAt() + index);
@@ -60,7 +70,7 @@ var colIndex = function(index) {
  *
  * @returns {Array} A map of funds to descriptions
  */
-function getFundDescriptions() {
+function getFundDescriptions(fundDescWkbk) {
     var fundDescriptions = [];
 
     //These could not be cross-referenced directly with the spreadsheets
@@ -74,14 +84,16 @@ function getFundDescriptions() {
     fundDescriptions[6031] = 'TMUA-Sewer Captial Projects Fund';
     fundDescriptions[6041] = 'Stormwater Capital Projects Fund';
 
-    var fundDescWkbk = xlsx.readFile(FUND_DESC_LOCATION);
+    if (!fundDescWkbk) {
+        fundDescWkbk = xlsx.readFile(FUND_DESC_LOCATION);
+    }
     var fundDescWksht = fundDescWkbk.Sheets[FUND_DESC_SHEET];
 
-    for(var row=FIRST_FUND_CODE; row<=FINAL_FUND_CODE; row++) {
+    for (var row = FIRST_FUND_CODE; row <= FINAL_FUND_CODE; row++) {
         var fundCode = fundDescWksht[FUND_CODE_COLUMN + row];
         var fundDesc = fundDescWksht[FUND_DESC_COLUMN + row];
 
-        if(fundCode && fundDesc) {
+        if (fundCode && fundDesc) {
             console.log('Row ' + row + ', fund code ' + fundCode.v + ', is ' + fundDesc.v);
             fundDescriptions[fundCode.v] = fundDesc.v;
         } else {
@@ -92,4 +104,36 @@ function getFundDescriptions() {
     return fundDescriptions;
 }
 
-module.exports = {colIndex: colIndex, getFundDescriptions: getFundDescriptions, getFundCategory: getFundCategory};
+//Fund codes where the revenue was credited
+var FUND_INFO = {
+    FINAL_FUND_COL: 43,
+    TOTAL_FUND_COL: 'AR',
+    FIRST_FUND_COL: 1
+};
+
+/**
+ * Get the fund numbers for each column in the revenue table
+ * @param TulsaRevenueBudgetWksht The revenue worksheet table with dollar amounts for each fund
+ * @returns {Array} a map of columns to fund numbers
+ */
+function getFundNumbers(TulsaRevenueBudgetWksht) {
+    var funds = [];
+
+    for (var i = FUND_INFO.FIRST_FUND_COL; i < FUND_INFO.FINAL_FUND_COL; i++) {
+        var cell = colIndex(i) + '2';
+        console.log('Account number for index ', cell, TulsaRevenueBudgetWksht[cell].v);
+
+        funds[i] = TulsaRevenueBudgetWksht[cell].v;
+    }
+
+    return funds;
+}
+
+module.exports = {
+    colIndex: colIndex,
+    getFundDescriptions: getFundDescriptions,
+    getFundCategory: getFundCategory,
+    characterClasses: characterClasses,
+    getFundNumbers: getFundNumbers,
+    FUND_INFO: FUND_INFO
+};
