@@ -104,26 +104,19 @@ function getFundDescriptions(fundDescWkbk) {
     return fundDescriptions;
 }
 
-//Fund codes where the revenue was credited
-var FUND_INFO = {
-    FINAL_FUND_COL: 43,
-    TOTAL_FUND_COL: 'AR',
-    FIRST_FUND_COL: 1
-};
-
 /**
  * Get the fund numbers for each column in the revenue table
- * @param TulsaRevenueBudgetWksht The revenue worksheet table with dollar amounts for each fund
+ * @param TulsaBudgetWksht The revenue worksheet table with dollar amounts for each fund
  * @returns {Array} a map of columns to fund numbers
  */
-function getFundNumbers(TulsaRevenueBudgetWksht) {
+function getFundNumbers(TulsaBudgetWksht, firstCol, finalCol) {
     var funds = [];
 
-    for (var i = FUND_INFO.FIRST_FUND_COL; i < FUND_INFO.FINAL_FUND_COL; i++) {
+    for (var i = firstCol; i < finalCol; i++) {
         var cell = colIndex(i) + '2';
-        console.log('Account number for index ', cell, TulsaRevenueBudgetWksht[cell].v);
+        console.log('Account number for index ', cell, TulsaBudgetWksht[cell].v);
 
-        funds[i] = TulsaRevenueBudgetWksht[cell].v;
+        funds[i] = TulsaBudgetWksht[cell].v;
     }
 
     return funds;
@@ -134,6 +127,5 @@ module.exports = {
     getFundDescriptions: getFundDescriptions,
     getFundCategory: getFundCategory,
     characterClasses: characterClasses,
-    getFundNumbers: getFundNumbers,
-    FUND_INFO: FUND_INFO
+    getFundNumbers: getFundNumbers
 };

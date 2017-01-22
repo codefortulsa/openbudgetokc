@@ -20,7 +20,6 @@ var jsonfile = require('jsonfile');
 var colIndex = require('./convert-tulsa-common').colIndex;
 var getFundDescriptions = require('./convert-tulsa-common').getFundDescriptions;
 var getFundNumbers = require('./convert-tulsa-common').getFundNumbers;
-var FUND_INFO = require('./convert-tulsa-common').FUND_INFO;
 
 //Descriptions of each of the revenue sources
 var FIRST_DESC_ROW = 3;
@@ -40,6 +39,12 @@ var OUTPUT_JSON_LOCATION = '../_src/data/tulsa/c4tul_fy2017Revenue.json';
 var AMOUNT_TBL_SHEET_NM = 'ADOPTED Rev Table';
 var CATG_SHEET_NM = 'REVenue(2)';
 
+//Fund codes where the revenue was credited
+
+var FINAL_FUND_COL = 43;
+var TOTAL_FUND_COL = 'AR';
+var FIRST_FUND_COL = 1;
+
 /**
  * Find the revenue descriptions for each row in the revenue table
  * @param TulsaRevenueBudgetWksht The revenue worksheet table with dollar amounts for each revenue source
@@ -48,7 +53,7 @@ var CATG_SHEET_NM = 'REVenue(2)';
 function getRevenueDetailNodes(TulsaRevenueBudgetWksht) {
     var revenueDetailNodes = [];
 
-    for(var i=FIRST_DESC_ROW; i<FINAL_DESC_ROW; i++) {
+    for (var i = FIRST_DESC_ROW; i < FINAL_DESC_ROW; i++) {
         var cell = 'A' + i;
 
         console.log('Revenue description for index ', cell, TulsaRevenueBudgetWksht[cell].v);
@@ -71,14 +76,14 @@ function getRevCategories(TulsaRevenueBudgetWksht) {
     var catg = '***PLACEHOLDER***';
     var amountsToCatg = [];
 
-    for(var row=FIRST_ROW_CATG; row<=FINAL_ROW_CATG; row++) {
+    for (var row = FIRST_ROW_CATG; row <= FINAL_ROW_CATG; row++) {
         var amount = TulsaRevenueBudgetWksht[COL_FOR_ADP_BUDG + row];
         var maybeCatg = TulsaRevenueBudgetWksht[COL_FOR_REV_CATG + row];
 
-        if(amount && !maybeCatg) {
+        if (amount && !maybeCatg) {
             amountsToCatg[amount.v] = catg;
             console.log('Cell ' + COL_FOR_ADP_BUDG + row + ': Category ' + catg + ' has amount ' + amount.v);
-        } else if(maybeCatg) {
+        } else if (maybeCatg) {
 
             catg = maybeCatg.v;
             console.log('Cell ' + COL_FOR_REV_CATG + row + ': ' + JSON.stringify(catg));
@@ -103,20 +108,20 @@ function getRevCategories(TulsaRevenueBudgetWksht) {
  */
 function getRevenueAmounts(TulsaRevenueBudgetWksht, fundNumbers, fundDescriptions, revenueDescs, categoryMap) {
     var revAmt = [];
-    var i=0;
+    var i = 0;
 
-    for(var row=FIRST_DESC_ROW; row<FINAL_DESC_ROW; row++) {
+    for (var row = FIRST_DESC_ROW; row < FINAL_DESC_ROW; row++) {
         var logRow = '';
         var delim = '';
 
-        for(var col=FUND_INFO.FIRST_FUND_COL; col<FUND_INFO.FINAL_FUND_COL; col++) {
+        for (var col = FIRST_FUND_COL; col < FINAL_FUND_COL; col++) {
             var colLetter = colIndex(col);
             var amt = TulsaRevenueBudgetWksht[colLetter + row].v;
             var fundCode = fundNumbers[col];
             var category = categoryMap[amt];
 
-            if(!category) {
-                var newCategoryAmt = TulsaRevenueBudgetWksht[FUND_INFO.TOTAL_FUND_COL + row].v;
+            if (!category) {
+                var newCategoryAmt = TulsaRevenueBudgetWksht[TOTAL_FUND_COL + row].v;
                 category = categoryMap[newCategoryAmt];
                 console.log('Amount ' + amt + ' on row ' + row + ' has no exact match, subtotal was ' + newCategoryAmt + ' which is associated with ' + category);
             }
@@ -130,7 +135,7 @@ function getRevenueAmounts(TulsaRevenueBudgetWksht, fundNumbers, fundDescription
                 amount: amt
             };
 
-            if(amt > 0) {
+            if (amt > 0) {
                 revAmt[i++] = revenueObject;
             }
 
@@ -156,7 +161,7 @@ console.log('Finding fund categories...');
 var categoryMap = getRevCategories(categoryDescWorksheet);
 
 console.log('Getting fund numbers...');
-var fundNumbers = getFundNumbers(revenueWorksheet);
+var fundNumbers = getFundNumbers(revenueWorksheet, FIRST_FUND_COL, FINAL_FUND_COL);
 
 console.log('Getting fund descriptions...');
 var fundDescriptions = getFundDescriptions();
