@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "code for okc open budget project",
   "scripts": {
+    "build-tul-revenue": "cd data-utilities; node ./convert-tulsa-revenue-excel.js",
+    "build-tul-opcap": "cd data-utilities; node ./convert-tulsa-opercap-excel.js",
     "start": "cd _src && harp server",
     "build": "cd _src && harp compile ./ ../www",
     "test": "karma start"
