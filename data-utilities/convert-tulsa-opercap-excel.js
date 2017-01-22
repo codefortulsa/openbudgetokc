@@ -48,51 +48,51 @@ var FIRST_ROW_FOR_EXP = 3;
 var FINAL_ROW_FOR_EXP = 148;
 
 //From Appendix 9
-var AGENCY_LINE_OF_BUSINESS = [];
-AGENCY_LINE_OF_BUSINESS['Finance'] = 'Administration';
-AGENCY_LINE_OF_BUSINESS['Human Resources'] = 'Administration';
-AGENCY_LINE_OF_BUSINESS['Communications'] = 'Administration';
-AGENCY_LINE_OF_BUSINESS['Municipal Court'] = 'Administration';
-AGENCY_LINE_OF_BUSINESS['Information Technology'] = 'Administration';
-AGENCY_LINE_OF_BUSINESS['Asset Management'] = 'Administration';
-AGENCY_LINE_OF_BUSINESS['Customer Care'] = 'Administration';
-AGENCY_LINE_OF_BUSINESS['Water & Sewer'] = 'Administration';
+var AGENCIES = [];
+AGENCIES['Finance'] = 'Administration';
+AGENCIES['Human Resources'] = 'Administration';
+AGENCIES['Communications'] = 'Administration';
+AGENCIES['Municipal Court'] = 'Administration';
+AGENCIES['Information Technology'] = 'Administration';
+AGENCIES['Asset Management'] = 'Administration';
+AGENCIES['Customer Care'] = 'Administration';
+AGENCIES['Water & Sewer'] = 'Administration';
 
-AGENCY_LINE_OF_BUSINESS['Parks and Recreation'] = 'Community Development and Transportation';
-AGENCY_LINE_OF_BUSINESS['Performing Arts Center'] = 'Community Development and Transportation';
-AGENCY_LINE_OF_BUSINESS['BOK and Convention Centers'] = 'Community Development and Transportation';
-AGENCY_LINE_OF_BUSINESS['Planning and Development'] = 'Community Development and Transportation';
-AGENCY_LINE_OF_BUSINESS['Streets and Stormwater'] = 'Community Development and Transportation';
-AGENCY_LINE_OF_BUSINESS['Working in Neighborhoods'] = 'Community Development and Transportation';
-AGENCY_LINE_OF_BUSINESS['Gilcrease'] = 'Community Development and Transportation';
-AGENCY_LINE_OF_BUSINESS['River Parks'] = 'Community Development and Transportation';
-AGENCY_LINE_OF_BUSINESS['Engineering Services'] = 'Community Development and Transportation';
+AGENCIES['Parks and Recreation'] = 'Community Development and Transportation';
+AGENCIES['Performing Arts Center'] = 'Community Development and Transportation';
+AGENCIES['BOK and Convention Centers'] = 'Community Development and Transportation';
+AGENCIES['Planning and Development'] = 'Community Development and Transportation';
+AGENCIES['Streets and Stormwater'] = 'Community Development and Transportation';
+AGENCIES['Working in Neighborhoods'] = 'Community Development and Transportation';
+AGENCIES['Gilcrease'] = 'Community Development and Transportation';
+AGENCIES['River Parks'] = 'Community Development and Transportation';
+AGENCIES['Engineering Services'] = 'Community Development and Transportation';
 
 //TODO: Ask Nathan about these!
-AGENCY_LINE_OF_BUSINESS['Debt Service'] = 'Administration';
-AGENCY_LINE_OF_BUSINESS['Asset Management'] = 'Administration';
-AGENCY_LINE_OF_BUSINESS['Transfers - Internal & Outside'] = 'Administration';
-AGENCY_LINE_OF_BUSINESS['Legal'] = 'Administration';
-AGENCY_LINE_OF_BUSINESS['Mayor\'s Office of Human Rights'] = 'Mayor';
-AGENCY_LINE_OF_BUSINESS['City Council'] = 'City Council';
-AGENCY_LINE_OF_BUSINESS['City Auditor'] = 'Mayor';
-AGENCY_LINE_OF_BUSINESS['Mayor'] = 'Mayor';
-AGENCY_LINE_OF_BUSINESS['Tulsa Transit'] = 'Community Development and Transportation';
-AGENCY_LINE_OF_BUSINESS['Water and Sewer'] = 'Community Development and Transportation';
-AGENCY_LINE_OF_BUSINESS['Social and Economic Development'] = 'Community Development and Transportation';
-AGENCY_LINE_OF_BUSINESS['Mayor\'s Office of Economic'] = 'Mayor';
-AGENCY_LINE_OF_BUSINESS['River Parks Authority'] = 'Community Development and Transportation';
-AGENCY_LINE_OF_BUSINESS['Gilcrease Museum'] = 'Community Development and Transportation';
-AGENCY_LINE_OF_BUSINESS['Park and Recreation'] = 'Community Development and Transportation';
-AGENCY_LINE_OF_BUSINESS['Tulsa Area Emergency Mgmt.'] = 'Mayor';
-AGENCY_LINE_OF_BUSINESS['Emergency Medical Services Authority'] = 'Mayor';
-AGENCY_LINE_OF_BUSINESS['Fire'] = 'Mayor';
-AGENCY_LINE_OF_BUSINESS['Police'] = 'Mayor';
-AGENCY_LINE_OF_BUSINESS['General Government'] = 'Administration';
-AGENCY_LINE_OF_BUSINESS['Employees Insurance Administration'] = 'Administration';
-AGENCY_LINE_OF_BUSINESS['Worker\'s Compensation'] = 'Administration';
-AGENCY_LINE_OF_BUSINESS['Planning & Development'] = 'Community Development and Transportation';
-AGENCY_LINE_OF_BUSINESS['Mayor\'s Office of Economic Development'] = 'Community Development and Transportation';
+AGENCIES['Debt Service'] = 'Administration';
+AGENCIES['Asset Management'] = 'Administration';
+AGENCIES['Transfers - Internal & Outside'] = 'Administration';
+AGENCIES['Legal'] = 'Administration';
+AGENCIES['Mayor\'s Office of Human Rights'] = 'Office of the Mayor';
+AGENCIES['City Council'] = 'City Council';
+AGENCIES['City Auditor'] = 'Office of the Mayor';
+AGENCIES['Mayor'] = 'Office of the Mayor';
+AGENCIES['Tulsa Transit'] = 'Community Development and Transportation';
+AGENCIES['Water and Sewer'] = 'Community Development and Transportation';
+AGENCIES['Social and Economic Development'] = 'Community Development and Transportation';
+AGENCIES['Mayor\'s Office of Economic'] = 'Office of the Mayor';
+AGENCIES['River Parks Authority'] = 'Community Development and Transportation';
+AGENCIES['Gilcrease Museum'] = 'Community Development and Transportation';
+AGENCIES['Park and Recreation'] = 'Community Development and Transportation';
+AGENCIES['Tulsa Area Emergency Mgmt.'] = 'Office of the Mayor';
+AGENCIES['Emergency Medical Services Authority'] = 'Office of the Mayor';
+AGENCIES['Fire'] = 'Office of the Mayor';
+AGENCIES['Police'] = 'Office of the Mayor';
+AGENCIES['General Government'] = 'Administration';
+AGENCIES['Employees Insurance Administration'] = 'Administration';
+AGENCIES['Worker\'s Compensation'] = 'Administration';
+AGENCIES['Planning & Development'] = 'Community Development and Transportation';
+AGENCIES['Mayor\'s Office of Economic Development'] = 'Community Development and Transportation';
 
 /**
  * Gets the revenue's 'Program' as listed on the second worksheet.
@@ -147,10 +147,10 @@ function getExpenseAmounts(ExpenseWksht, programs, fundNumbers, fundDescriptions
                 console.log('\tSwitched to department %s with program %s', departmentName, programName)
             }
 
-            var lineOfBusiness = AGENCY_LINE_OF_BUSINESS[departmentName];
-            var characterClass = characterClasses[groupNumber];
+            var agency = AGENCIES[departmentName];
+            var characterClass = characterClasses[groupNumber.v];
 
-            console.log('\tLine of business is %s', lineOfBusiness);
+            console.log('\tLine of business is %s', agency);
 
             for (var col = FIRST_FUND_COL; col < FINAL_FUND_COL; col++) {
                 var fundNumber = fundNumbers[col];
@@ -160,20 +160,16 @@ function getExpenseAmounts(ExpenseWksht, programs, fundNumbers, fundDescriptions
                 var opUnitType = getOperatingUnitType(fundNumber);
                 var amount = ExpenseWksht[colIndex(col) + row];
 
-                console.log('For fund number %d, %s...', fundNumber, fundDescription);
+                console.log('For fund number %d, %s, class %d (%s)...', fundNumber, fundDescription, groupNumber.v, characterClass);
 
                 if(amount && amount.v != 0) {
                     expenses[i++] = {
-                        fundNumber: fundNumber,
-                        fundDescription: fundDescription,
-                        operatingUnitDescription: opUnitDescription,
-                        programName: programName,
-                        lobName: lineOfBusiness,
-                        characterClass: characterClass,
-                        classDescription: characterClass,
-                        accountDescription: departmentName,
-                        operatingUnitType: opUnitType,
-                        amount: amount.v
+                        agency: agency,
+                        fund: fundDescription,
+                        lob: programName,
+                        program: departmentName,
+                        key: opUnitDescription,
+                        value: amount.v
                     };
 
                     console.log('Department %s with fund number %d, operating unit %s, spends %s', departmentName, fundNumber, opUnitDescription, amount.v);

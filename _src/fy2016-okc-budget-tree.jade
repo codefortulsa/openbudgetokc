@@ -352,7 +352,7 @@ script.
   }
 
   function buildTheChart(){
-    d3.json("data/fy2016/c4okc_fy2016_final.json", function(err, res) {
+    d3.json("data/tulsa/c4tul_fy2017.json", function(err, res) {
         if (!err) {
             var data = d3.nest()
                          .key(function(d) { return d.agency; })
