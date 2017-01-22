@@ -1,0 +1,2659 @@
+[
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Public Safety and Protection",
+    "lobName": "Administration",
+    "accountDescription": "Municipal Court",
+    "operatingUnitType": "Operating",
+    "amount": 2048000
+  },
+  {
+    "fundNumber": "2330",
+    "fundDescription": "Juvenile Curfew Fines",
+    "operatingUnitDescription": "Special Revenue",
+    "programName": "Public Safety and Protection",
+    "lobName": "Administration",
+    "accountDescription": "Municipal Court",
+    "operatingUnitType": "Operating",
+    "amount": 13000
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Public Safety and Protection",
+    "lobName": "Administration",
+    "accountDescription": "Municipal Court",
+    "operatingUnitType": "Operating",
+    "amount": 26000
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Public Safety and Protection",
+    "lobName": "Administration",
+    "accountDescription": "Municipal Court",
+    "operatingUnitType": "Operating",
+    "amount": 821000
+  },
+  {
+    "fundNumber": "2320",
+    "fundDescription": "P.A. Law Enforcement",
+    "operatingUnitDescription": "Special Revenue",
+    "programName": "Public Safety and Protection",
+    "lobName": "Administration",
+    "accountDescription": "Municipal Court",
+    "operatingUnitType": "Operating",
+    "amount": 2000
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Public Safety and Protection",
+    "lobName": "Mayor",
+    "accountDescription": "Police",
+    "operatingUnitType": "Operating",
+    "amount": 84073000
+  },
+  {
+    "fundNumber": "2420",
+    "fundDescription": "E911 Fee Operating",
+    "operatingUnitDescription": "Special Revenue",
+    "programName": "Public Safety and Protection",
+    "lobName": "Mayor",
+    "accountDescription": "Police",
+    "operatingUnitType": "Operating",
+    "amount": 804000
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Public Safety and Protection",
+    "lobName": "Mayor",
+    "accountDescription": "Police",
+    "operatingUnitType": "Operating",
+    "amount": 1451000
+  },
+  {
+    "fundNumber": "2420",
+    "fundDescription": "E911 Fee Operating",
+    "operatingUnitDescription": "Special Revenue",
+    "programName": "Public Safety and Protection",
+    "lobName": "Mayor",
+    "accountDescription": "Police",
+    "operatingUnitType": "Operating",
+    "amount": 47000
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Public Safety and Protection",
+    "lobName": "Mayor",
+    "accountDescription": "Police",
+    "operatingUnitType": "Operating",
+    "amount": 6912000
+  },
+  {
+    "fundNumber": "2320",
+    "fundDescription": "P.A. Law Enforcement",
+    "operatingUnitDescription": "Special Revenue",
+    "programName": "Public Safety and Protection",
+    "lobName": "Mayor",
+    "accountDescription": "Police",
+    "operatingUnitType": "Operating",
+    "amount": 65000
+  },
+  {
+    "fundNumber": "2420",
+    "fundDescription": "E911 Fee Operating",
+    "operatingUnitDescription": "Special Revenue",
+    "programName": "Public Safety and Protection",
+    "lobName": "Mayor",
+    "accountDescription": "Police",
+    "operatingUnitType": "Operating",
+    "amount": 1804000
+  },
+  {
+    "fundNumber": "2420",
+    "fundDescription": "E911 Fee Operating",
+    "operatingUnitDescription": "Special Revenue",
+    "programName": "Public Safety and Protection",
+    "lobName": "Mayor",
+    "accountDescription": "Police",
+    "operatingUnitType": "Operating",
+    "amount": 42000
+  },
+  {
+    "fundNumber": "2910",
+    "fundDescription": "Short Term Capital",
+    "operatingUnitDescription": "Special Revenue",
+    "programName": "Public Safety and Protection",
+    "lobName": "Mayor",
+    "accountDescription": "Police",
+    "operatingUnitType": "Operating",
+    "amount": 3521000
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Public Safety and Protection",
+    "lobName": "Mayor",
+    "accountDescription": "Fire",
+    "operatingUnitType": "Operating",
+    "amount": 64436000
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Public Safety and Protection",
+    "lobName": "Mayor",
+    "accountDescription": "Fire",
+    "operatingUnitType": "Operating",
+    "amount": 1307000
+  },
+  {
+    "fundNumber": "7060",
+    "fundDescription": "EMSA Enterprise Fund",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Public Safety and Protection",
+    "lobName": "Mayor",
+    "accountDescription": "Fire",
+    "operatingUnitType": "Operating",
+    "amount": 175000
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Public Safety and Protection",
+    "lobName": "Mayor",
+    "accountDescription": "Fire",
+    "operatingUnitType": "Operating",
+    "amount": 3550000
+  },
+  {
+    "fundNumber": "7060",
+    "fundDescription": "EMSA Enterprise Fund",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Public Safety and Protection",
+    "lobName": "Mayor",
+    "accountDescription": "Fire",
+    "operatingUnitType": "Operating",
+    "amount": 120000
+  },
+  {
+    "fundNumber": "2910",
+    "fundDescription": "Short Term Capital",
+    "operatingUnitDescription": "Special Revenue",
+    "programName": "Public Safety and Protection",
+    "lobName": "Mayor",
+    "accountDescription": "Fire",
+    "operatingUnitType": "Operating",
+    "amount": 427000
+  },
+  {
+    "fundNumber": "7060",
+    "fundDescription": "EMSA Enterprise Fund",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Public Safety and Protection",
+    "lobName": "Mayor",
+    "accountDescription": "Fire",
+    "operatingUnitType": "Operating",
+    "amount": 55000
+  },
+  {
+    "fundNumber": "7060",
+    "fundDescription": "EMSA Enterprise Fund",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Public Safety and Protection",
+    "lobName": "Mayor",
+    "accountDescription": "Emergency Medical Services Authority",
+    "operatingUnitType": "Operating",
+    "amount": 6831000
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Public Safety and Protection",
+    "lobName": "Mayor",
+    "accountDescription": "Tulsa Area Emergency Mgmt.",
+    "operatingUnitType": "Operating",
+    "amount": 144000
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Cultural Development And Recreation",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Park and Recreation",
+    "operatingUnitType": "Operating",
+    "amount": 5427000
+  },
+  {
+    "fundNumber": "7010",
+    "fundDescription": "Stormwater",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Cultural Development And Recreation",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Park and Recreation",
+    "operatingUnitType": "Operating",
+    "amount": 107000
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Cultural Development And Recreation",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Park and Recreation",
+    "operatingUnitType": "Operating",
+    "amount": 656000
+  },
+  {
+    "fundNumber": "7010",
+    "fundDescription": "Stormwater",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Cultural Development And Recreation",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Park and Recreation",
+    "operatingUnitType": "Operating",
+    "amount": 15000
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Cultural Development And Recreation",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Park and Recreation",
+    "operatingUnitType": "Operating",
+    "amount": 8964000
+  },
+  {
+    "fundNumber": "7010",
+    "fundDescription": "Stormwater",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Cultural Development And Recreation",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Park and Recreation",
+    "operatingUnitType": "Operating",
+    "amount": 63000
+  },
+  {
+    "fundNumber": "7050",
+    "fundDescription": "Golf Course Operations",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Cultural Development And Recreation",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Park and Recreation",
+    "operatingUnitType": "Operating",
+    "amount": 2979000
+  },
+  {
+    "fundNumber": "2910",
+    "fundDescription": "Short Term Capital",
+    "operatingUnitDescription": "Special Revenue",
+    "programName": "Cultural Development And Recreation",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Park and Recreation",
+    "operatingUnitType": "Operating",
+    "amount": 277000
+  },
+  {
+    "fundNumber": "6014",
+    "fundDescription": "2014 Sales Tax Fund",
+    "operatingUnitDescription": "Capital Projects",
+    "programName": "Cultural Development And Recreation",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Park and Recreation",
+    "operatingUnitType": "Capital",
+    "amount": 8235000
+  },
+  {
+    "fundNumber": "7050",
+    "fundDescription": "Golf Course Operations",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Cultural Development And Recreation",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Park and Recreation",
+    "operatingUnitType": "Operating",
+    "amount": 92000
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Cultural Development And Recreation",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Gilcrease Museum",
+    "operatingUnitType": "Operating",
+    "amount": 3003000
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Cultural Development And Recreation",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Performing Arts Center",
+    "operatingUnitType": "Operating",
+    "amount": 1494000
+  },
+  {
+    "fundNumber": "2810",
+    "fundDescription": "Convention Fund",
+    "operatingUnitDescription": "Special Revenue",
+    "programName": "Cultural Development And Recreation",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Performing Arts Center",
+    "operatingUnitType": "Operating",
+    "amount": 184000
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Cultural Development And Recreation",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Performing Arts Center",
+    "operatingUnitType": "Operating",
+    "amount": 61000
+  },
+  {
+    "fundNumber": "2810",
+    "fundDescription": "Convention Fund",
+    "operatingUnitDescription": "Special Revenue",
+    "programName": "Cultural Development And Recreation",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Performing Arts Center",
+    "operatingUnitType": "Operating",
+    "amount": 29000
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Cultural Development And Recreation",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Performing Arts Center",
+    "operatingUnitType": "Operating",
+    "amount": 486000
+  },
+  {
+    "fundNumber": "2810",
+    "fundDescription": "Convention Fund",
+    "operatingUnitDescription": "Special Revenue",
+    "programName": "Cultural Development And Recreation",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Performing Arts Center",
+    "operatingUnitType": "Operating",
+    "amount": 533000
+  },
+  {
+    "fundNumber": "2810",
+    "fundDescription": "Convention Fund",
+    "operatingUnitDescription": "Special Revenue",
+    "programName": "Cultural Development And Recreation",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Performing Arts Center",
+    "operatingUnitType": "Operating",
+    "amount": 161000
+  },
+  {
+    "fundNumber": "6014",
+    "fundDescription": "2014 Sales Tax Fund",
+    "operatingUnitDescription": "Capital Projects",
+    "programName": "Cultural Development And Recreation",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Performing Arts Center",
+    "operatingUnitType": "Capital",
+    "amount": 2850000
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Cultural Development And Recreation",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "River Parks Authority",
+    "operatingUnitType": "Operating",
+    "amount": 639000
+  },
+  {
+    "fundNumber": "2910",
+    "fundDescription": "Short Term Capital",
+    "operatingUnitDescription": "Special Revenue",
+    "programName": "Cultural Development And Recreation",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "River Parks Authority",
+    "operatingUnitType": "Operating",
+    "amount": 36000
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Social and Economic Development",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Mayor's Office of Economic Development",
+    "operatingUnitType": "Operating",
+    "amount": 467000
+  },
+  {
+    "fundNumber": "2710",
+    "fundDescription": "Economic Development",
+    "operatingUnitDescription": "Special Revenue",
+    "programName": "Social and Economic Development",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Mayor's Office of Economic Development",
+    "operatingUnitType": "Operating",
+    "amount": 54000
+  },
+  {
+    "fundNumber": "4102",
+    "fundDescription": "Tulsa Stadium Improvement",
+    "operatingUnitDescription": "Special Assessment",
+    "programName": "Social and Economic Development",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Mayor's Office of Economic Development",
+    "operatingUnitType": "Operating",
+    "amount": 305000
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Social and Economic Development",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Mayor's Office of Economic Development",
+    "operatingUnitType": "Operating",
+    "amount": 7000
+  },
+  {
+    "fundNumber": "2710",
+    "fundDescription": "Economic Development",
+    "operatingUnitDescription": "Special Revenue",
+    "programName": "Social and Economic Development",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Mayor's Office of Economic Development",
+    "operatingUnitType": "Operating",
+    "amount": 5000
+  },
+  {
+    "fundNumber": "4102",
+    "fundDescription": "Tulsa Stadium Improvement",
+    "operatingUnitDescription": "Special Assessment",
+    "programName": "Social and Economic Development",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Mayor's Office of Economic Development",
+    "operatingUnitType": "Operating",
+    "amount": 56000
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Social and Economic Development",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Mayor's Office of Economic Development",
+    "operatingUnitType": "Operating",
+    "amount": 7000
+  },
+  {
+    "fundNumber": "2710",
+    "fundDescription": "Economic Development",
+    "operatingUnitDescription": "Special Revenue",
+    "programName": "Social and Economic Development",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Mayor's Office of Economic Development",
+    "operatingUnitType": "Operating",
+    "amount": 299000
+  },
+  {
+    "fundNumber": "4102",
+    "fundDescription": "Tulsa Stadium Improvement",
+    "operatingUnitDescription": "Special Assessment",
+    "programName": "Social and Economic Development",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Mayor's Office of Economic Development",
+    "operatingUnitType": "Operating",
+    "amount": 864000
+  },
+  {
+    "fundNumber": "4102",
+    "fundDescription": "Tulsa Stadium Improvement",
+    "operatingUnitDescription": "Special Assessment",
+    "programName": "Social and Economic Development",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Mayor's Office of Economic Development",
+    "operatingUnitType": "Operating",
+    "amount": 37000
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Social and Economic Development",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Working in Neighborhoods",
+    "operatingUnitType": "Operating",
+    "amount": 3235000
+  },
+  {
+    "fundNumber": "7060",
+    "fundDescription": "EMSA Enterprise Fund",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Social and Economic Development",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Working in Neighborhoods",
+    "operatingUnitType": "Operating",
+    "amount": 73000
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Social and Economic Development",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Working in Neighborhoods",
+    "operatingUnitType": "Operating",
+    "amount": 272000
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Social and Economic Development",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Working in Neighborhoods",
+    "operatingUnitType": "Operating",
+    "amount": 1159000
+  },
+  {
+    "fundNumber": "2910",
+    "fundDescription": "Short Term Capital",
+    "operatingUnitDescription": "Special Revenue",
+    "programName": "Social and Economic Development",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Working in Neighborhoods",
+    "operatingUnitType": "Operating",
+    "amount": 197000
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Social and Economic Development",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Planning & Development",
+    "operatingUnitType": "Operating",
+    "amount": 5748000
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Social and Economic Development",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Planning & Development",
+    "operatingUnitType": "Operating",
+    "amount": 58000
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Social and Economic Development",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Planning & Development",
+    "operatingUnitType": "Operating",
+    "amount": 265000
+  },
+  {
+    "fundNumber": "2910",
+    "fundDescription": "Short Term Capital",
+    "operatingUnitDescription": "Special Revenue",
+    "programName": "Social and Economic Development",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Planning & Development",
+    "operatingUnitType": "Operating",
+    "amount": 84000
+  },
+  {
+    "fundNumber": "6014",
+    "fundDescription": "2014 Sales Tax Fund",
+    "operatingUnitDescription": "Capital Projects",
+    "programName": "Social and Economic Development",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Planning & Development",
+    "operatingUnitType": "Capital",
+    "amount": 300000
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Transportation and Public Works",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Engineering Services",
+    "operatingUnitType": "Operating",
+    "amount": 3102000
+  },
+  {
+    "fundNumber": "7010",
+    "fundDescription": "Stormwater",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Transportation and Public Works",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Engineering Services",
+    "operatingUnitType": "Operating",
+    "amount": 2200000
+  },
+  {
+    "fundNumber": "7020",
+    "fundDescription": "Water Operating",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Transportation and Public Works",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Engineering Services",
+    "operatingUnitType": "Operating",
+    "amount": 2670000
+  },
+  {
+    "fundNumber": "7030",
+    "fundDescription": "Sewer Operating",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Transportation and Public Works",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Engineering Services",
+    "operatingUnitType": "Operating",
+    "amount": 2468000
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Transportation and Public Works",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Engineering Services",
+    "operatingUnitType": "Operating",
+    "amount": 36000
+  },
+  {
+    "fundNumber": "7010",
+    "fundDescription": "Stormwater",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Transportation and Public Works",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Engineering Services",
+    "operatingUnitType": "Operating",
+    "amount": 28000
+  },
+  {
+    "fundNumber": "7020",
+    "fundDescription": "Water Operating",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Transportation and Public Works",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Engineering Services",
+    "operatingUnitType": "Operating",
+    "amount": 23000
+  },
+  {
+    "fundNumber": "7030",
+    "fundDescription": "Sewer Operating",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Transportation and Public Works",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Engineering Services",
+    "operatingUnitType": "Operating",
+    "amount": 23000
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Transportation and Public Works",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Engineering Services",
+    "operatingUnitType": "Operating",
+    "amount": 300000
+  },
+  {
+    "fundNumber": "7010",
+    "fundDescription": "Stormwater",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Transportation and Public Works",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Engineering Services",
+    "operatingUnitType": "Operating",
+    "amount": 2030000
+  },
+  {
+    "fundNumber": "7020",
+    "fundDescription": "Water Operating",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Transportation and Public Works",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Engineering Services",
+    "operatingUnitType": "Operating",
+    "amount": 618000
+  },
+  {
+    "fundNumber": "7030",
+    "fundDescription": "Sewer Operating",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Transportation and Public Works",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Engineering Services",
+    "operatingUnitType": "Operating",
+    "amount": 1234000
+  },
+  {
+    "fundNumber": "6008",
+    "fundDescription": "2001 Five-year Sales Tax Fund",
+    "operatingUnitDescription": "Capital Projects",
+    "programName": "Transportation and Public Works",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Engineering Services",
+    "operatingUnitType": "Capital",
+    "amount": -370000
+  },
+  {
+    "fundNumber": "6009",
+    "fundDescription": "2006 Special Extended Sales Tax Fund",
+    "operatingUnitDescription": "Capital Projects",
+    "programName": "Transportation and Public Works",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Engineering Services",
+    "operatingUnitType": "Capital",
+    "amount": 2200000
+  },
+  {
+    "fundNumber": "6014",
+    "fundDescription": "2014 Sales Tax Fund",
+    "operatingUnitDescription": "Capital Projects",
+    "programName": "Transportation and Public Works",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Engineering Services",
+    "operatingUnitType": "Capital",
+    "amount": 58010000
+  },
+  {
+    "fundNumber": "6021",
+    "fundDescription": "TMUA-Water Capital Projects Fund",
+    "operatingUnitDescription": "Capital Projects",
+    "programName": "Transportation and Public Works",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Engineering Services",
+    "operatingUnitType": "Capital",
+    "amount": 25201000
+  },
+  {
+    "fundNumber": "6031",
+    "fundDescription": "TMUA-Sewer Captial Projects Fund",
+    "operatingUnitDescription": "Capital Projects",
+    "programName": "Transportation and Public Works",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Engineering Services",
+    "operatingUnitType": "Capital",
+    "amount": 13410000
+  },
+  {
+    "fundNumber": "6041",
+    "fundDescription": "Stormwater Capital Projects Fund",
+    "operatingUnitDescription": "Capital Projects",
+    "programName": "Transportation and Public Works",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Engineering Services",
+    "operatingUnitType": "Capital",
+    "amount": 5500000
+  },
+  {
+    "fundNumber": "7020",
+    "fundDescription": "Water Operating",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Transportation and Public Works",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Engineering Services",
+    "operatingUnitType": "Operating",
+    "amount": 30000
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Transportation and Public Works",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Streets and Stormwater",
+    "operatingUnitType": "Operating",
+    "amount": 5028000
+  },
+  {
+    "fundNumber": "3623",
+    "fundDescription": "TARE",
+    "operatingUnitDescription": "Trust & Agency Enterprise",
+    "programName": "Transportation and Public Works",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Streets and Stormwater",
+    "operatingUnitType": "Operating",
+    "amount": 3278000
+  },
+  {
+    "fundNumber": "7010",
+    "fundDescription": "Stormwater",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Transportation and Public Works",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Streets and Stormwater",
+    "operatingUnitType": "Operating",
+    "amount": 5986000
+  },
+  {
+    "fundNumber": "7020",
+    "fundDescription": "Water Operating",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Transportation and Public Works",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Streets and Stormwater",
+    "operatingUnitType": "Operating",
+    "amount": 330000
+  },
+  {
+    "fundNumber": "7030",
+    "fundDescription": "Sewer Operating",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Transportation and Public Works",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Streets and Stormwater",
+    "operatingUnitType": "Operating",
+    "amount": 11000
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Transportation and Public Works",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Streets and Stormwater",
+    "operatingUnitType": "Operating",
+    "amount": 682000
+  },
+  {
+    "fundNumber": "3623",
+    "fundDescription": "TARE",
+    "operatingUnitDescription": "Trust & Agency Enterprise",
+    "programName": "Transportation and Public Works",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Streets and Stormwater",
+    "operatingUnitType": "Operating",
+    "amount": 434000
+  },
+  {
+    "fundNumber": "7010",
+    "fundDescription": "Stormwater",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Transportation and Public Works",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Streets and Stormwater",
+    "operatingUnitType": "Operating",
+    "amount": 863000
+  },
+  {
+    "fundNumber": "7030",
+    "fundDescription": "Sewer Operating",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Transportation and Public Works",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Streets and Stormwater",
+    "operatingUnitType": "Operating",
+    "amount": 8000
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Transportation and Public Works",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Streets and Stormwater",
+    "operatingUnitType": "Operating",
+    "amount": 10349000
+  },
+  {
+    "fundNumber": "3623",
+    "fundDescription": "TARE",
+    "operatingUnitDescription": "Trust & Agency Enterprise",
+    "programName": "Transportation and Public Works",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Streets and Stormwater",
+    "operatingUnitType": "Operating",
+    "amount": 19328000
+  },
+  {
+    "fundNumber": "7010",
+    "fundDescription": "Stormwater",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Transportation and Public Works",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Streets and Stormwater",
+    "operatingUnitType": "Operating",
+    "amount": 9223000
+  },
+  {
+    "fundNumber": "7020",
+    "fundDescription": "Water Operating",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Transportation and Public Works",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Streets and Stormwater",
+    "operatingUnitType": "Operating",
+    "amount": 13000
+  },
+  {
+    "fundNumber": "7030",
+    "fundDescription": "Sewer Operating",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Transportation and Public Works",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Streets and Stormwater",
+    "operatingUnitType": "Operating",
+    "amount": 55000
+  },
+  {
+    "fundNumber": "2910",
+    "fundDescription": "Short Term Capital",
+    "operatingUnitDescription": "Special Revenue",
+    "programName": "Transportation and Public Works",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Streets and Stormwater",
+    "operatingUnitType": "Operating",
+    "amount": 1227000
+  },
+  {
+    "fundNumber": "3623",
+    "fundDescription": "TARE",
+    "operatingUnitDescription": "Trust & Agency Enterprise",
+    "programName": "Transportation and Public Works",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Streets and Stormwater",
+    "operatingUnitType": "Operating",
+    "amount": 158000
+  },
+  {
+    "fundNumber": "6014",
+    "fundDescription": "2014 Sales Tax Fund",
+    "operatingUnitDescription": "Capital Projects",
+    "programName": "Transportation and Public Works",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Streets and Stormwater",
+    "operatingUnitType": "Capital",
+    "amount": 1550000
+  },
+  {
+    "fundNumber": "7010",
+    "fundDescription": "Stormwater",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Transportation and Public Works",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Streets and Stormwater",
+    "operatingUnitType": "Operating",
+    "amount": 439000
+  },
+  {
+    "fundNumber": "3623",
+    "fundDescription": "TARE",
+    "operatingUnitDescription": "Trust & Agency Enterprise",
+    "programName": "Transportation and Public Works",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Water and Sewer",
+    "operatingUnitType": "Operating",
+    "amount": 12000
+  },
+  {
+    "fundNumber": "7010",
+    "fundDescription": "Stormwater",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Transportation and Public Works",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Water and Sewer",
+    "operatingUnitType": "Operating",
+    "amount": 435000
+  },
+  {
+    "fundNumber": "7020",
+    "fundDescription": "Water Operating",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Transportation and Public Works",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Water and Sewer",
+    "operatingUnitType": "Operating",
+    "amount": 21053000
+  },
+  {
+    "fundNumber": "7030",
+    "fundDescription": "Sewer Operating",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Transportation and Public Works",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Water and Sewer",
+    "operatingUnitType": "Operating",
+    "amount": 17750000
+  },
+  {
+    "fundNumber": "7060",
+    "fundDescription": "EMSA Enterprise Fund",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Transportation and Public Works",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Water and Sewer",
+    "operatingUnitType": "Operating",
+    "amount": 12000
+  },
+  {
+    "fundNumber": "7010",
+    "fundDescription": "Stormwater",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Transportation and Public Works",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Water and Sewer",
+    "operatingUnitType": "Operating",
+    "amount": 91000
+  },
+  {
+    "fundNumber": "7020",
+    "fundDescription": "Water Operating",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Transportation and Public Works",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Water and Sewer",
+    "operatingUnitType": "Operating",
+    "amount": 9838000
+  },
+  {
+    "fundNumber": "7030",
+    "fundDescription": "Sewer Operating",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Transportation and Public Works",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Water and Sewer",
+    "operatingUnitType": "Operating",
+    "amount": 4982000
+  },
+  {
+    "fundNumber": "7010",
+    "fundDescription": "Stormwater",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Transportation and Public Works",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Water and Sewer",
+    "operatingUnitType": "Operating",
+    "amount": 107000
+  },
+  {
+    "fundNumber": "7020",
+    "fundDescription": "Water Operating",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Transportation and Public Works",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Water and Sewer",
+    "operatingUnitType": "Operating",
+    "amount": 29160000
+  },
+  {
+    "fundNumber": "7030",
+    "fundDescription": "Sewer Operating",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Transportation and Public Works",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Water and Sewer",
+    "operatingUnitType": "Operating",
+    "amount": 22248000
+  },
+  {
+    "fundNumber": "6021",
+    "fundDescription": "TMUA-Water Capital Projects Fund",
+    "operatingUnitDescription": "Capital Projects",
+    "programName": "Transportation and Public Works",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Water and Sewer",
+    "operatingUnitType": "Capital",
+    "amount": 560000
+  },
+  {
+    "fundNumber": "7010",
+    "fundDescription": "Stormwater",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Transportation and Public Works",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Water and Sewer",
+    "operatingUnitType": "Operating",
+    "amount": 138000
+  },
+  {
+    "fundNumber": "7020",
+    "fundDescription": "Water Operating",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Transportation and Public Works",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Water and Sewer",
+    "operatingUnitType": "Operating",
+    "amount": 5905000
+  },
+  {
+    "fundNumber": "7030",
+    "fundDescription": "Sewer Operating",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Transportation and Public Works",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Water and Sewer",
+    "operatingUnitType": "Operating",
+    "amount": 7642000
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Transportation and Public Works",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Tulsa Transit",
+    "operatingUnitType": "Operating",
+    "amount": 7344000
+  },
+  {
+    "fundNumber": "2910",
+    "fundDescription": "Short Term Capital",
+    "operatingUnitDescription": "Special Revenue",
+    "programName": "Transportation and Public Works",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Tulsa Transit",
+    "operatingUnitType": "Operating",
+    "amount": 92000
+  },
+  {
+    "fundNumber": "6014",
+    "fundDescription": "2014 Sales Tax Fund",
+    "operatingUnitDescription": "Capital Projects",
+    "programName": "Transportation and Public Works",
+    "lobName": "Community Development and Transportation",
+    "accountDescription": "Tulsa Transit",
+    "operatingUnitType": "Capital",
+    "amount": 1550000
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Administration",
+    "lobName": "Mayor",
+    "accountDescription": "Mayor",
+    "operatingUnitType": "Operating",
+    "amount": 811000
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Administration",
+    "lobName": "Mayor",
+    "accountDescription": "Mayor",
+    "operatingUnitType": "Operating",
+    "amount": 11000
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Administration",
+    "lobName": "Mayor",
+    "accountDescription": "Mayor",
+    "operatingUnitType": "Operating",
+    "amount": 110000
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Administration",
+    "lobName": "Mayor",
+    "accountDescription": "City Auditor",
+    "operatingUnitType": "Operating",
+    "amount": 1062000
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Administration",
+    "lobName": "Mayor",
+    "accountDescription": "City Auditor",
+    "operatingUnitType": "Operating",
+    "amount": 10000
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Administration",
+    "lobName": "Mayor",
+    "accountDescription": "City Auditor",
+    "operatingUnitType": "Operating",
+    "amount": 50000
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Administration",
+    "lobName": "City Council",
+    "accountDescription": "City Council",
+    "operatingUnitType": "Operating",
+    "amount": 1163000
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Administration",
+    "lobName": "City Council",
+    "accountDescription": "City Council",
+    "operatingUnitType": "Operating",
+    "amount": 12000
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Administration",
+    "lobName": "City Council",
+    "accountDescription": "City Council",
+    "operatingUnitType": "Operating",
+    "amount": 74000
+  },
+  {
+    "fundNumber": "2910",
+    "fundDescription": "Short Term Capital",
+    "operatingUnitDescription": "Special Revenue",
+    "programName": "Administration",
+    "lobName": "City Council",
+    "accountDescription": "City Council",
+    "operatingUnitType": "Operating",
+    "amount": 6000
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Administration",
+    "lobName": "Mayor",
+    "accountDescription": "Mayor's Office of Human Rights",
+    "operatingUnitType": "Operating",
+    "amount": 468000
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Administration",
+    "lobName": "Mayor",
+    "accountDescription": "Mayor's Office of Human Rights",
+    "operatingUnitType": "Operating",
+    "amount": 6000
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Administration",
+    "lobName": "Mayor",
+    "accountDescription": "Mayor's Office of Human Rights",
+    "operatingUnitType": "Operating",
+    "amount": 16000
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Legal",
+    "operatingUnitType": "Operating",
+    "amount": 3098000
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Legal",
+    "operatingUnitType": "Operating",
+    "amount": 76000
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Legal",
+    "operatingUnitType": "Operating",
+    "amount": 238000
+  },
+  {
+    "fundNumber": "2320",
+    "fundDescription": "P.A. Law Enforcement",
+    "operatingUnitDescription": "Special Revenue",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Legal",
+    "operatingUnitType": "Operating",
+    "amount": 2000
+  },
+  {
+    "fundNumber": "2910",
+    "fundDescription": "Short Term Capital",
+    "operatingUnitDescription": "Special Revenue",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Legal",
+    "operatingUnitType": "Operating",
+    "amount": 12000
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Human Resources",
+    "operatingUnitType": "Operating",
+    "amount": 2677000
+  },
+  {
+    "fundNumber": "3000",
+    "fundDescription": "Municipal Employee Pension",
+    "operatingUnitDescription": "Trust & Agency Enterprise",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Human Resources",
+    "operatingUnitType": "Operating",
+    "amount": 313527
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Human Resources",
+    "operatingUnitType": "Operating",
+    "amount": 112000
+  },
+  {
+    "fundNumber": "3000",
+    "fundDescription": "Municipal Employee Pension",
+    "operatingUnitDescription": "Trust & Agency Enterprise",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Human Resources",
+    "operatingUnitType": "Operating",
+    "amount": 3489
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Human Resources",
+    "operatingUnitType": "Operating",
+    "amount": 865000
+  },
+  {
+    "fundNumber": "3000",
+    "fundDescription": "Municipal Employee Pension",
+    "operatingUnitDescription": "Trust & Agency Enterprise",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Human Resources",
+    "operatingUnitType": "Operating",
+    "amount": 28000
+  },
+  {
+    "fundNumber": "2910",
+    "fundDescription": "Short Term Capital",
+    "operatingUnitDescription": "Special Revenue",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Human Resources",
+    "operatingUnitType": "Operating",
+    "amount": 57000
+  },
+  {
+    "fundNumber": "8020",
+    "fundDescription": "Workers' Compensation Fund",
+    "operatingUnitDescription": "Internal Service",
+    "programName": "Administration",
+    "accountDescription": "Workers' Compensation",
+    "operatingUnitType": "Operating",
+    "amount": 33000
+  },
+  {
+    "fundNumber": "8020",
+    "fundDescription": "Workers' Compensation Fund",
+    "operatingUnitDescription": "Internal Service",
+    "programName": "Administration",
+    "accountDescription": "Workers' Compensation",
+    "operatingUnitType": "Operating",
+    "amount": 5667000
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "General Government",
+    "operatingUnitType": "Operating",
+    "amount": 2705000
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Administration",
+    "accountDescription": "INCOG",
+    "operatingUnitType": "Operating",
+    "amount": 951000
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Finance",
+    "operatingUnitType": "Operating",
+    "amount": 5863000
+  },
+  {
+    "fundNumber": "3623",
+    "fundDescription": "TARE",
+    "operatingUnitDescription": "Trust & Agency Enterprise",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Finance",
+    "operatingUnitType": "Operating",
+    "amount": 319000
+  },
+  {
+    "fundNumber": "4102",
+    "fundDescription": "Tulsa Stadium Improvement",
+    "operatingUnitDescription": "Special Assessment",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Finance",
+    "operatingUnitType": "Operating",
+    "amount": 68000
+  },
+  {
+    "fundNumber": "7010",
+    "fundDescription": "Stormwater",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Finance",
+    "operatingUnitType": "Operating",
+    "amount": 358000
+  },
+  {
+    "fundNumber": "7020",
+    "fundDescription": "Water Operating",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Finance",
+    "operatingUnitType": "Operating",
+    "amount": 1718000
+  },
+  {
+    "fundNumber": "7030",
+    "fundDescription": "Sewer Operating",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Finance",
+    "operatingUnitType": "Operating",
+    "amount": 1326000
+  },
+  {
+    "fundNumber": "7060",
+    "fundDescription": "EMSA Enterprise Fund",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Finance",
+    "operatingUnitType": "Operating",
+    "amount": 94000
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Finance",
+    "operatingUnitType": "Operating",
+    "amount": 80000
+  },
+  {
+    "fundNumber": "3623",
+    "fundDescription": "TARE",
+    "operatingUnitDescription": "Trust & Agency Enterprise",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Finance",
+    "operatingUnitType": "Operating",
+    "amount": 10000
+  },
+  {
+    "fundNumber": "4102",
+    "fundDescription": "Tulsa Stadium Improvement",
+    "operatingUnitDescription": "Special Assessment",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Finance",
+    "operatingUnitType": "Operating",
+    "amount": 6000
+  },
+  {
+    "fundNumber": "7010",
+    "fundDescription": "Stormwater",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Finance",
+    "operatingUnitType": "Operating",
+    "amount": 14000
+  },
+  {
+    "fundNumber": "7020",
+    "fundDescription": "Water Operating",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Finance",
+    "operatingUnitType": "Operating",
+    "amount": 186000
+  },
+  {
+    "fundNumber": "7030",
+    "fundDescription": "Sewer Operating",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Finance",
+    "operatingUnitType": "Operating",
+    "amount": 109000
+  },
+  {
+    "fundNumber": "7060",
+    "fundDescription": "EMSA Enterprise Fund",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Finance",
+    "operatingUnitType": "Operating",
+    "amount": 2000
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Finance",
+    "operatingUnitType": "Operating",
+    "amount": 2061000
+  },
+  {
+    "fundNumber": "3623",
+    "fundDescription": "TARE",
+    "operatingUnitDescription": "Trust & Agency Enterprise",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Finance",
+    "operatingUnitType": "Operating",
+    "amount": 177000
+  },
+  {
+    "fundNumber": "4102",
+    "fundDescription": "Tulsa Stadium Improvement",
+    "operatingUnitDescription": "Special Assessment",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Finance",
+    "operatingUnitType": "Operating",
+    "amount": 10000
+  },
+  {
+    "fundNumber": "4122",
+    "fundDescription": "Whittier Square Improvement",
+    "operatingUnitDescription": "Special Assessment",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Finance",
+    "operatingUnitType": "Operating",
+    "amount": 20000
+  },
+  {
+    "fundNumber": "7010",
+    "fundDescription": "Stormwater",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Finance",
+    "operatingUnitType": "Operating",
+    "amount": 195000
+  },
+  {
+    "fundNumber": "7020",
+    "fundDescription": "Water Operating",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Finance",
+    "operatingUnitType": "Operating",
+    "amount": 752000
+  },
+  {
+    "fundNumber": "7030",
+    "fundDescription": "Sewer Operating",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Finance",
+    "operatingUnitType": "Operating",
+    "amount": 633000
+  },
+  {
+    "fundNumber": "7060",
+    "fundDescription": "EMSA Enterprise Fund",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Finance",
+    "operatingUnitType": "Operating",
+    "amount": 53000
+  },
+  {
+    "fundNumber": "2910",
+    "fundDescription": "Short Term Capital",
+    "operatingUnitDescription": "Special Revenue",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Finance",
+    "operatingUnitType": "Operating",
+    "amount": 3000
+  },
+  {
+    "fundNumber": "7020",
+    "fundDescription": "Water Operating",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Finance",
+    "operatingUnitType": "Operating",
+    "amount": 30000
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Information Technology",
+    "operatingUnitType": "Operating",
+    "amount": 7267000
+  },
+  {
+    "fundNumber": "2420",
+    "fundDescription": "E911 Fee Operating",
+    "operatingUnitDescription": "Special Revenue",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Information Technology",
+    "operatingUnitType": "Operating",
+    "amount": 320000
+  },
+  {
+    "fundNumber": "3623",
+    "fundDescription": "TARE",
+    "operatingUnitDescription": "Trust & Agency Enterprise",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Information Technology",
+    "operatingUnitType": "Operating",
+    "amount": 224000
+  },
+  {
+    "fundNumber": "7010",
+    "fundDescription": "Stormwater",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Information Technology",
+    "operatingUnitType": "Operating",
+    "amount": 261000
+  },
+  {
+    "fundNumber": "7020",
+    "fundDescription": "Water Operating",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Information Technology",
+    "operatingUnitType": "Operating",
+    "amount": 1315000
+  },
+  {
+    "fundNumber": "7030",
+    "fundDescription": "Sewer Operating",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Information Technology",
+    "operatingUnitType": "Operating",
+    "amount": 1123000
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Information Technology",
+    "operatingUnitType": "Operating",
+    "amount": 315000
+  },
+  {
+    "fundNumber": "2420",
+    "fundDescription": "E911 Fee Operating",
+    "operatingUnitDescription": "Special Revenue",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Information Technology",
+    "operatingUnitType": "Operating",
+    "amount": 9000
+  },
+  {
+    "fundNumber": "3623",
+    "fundDescription": "TARE",
+    "operatingUnitDescription": "Trust & Agency Enterprise",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Information Technology",
+    "operatingUnitType": "Operating",
+    "amount": 10000
+  },
+  {
+    "fundNumber": "7010",
+    "fundDescription": "Stormwater",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Information Technology",
+    "operatingUnitType": "Operating",
+    "amount": 9000
+  },
+  {
+    "fundNumber": "7020",
+    "fundDescription": "Water Operating",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Information Technology",
+    "operatingUnitType": "Operating",
+    "amount": 47000
+  },
+  {
+    "fundNumber": "7030",
+    "fundDescription": "Sewer Operating",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Information Technology",
+    "operatingUnitType": "Operating",
+    "amount": 35000
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Information Technology",
+    "operatingUnitType": "Operating",
+    "amount": 2782000
+  },
+  {
+    "fundNumber": "2420",
+    "fundDescription": "E911 Fee Operating",
+    "operatingUnitDescription": "Special Revenue",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Information Technology",
+    "operatingUnitType": "Operating",
+    "amount": 42000
+  },
+  {
+    "fundNumber": "3623",
+    "fundDescription": "TARE",
+    "operatingUnitDescription": "Trust & Agency Enterprise",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Information Technology",
+    "operatingUnitType": "Operating",
+    "amount": 103000
+  },
+  {
+    "fundNumber": "7010",
+    "fundDescription": "Stormwater",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Information Technology",
+    "operatingUnitType": "Operating",
+    "amount": 112000
+  },
+  {
+    "fundNumber": "7020",
+    "fundDescription": "Water Operating",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Information Technology",
+    "operatingUnitType": "Operating",
+    "amount": 602000
+  },
+  {
+    "fundNumber": "7030",
+    "fundDescription": "Sewer Operating",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Information Technology",
+    "operatingUnitType": "Operating",
+    "amount": 512000
+  },
+  {
+    "fundNumber": "8011",
+    "fundDescription": "Office Services",
+    "operatingUnitDescription": "Internal Service",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Information Technology",
+    "operatingUnitType": "Operating",
+    "amount": 991000
+  },
+  {
+    "fundNumber": "2910",
+    "fundDescription": "Short Term Capital",
+    "operatingUnitDescription": "Special Revenue",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Information Technology",
+    "operatingUnitType": "Operating",
+    "amount": 3315000
+  },
+  {
+    "fundNumber": "3623",
+    "fundDescription": "TARE",
+    "operatingUnitDescription": "Trust & Agency Enterprise",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Information Technology",
+    "operatingUnitType": "Operating",
+    "amount": 52000
+  },
+  {
+    "fundNumber": "7010",
+    "fundDescription": "Stormwater",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Information Technology",
+    "operatingUnitType": "Operating",
+    "amount": 36000
+  },
+  {
+    "fundNumber": "7020",
+    "fundDescription": "Water Operating",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Information Technology",
+    "operatingUnitType": "Operating",
+    "amount": 208000
+  },
+  {
+    "fundNumber": "7030",
+    "fundDescription": "Sewer Operating",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Information Technology",
+    "operatingUnitType": "Operating",
+    "amount": 64000
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Customer Care",
+    "operatingUnitType": "Operating",
+    "amount": 371000
+  },
+  {
+    "fundNumber": "3623",
+    "fundDescription": "TARE",
+    "operatingUnitDescription": "Trust & Agency Enterprise",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Customer Care",
+    "operatingUnitType": "Operating",
+    "amount": 156000
+  },
+  {
+    "fundNumber": "7010",
+    "fundDescription": "Stormwater",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Customer Care",
+    "operatingUnitType": "Operating",
+    "amount": 176000
+  },
+  {
+    "fundNumber": "7020",
+    "fundDescription": "Water Operating",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Customer Care",
+    "operatingUnitType": "Operating",
+    "amount": 645000
+  },
+  {
+    "fundNumber": "7030",
+    "fundDescription": "Sewer Operating",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Customer Care",
+    "operatingUnitType": "Operating",
+    "amount": 547000
+  },
+  {
+    "fundNumber": "7060",
+    "fundDescription": "EMSA Enterprise Fund",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Customer Care",
+    "operatingUnitType": "Operating",
+    "amount": 59000
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Customer Care",
+    "operatingUnitType": "Operating",
+    "amount": 7000
+  },
+  {
+    "fundNumber": "3623",
+    "fundDescription": "TARE",
+    "operatingUnitDescription": "Trust & Agency Enterprise",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Customer Care",
+    "operatingUnitType": "Operating",
+    "amount": 3000
+  },
+  {
+    "fundNumber": "7010",
+    "fundDescription": "Stormwater",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Customer Care",
+    "operatingUnitType": "Operating",
+    "amount": 3000
+  },
+  {
+    "fundNumber": "7020",
+    "fundDescription": "Water Operating",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Customer Care",
+    "operatingUnitType": "Operating",
+    "amount": 11000
+  },
+  {
+    "fundNumber": "7030",
+    "fundDescription": "Sewer Operating",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Customer Care",
+    "operatingUnitType": "Operating",
+    "amount": 10000
+  },
+  {
+    "fundNumber": "7060",
+    "fundDescription": "EMSA Enterprise Fund",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Customer Care",
+    "operatingUnitType": "Operating",
+    "amount": 2000
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Customer Care",
+    "operatingUnitType": "Operating",
+    "amount": 23000
+  },
+  {
+    "fundNumber": "3623",
+    "fundDescription": "TARE",
+    "operatingUnitDescription": "Trust & Agency Enterprise",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Customer Care",
+    "operatingUnitType": "Operating",
+    "amount": 10000
+  },
+  {
+    "fundNumber": "7010",
+    "fundDescription": "Stormwater",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Customer Care",
+    "operatingUnitType": "Operating",
+    "amount": 11000
+  },
+  {
+    "fundNumber": "7020",
+    "fundDescription": "Water Operating",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Customer Care",
+    "operatingUnitType": "Operating",
+    "amount": 41000
+  },
+  {
+    "fundNumber": "7030",
+    "fundDescription": "Sewer Operating",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Customer Care",
+    "operatingUnitType": "Operating",
+    "amount": 35000
+  },
+  {
+    "fundNumber": "7060",
+    "fundDescription": "EMSA Enterprise Fund",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Customer Care",
+    "operatingUnitType": "Operating",
+    "amount": 4000
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Communications",
+    "operatingUnitType": "Operating",
+    "amount": 519000
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Communications",
+    "operatingUnitType": "Operating",
+    "amount": 13000
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Communications",
+    "operatingUnitType": "Operating",
+    "amount": 21000
+  },
+  {
+    "fundNumber": "2910",
+    "fundDescription": "Short Term Capital",
+    "operatingUnitDescription": "Special Revenue",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Communications",
+    "operatingUnitType": "Operating",
+    "amount": 3000
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Asset Management",
+    "operatingUnitType": "Operating",
+    "amount": 1722000
+  },
+  {
+    "fundNumber": "2420",
+    "fundDescription": "E911 Fee Operating",
+    "operatingUnitDescription": "Special Revenue",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Asset Management",
+    "operatingUnitType": "Operating",
+    "amount": 49000
+  },
+  {
+    "fundNumber": "3450",
+    "fundDescription": "One Technology Center Fund",
+    "operatingUnitDescription": "Trust & Agency Enterprise",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Asset Management",
+    "operatingUnitType": "Operating",
+    "amount": 764000
+  },
+  {
+    "fundNumber": "3623",
+    "fundDescription": "TARE",
+    "operatingUnitDescription": "Trust & Agency Enterprise",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Asset Management",
+    "operatingUnitType": "Operating",
+    "amount": 91000
+  },
+  {
+    "fundNumber": "7010",
+    "fundDescription": "Stormwater",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Asset Management",
+    "operatingUnitType": "Operating",
+    "amount": 199000
+  },
+  {
+    "fundNumber": "7020",
+    "fundDescription": "Water Operating",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Asset Management",
+    "operatingUnitType": "Operating",
+    "amount": 336000
+  },
+  {
+    "fundNumber": "7030",
+    "fundDescription": "Sewer Operating",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Asset Management",
+    "operatingUnitType": "Operating",
+    "amount": 316000
+  },
+  {
+    "fundNumber": "8030",
+    "fundDescription": "Equipment Management",
+    "operatingUnitDescription": "Internal Service",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Asset Management",
+    "operatingUnitType": "Operating",
+    "amount": 4688380.92
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Asset Management",
+    "operatingUnitType": "Operating",
+    "amount": 336000
+  },
+  {
+    "fundNumber": "2420",
+    "fundDescription": "E911 Fee Operating",
+    "operatingUnitDescription": "Special Revenue",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Asset Management",
+    "operatingUnitType": "Operating",
+    "amount": 10000
+  },
+  {
+    "fundNumber": "3450",
+    "fundDescription": "One Technology Center Fund",
+    "operatingUnitDescription": "Trust & Agency Enterprise",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Asset Management",
+    "operatingUnitType": "Operating",
+    "amount": 191000
+  },
+  {
+    "fundNumber": "3623",
+    "fundDescription": "TARE",
+    "operatingUnitDescription": "Trust & Agency Enterprise",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Asset Management",
+    "operatingUnitType": "Operating",
+    "amount": 59000
+  },
+  {
+    "fundNumber": "7010",
+    "fundDescription": "Stormwater",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Asset Management",
+    "operatingUnitType": "Operating",
+    "amount": 20000
+  },
+  {
+    "fundNumber": "7020",
+    "fundDescription": "Water Operating",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Asset Management",
+    "operatingUnitType": "Operating",
+    "amount": 37000
+  },
+  {
+    "fundNumber": "7030",
+    "fundDescription": "Sewer Operating",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Asset Management",
+    "operatingUnitType": "Operating",
+    "amount": 33000
+  },
+  {
+    "fundNumber": "8030",
+    "fundDescription": "Equipment Management",
+    "operatingUnitDescription": "Internal Service",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Asset Management",
+    "operatingUnitType": "Operating",
+    "amount": 7828550
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Asset Management",
+    "operatingUnitType": "Operating",
+    "amount": 1957000
+  },
+  {
+    "fundNumber": "2240",
+    "fundDescription": "Airforce Plant 3 Fund",
+    "operatingUnitDescription": "Special Revenue",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Asset Management",
+    "operatingUnitType": "Operating",
+    "amount": 20000
+  },
+  {
+    "fundNumber": "2420",
+    "fundDescription": "E911 Fee Operating",
+    "operatingUnitDescription": "Special Revenue",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Asset Management",
+    "operatingUnitType": "Operating",
+    "amount": 235000
+  },
+  {
+    "fundNumber": "3450",
+    "fundDescription": "One Technology Center Fund",
+    "operatingUnitDescription": "Trust & Agency Enterprise",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Asset Management",
+    "operatingUnitType": "Operating",
+    "amount": 4200000
+  },
+  {
+    "fundNumber": "3623",
+    "fundDescription": "TARE",
+    "operatingUnitDescription": "Trust & Agency Enterprise",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Asset Management",
+    "operatingUnitType": "Operating",
+    "amount": 474000
+  },
+  {
+    "fundNumber": "7010",
+    "fundDescription": "Stormwater",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Asset Management",
+    "operatingUnitType": "Operating",
+    "amount": 215000
+  },
+  {
+    "fundNumber": "7020",
+    "fundDescription": "Water Operating",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Asset Management",
+    "operatingUnitType": "Operating",
+    "amount": 514000
+  },
+  {
+    "fundNumber": "7030",
+    "fundDescription": "Sewer Operating",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Asset Management",
+    "operatingUnitType": "Operating",
+    "amount": 453000
+  },
+  {
+    "fundNumber": "8030",
+    "fundDescription": "Equipment Management",
+    "operatingUnitDescription": "Internal Service",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Asset Management",
+    "operatingUnitType": "Operating",
+    "amount": 1796206
+  },
+  {
+    "fundNumber": "2240",
+    "fundDescription": "Airforce Plant 3 Fund",
+    "operatingUnitDescription": "Special Revenue",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Asset Management",
+    "operatingUnitType": "Operating",
+    "amount": 1285000
+  },
+  {
+    "fundNumber": "2910",
+    "fundDescription": "Short Term Capital",
+    "operatingUnitDescription": "Special Revenue",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Asset Management",
+    "operatingUnitType": "Operating",
+    "amount": 71000
+  },
+  {
+    "fundNumber": "3450",
+    "fundDescription": "One Technology Center Fund",
+    "operatingUnitDescription": "Trust & Agency Enterprise",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Asset Management",
+    "operatingUnitType": "Operating",
+    "amount": 223920
+  },
+  {
+    "fundNumber": "3623",
+    "fundDescription": "TARE",
+    "operatingUnitDescription": "Trust & Agency Enterprise",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Asset Management",
+    "operatingUnitType": "Operating",
+    "amount": 85000
+  },
+  {
+    "fundNumber": "6014",
+    "fundDescription": "2014 Sales Tax Fund",
+    "operatingUnitDescription": "Capital Projects",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Asset Management",
+    "operatingUnitType": "Capital",
+    "amount": 840000
+  },
+  {
+    "fundNumber": "7010",
+    "fundDescription": "Stormwater",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Asset Management",
+    "operatingUnitType": "Operating",
+    "amount": 68000
+  },
+  {
+    "fundNumber": "8030",
+    "fundDescription": "Equipment Management",
+    "operatingUnitDescription": "Internal Service",
+    "programName": "Administration",
+    "lobName": "Administration",
+    "accountDescription": "Asset Management",
+    "operatingUnitType": "Operating",
+    "amount": 294362
+  },
+  {
+    "fundNumber": "1080",
+    "fundDescription": "General Fund",
+    "operatingUnitDescription": "General Fund",
+    "programName": "TRANSFERS AND DEBT",
+    "lobName": "Administration",
+    "accountDescription": "Transfers - Internal & Outside",
+    "operatingUnitType": "Operating",
+    "amount": 428000
+  },
+  {
+    "fundNumber": "2910",
+    "fundDescription": "Short Term Capital",
+    "operatingUnitDescription": "Special Revenue",
+    "programName": "TRANSFERS AND DEBT",
+    "lobName": "Administration",
+    "accountDescription": "Transfers - Internal & Outside",
+    "operatingUnitType": "Operating",
+    "amount": 386000
+  },
+  {
+    "fundNumber": "3450",
+    "fundDescription": "One Technology Center Fund",
+    "operatingUnitDescription": "Trust & Agency Enterprise",
+    "programName": "TRANSFERS AND DEBT",
+    "lobName": "Administration",
+    "accountDescription": "Transfers - Internal & Outside",
+    "operatingUnitType": "Operating",
+    "amount": 276000
+  },
+  {
+    "fundNumber": "6014",
+    "fundDescription": "2014 Sales Tax Fund",
+    "operatingUnitDescription": "Capital Projects",
+    "programName": "TRANSFERS AND DEBT",
+    "lobName": "Administration",
+    "accountDescription": "Transfers - Internal & Outside",
+    "operatingUnitType": "Capital",
+    "amount": 3100000
+  },
+  {
+    "fundNumber": "7010",
+    "fundDescription": "Stormwater",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "TRANSFERS AND DEBT",
+    "lobName": "Administration",
+    "accountDescription": "Transfers - Internal & Outside",
+    "operatingUnitType": "Operating",
+    "amount": -23402000
+  },
+  {
+    "fundNumber": "7020",
+    "fundDescription": "Water Operating",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "TRANSFERS AND DEBT",
+    "lobName": "Administration",
+    "accountDescription": "Transfers - Internal & Outside",
+    "operatingUnitType": "Operating",
+    "amount": 117206000
+  },
+  {
+    "fundNumber": "7030",
+    "fundDescription": "Sewer Operating",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "TRANSFERS AND DEBT",
+    "lobName": "Administration",
+    "accountDescription": "Transfers - Internal & Outside",
+    "operatingUnitType": "Operating",
+    "amount": 13410000
+  },
+  {
+    "fundNumber": "7060",
+    "fundDescription": "EMSA Enterprise Fund",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "TRANSFERS AND DEBT",
+    "lobName": "Administration",
+    "accountDescription": "Transfers - Internal & Outside",
+    "operatingUnitType": "Operating",
+    "amount": 650000
+  },
+  {
+    "fundNumber": "8020",
+    "fundDescription": "Workers' Compensation Fund",
+    "operatingUnitDescription": "Internal Service",
+    "programName": "TRANSFERS AND DEBT",
+    "lobName": "Administration",
+    "accountDescription": "Transfers - Internal & Outside",
+    "operatingUnitType": "Operating",
+    "amount": 2000000
+  },
+  {
+    "fundNumber": "2810",
+    "fundDescription": "Convention Fund",
+    "operatingUnitDescription": "Special Revenue",
+    "programName": "TRANSFERS AND DEBT",
+    "lobName": "Administration",
+    "accountDescription": "Debt Service",
+    "operatingUnitType": "Operating",
+    "amount": 1779000
+  },
+  {
+    "fundNumber": "3450",
+    "fundDescription": "One Technology Center Fund",
+    "operatingUnitDescription": "Trust & Agency Enterprise",
+    "programName": "TRANSFERS AND DEBT",
+    "lobName": "Administration",
+    "accountDescription": "Debt Service",
+    "operatingUnitType": "Operating",
+    "amount": 4862000
+  },
+  {
+    "fundNumber": "3623",
+    "fundDescription": "TARE",
+    "operatingUnitDescription": "Trust & Agency Enterprise",
+    "programName": "TRANSFERS AND DEBT",
+    "lobName": "Administration",
+    "accountDescription": "Debt Service",
+    "operatingUnitType": "Operating",
+    "amount": 1587000
+  },
+  {
+    "fundNumber": "4102",
+    "fundDescription": "Tulsa Stadium Improvement",
+    "operatingUnitDescription": "Special Assessment",
+    "programName": "TRANSFERS AND DEBT",
+    "lobName": "Administration",
+    "accountDescription": "Debt Service",
+    "operatingUnitType": "Operating",
+    "amount": 2218000
+  },
+  {
+    "fundNumber": "4306",
+    "fundDescription": "Debt Service (Sinking Fund)",
+    "operatingUnitDescription": "Debt Service",
+    "programName": "TRANSFERS AND DEBT",
+    "lobName": "Administration",
+    "accountDescription": "Debt Service",
+    "operatingUnitType": "Operating",
+    "amount": 83091000
+  },
+  {
+    "fundNumber": "7020",
+    "fundDescription": "Water Operating",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "TRANSFERS AND DEBT",
+    "lobName": "Administration",
+    "accountDescription": "Debt Service",
+    "operatingUnitType": "Operating",
+    "amount": 15363000
+  },
+  {
+    "fundNumber": "7030",
+    "fundDescription": "Sewer Operating",
+    "operatingUnitDescription": "Enterprise",
+    "programName": "TRANSFERS AND DEBT",
+    "lobName": "Administration",
+    "accountDescription": "Debt Service",
+    "operatingUnitType": "Operating",
+    "amount": 30013000
+  }
+]
