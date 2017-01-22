@@ -107,6 +107,8 @@ function getFundDescriptions(fundDescWkbk) {
 /**
  * Get the fund numbers for each column in the revenue table
  * @param TulsaBudgetWksht The revenue worksheet table with dollar amounts for each fund
+ * @param firstCol The first column of the table where account numbers are found
+ * @param finalCol The last column of the table where account numbers are found
  * @returns {Array} a map of columns to fund numbers
  */
 function getFundNumbers(TulsaBudgetWksht, firstCol, finalCol) {

@@ -1,8 +1,8 @@
 var xlsx = require('xlsx');
 var jsonfile = require('jsonfile');
 var colIndex = require('./convert-tulsa-common').colIndex;
+var getFundNumbers = require('./convert-tulsa-common').getFundNumbers;
 var getFundDescriptions = require('./convert-tulsa-common').getFundDescriptions;
-var FUND_INFO = require('./convert-tulsa-common').FUND_INFO;
 
 //Spreadsheet data
 var INPUT_SPREADSHEET_LOCATION = '../_src/data/tulsa/originals/FY17 Oper + Capital.xlsx';
@@ -36,6 +36,10 @@ var COL_FOR_PGM_DESC = 'AK';
 //Rows for programs
 var FIRST_ROW_PGM = 12;
 var FINAL_ROW_PGM = 57;
+
+var FINAL_FUND_COL = 41;
+var TOTAL_FUND_COL = 'AO';
+var FIRST_FUND_COL = 2;
 
 /**
  * Gets the revenue's 'Program' as listed on the second worksheet.
@@ -78,7 +82,7 @@ console.log('Finding fund programs...');
 var programs = getPrograms(categoryDescWorksheet);
 
 console.log('Getting fund numbers...');
-var fundNumbers = getFundNumbers(dollarWksht);
+var fundNumbers = getFundNumbers(dollarWksht, FIRST_FUND_COL, FINAL_FUND_COL);
 
 console.log('Getting fund descriptions...');
 var fundDescriptions = getFundDescriptions(workbook);
