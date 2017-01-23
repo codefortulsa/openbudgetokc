@@ -29,7 +29,7 @@ Once it is ready, branch this repo and tie it into our data.
 
 #### Generating json files from a csv
 
-We have a small script written in ruby for generating a json file from a csv of city data. The script asks for the file and then steps through each required field and asks you to specify the correct header which matches. 
+We have a small script written in ruby for generating a json file from a csv of city data. The script asks for the file and then steps through each required field and asks you to specify the correct header which matches.
 
 To run the script
 ```
@@ -66,7 +66,7 @@ npm start
 Currently, there is a problem with installing on node V6
 It can be fixed by changing the harp line to
 + ```  "harp": "https://github.com/sintaxi/harp.git#v0.21.0-pre" ```
-in the ``` package.json ``` at the root of this project. 
+in the ``` package.json ``` at the root of this project.
 
 
 ## Making Changes
@@ -96,7 +96,7 @@ To request revenue and expense data for a new fiscal year, submit an Open Record
 This chart takes as input the full budget datatable from data.oaklandnet.com
 (in CSV format)
 
-Right now the 2015-17 Proposed page is an unpublished placeholder, pending the data release. When the data becomes available: 
+Right now the 2015-17 Proposed page is an unpublished placeholder, pending the data release. When the data becomes available:
 
 1. add the CSV to `_src/data/proposed_1517_flow/` and **remove the placeholder file FY13-14__FY14-15.csv**
 1. rename the file to include the two fiscal years it includes, separated by two underscores ("FY15-16__FY16-17.csv")
@@ -126,3 +126,7 @@ If you're comfortable already, our workflow is:
 - Commit the changes. ([How to write a great commit message!](https://robots.thoughtbot.com/5-useful-tips-for-a-better-commit-message))
 - Push them to your fork.
 - [And open a pull request.](https://help.github.com/articles/using-pull-requests/)
+
+### Production branch
+
+Changes merged to the branch 'production' are automatically deployed to heroku app tulsa-openbudget.  The Profile will compile the website before starting.

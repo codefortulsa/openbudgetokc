@@ -1,1 +1,1 @@
-web: npm run start
+web: npm run build && harp server ./www --port $PORT
