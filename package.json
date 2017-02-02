@@ -5,6 +5,7 @@
   "scripts": {
     "build-tul-revenue": "cd data-utilities; node ./convert-tulsa-revenue-excel.js",
     "build-tul-opcap": "cd data-utilities; node ./convert-tulsa-opercap-excel.js",
+    "build-tul-sankey": "node ../data-utilities/tulsa-sankey-nodes.js",
     "start": "cd _src && harp server",
     "build": "cd _src && harp compile ./ ../www",
     "test": "karma start"
@@ -33,6 +34,7 @@
     "karma-chrome-launcher": "^2.0.0",
     "karma-firefox-launcher": "^1.0.0",
     "karma-jasmine": "^1.0.2",
-    "xlsx": "^0.8.1"
+    "xlsx": "^0.8.1",
+    "underscore": "^1.8.3"
   }
 }
