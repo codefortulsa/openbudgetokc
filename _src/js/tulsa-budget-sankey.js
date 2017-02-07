@@ -1,7 +1,7 @@
 
     var margin = {top: 1, right: 1, bottom: 6, left: 1},
-        width = 900 - margin.left - margin.right,
-        height = 500 - margin.top - margin.bottom;
+        width = 1200 - margin.left - margin.right,
+        height = 1500 - margin.top - margin.bottom;
 
     var formatNumber = d3.format(",.0f"),
         format = function(d) { return "$" + formatNumber(d); },
@@ -48,7 +48,10 @@
             node.append("rect")
             .attr("height", function(d) { return d.dy; })
             .attr("width", sankey.nodeWidth())
-            .style("fill", function(d) { return d.color = color(d.name.replace(/ .*/, "")); })
+            .style("fill", function(d) {
+                console.log(d.name);
+                 return d.color = color(d.name.replace(/ .*/, "")); }
+             )
             .style("stroke", function(d) { return d3.rgb(d.color).darker(2); })
             .append("title")
             .text(function(d) { return d.name + "\\n" + format(d.value); });

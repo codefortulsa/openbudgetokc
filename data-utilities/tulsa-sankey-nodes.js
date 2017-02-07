@@ -3,7 +3,7 @@ var jsonfile = require('jsonfile');
 
 var revenues = require("../_src/data/tulsa/c4tul_fy2017Revenue.json")
 var programs = require("../_src/data/tulsa/c4tul_fy2017.json")
-
+var categories = require("../_src/data/tulsa/fund_categories.json").categories
 
 var OUTPUT_JSON_LOCATION = './_src/data/tulsa/flow-test.json';
 
@@ -30,68 +30,82 @@ The structure of the object is:
 ]}
 
 Nodes are the bars and links are the bands that connect them
-
 */
 
+var node_names = []
 var data ={"nodes":[],"links":[]}
 
-process.stdout.write("<START>");
+process.stdout.write("<START>\n");
 
-//build node list
-var node_names = []
+// util func for terminal
+function ArrayOutput (name,array){
+    var uniq_array = _.uniq(array)
+    process.stdout.write(`${name} : ${uniq_array.length}\n`)
+}
 
-for (item of revenues){
+// functions for cleaning node descriptions
+function RevenueSource(RevDetail){
     //strip off leading 'CC -' or 'C -' in source title
-    var r = /[A-Z][A-Z]?[a-z]?[\s-]{1,4}(.*)/
-    var SourceNode = r.exec(item.RevDetailNode)[1]
-    node_names.push(SourceNode)
-    node_names.push(item.FundDescription)
+    try {
+        var r = /[A-Z][A-Z]?[a-z]?[\s-]{1,4}(.*)/
+        return r.exec(RevDetail)[1]
+    } catch(e) {
+        return ''
+    }
 }
 
-// for (item of programs){
-//     node_names.push(item.fund)
-//     node_names.push(item.program)
-// }
-
-var uniq_node_names = _.uniq(node_names)
-
-for (name of uniq_node_names){
-    data.nodes.push({"name": name})
+function FundType(FullCode){
+    return FullCode
 }
 
-process.stdout.write(`unique nodes: ${uniq_node_names.length}`)
-
-// create links
-// Link object -->   {"source":0,"target":1,"value":10}
-
-for (item of revenues){
-    var r = /[A-Z][A-Z]?[a-z]?[\s-]{1,4}(.*)/
-    var SourceNode = r.exec(item.RevDetailNode)[1]
-    var source_index = uniq_node_names.indexOf(SourceNode)
-    var target_index = uniq_node_names.indexOf(item.FundDescription)
-    var value = Math.abs((item.amount/1000))
-    data.links.push({"source":source_index,"target":target_index,"value":value
-    // ,"source_name": SourceNode, "target_name":item.FundDescription
-    })
+//take a string and finds it's index in data.nodes
+//adds the string as a new node if not found
+function FindNodeIndex(NodeName){
+    if (node_names.indexOf(NodeName) === -1) {
+        node_names.push(NodeName)
+        data.nodes.push({"name": NodeName})
+    }
+    return node_names.indexOf(NodeName)
 }
 
+function FindNodesAndLinks(item, key, array) {
+    var source_name = item[this.source]
+    if (!source_name){
+        source_name = "Unknown Source"
+    }
+    var target_name = item[this.target]
+    if (!target_name){
+        target_name = "Unknown Target"        
+    }
 
-// for (item of programs){
-//     var source_index = uniq_node_names.indexOf(item.fund)
-//     var target_index = uniq_node_names.indexOf(item.program)
-//     if (source_index === -1 || target_index === -1){
-//         console.log(`Problem with ${item.fund} or ${item.program}`)
-//     } else {
-//         data.links.push({"source":source_index,"target":target_index,"value":item.value
-//         // ,"source_name": item.fund, "target_name":item.program
-//         })
-//     }
-// }
+    var value_name = this.value
+    var source_index = FindNodeIndex(source_name)
+    var target_index = FindNodeIndex(target_name)
+    var value = Math.trunc(Math.abs((item[value_name]/1000)))
 
+    data.links.push({"source":source_index,"target":target_index,"value":value})
+}
+
+revenue_context ={
+    "source" : "RevDetailNode",
+    "target" : "FundDescription",
+    "value" : "amount"
+}
+
+_.each(revenues, FindNodesAndLinks, revenue_context)
+
+programs_context ={
+    "source" : "fund",
+    "target" : "program",
+    "value" : "value"
+}
+_.each(programs, FindNodesAndLinks, programs_context)
+
+ArrayOutput("nodes", data.nodes)
+ArrayOutput("links", data.links)
 
 jsonfile.writeFile(OUTPUT_JSON_LOCATION, data, function (err) {
     console.error(err);
 });
-
 
 process.stdout.write("<END>")
