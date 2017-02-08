@@ -322,6 +322,7 @@
   {
     "BusUnit": "TUL",
     "FundCode": "6008",
+    "FundDescription": "2001 Five-year Sales Tax Fund",
     "RevCategory": "MISCELLANEOUS REVENUE",
     "RevDetailNode": "EE - Interest Income ",
     "amount": 29000
@@ -329,6 +330,7 @@
   {
     "BusUnit": "TUL",
     "FundCode": "6009",
+    "FundDescription": "2006 Special Extended Sales Tax Fund",
     "RevCategory": "MISCELLANEOUS REVENUE",
     "RevDetailNode": "EE - Interest Income ",
     "amount": 625000
@@ -512,6 +514,7 @@
   {
     "BusUnit": "TUL",
     "FundCode": "6001",
+    "FundDescription": "Miscellaneous Capital Projects Fund",
     "RevCategory": "MISCELLANEOUS REVENUE",
     "RevDetailNode": "EZ - Other Misc. Income",
     "amount": 840000
@@ -519,6 +522,7 @@
   {
     "BusUnit": "TUL",
     "FundCode": "6008",
+    "FundDescription": "2001 Five-year Sales Tax Fund",
     "RevCategory": "MISCELLANEOUS REVENUE",
     "RevDetailNode": "EZ - Other Misc. Income",
     "amount": 6000
