@@ -1,7 +1,7 @@
 [
   {
     "agency": "Administration",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Public Safety and Protection",
     "program": "Municipal Court",
     "key": "Personnel Services (General Fund)",
@@ -9,7 +9,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Juvenile Curfew Fines",
+    "fund": "2330",
     "lob": "Public Safety and Protection",
     "program": "Municipal Court",
     "key": "Personnel Services (Juvenile Curfew Fines)",
@@ -17,7 +17,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Public Safety and Protection",
     "program": "Municipal Court",
     "key": "Professional Services (General Fund)",
@@ -25,7 +25,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Public Safety and Protection",
     "program": "Municipal Court",
     "key": "Materials and Supplies (General Fund)",
@@ -33,7 +33,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "P.A. Law Enforcement",
+    "fund": "2320",
     "lob": "Public Safety and Protection",
     "program": "Municipal Court",
     "key": "Materials and Supplies (P.A. Law Enforcement)",
@@ -41,7 +41,7 @@
   },
   {
     "agency": "Office of the Mayor",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Public Safety and Protection",
     "program": "Police",
     "key": "Personnel Services (General Fund)",
@@ -49,7 +49,7 @@
   },
   {
     "agency": "Office of the Mayor",
-    "fund": "E911 Fee Operating",
+    "fund": "2420",
     "lob": "Public Safety and Protection",
     "program": "Police",
     "key": "Personnel Services (E911 Fee Operating)",
@@ -57,7 +57,7 @@
   },
   {
     "agency": "Office of the Mayor",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Public Safety and Protection",
     "program": "Police",
     "key": "Professional Services (General Fund)",
@@ -65,7 +65,7 @@
   },
   {
     "agency": "Office of the Mayor",
-    "fund": "E911 Fee Operating",
+    "fund": "2420",
     "lob": "Public Safety and Protection",
     "program": "Police",
     "key": "Professional Services (E911 Fee Operating)",
@@ -73,7 +73,7 @@
   },
   {
     "agency": "Office of the Mayor",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Public Safety and Protection",
     "program": "Police",
     "key": "Materials and Supplies (General Fund)",
@@ -81,7 +81,7 @@
   },
   {
     "agency": "Office of the Mayor",
-    "fund": "P.A. Law Enforcement",
+    "fund": "2320",
     "lob": "Public Safety and Protection",
     "program": "Police",
     "key": "Materials and Supplies (P.A. Law Enforcement)",
@@ -89,7 +89,7 @@
   },
   {
     "agency": "Office of the Mayor",
-    "fund": "E911 Fee Operating",
+    "fund": "2420",
     "lob": "Public Safety and Protection",
     "program": "Police",
     "key": "Materials and Supplies (E911 Fee Operating)",
@@ -97,7 +97,7 @@
   },
   {
     "agency": "Office of the Mayor",
-    "fund": "E911 Fee Operating",
+    "fund": "2420",
     "lob": "Public Safety and Protection",
     "program": "Police",
     "key": "Capital Purchase (E911 Fee Operating)",
@@ -105,7 +105,7 @@
   },
   {
     "agency": "Office of the Mayor",
-    "fund": "Short Term Capital",
+    "fund": "2910",
     "lob": "Public Safety and Protection",
     "program": "Police",
     "key": "Capital Purchase (Short Term Capital)",
@@ -113,7 +113,7 @@
   },
   {
     "agency": "Office of the Mayor",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Public Safety and Protection",
     "program": "Fire",
     "key": "Personnel Services (General Fund)",
@@ -121,7 +121,7 @@
   },
   {
     "agency": "Office of the Mayor",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Public Safety and Protection",
     "program": "Fire",
     "key": "Professional Services (General Fund)",
@@ -129,7 +129,7 @@
   },
   {
     "agency": "Office of the Mayor",
-    "fund": "EMSA Enterprise Fund",
+    "fund": "7060",
     "lob": "Public Safety and Protection",
     "program": "Fire",
     "key": "Professional Services (EMSA Enterprise Fund)",
@@ -137,7 +137,7 @@
   },
   {
     "agency": "Office of the Mayor",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Public Safety and Protection",
     "program": "Fire",
     "key": "Materials and Supplies (General Fund)",
@@ -145,7 +145,7 @@
   },
   {
     "agency": "Office of the Mayor",
-    "fund": "EMSA Enterprise Fund",
+    "fund": "7060",
     "lob": "Public Safety and Protection",
     "program": "Fire",
     "key": "Materials and Supplies (EMSA Enterprise Fund)",
@@ -153,7 +153,7 @@
   },
   {
     "agency": "Office of the Mayor",
-    "fund": "Short Term Capital",
+    "fund": "2910",
     "lob": "Public Safety and Protection",
     "program": "Fire",
     "key": "Capital Purchase (Short Term Capital)",
@@ -161,7 +161,7 @@
   },
   {
     "agency": "Office of the Mayor",
-    "fund": "EMSA Enterprise Fund",
+    "fund": "7060",
     "lob": "Public Safety and Protection",
     "program": "Fire",
     "key": "Capital Purchase (EMSA Enterprise Fund)",
@@ -169,7 +169,7 @@
   },
   {
     "agency": "Office of the Mayor",
-    "fund": "EMSA Enterprise Fund",
+    "fund": "7060",
     "lob": "Public Safety and Protection",
     "program": "Emergency Medical Services Authority",
     "key": "Materials and Supplies (EMSA Enterprise Fund)",
@@ -177,7 +177,7 @@
   },
   {
     "agency": "Office of the Mayor",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Public Safety and Protection",
     "program": "Tulsa Area Emergency Mgmt.",
     "key": "Materials and Supplies (General Fund)",
@@ -185,7 +185,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Cultural Development And Recreation",
     "program": "Park and Recreation",
     "key": "Personnel Services (General Fund)",
@@ -193,7 +193,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "Stormwater",
+    "fund": "7010",
     "lob": "Cultural Development And Recreation",
     "program": "Park and Recreation",
     "key": "Personnel Services (Stormwater)",
@@ -201,7 +201,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Cultural Development And Recreation",
     "program": "Park and Recreation",
     "key": "Professional Services (General Fund)",
@@ -209,7 +209,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "Stormwater",
+    "fund": "7010",
     "lob": "Cultural Development And Recreation",
     "program": "Park and Recreation",
     "key": "Professional Services (Stormwater)",
@@ -217,7 +217,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Cultural Development And Recreation",
     "program": "Park and Recreation",
     "key": "Materials and Supplies (General Fund)",
@@ -225,7 +225,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "Stormwater",
+    "fund": "7010",
     "lob": "Cultural Development And Recreation",
     "program": "Park and Recreation",
     "key": "Materials and Supplies (Stormwater)",
@@ -233,7 +233,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "Golf Course Operations",
+    "fund": "7050",
     "lob": "Cultural Development And Recreation",
     "program": "Park and Recreation",
     "key": "Materials and Supplies (Golf Course Operations)",
@@ -241,7 +241,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "Short Term Capital",
+    "fund": "2910",
     "lob": "Cultural Development And Recreation",
     "program": "Park and Recreation",
     "key": "Capital Purchase (Short Term Capital)",
@@ -249,7 +249,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "2014 Sales Tax Fund",
+    "fund": "6014",
     "lob": "Cultural Development And Recreation",
     "program": "Park and Recreation",
     "key": "Capital Purchase (2014 Sales Tax Fund)",
@@ -257,7 +257,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "Golf Course Operations",
+    "fund": "7050",
     "lob": "Cultural Development And Recreation",
     "program": "Park and Recreation",
     "key": "Capital Purchase (Golf Course Operations)",
@@ -265,7 +265,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Cultural Development And Recreation",
     "program": "Gilcrease Museum",
     "key": "Materials and Supplies (General Fund)",
@@ -273,7 +273,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Cultural Development And Recreation",
     "program": "Performing Arts Center",
     "key": "Personnel Services (General Fund)",
@@ -281,7 +281,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "Convention Fund",
+    "fund": "2810",
     "lob": "Cultural Development And Recreation",
     "program": "Performing Arts Center",
     "key": "Personnel Services (Convention Fund)",
@@ -289,7 +289,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Cultural Development And Recreation",
     "program": "Performing Arts Center",
     "key": "Professional Services (General Fund)",
@@ -297,7 +297,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "Convention Fund",
+    "fund": "2810",
     "lob": "Cultural Development And Recreation",
     "program": "Performing Arts Center",
     "key": "Professional Services (Convention Fund)",
@@ -305,7 +305,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Cultural Development And Recreation",
     "program": "Performing Arts Center",
     "key": "Materials and Supplies (General Fund)",
@@ -313,7 +313,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "Convention Fund",
+    "fund": "2810",
     "lob": "Cultural Development And Recreation",
     "program": "Performing Arts Center",
     "key": "Materials and Supplies (Convention Fund)",
@@ -321,7 +321,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "Convention Fund",
+    "fund": "2810",
     "lob": "Cultural Development And Recreation",
     "program": "Performing Arts Center",
     "key": "Capital Purchase (Convention Fund)",
@@ -329,7 +329,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "2014 Sales Tax Fund",
+    "fund": "6014",
     "lob": "Cultural Development And Recreation",
     "program": "Performing Arts Center",
     "key": "Capital Purchase (2014 Sales Tax Fund)",
@@ -337,7 +337,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Cultural Development And Recreation",
     "program": "River Parks Authority",
     "key": "Materials and Supplies (General Fund)",
@@ -345,7 +345,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "Short Term Capital",
+    "fund": "2910",
     "lob": "Cultural Development And Recreation",
     "program": "River Parks Authority",
     "key": "Capital Purchase (Short Term Capital)",
@@ -353,7 +353,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Social and Economic Development",
     "program": "Mayor's Office of Economic Development",
     "key": "Personnel Services (General Fund)",
@@ -361,7 +361,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "Economic Development",
+    "fund": "2710",
     "lob": "Social and Economic Development",
     "program": "Mayor's Office of Economic Development",
     "key": "Personnel Services (Economic Development)",
@@ -369,7 +369,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "Tulsa Stadium Improvement",
+    "fund": "4102",
     "lob": "Social and Economic Development",
     "program": "Mayor's Office of Economic Development",
     "key": "Personnel Services (Tulsa Stadium Improvement)",
@@ -377,7 +377,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Social and Economic Development",
     "program": "Mayor's Office of Economic Development",
     "key": "Professional Services (General Fund)",
@@ -385,7 +385,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "Economic Development",
+    "fund": "2710",
     "lob": "Social and Economic Development",
     "program": "Mayor's Office of Economic Development",
     "key": "Professional Services (Economic Development)",
@@ -393,7 +393,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "Tulsa Stadium Improvement",
+    "fund": "4102",
     "lob": "Social and Economic Development",
     "program": "Mayor's Office of Economic Development",
     "key": "Professional Services (Tulsa Stadium Improvement)",
@@ -401,7 +401,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Social and Economic Development",
     "program": "Mayor's Office of Economic Development",
     "key": "Materials and Supplies (General Fund)",
@@ -409,7 +409,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "Economic Development",
+    "fund": "2710",
     "lob": "Social and Economic Development",
     "program": "Mayor's Office of Economic Development",
     "key": "Materials and Supplies (Economic Development)",
@@ -417,7 +417,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "Tulsa Stadium Improvement",
+    "fund": "4102",
     "lob": "Social and Economic Development",
     "program": "Mayor's Office of Economic Development",
     "key": "Materials and Supplies (Tulsa Stadium Improvement)",
@@ -425,7 +425,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "Tulsa Stadium Improvement",
+    "fund": "4102",
     "lob": "Social and Economic Development",
     "program": "Mayor's Office of Economic Development",
     "key": "Capital Purchase (Tulsa Stadium Improvement)",
@@ -433,7 +433,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Social and Economic Development",
     "program": "Working in Neighborhoods",
     "key": "Personnel Services (General Fund)",
@@ -441,7 +441,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "EMSA Enterprise Fund",
+    "fund": "7060",
     "lob": "Social and Economic Development",
     "program": "Working in Neighborhoods",
     "key": "Personnel Services (EMSA Enterprise Fund)",
@@ -449,7 +449,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Social and Economic Development",
     "program": "Working in Neighborhoods",
     "key": "Professional Services (General Fund)",
@@ -457,7 +457,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Social and Economic Development",
     "program": "Working in Neighborhoods",
     "key": "Materials and Supplies (General Fund)",
@@ -465,7 +465,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "Short Term Capital",
+    "fund": "2910",
     "lob": "Social and Economic Development",
     "program": "Working in Neighborhoods",
     "key": "Capital Purchase (Short Term Capital)",
@@ -473,7 +473,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Social and Economic Development",
     "program": "Planning & Development",
     "key": "Personnel Services (General Fund)",
@@ -481,7 +481,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Social and Economic Development",
     "program": "Planning & Development",
     "key": "Professional Services (General Fund)",
@@ -489,7 +489,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Social and Economic Development",
     "program": "Planning & Development",
     "key": "Materials and Supplies (General Fund)",
@@ -497,7 +497,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "Short Term Capital",
+    "fund": "2910",
     "lob": "Social and Economic Development",
     "program": "Planning & Development",
     "key": "Capital Purchase (Short Term Capital)",
@@ -505,7 +505,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "2014 Sales Tax Fund",
+    "fund": "6014",
     "lob": "Social and Economic Development",
     "program": "Planning & Development",
     "key": "Capital Purchase (2014 Sales Tax Fund)",
@@ -513,7 +513,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Transportation and Public Works",
     "program": "Engineering Services",
     "key": "Personnel Services (General Fund)",
@@ -521,7 +521,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "Stormwater",
+    "fund": "7010",
     "lob": "Transportation and Public Works",
     "program": "Engineering Services",
     "key": "Personnel Services (Stormwater)",
@@ -529,7 +529,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "Water Operating",
+    "fund": "7020",
     "lob": "Transportation and Public Works",
     "program": "Engineering Services",
     "key": "Personnel Services (Water Operating)",
@@ -537,7 +537,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "Sewer Operating",
+    "fund": "7030",
     "lob": "Transportation and Public Works",
     "program": "Engineering Services",
     "key": "Personnel Services (Sewer Operating)",
@@ -545,7 +545,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Transportation and Public Works",
     "program": "Engineering Services",
     "key": "Professional Services (General Fund)",
@@ -553,7 +553,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "Stormwater",
+    "fund": "7010",
     "lob": "Transportation and Public Works",
     "program": "Engineering Services",
     "key": "Professional Services (Stormwater)",
@@ -561,7 +561,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "Water Operating",
+    "fund": "7020",
     "lob": "Transportation and Public Works",
     "program": "Engineering Services",
     "key": "Professional Services (Water Operating)",
@@ -569,7 +569,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "Sewer Operating",
+    "fund": "7030",
     "lob": "Transportation and Public Works",
     "program": "Engineering Services",
     "key": "Professional Services (Sewer Operating)",
@@ -577,7 +577,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Transportation and Public Works",
     "program": "Engineering Services",
     "key": "Materials and Supplies (General Fund)",
@@ -585,7 +585,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "Stormwater",
+    "fund": "7010",
     "lob": "Transportation and Public Works",
     "program": "Engineering Services",
     "key": "Materials and Supplies (Stormwater)",
@@ -593,7 +593,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "Water Operating",
+    "fund": "7020",
     "lob": "Transportation and Public Works",
     "program": "Engineering Services",
     "key": "Materials and Supplies (Water Operating)",
@@ -601,7 +601,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "Sewer Operating",
+    "fund": "7030",
     "lob": "Transportation and Public Works",
     "program": "Engineering Services",
     "key": "Materials and Supplies (Sewer Operating)",
@@ -609,7 +609,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "2001 Five-year Sales Tax Fund",
+    "fund": "6008",
     "lob": "Transportation and Public Works",
     "program": "Engineering Services",
     "key": "Capital Purchase (2001 Five-year Sales Tax Fund)",
@@ -617,7 +617,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "2006 Special Extended Sales Tax Fund",
+    "fund": "6009",
     "lob": "Transportation and Public Works",
     "program": "Engineering Services",
     "key": "Capital Purchase (2006 Special Extended Sales Tax Fund)",
@@ -625,7 +625,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "2014 Sales Tax Fund",
+    "fund": "6014",
     "lob": "Transportation and Public Works",
     "program": "Engineering Services",
     "key": "Capital Purchase (2014 Sales Tax Fund)",
@@ -633,7 +633,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "TMUA-Water Capital Projects Fund",
+    "fund": "6021",
     "lob": "Transportation and Public Works",
     "program": "Engineering Services",
     "key": "Capital Purchase (TMUA-Water Capital Projects Fund)",
@@ -641,7 +641,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "TMUA-Sewer Captial Projects Fund",
+    "fund": "6031",
     "lob": "Transportation and Public Works",
     "program": "Engineering Services",
     "key": "Capital Purchase (TMUA-Sewer Captial Projects Fund)",
@@ -649,7 +649,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "Stormwater Capital Projects Fund",
+    "fund": "6041",
     "lob": "Transportation and Public Works",
     "program": "Engineering Services",
     "key": "Capital Purchase (Stormwater Capital Projects Fund)",
@@ -657,7 +657,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "Water Operating",
+    "fund": "7020",
     "lob": "Transportation and Public Works",
     "program": "Engineering Services",
     "key": "Capital Purchase (Water Operating)",
@@ -665,7 +665,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Transportation and Public Works",
     "program": "Streets and Stormwater",
     "key": "Personnel Services (General Fund)",
@@ -673,7 +673,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "TARE",
+    "fund": "3623",
     "lob": "Transportation and Public Works",
     "program": "Streets and Stormwater",
     "key": "Personnel Services (TARE)",
@@ -681,7 +681,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "Stormwater",
+    "fund": "7010",
     "lob": "Transportation and Public Works",
     "program": "Streets and Stormwater",
     "key": "Personnel Services (Stormwater)",
@@ -689,7 +689,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "Water Operating",
+    "fund": "7020",
     "lob": "Transportation and Public Works",
     "program": "Streets and Stormwater",
     "key": "Personnel Services (Water Operating)",
@@ -697,7 +697,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "Sewer Operating",
+    "fund": "7030",
     "lob": "Transportation and Public Works",
     "program": "Streets and Stormwater",
     "key": "Personnel Services (Sewer Operating)",
@@ -705,7 +705,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Transportation and Public Works",
     "program": "Streets and Stormwater",
     "key": "Professional Services (General Fund)",
@@ -713,7 +713,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "TARE",
+    "fund": "3623",
     "lob": "Transportation and Public Works",
     "program": "Streets and Stormwater",
     "key": "Professional Services (TARE)",
@@ -721,7 +721,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "Stormwater",
+    "fund": "7010",
     "lob": "Transportation and Public Works",
     "program": "Streets and Stormwater",
     "key": "Professional Services (Stormwater)",
@@ -729,7 +729,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "Sewer Operating",
+    "fund": "7030",
     "lob": "Transportation and Public Works",
     "program": "Streets and Stormwater",
     "key": "Professional Services (Sewer Operating)",
@@ -737,7 +737,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Transportation and Public Works",
     "program": "Streets and Stormwater",
     "key": "Materials and Supplies (General Fund)",
@@ -745,7 +745,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "TARE",
+    "fund": "3623",
     "lob": "Transportation and Public Works",
     "program": "Streets and Stormwater",
     "key": "Materials and Supplies (TARE)",
@@ -753,7 +753,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "Stormwater",
+    "fund": "7010",
     "lob": "Transportation and Public Works",
     "program": "Streets and Stormwater",
     "key": "Materials and Supplies (Stormwater)",
@@ -761,7 +761,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "Water Operating",
+    "fund": "7020",
     "lob": "Transportation and Public Works",
     "program": "Streets and Stormwater",
     "key": "Materials and Supplies (Water Operating)",
@@ -769,7 +769,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "Sewer Operating",
+    "fund": "7030",
     "lob": "Transportation and Public Works",
     "program": "Streets and Stormwater",
     "key": "Materials and Supplies (Sewer Operating)",
@@ -777,7 +777,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "Short Term Capital",
+    "fund": "2910",
     "lob": "Transportation and Public Works",
     "program": "Streets and Stormwater",
     "key": "Capital Purchase (Short Term Capital)",
@@ -785,7 +785,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "TARE",
+    "fund": "3623",
     "lob": "Transportation and Public Works",
     "program": "Streets and Stormwater",
     "key": "Capital Purchase (TARE)",
@@ -793,7 +793,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "2014 Sales Tax Fund",
+    "fund": "6014",
     "lob": "Transportation and Public Works",
     "program": "Streets and Stormwater",
     "key": "Capital Purchase (2014 Sales Tax Fund)",
@@ -801,7 +801,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "Stormwater",
+    "fund": "7010",
     "lob": "Transportation and Public Works",
     "program": "Streets and Stormwater",
     "key": "Capital Purchase (Stormwater)",
@@ -809,7 +809,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "TARE",
+    "fund": "3623",
     "lob": "Transportation and Public Works",
     "program": "Water and Sewer",
     "key": "Personnel Services (TARE)",
@@ -817,7 +817,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "Stormwater",
+    "fund": "7010",
     "lob": "Transportation and Public Works",
     "program": "Water and Sewer",
     "key": "Personnel Services (Stormwater)",
@@ -825,7 +825,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "Water Operating",
+    "fund": "7020",
     "lob": "Transportation and Public Works",
     "program": "Water and Sewer",
     "key": "Personnel Services (Water Operating)",
@@ -833,7 +833,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "Sewer Operating",
+    "fund": "7030",
     "lob": "Transportation and Public Works",
     "program": "Water and Sewer",
     "key": "Personnel Services (Sewer Operating)",
@@ -841,7 +841,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "EMSA Enterprise Fund",
+    "fund": "7060",
     "lob": "Transportation and Public Works",
     "program": "Water and Sewer",
     "key": "Personnel Services (EMSA Enterprise Fund)",
@@ -849,7 +849,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "Stormwater",
+    "fund": "7010",
     "lob": "Transportation and Public Works",
     "program": "Water and Sewer",
     "key": "Professional Services (Stormwater)",
@@ -857,7 +857,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "Water Operating",
+    "fund": "7020",
     "lob": "Transportation and Public Works",
     "program": "Water and Sewer",
     "key": "Professional Services (Water Operating)",
@@ -865,7 +865,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "Sewer Operating",
+    "fund": "7030",
     "lob": "Transportation and Public Works",
     "program": "Water and Sewer",
     "key": "Professional Services (Sewer Operating)",
@@ -873,7 +873,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "Stormwater",
+    "fund": "7010",
     "lob": "Transportation and Public Works",
     "program": "Water and Sewer",
     "key": "Materials and Supplies (Stormwater)",
@@ -881,7 +881,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "Water Operating",
+    "fund": "7020",
     "lob": "Transportation and Public Works",
     "program": "Water and Sewer",
     "key": "Materials and Supplies (Water Operating)",
@@ -889,7 +889,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "Sewer Operating",
+    "fund": "7030",
     "lob": "Transportation and Public Works",
     "program": "Water and Sewer",
     "key": "Materials and Supplies (Sewer Operating)",
@@ -897,7 +897,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "TMUA-Water Capital Projects Fund",
+    "fund": "6021",
     "lob": "Transportation and Public Works",
     "program": "Water and Sewer",
     "key": "Capital Purchase (TMUA-Water Capital Projects Fund)",
@@ -905,7 +905,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "Stormwater",
+    "fund": "7010",
     "lob": "Transportation and Public Works",
     "program": "Water and Sewer",
     "key": "Capital Purchase (Stormwater)",
@@ -913,7 +913,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "Water Operating",
+    "fund": "7020",
     "lob": "Transportation and Public Works",
     "program": "Water and Sewer",
     "key": "Capital Purchase (Water Operating)",
@@ -921,7 +921,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "Sewer Operating",
+    "fund": "7030",
     "lob": "Transportation and Public Works",
     "program": "Water and Sewer",
     "key": "Capital Purchase (Sewer Operating)",
@@ -929,7 +929,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Transportation and Public Works",
     "program": "Tulsa Transit",
     "key": "Materials and Supplies (General Fund)",
@@ -937,7 +937,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "Short Term Capital",
+    "fund": "2910",
     "lob": "Transportation and Public Works",
     "program": "Tulsa Transit",
     "key": "Capital Purchase (Short Term Capital)",
@@ -945,7 +945,7 @@
   },
   {
     "agency": "Community Development and Transportation",
-    "fund": "2014 Sales Tax Fund",
+    "fund": "6014",
     "lob": "Transportation and Public Works",
     "program": "Tulsa Transit",
     "key": "Capital Purchase (2014 Sales Tax Fund)",
@@ -953,7 +953,7 @@
   },
   {
     "agency": "Office of the Mayor",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Administration",
     "program": "Mayor",
     "key": "Personnel Services (General Fund)",
@@ -961,7 +961,7 @@
   },
   {
     "agency": "Office of the Mayor",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Administration",
     "program": "Mayor",
     "key": "Professional Services (General Fund)",
@@ -969,7 +969,7 @@
   },
   {
     "agency": "Office of the Mayor",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Administration",
     "program": "Mayor",
     "key": "Materials and Supplies (General Fund)",
@@ -977,7 +977,7 @@
   },
   {
     "agency": "Office of the Mayor",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Administration",
     "program": "City Auditor",
     "key": "Personnel Services (General Fund)",
@@ -985,7 +985,7 @@
   },
   {
     "agency": "Office of the Mayor",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Administration",
     "program": "City Auditor",
     "key": "Professional Services (General Fund)",
@@ -993,7 +993,7 @@
   },
   {
     "agency": "Office of the Mayor",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Administration",
     "program": "City Auditor",
     "key": "Materials and Supplies (General Fund)",
@@ -1001,7 +1001,7 @@
   },
   {
     "agency": "City Council",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Administration",
     "program": "City Council",
     "key": "Personnel Services (General Fund)",
@@ -1009,7 +1009,7 @@
   },
   {
     "agency": "City Council",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Administration",
     "program": "City Council",
     "key": "Professional Services (General Fund)",
@@ -1017,7 +1017,7 @@
   },
   {
     "agency": "City Council",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Administration",
     "program": "City Council",
     "key": "Materials and Supplies (General Fund)",
@@ -1025,7 +1025,7 @@
   },
   {
     "agency": "City Council",
-    "fund": "Short Term Capital",
+    "fund": "2910",
     "lob": "Administration",
     "program": "City Council",
     "key": "Capital Purchase (Short Term Capital)",
@@ -1033,7 +1033,7 @@
   },
   {
     "agency": "Office of the Mayor",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Administration",
     "program": "Mayor's Office of Human Rights",
     "key": "Personnel Services (General Fund)",
@@ -1041,7 +1041,7 @@
   },
   {
     "agency": "Office of the Mayor",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Administration",
     "program": "Mayor's Office of Human Rights",
     "key": "Professional Services (General Fund)",
@@ -1049,7 +1049,7 @@
   },
   {
     "agency": "Office of the Mayor",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Administration",
     "program": "Mayor's Office of Human Rights",
     "key": "Materials and Supplies (General Fund)",
@@ -1057,7 +1057,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Administration",
     "program": "Legal",
     "key": "Personnel Services (General Fund)",
@@ -1065,7 +1065,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Administration",
     "program": "Legal",
     "key": "Professional Services (General Fund)",
@@ -1073,7 +1073,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Administration",
     "program": "Legal",
     "key": "Materials and Supplies (General Fund)",
@@ -1081,7 +1081,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "P.A. Law Enforcement",
+    "fund": "2320",
     "lob": "Administration",
     "program": "Legal",
     "key": "Materials and Supplies (P.A. Law Enforcement)",
@@ -1089,7 +1089,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Short Term Capital",
+    "fund": "2910",
     "lob": "Administration",
     "program": "Legal",
     "key": "Capital Purchase (Short Term Capital)",
@@ -1097,7 +1097,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Administration",
     "program": "Human Resources",
     "key": "Personnel Services (General Fund)",
@@ -1105,7 +1105,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Municipal Employee Pension",
+    "fund": "3000",
     "lob": "Administration",
     "program": "Human Resources",
     "key": "Personnel Services (Municipal Employee Pension)",
@@ -1113,7 +1113,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Administration",
     "program": "Human Resources",
     "key": "Professional Services (General Fund)",
@@ -1121,7 +1121,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Municipal Employee Pension",
+    "fund": "3000",
     "lob": "Administration",
     "program": "Human Resources",
     "key": "Professional Services (Municipal Employee Pension)",
@@ -1129,7 +1129,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Administration",
     "program": "Human Resources",
     "key": "Materials and Supplies (General Fund)",
@@ -1137,7 +1137,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Municipal Employee Pension",
+    "fund": "3000",
     "lob": "Administration",
     "program": "Human Resources",
     "key": "Materials and Supplies (Municipal Employee Pension)",
@@ -1145,21 +1145,21 @@
   },
   {
     "agency": "Administration",
-    "fund": "Short Term Capital",
+    "fund": "2910",
     "lob": "Administration",
     "program": "Human Resources",
     "key": "Capital Purchase (Short Term Capital)",
     "value": 57000
   },
   {
-    "fund": "Workers' Compensation Fund",
+    "fund": "8020",
     "lob": "Administration",
     "program": "Workers' Compensation",
     "key": "Professional Services (Workers' Compensation Fund)",
     "value": 33000
   },
   {
-    "fund": "Workers' Compensation Fund",
+    "fund": "8020",
     "lob": "Administration",
     "program": "Workers' Compensation",
     "key": "Materials and Supplies (Workers' Compensation Fund)",
@@ -1167,14 +1167,14 @@
   },
   {
     "agency": "Administration",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Administration",
     "program": "General Government",
     "key": "Materials and Supplies (General Fund)",
     "value": 2705000
   },
   {
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Administration",
     "program": "INCOG",
     "key": "Materials and Supplies (General Fund)",
@@ -1182,7 +1182,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Administration",
     "program": "Finance",
     "key": "Personnel Services (General Fund)",
@@ -1190,7 +1190,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "TARE",
+    "fund": "3623",
     "lob": "Administration",
     "program": "Finance",
     "key": "Personnel Services (TARE)",
@@ -1198,7 +1198,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Tulsa Stadium Improvement",
+    "fund": "4102",
     "lob": "Administration",
     "program": "Finance",
     "key": "Personnel Services (Tulsa Stadium Improvement)",
@@ -1206,7 +1206,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Stormwater",
+    "fund": "7010",
     "lob": "Administration",
     "program": "Finance",
     "key": "Personnel Services (Stormwater)",
@@ -1214,7 +1214,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Water Operating",
+    "fund": "7020",
     "lob": "Administration",
     "program": "Finance",
     "key": "Personnel Services (Water Operating)",
@@ -1222,7 +1222,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Sewer Operating",
+    "fund": "7030",
     "lob": "Administration",
     "program": "Finance",
     "key": "Personnel Services (Sewer Operating)",
@@ -1230,7 +1230,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "EMSA Enterprise Fund",
+    "fund": "7060",
     "lob": "Administration",
     "program": "Finance",
     "key": "Personnel Services (EMSA Enterprise Fund)",
@@ -1238,7 +1238,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Administration",
     "program": "Finance",
     "key": "Professional Services (General Fund)",
@@ -1246,7 +1246,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "TARE",
+    "fund": "3623",
     "lob": "Administration",
     "program": "Finance",
     "key": "Professional Services (TARE)",
@@ -1254,7 +1254,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Tulsa Stadium Improvement",
+    "fund": "4102",
     "lob": "Administration",
     "program": "Finance",
     "key": "Professional Services (Tulsa Stadium Improvement)",
@@ -1262,7 +1262,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Stormwater",
+    "fund": "7010",
     "lob": "Administration",
     "program": "Finance",
     "key": "Professional Services (Stormwater)",
@@ -1270,7 +1270,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Water Operating",
+    "fund": "7020",
     "lob": "Administration",
     "program": "Finance",
     "key": "Professional Services (Water Operating)",
@@ -1278,7 +1278,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Sewer Operating",
+    "fund": "7030",
     "lob": "Administration",
     "program": "Finance",
     "key": "Professional Services (Sewer Operating)",
@@ -1286,7 +1286,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "EMSA Enterprise Fund",
+    "fund": "7060",
     "lob": "Administration",
     "program": "Finance",
     "key": "Professional Services (EMSA Enterprise Fund)",
@@ -1294,7 +1294,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Administration",
     "program": "Finance",
     "key": "Materials and Supplies (General Fund)",
@@ -1302,7 +1302,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "TARE",
+    "fund": "3623",
     "lob": "Administration",
     "program": "Finance",
     "key": "Materials and Supplies (TARE)",
@@ -1310,7 +1310,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Tulsa Stadium Improvement",
+    "fund": "4102",
     "lob": "Administration",
     "program": "Finance",
     "key": "Materials and Supplies (Tulsa Stadium Improvement)",
@@ -1318,7 +1318,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Whittier Square Improvement",
+    "fund": "4122",
     "lob": "Administration",
     "program": "Finance",
     "key": "Materials and Supplies (Whittier Square Improvement)",
@@ -1326,7 +1326,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Stormwater",
+    "fund": "7010",
     "lob": "Administration",
     "program": "Finance",
     "key": "Materials and Supplies (Stormwater)",
@@ -1334,7 +1334,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Water Operating",
+    "fund": "7020",
     "lob": "Administration",
     "program": "Finance",
     "key": "Materials and Supplies (Water Operating)",
@@ -1342,7 +1342,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Sewer Operating",
+    "fund": "7030",
     "lob": "Administration",
     "program": "Finance",
     "key": "Materials and Supplies (Sewer Operating)",
@@ -1350,7 +1350,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "EMSA Enterprise Fund",
+    "fund": "7060",
     "lob": "Administration",
     "program": "Finance",
     "key": "Materials and Supplies (EMSA Enterprise Fund)",
@@ -1358,7 +1358,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Short Term Capital",
+    "fund": "2910",
     "lob": "Administration",
     "program": "Finance",
     "key": "Capital Purchase (Short Term Capital)",
@@ -1366,7 +1366,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Water Operating",
+    "fund": "7020",
     "lob": "Administration",
     "program": "Finance",
     "key": "Capital Purchase (Water Operating)",
@@ -1374,7 +1374,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Administration",
     "program": "Information Technology",
     "key": "Personnel Services (General Fund)",
@@ -1382,7 +1382,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "E911 Fee Operating",
+    "fund": "2420",
     "lob": "Administration",
     "program": "Information Technology",
     "key": "Personnel Services (E911 Fee Operating)",
@@ -1390,7 +1390,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "TARE",
+    "fund": "3623",
     "lob": "Administration",
     "program": "Information Technology",
     "key": "Personnel Services (TARE)",
@@ -1398,7 +1398,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Stormwater",
+    "fund": "7010",
     "lob": "Administration",
     "program": "Information Technology",
     "key": "Personnel Services (Stormwater)",
@@ -1406,7 +1406,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Water Operating",
+    "fund": "7020",
     "lob": "Administration",
     "program": "Information Technology",
     "key": "Personnel Services (Water Operating)",
@@ -1414,7 +1414,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Sewer Operating",
+    "fund": "7030",
     "lob": "Administration",
     "program": "Information Technology",
     "key": "Personnel Services (Sewer Operating)",
@@ -1422,7 +1422,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Administration",
     "program": "Information Technology",
     "key": "Professional Services (General Fund)",
@@ -1430,7 +1430,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "E911 Fee Operating",
+    "fund": "2420",
     "lob": "Administration",
     "program": "Information Technology",
     "key": "Professional Services (E911 Fee Operating)",
@@ -1438,7 +1438,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "TARE",
+    "fund": "3623",
     "lob": "Administration",
     "program": "Information Technology",
     "key": "Professional Services (TARE)",
@@ -1446,7 +1446,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Stormwater",
+    "fund": "7010",
     "lob": "Administration",
     "program": "Information Technology",
     "key": "Professional Services (Stormwater)",
@@ -1454,7 +1454,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Water Operating",
+    "fund": "7020",
     "lob": "Administration",
     "program": "Information Technology",
     "key": "Professional Services (Water Operating)",
@@ -1462,7 +1462,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Sewer Operating",
+    "fund": "7030",
     "lob": "Administration",
     "program": "Information Technology",
     "key": "Professional Services (Sewer Operating)",
@@ -1470,7 +1470,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Administration",
     "program": "Information Technology",
     "key": "Materials and Supplies (General Fund)",
@@ -1478,7 +1478,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "E911 Fee Operating",
+    "fund": "2420",
     "lob": "Administration",
     "program": "Information Technology",
     "key": "Materials and Supplies (E911 Fee Operating)",
@@ -1486,7 +1486,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "TARE",
+    "fund": "3623",
     "lob": "Administration",
     "program": "Information Technology",
     "key": "Materials and Supplies (TARE)",
@@ -1494,7 +1494,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Stormwater",
+    "fund": "7010",
     "lob": "Administration",
     "program": "Information Technology",
     "key": "Materials and Supplies (Stormwater)",
@@ -1502,7 +1502,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Water Operating",
+    "fund": "7020",
     "lob": "Administration",
     "program": "Information Technology",
     "key": "Materials and Supplies (Water Operating)",
@@ -1510,7 +1510,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Sewer Operating",
+    "fund": "7030",
     "lob": "Administration",
     "program": "Information Technology",
     "key": "Materials and Supplies (Sewer Operating)",
@@ -1518,7 +1518,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Office Services",
+    "fund": "8011",
     "lob": "Administration",
     "program": "Information Technology",
     "key": "Materials and Supplies (Office Services)",
@@ -1526,7 +1526,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Short Term Capital",
+    "fund": "2910",
     "lob": "Administration",
     "program": "Information Technology",
     "key": "Capital Purchase (Short Term Capital)",
@@ -1534,7 +1534,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "TARE",
+    "fund": "3623",
     "lob": "Administration",
     "program": "Information Technology",
     "key": "Capital Purchase (TARE)",
@@ -1542,7 +1542,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Stormwater",
+    "fund": "7010",
     "lob": "Administration",
     "program": "Information Technology",
     "key": "Capital Purchase (Stormwater)",
@@ -1550,7 +1550,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Water Operating",
+    "fund": "7020",
     "lob": "Administration",
     "program": "Information Technology",
     "key": "Capital Purchase (Water Operating)",
@@ -1558,7 +1558,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Sewer Operating",
+    "fund": "7030",
     "lob": "Administration",
     "program": "Information Technology",
     "key": "Capital Purchase (Sewer Operating)",
@@ -1566,7 +1566,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Administration",
     "program": "Customer Care",
     "key": "Personnel Services (General Fund)",
@@ -1574,7 +1574,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "TARE",
+    "fund": "3623",
     "lob": "Administration",
     "program": "Customer Care",
     "key": "Personnel Services (TARE)",
@@ -1582,7 +1582,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Stormwater",
+    "fund": "7010",
     "lob": "Administration",
     "program": "Customer Care",
     "key": "Personnel Services (Stormwater)",
@@ -1590,7 +1590,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Water Operating",
+    "fund": "7020",
     "lob": "Administration",
     "program": "Customer Care",
     "key": "Personnel Services (Water Operating)",
@@ -1598,7 +1598,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Sewer Operating",
+    "fund": "7030",
     "lob": "Administration",
     "program": "Customer Care",
     "key": "Personnel Services (Sewer Operating)",
@@ -1606,7 +1606,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "EMSA Enterprise Fund",
+    "fund": "7060",
     "lob": "Administration",
     "program": "Customer Care",
     "key": "Personnel Services (EMSA Enterprise Fund)",
@@ -1614,7 +1614,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Administration",
     "program": "Customer Care",
     "key": "Professional Services (General Fund)",
@@ -1622,7 +1622,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "TARE",
+    "fund": "3623",
     "lob": "Administration",
     "program": "Customer Care",
     "key": "Professional Services (TARE)",
@@ -1630,7 +1630,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Stormwater",
+    "fund": "7010",
     "lob": "Administration",
     "program": "Customer Care",
     "key": "Professional Services (Stormwater)",
@@ -1638,7 +1638,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Water Operating",
+    "fund": "7020",
     "lob": "Administration",
     "program": "Customer Care",
     "key": "Professional Services (Water Operating)",
@@ -1646,7 +1646,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Sewer Operating",
+    "fund": "7030",
     "lob": "Administration",
     "program": "Customer Care",
     "key": "Professional Services (Sewer Operating)",
@@ -1654,7 +1654,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "EMSA Enterprise Fund",
+    "fund": "7060",
     "lob": "Administration",
     "program": "Customer Care",
     "key": "Professional Services (EMSA Enterprise Fund)",
@@ -1662,7 +1662,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Administration",
     "program": "Customer Care",
     "key": "Materials and Supplies (General Fund)",
@@ -1670,7 +1670,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "TARE",
+    "fund": "3623",
     "lob": "Administration",
     "program": "Customer Care",
     "key": "Materials and Supplies (TARE)",
@@ -1678,7 +1678,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Stormwater",
+    "fund": "7010",
     "lob": "Administration",
     "program": "Customer Care",
     "key": "Materials and Supplies (Stormwater)",
@@ -1686,7 +1686,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Water Operating",
+    "fund": "7020",
     "lob": "Administration",
     "program": "Customer Care",
     "key": "Materials and Supplies (Water Operating)",
@@ -1694,7 +1694,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Sewer Operating",
+    "fund": "7030",
     "lob": "Administration",
     "program": "Customer Care",
     "key": "Materials and Supplies (Sewer Operating)",
@@ -1702,7 +1702,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "EMSA Enterprise Fund",
+    "fund": "7060",
     "lob": "Administration",
     "program": "Customer Care",
     "key": "Materials and Supplies (EMSA Enterprise Fund)",
@@ -1710,7 +1710,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Administration",
     "program": "Communications",
     "key": "Personnel Services (General Fund)",
@@ -1718,7 +1718,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Administration",
     "program": "Communications",
     "key": "Professional Services (General Fund)",
@@ -1726,7 +1726,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Administration",
     "program": "Communications",
     "key": "Materials and Supplies (General Fund)",
@@ -1734,7 +1734,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Short Term Capital",
+    "fund": "2910",
     "lob": "Administration",
     "program": "Communications",
     "key": "Capital Purchase (Short Term Capital)",
@@ -1742,7 +1742,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Administration",
     "program": "Asset Management",
     "key": "Personnel Services (General Fund)",
@@ -1750,7 +1750,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "E911 Fee Operating",
+    "fund": "2420",
     "lob": "Administration",
     "program": "Asset Management",
     "key": "Personnel Services (E911 Fee Operating)",
@@ -1758,7 +1758,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "One Technology Center Fund",
+    "fund": "3450",
     "lob": "Administration",
     "program": "Asset Management",
     "key": "Personnel Services (One Technology Center Fund)",
@@ -1766,7 +1766,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "TARE",
+    "fund": "3623",
     "lob": "Administration",
     "program": "Asset Management",
     "key": "Personnel Services (TARE)",
@@ -1774,7 +1774,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Stormwater",
+    "fund": "7010",
     "lob": "Administration",
     "program": "Asset Management",
     "key": "Personnel Services (Stormwater)",
@@ -1782,7 +1782,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Water Operating",
+    "fund": "7020",
     "lob": "Administration",
     "program": "Asset Management",
     "key": "Personnel Services (Water Operating)",
@@ -1790,7 +1790,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Sewer Operating",
+    "fund": "7030",
     "lob": "Administration",
     "program": "Asset Management",
     "key": "Personnel Services (Sewer Operating)",
@@ -1798,7 +1798,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Equipment Management",
+    "fund": "8030",
     "lob": "Administration",
     "program": "Asset Management",
     "key": "Personnel Services (Equipment Management)",
@@ -1806,7 +1806,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Administration",
     "program": "Asset Management",
     "key": "Professional Services (General Fund)",
@@ -1814,7 +1814,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "E911 Fee Operating",
+    "fund": "2420",
     "lob": "Administration",
     "program": "Asset Management",
     "key": "Professional Services (E911 Fee Operating)",
@@ -1822,7 +1822,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "One Technology Center Fund",
+    "fund": "3450",
     "lob": "Administration",
     "program": "Asset Management",
     "key": "Professional Services (One Technology Center Fund)",
@@ -1830,7 +1830,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "TARE",
+    "fund": "3623",
     "lob": "Administration",
     "program": "Asset Management",
     "key": "Professional Services (TARE)",
@@ -1838,7 +1838,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Stormwater",
+    "fund": "7010",
     "lob": "Administration",
     "program": "Asset Management",
     "key": "Professional Services (Stormwater)",
@@ -1846,7 +1846,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Water Operating",
+    "fund": "7020",
     "lob": "Administration",
     "program": "Asset Management",
     "key": "Professional Services (Water Operating)",
@@ -1854,7 +1854,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Sewer Operating",
+    "fund": "7030",
     "lob": "Administration",
     "program": "Asset Management",
     "key": "Professional Services (Sewer Operating)",
@@ -1862,7 +1862,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Equipment Management",
+    "fund": "8030",
     "lob": "Administration",
     "program": "Asset Management",
     "key": "Professional Services (Equipment Management)",
@@ -1870,7 +1870,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "Administration",
     "program": "Asset Management",
     "key": "Materials and Supplies (General Fund)",
@@ -1878,7 +1878,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Airforce Plant 3 Fund",
+    "fund": "2240",
     "lob": "Administration",
     "program": "Asset Management",
     "key": "Materials and Supplies (Airforce Plant 3 Fund)",
@@ -1886,7 +1886,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "E911 Fee Operating",
+    "fund": "2420",
     "lob": "Administration",
     "program": "Asset Management",
     "key": "Materials and Supplies (E911 Fee Operating)",
@@ -1894,7 +1894,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "One Technology Center Fund",
+    "fund": "3450",
     "lob": "Administration",
     "program": "Asset Management",
     "key": "Materials and Supplies (One Technology Center Fund)",
@@ -1902,7 +1902,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "TARE",
+    "fund": "3623",
     "lob": "Administration",
     "program": "Asset Management",
     "key": "Materials and Supplies (TARE)",
@@ -1910,7 +1910,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Stormwater",
+    "fund": "7010",
     "lob": "Administration",
     "program": "Asset Management",
     "key": "Materials and Supplies (Stormwater)",
@@ -1918,7 +1918,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Water Operating",
+    "fund": "7020",
     "lob": "Administration",
     "program": "Asset Management",
     "key": "Materials and Supplies (Water Operating)",
@@ -1926,7 +1926,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Sewer Operating",
+    "fund": "7030",
     "lob": "Administration",
     "program": "Asset Management",
     "key": "Materials and Supplies (Sewer Operating)",
@@ -1934,7 +1934,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Equipment Management",
+    "fund": "8030",
     "lob": "Administration",
     "program": "Asset Management",
     "key": "Materials and Supplies (Equipment Management)",
@@ -1942,7 +1942,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Airforce Plant 3 Fund",
+    "fund": "2240",
     "lob": "Administration",
     "program": "Asset Management",
     "key": "Capital Purchase (Airforce Plant 3 Fund)",
@@ -1950,7 +1950,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Short Term Capital",
+    "fund": "2910",
     "lob": "Administration",
     "program": "Asset Management",
     "key": "Capital Purchase (Short Term Capital)",
@@ -1958,7 +1958,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "One Technology Center Fund",
+    "fund": "3450",
     "lob": "Administration",
     "program": "Asset Management",
     "key": "Capital Purchase (One Technology Center Fund)",
@@ -1966,7 +1966,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "TARE",
+    "fund": "3623",
     "lob": "Administration",
     "program": "Asset Management",
     "key": "Capital Purchase (TARE)",
@@ -1974,7 +1974,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "2014 Sales Tax Fund",
+    "fund": "6014",
     "lob": "Administration",
     "program": "Asset Management",
     "key": "Capital Purchase (2014 Sales Tax Fund)",
@@ -1982,7 +1982,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Stormwater",
+    "fund": "7010",
     "lob": "Administration",
     "program": "Asset Management",
     "key": "Capital Purchase (Stormwater)",
@@ -1990,7 +1990,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Equipment Management",
+    "fund": "8030",
     "lob": "Administration",
     "program": "Asset Management",
     "key": "Capital Purchase (Equipment Management)",
@@ -1998,7 +1998,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "General Fund",
+    "fund": "1080",
     "lob": "TRANSFERS AND DEBT",
     "program": "Transfers - Internal & Outside",
     "key": "undefined (General Fund)",
@@ -2006,7 +2006,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Short Term Capital",
+    "fund": "2910",
     "lob": "TRANSFERS AND DEBT",
     "program": "Transfers - Internal & Outside",
     "key": "undefined (Short Term Capital)",
@@ -2014,7 +2014,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "One Technology Center Fund",
+    "fund": "3450",
     "lob": "TRANSFERS AND DEBT",
     "program": "Transfers - Internal & Outside",
     "key": "undefined (One Technology Center Fund)",
@@ -2022,7 +2022,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "2014 Sales Tax Fund",
+    "fund": "6014",
     "lob": "TRANSFERS AND DEBT",
     "program": "Transfers - Internal & Outside",
     "key": "undefined (2014 Sales Tax Fund)",
@@ -2030,7 +2030,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Stormwater",
+    "fund": "7010",
     "lob": "TRANSFERS AND DEBT",
     "program": "Transfers - Internal & Outside",
     "key": "undefined (Stormwater)",
@@ -2038,7 +2038,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Water Operating",
+    "fund": "7020",
     "lob": "TRANSFERS AND DEBT",
     "program": "Transfers - Internal & Outside",
     "key": "undefined (Water Operating)",
@@ -2046,7 +2046,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Sewer Operating",
+    "fund": "7030",
     "lob": "TRANSFERS AND DEBT",
     "program": "Transfers - Internal & Outside",
     "key": "undefined (Sewer Operating)",
@@ -2054,7 +2054,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "EMSA Enterprise Fund",
+    "fund": "7060",
     "lob": "TRANSFERS AND DEBT",
     "program": "Transfers - Internal & Outside",
     "key": "undefined (EMSA Enterprise Fund)",
@@ -2062,7 +2062,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Workers' Compensation Fund",
+    "fund": "8020",
     "lob": "TRANSFERS AND DEBT",
     "program": "Transfers - Internal & Outside",
     "key": "undefined (Workers' Compensation Fund)",
@@ -2070,7 +2070,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Convention Fund",
+    "fund": "2810",
     "lob": "TRANSFERS AND DEBT",
     "program": "Debt Service",
     "key": "Debt Service (Convention Fund)",
@@ -2078,7 +2078,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "One Technology Center Fund",
+    "fund": "3450",
     "lob": "TRANSFERS AND DEBT",
     "program": "Debt Service",
     "key": "Debt Service (One Technology Center Fund)",
@@ -2086,7 +2086,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "TARE",
+    "fund": "3623",
     "lob": "TRANSFERS AND DEBT",
     "program": "Debt Service",
     "key": "Debt Service (TARE)",
@@ -2094,7 +2094,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Tulsa Stadium Improvement",
+    "fund": "4102",
     "lob": "TRANSFERS AND DEBT",
     "program": "Debt Service",
     "key": "Debt Service (Tulsa Stadium Improvement)",
@@ -2102,7 +2102,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Debt Service (Sinking Fund)",
+    "fund": "4306",
     "lob": "TRANSFERS AND DEBT",
     "program": "Debt Service",
     "key": "Debt Service (Debt Service (Sinking Fund))",
@@ -2110,7 +2110,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Water Operating",
+    "fund": "7020",
     "lob": "TRANSFERS AND DEBT",
     "program": "Debt Service",
     "key": "Debt Service (Water Operating)",
@@ -2118,7 +2118,7 @@
   },
   {
     "agency": "Administration",
-    "fund": "Sewer Operating",
+    "fund": "7030",
     "lob": "TRANSFERS AND DEBT",
     "program": "Debt Service",
     "key": "Debt Service (Sewer Operating)",

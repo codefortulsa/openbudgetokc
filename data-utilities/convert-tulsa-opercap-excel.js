@@ -165,7 +165,7 @@ function getExpenseAmounts(ExpenseWksht, programs, fundNumbers, fundDescriptions
                 if(amount && amount.v != 0) {
                     expenses[i++] = {
                         agency: agency,
-                        fund: fundDescription,
+                        fund: fundNumber,
                         lob: programName,
                         program: departmentName,
                         key: characterClass + " (" + fundDescription + ")",
