@@ -168,7 +168,7 @@ function getExpenseAmounts(ExpenseWksht, programs, fundNumbers, fundDescriptions
                         fund: fundDescription,
                         lob: programName,
                         program: departmentName,
-                        key: opUnitDescription,
+                        key: characterClass + " (" + fundDescription + ")",
                         value: amount.v
                     };
 
