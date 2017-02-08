@@ -3,8 +3,7 @@ var jsonfile = require('jsonfile');
 
 var revenues = require("../_src/data/tulsa/c4tul_fy2017Revenue.json")
 var programs = require("../_src/data/tulsa/c4tul_fy2017.json")
-var categories = require("../_src/data/tulsa/fund_categories.json").categories
-
+var getFundCategory = require('../data-utilities/convert-tulsa-common').getFundCategory
 var OUTPUT_JSON_LOCATION = './_src/data/tulsa/flow-test.json';
 
 /*
@@ -54,10 +53,6 @@ function RevenueSource(RevDetail){
     }
 }
 
-function FundType(FullCode){
-    return FullCode
-}
-
 //take a string and finds it's index in data.nodes
 //adds the string as a new node if not found
 function FindNodeIndex(NodeName){
@@ -68,38 +63,44 @@ function FindNodeIndex(NodeName){
     return node_names.indexOf(NodeName)
 }
 
-function FindNodesAndLinks(item, key, array) {
-    var source_name = item[this.source]
-    if (!source_name){
-        source_name = "Unknown Source"
-    }
-    var target_name = item[this.target]
-    if (!target_name){
-        target_name = "Unknown Target"        
-    }
+function BuildNodeFinder(context){
+    var {source, target, value, source_title, target_title } = context
+    return function (item, key, array){
+        var source_name = ( source_title ? source_title(item[source]) : item[source])
+        if (!source_name){ source_name = "Unknown Source" }
 
-    var value_name = this.value
-    var source_index = FindNodeIndex(source_name)
-    var target_index = FindNodeIndex(target_name)
-    var value = Math.trunc(Math.abs((item[value_name]/1000)))
+        var target_name = ( target_title ? target_title(item[target]) : item[target])
+        if (!target_name){ target_name = "Unknown Target" }
 
-    data.links.push({"source":source_index,"target":target_index,"value":value})
+        var value_name = this.value
+        var source_index = FindNodeIndex(source_name)
+        var target_index = FindNodeIndex(target_name)
+        var calc_value = Math.trunc(Math.abs((item[value])))
+
+        data.links.push({"source":source_index,"target":target_index,"value":calc_value})
+    }
 }
 
+function full_fund_desc(FundCode){
+    return FundCode + getFundCategory(FundCode)
+}
 revenue_context ={
     "source" : "RevDetailNode",
-    "target" : "FundDescription",
+    "target" : "FundCode",
+    "target_title" : full_fund_desc,
     "value" : "amount"
 }
 
-_.each(revenues, FindNodesAndLinks, revenue_context)
+_.each(revenues, BuildNodeFinder(revenue_context))
 
 programs_context ={
     "source" : "fund",
+    "source_title" : full_fund_desc,
     "target" : "program",
     "value" : "value"
 }
-_.each(programs, FindNodesAndLinks, programs_context)
+
+_.each(programs, BuildNodeFinder(programs_context))
 
 ArrayOutput("nodes", data.nodes)
 ArrayOutput("links", data.links)
