@@ -2,7 +2,7 @@ var _ = require('underscore')
 var jsonfile = require('jsonfile');
 
 var revenues = require("../_src/data/tulsa/c4tul_fy2017Revenue.json")
-var programs = require("../_src/data/tulsa/c4tul_fy2017.json")
+var operations = require("../_src/data/tulsa/c4tul_fy2017.json")
 var getFundCategory = require('../data-utilities/convert-tulsa-common').getFundCategory
 var OUTPUT_JSON_LOCATION = './_src/data/tulsa/flow-test.json';
 
@@ -93,14 +93,14 @@ revenue_context ={
 
 _.each(revenues, BuildNodeFinder(revenue_context))
 
-programs_context ={
+operations_context ={
     "source" : "fund",
     "source_title" : full_fund_desc,
     "target" : "program",
     "value" : "value"
 }
 
-_.each(programs, BuildNodeFinder(programs_context))
+_.each(operations, BuildNodeFinder(operations_context))
 
 ArrayOutput("nodes", data.nodes)
 ArrayOutput("links", data.links)
