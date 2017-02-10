@@ -1,9 +1,8 @@
-var _ = require('underscore')
 var jsonfile = require('jsonfile');
-
 var revenues = require("../_src/data/tulsa/c4tul_fy2017Revenue.json")
 var operations = require("../_src/data/tulsa/c4tul_fy2017.json")
 var getFundCategory = require('../data-utilities/convert-tulsa-common').getFundCategory
+var sumBy = require("../data-utilities/json-utils").sumBy
 var OUTPUT_JSON_LOCATION = './_src/data/tulsa/flow-test.json';
 
 /*
@@ -38,8 +37,7 @@ process.stdout.write("<START>\n");
 
 // util func for terminal
 function ArrayOutput (name,array){
-    var uniq_array = _.uniq(array)
-    process.stdout.write(`${name} : ${uniq_array.length}\n`)
+    process.stdout.write(`${name} : ${array.length}\n`)
 }
 
 // functions for cleaning node descriptions
@@ -65,7 +63,7 @@ function FindNodeIndex(NodeName){
 
 function BuildNodeFinder(context){
     var {source, target, value, source_title, target_title } = context
-    return function (item, key, array){
+    return function (item){
         var source_name = ( source_title ? source_title(item[source]) : item[source])
         if (!source_name){ source_name = "Unknown Source" }
 
@@ -84,14 +82,13 @@ function BuildNodeFinder(context){
 function full_fund_desc(FundCode){
     return FundCode + getFundCategory(FundCode)
 }
+
 revenue_context ={
     "source" : "RevDetailNode",
     "target" : "FundCode",
     "target_title" : full_fund_desc,
     "value" : "amount"
 }
-
-_.each(revenues, BuildNodeFinder(revenue_context))
 
 operations_context ={
     "source" : "fund",
@@ -100,7 +97,11 @@ operations_context ={
     "value" : "value"
 }
 
-_.each(operations, BuildNodeFinder(operations_context))
+revSummary = sumBy(revenues,"RevDetailNode")
+opsSummary = sumBy(operations,"program")
+
+revSummary.map(BuildNodeFinder(revenue_context))
+opsSummary.map(BuildNodeFinder(operations_context))
 
 ArrayOutput("nodes", data.nodes)
 ArrayOutput("links", data.links)
