@@ -52,6 +52,11 @@ var AGENCIES = [];
 var ADMINISTRATION = 'Administration';
 var COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION = 'Community Development and Transportation';
 var OFFICE_OF_THE_MAYOR = 'Office of the Mayor';
+var CITY_COUNCIL = 'City Council';
+var CITY_AUDITOR = 'City Auditor';
+
+AGENCIES['City Council'] = CITY_COUNCIL;
+AGENCIES['City Auditor'] = CITY_AUDITOR;
 
 AGENCIES['Finance'] = ADMINISTRATION;
 AGENCIES['Human Resources'] = ADMINISTRATION;
@@ -59,9 +64,16 @@ AGENCIES['Communications'] = ADMINISTRATION;
 AGENCIES['Municipal Court'] = ADMINISTRATION;
 AGENCIES['Information Technology'] = ADMINISTRATION;
 AGENCIES['Asset Management'] = ADMINISTRATION;
-
+AGENCIES['Debt Service'] = ADMINISTRATION; //TODO Ask about this one
+AGENCIES['Asset Management'] = ADMINISTRATION;
+AGENCIES['Transfers - Internal & Outside'] = ADMINISTRATION; //TODO Ask about this one
 AGENCIES['Customer Care'] = ADMINISTRATION;
 AGENCIES['Water & Sewer'] = ADMINISTRATION;
+AGENCIES['General Government'] = ADMINISTRATION; //TODO Ask about this one
+AGENCIES['Employees Insurance Administration'] = ADMINISTRATION; //TODO Ask about this one
+AGENCIES['Workers\' Compensation'] = ADMINISTRATION; //TODO Ask about this one
+
+
 AGENCIES['Parks and Recreation'] = COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION;
 AGENCIES['Performing Arts Center'] = COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION;
 AGENCIES['BOK and Convention Centers'] = COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION;
@@ -70,33 +82,23 @@ AGENCIES['Streets and Stormwater'] = COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION;
 AGENCIES['Working in Neighborhoods'] = COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION;
 AGENCIES['Gilcrease'] = COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION;
 AGENCIES['River Parks'] = COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION;
-
 AGENCIES['Engineering Services'] = COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION;
-//TODO: Ask Nathan about these!
-AGENCIES['Debt Service'] = ADMINISTRATION;
-AGENCIES['Asset Management'] = ADMINISTRATION;
-AGENCIES['Transfers - Internal & Outside'] = ADMINISTRATION;
-AGENCIES['Legal'] = ADMINISTRATION;
-AGENCIES['Mayor\'s Office of Human Rights'] = OFFICE_OF_THE_MAYOR;
-AGENCIES['City Council'] = ADMINISTRATION;
-AGENCIES['City Auditor'] = OFFICE_OF_THE_MAYOR;
-AGENCIES['Mayor'] = OFFICE_OF_THE_MAYOR;
+AGENCIES['River Parks Authority'] = COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION;
+AGENCIES['Gilcrease Museum'] = COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION;
 AGENCIES['Tulsa Transit'] = COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION;
 AGENCIES['Water and Sewer'] = COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION;
 AGENCIES['Social and Economic Development'] = COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION;
-AGENCIES['Mayor\'s Office of Economic'] = OFFICE_OF_THE_MAYOR;
-AGENCIES['River Parks Authority'] = COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION;
-AGENCIES['Gilcrease Museum'] = COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION;
-AGENCIES['Park and Recreation'] = COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION;
-AGENCIES['Tulsa Area Emergency Mgmt.'] = OFFICE_OF_THE_MAYOR;
-AGENCIES['Emergency Medical Services Authority'] = OFFICE_OF_THE_MAYOR;
-AGENCIES['Fire'] = OFFICE_OF_THE_MAYOR;
-AGENCIES['Police'] = OFFICE_OF_THE_MAYOR;
-AGENCIES['General Government'] = ADMINISTRATION;
-AGENCIES['Employees Insurance Administration'] = ADMINISTRATION;
-AGENCIES['Workers\' Compensation'] = ADMINISTRATION;
 AGENCIES['INCOG'] = COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION;
 AGENCIES['Planning & Development'] = COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION;
+
+
+AGENCIES['Mayor\'s Office of Human Rights'] = OFFICE_OF_THE_MAYOR;
+AGENCIES['Legal'] = OFFICE_OF_THE_MAYOR;
+AGENCIES['Mayor'] = OFFICE_OF_THE_MAYOR;
+AGENCIES['Tulsa Area Emergency Mgmt.'] = OFFICE_OF_THE_MAYOR; //TODO Ask about this one
+AGENCIES['Emergency Medical Services Authority'] = OFFICE_OF_THE_MAYOR; //TODO Ask about this one
+AGENCIES['Fire'] = OFFICE_OF_THE_MAYOR;
+AGENCIES['Police'] = OFFICE_OF_THE_MAYOR;
 AGENCIES['Mayor\'s Office of Economic Development'] = OFFICE_OF_THE_MAYOR;
 
 /**
@@ -150,6 +152,13 @@ function getExpenseAmounts(ExpenseWksht, programs, fundNumbers, fundDescriptions
                 departmentName = programs[departmentNameMaybe.v].accountDescription.trim();
                 programName = programs[departmentNameMaybe.v].program;
                 console.log('\tSwitched to department %s with program %s', departmentName, programName)
+            }
+
+            //Correct typos
+            if(departmentName === 'Park and Recreation') {
+                departmentName = 'Parks and Recreation';
+            } else if(departmentName === 'Mayor\'s Office of Economic') {
+                departmentName = 'Mayor\'s Office of Economic Development';
             }
 
             var agency = AGENCIES[departmentName];

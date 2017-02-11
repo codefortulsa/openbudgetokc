@@ -187,7 +187,7 @@
     "agency": "Community Development and Transportation",
     "fund": "1080",
     "lob": "Cultural Development And Recreation",
-    "program": "Park and Recreation",
+    "program": "Parks and Recreation",
     "key": "Personnel Services (General Fund)",
     "value": 5427000
   },
@@ -195,7 +195,7 @@
     "agency": "Community Development and Transportation",
     "fund": "7010",
     "lob": "Cultural Development And Recreation",
-    "program": "Park and Recreation",
+    "program": "Parks and Recreation",
     "key": "Personnel Services (Stormwater)",
     "value": 107000
   },
@@ -203,7 +203,7 @@
     "agency": "Community Development and Transportation",
     "fund": "1080",
     "lob": "Cultural Development And Recreation",
-    "program": "Park and Recreation",
+    "program": "Parks and Recreation",
     "key": "Professional Services (General Fund)",
     "value": 656000
   },
@@ -211,7 +211,7 @@
     "agency": "Community Development and Transportation",
     "fund": "7010",
     "lob": "Cultural Development And Recreation",
-    "program": "Park and Recreation",
+    "program": "Parks and Recreation",
     "key": "Professional Services (Stormwater)",
     "value": 15000
   },
@@ -219,7 +219,7 @@
     "agency": "Community Development and Transportation",
     "fund": "1080",
     "lob": "Cultural Development And Recreation",
-    "program": "Park and Recreation",
+    "program": "Parks and Recreation",
     "key": "Materials and Supplies (General Fund)",
     "value": 8964000
   },
@@ -227,7 +227,7 @@
     "agency": "Community Development and Transportation",
     "fund": "7010",
     "lob": "Cultural Development And Recreation",
-    "program": "Park and Recreation",
+    "program": "Parks and Recreation",
     "key": "Materials and Supplies (Stormwater)",
     "value": 63000
   },
@@ -235,7 +235,7 @@
     "agency": "Community Development and Transportation",
     "fund": "7050",
     "lob": "Cultural Development And Recreation",
-    "program": "Park and Recreation",
+    "program": "Parks and Recreation",
     "key": "Materials and Supplies (Golf Course Operations)",
     "value": 2979000
   },
@@ -243,7 +243,7 @@
     "agency": "Community Development and Transportation",
     "fund": "2910",
     "lob": "Cultural Development And Recreation",
-    "program": "Park and Recreation",
+    "program": "Parks and Recreation",
     "key": "Capital Purchase (Short Term Capital)",
     "value": 277000
   },
@@ -251,7 +251,7 @@
     "agency": "Community Development and Transportation",
     "fund": "6014",
     "lob": "Cultural Development And Recreation",
-    "program": "Park and Recreation",
+    "program": "Parks and Recreation",
     "key": "Capital Purchase (2014 Sales Tax Fund)",
     "value": 8235000
   },
@@ -259,7 +259,7 @@
     "agency": "Community Development and Transportation",
     "fund": "7050",
     "lob": "Cultural Development And Recreation",
-    "program": "Park and Recreation",
+    "program": "Parks and Recreation",
     "key": "Capital Purchase (Golf Course Operations)",
     "value": 92000
   },
@@ -976,7 +976,7 @@
     "value": 110000
   },
   {
-    "agency": "Office of the Mayor",
+    "agency": "City Auditor",
     "fund": "1080",
     "lob": "Administration",
     "program": "City Auditor",
@@ -984,7 +984,7 @@
     "value": 1062000
   },
   {
-    "agency": "Office of the Mayor",
+    "agency": "City Auditor",
     "fund": "1080",
     "lob": "Administration",
     "program": "City Auditor",
@@ -992,7 +992,7 @@
     "value": 10000
   },
   {
-    "agency": "Office of the Mayor",
+    "agency": "City Auditor",
     "fund": "1080",
     "lob": "Administration",
     "program": "City Auditor",
@@ -1000,7 +1000,7 @@
     "value": 50000
   },
   {
-    "agency": "Administration",
+    "agency": "City Council",
     "fund": "1080",
     "lob": "Administration",
     "program": "City Council",
@@ -1008,7 +1008,7 @@
     "value": 1163000
   },
   {
-    "agency": "Administration",
+    "agency": "City Council",
     "fund": "1080",
     "lob": "Administration",
     "program": "City Council",
@@ -1016,7 +1016,7 @@
     "value": 12000
   },
   {
-    "agency": "Administration",
+    "agency": "City Council",
     "fund": "1080",
     "lob": "Administration",
     "program": "City Council",
@@ -1024,7 +1024,7 @@
     "value": 74000
   },
   {
-    "agency": "Administration",
+    "agency": "City Council",
     "fund": "2910",
     "lob": "Administration",
     "program": "City Council",
@@ -1056,7 +1056,7 @@
     "value": 16000
   },
   {
-    "agency": "Administration",
+    "agency": "Office of the Mayor",
     "fund": "1080",
     "lob": "Administration",
     "program": "Legal",
@@ -1064,7 +1064,7 @@
     "value": 3098000
   },
   {
-    "agency": "Administration",
+    "agency": "Office of the Mayor",
     "fund": "1080",
     "lob": "Administration",
     "program": "Legal",
@@ -1072,7 +1072,7 @@
     "value": 76000
   },
   {
-    "agency": "Administration",
+    "agency": "Office of the Mayor",
     "fund": "1080",
     "lob": "Administration",
     "program": "Legal",
@@ -1080,7 +1080,7 @@
     "value": 238000
   },
   {
-    "agency": "Administration",
+    "agency": "Office of the Mayor",
     "fund": "2320",
     "lob": "Administration",
     "program": "Legal",
@@ -1088,7 +1088,7 @@
     "value": 2000
   },
   {
-    "agency": "Administration",
+    "agency": "Office of the Mayor",
     "fund": "2910",
     "lob": "Administration",
     "program": "Legal",
