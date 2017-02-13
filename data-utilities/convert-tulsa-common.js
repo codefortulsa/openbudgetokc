@@ -29,6 +29,7 @@ characterClasses[52] = 'Professional Services';
 characterClasses[53] = 'Materials and Supplies';
 characterClasses[54] = 'Capital Purchase';
 characterClasses[55] = 'Debt Service';
+characterClasses[58] = 'Transfers';
 characterClasses[59] = 'Transfers';
 
 /**
