@@ -1,4 +1,3 @@
-// var _ = require("underscore")
 
 // combine duplicate keys and sum any numbers
 function sumBy(ObjectArray, byKey){
@@ -25,15 +24,12 @@ function sumBy(ObjectArray, byKey){
 }
 
 
-function sumDuplicates(ObjectArray,names){
-    var matchKeys = names
+function sumDuplicates(ObjectArray,matchKeys){
     var result = []
     var keys = []
 
     ObjectArray.forEach(function(item){
-        let allKeyValues = matchKeys.reduce(
-            (all,name)=>{return all+item[name]},''
-        )
+        let allKeyValues = matchKeys.map(key=>item[key]).join('')
         let idx = keys.indexOf(allKeyValues)
 
         if (idx == -1){
