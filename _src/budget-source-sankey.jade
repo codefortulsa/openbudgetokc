@@ -1,0 +1,48 @@
+
+style.
+  #chart {
+    height: 600px;
+  }
+  #hover_description{
+    height: 26px;
+  }
+  .node rect {
+    fill-opacity: .9;
+    shape-rendering: crispEdges;
+  }
+  .node text {
+    pointer-events: none;
+    text-shadow: 0 1px 0 #fff;
+    font-size: 12px;
+  }
+  .link {
+    fill: none;
+    stroke: #000;
+    stroke-opacity: .2;
+  }
+  .link:hover {
+    stroke-opacity: .5;
+  }
+  #warning{
+    color: red;
+  }
+.container
+  .row
+    .col-md-10
+      div
+        h4.subheader Tulsa Budget Sources and Uses
+        p
+          | Hover over the visual to see dollar amounts for funds and departments.
+
+      //- SHARE BUTTON
+      div
+        a.a2a_dd(href='http://www.addtoany.com/share_save')
+          img(src='http://static.addtoany.com/buttons/share_save_171_16.png', width='171', height='16', border='0', alt='Share')
+        script(type='text/javascript', src='http://static.addtoany.com/menu/page.js')
+      #sankey
+        p#chart
+
+
+//- Sankey JS
+script(src='/js/old/sankey.js')
+script(src='/js/tulsa-budget-sankey.js')

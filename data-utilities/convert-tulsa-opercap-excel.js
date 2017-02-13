@@ -49,50 +49,57 @@ var FINAL_ROW_FOR_EXP = 148;
 
 //From Appendix 9
 var AGENCIES = [];
-AGENCIES['Finance'] = 'Administration';
-AGENCIES['Human Resources'] = 'Administration';
-AGENCIES['Communications'] = 'Administration';
-AGENCIES['Municipal Court'] = 'Administration';
-AGENCIES['Information Technology'] = 'Administration';
-AGENCIES['Asset Management'] = 'Administration';
-AGENCIES['Customer Care'] = 'Administration';
-AGENCIES['Water & Sewer'] = 'Administration';
+var ADMINISTRATION = 'Administration';
+var COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION = 'Community Development and Transportation';
+var OFFICE_OF_THE_MAYOR = 'Office of the Mayor';
+var CITY_COUNCIL = 'City Council';
+var CITY_AUDITOR = 'City Auditor';
 
-AGENCIES['Parks and Recreation'] = 'Community Development and Transportation';
-AGENCIES['Performing Arts Center'] = 'Community Development and Transportation';
-AGENCIES['BOK and Convention Centers'] = 'Community Development and Transportation';
-AGENCIES['Planning and Development'] = 'Community Development and Transportation';
-AGENCIES['Streets and Stormwater'] = 'Community Development and Transportation';
-AGENCIES['Working in Neighborhoods'] = 'Community Development and Transportation';
-AGENCIES['Gilcrease'] = 'Community Development and Transportation';
-AGENCIES['River Parks'] = 'Community Development and Transportation';
-AGENCIES['Engineering Services'] = 'Community Development and Transportation';
+AGENCIES['City Council'] = CITY_COUNCIL;
+AGENCIES['City Auditor'] = CITY_AUDITOR;
 
-//TODO: Ask Nathan about these!
-AGENCIES['Debt Service'] = 'Administration';
-AGENCIES['Asset Management'] = 'Administration';
-AGENCIES['Transfers - Internal & Outside'] = 'Administration';
-AGENCIES['Legal'] = 'Administration';
-AGENCIES['Mayor\'s Office of Human Rights'] = 'Office of the Mayor';
-AGENCIES['City Council'] = 'City Council';
-AGENCIES['City Auditor'] = 'Office of the Mayor';
-AGENCIES['Mayor'] = 'Office of the Mayor';
-AGENCIES['Tulsa Transit'] = 'Community Development and Transportation';
-AGENCIES['Water and Sewer'] = 'Community Development and Transportation';
-AGENCIES['Social and Economic Development'] = 'Community Development and Transportation';
-AGENCIES['Mayor\'s Office of Economic'] = 'Office of the Mayor';
-AGENCIES['River Parks Authority'] = 'Community Development and Transportation';
-AGENCIES['Gilcrease Museum'] = 'Community Development and Transportation';
-AGENCIES['Park and Recreation'] = 'Community Development and Transportation';
-AGENCIES['Tulsa Area Emergency Mgmt.'] = 'Office of the Mayor';
-AGENCIES['Emergency Medical Services Authority'] = 'Office of the Mayor';
-AGENCIES['Fire'] = 'Office of the Mayor';
-AGENCIES['Police'] = 'Office of the Mayor';
-AGENCIES['General Government'] = 'Administration';
-AGENCIES['Employees Insurance Administration'] = 'Administration';
-AGENCIES['Worker\'s Compensation'] = 'Administration';
-AGENCIES['Planning & Development'] = 'Community Development and Transportation';
-AGENCIES['Mayor\'s Office of Economic Development'] = 'Community Development and Transportation';
+AGENCIES['Finance'] = ADMINISTRATION;
+AGENCIES['Human Resources'] = ADMINISTRATION;
+AGENCIES['Communications'] = ADMINISTRATION;
+AGENCIES['Municipal Court'] = ADMINISTRATION;
+AGENCIES['Information Technology'] = ADMINISTRATION;
+AGENCIES['Asset Management'] = ADMINISTRATION;
+AGENCIES['Debt Service'] = ADMINISTRATION; //TODO Ask about this one
+AGENCIES['Asset Management'] = ADMINISTRATION;
+AGENCIES['Transfers - Internal & Outside'] = ADMINISTRATION; //TODO Ask about this one
+AGENCIES['Customer Care'] = ADMINISTRATION;
+AGENCIES['Water & Sewer'] = ADMINISTRATION;
+AGENCIES['General Government'] = ADMINISTRATION; //TODO Ask about this one
+AGENCIES['Employees Insurance Administration'] = ADMINISTRATION; //TODO Ask about this one
+AGENCIES['Workers\' Compensation'] = ADMINISTRATION; //TODO Ask about this one
+
+
+AGENCIES['Parks and Recreation'] = COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION;
+AGENCIES['Performing Arts Center'] = COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION;
+AGENCIES['BOK and Convention Centers'] = COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION;
+AGENCIES['Planning and Development'] = COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION;
+AGENCIES['Streets and Stormwater'] = COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION;
+AGENCIES['Working in Neighborhoods'] = COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION;
+AGENCIES['Gilcrease'] = COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION;
+AGENCIES['River Parks'] = COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION;
+AGENCIES['Engineering Services'] = COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION;
+AGENCIES['River Parks Authority'] = COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION;
+AGENCIES['Gilcrease Museum'] = COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION;
+AGENCIES['Tulsa Transit'] = COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION;
+AGENCIES['Water and Sewer'] = COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION;
+AGENCIES['Social and Economic Development'] = COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION;
+AGENCIES['INCOG'] = COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION;
+AGENCIES['Planning & Development'] = COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION;
+
+
+AGENCIES['Mayor\'s Office of Human Rights'] = OFFICE_OF_THE_MAYOR;
+AGENCIES['Legal'] = OFFICE_OF_THE_MAYOR;
+AGENCIES['Mayor'] = OFFICE_OF_THE_MAYOR;
+AGENCIES['Tulsa Area Emergency Mgmt.'] = OFFICE_OF_THE_MAYOR; //TODO Ask about this one
+AGENCIES['Emergency Medical Services Authority'] = OFFICE_OF_THE_MAYOR; //TODO Ask about this one
+AGENCIES['Fire'] = OFFICE_OF_THE_MAYOR;
+AGENCIES['Police'] = OFFICE_OF_THE_MAYOR;
+AGENCIES['Mayor\'s Office of Economic Development'] = OFFICE_OF_THE_MAYOR;
 
 /**
  * Gets the revenue's 'Program' as listed on the second worksheet.
@@ -147,6 +154,13 @@ function getExpenseAmounts(ExpenseWksht, programs, fundNumbers, fundDescriptions
                 console.log('\tSwitched to department %s with program %s', departmentName, programName)
             }
 
+            //Correct typos
+            if(departmentName === 'Park and Recreation') {
+                departmentName = 'Parks and Recreation';
+            } else if(departmentName === 'Mayor\'s Office of Economic') {
+                departmentName = 'Mayor\'s Office of Economic Development';
+            }
+
             var agency = AGENCIES[departmentName];
             var characterClass = characterClasses[groupNumber.v];
 
@@ -165,10 +179,10 @@ function getExpenseAmounts(ExpenseWksht, programs, fundNumbers, fundDescriptions
                 if(amount && amount.v != 0) {
                     expenses[i++] = {
                         agency: agency,
-                        fund: fundDescription,
+                        fund: fundNumber,
                         lob: programName,
                         program: departmentName,
-                        key: opUnitDescription,
+                        key: characterClass + " (" + fundDescription + ")",
                         value: amount.v
                     };
 
