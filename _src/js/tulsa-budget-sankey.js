@@ -1,5 +1,5 @@
 
-    var margin = {top: 1, right: 1, bottom: 6, left: 1},
+    var margin = {top: 4, right: 1, bottom: 6, left: 1},
         width = 1100 - margin.left - margin.right,
         height = 600 - margin.top - margin.bottom;
 
@@ -15,20 +15,20 @@
 
     var sankey = d3.sankey()
                 .nodeWidth(30)
-                .nodePadding(5)
+                .nodePadding(10)
                 .size([width, height]);
 
     var path = sankey.link();
 
     // Changed to budget
-    function do_with_budget(energy) {
+    function add_sankey_with(data) {
         sankey
-            .nodes(energy.nodes)
-            .links(energy.links)
+            .nodes(data.nodes)
+            .links(data.links)
             .layout(32);
 
         var link = svg.append("g").selectAll(".link")
-            .data(energy.links)
+            .data(data.links)
             .enter().append("path")
             .attr("class", "link")
             .attr("d", path)
@@ -40,7 +40,7 @@
             .text(function(d) { return d.source.name + " → " + d.target.name + "\\n" + format(d.value); })
 
         var node = svg.append("g").selectAll(".node")
-            .data(energy.nodes)
+            .data(data.nodes)
             .enter().append("g")
             .attr("class", "node")
             .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; })
@@ -68,6 +68,6 @@
     };
 
 
-d3.json("/data/tulsa/sankey-nodes-links.json", function(data) {
-    do_with_budget(data);
+d3.json("/data/tulsa/sankey-nodes-links.json", function(budget) {
+    add_sankey_with(budget);
 })

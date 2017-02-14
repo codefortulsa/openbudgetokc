@@ -1,12 +1,3 @@
-
-var _ = require("underscore")
-var jsonfile = require('jsonfile');
-var revenues = require("../_src/data/tulsa/c4tul_fy2017Revenue.json")
-var operations = require("../_src/data/tulsa/c4tul_fy2017.json")
-var getFundCategory = require('../data-utilities/convert-tulsa-common').getFundCategory
-var jtils = require("../data-utilities/json-utils")
-var OUTPUT_JSON_LOCATION = './_src/data/tulsa/sankey-nodes-links.json';
-
 /*
 This file reads tulsa revenue and expenses files to
 build a json object for a d3 sankey charter
@@ -32,8 +23,20 @@ The structure of the object is:
 Nodes are the bars and links are the bands that connect them
 */
 
-var node_names = []
-var data ={"nodes":[],"links":[]}
+const _ = require("underscore")
+const jsonfile = require('jsonfile');
+
+const {sumDuplicates} = require("../data-utilities/json-utils")
+const {getFundCategory} = require('../data-utilities/convert-tulsa-common')
+
+
+const revenues = require("../_src/data/tulsa/c4tul_fy2017Revenue.json")
+const operations = require("../_src/data/tulsa/c4tul_fy2017.json")
+const OUTPUT_JSON_LOCATION = './_src/data/tulsa/sankey-nodes-links.json';
+
+
+const node_names = []
+const data ={"nodes":[],"links":[]}
 
 process.stdout.write("<START>\n");
 
@@ -41,6 +44,25 @@ process.stdout.write("<START>\n");
 function ArrayOutput (name,array){
     process.stdout.write(`${name} : ${array.length}\n`)
 }
+
+// functions for cleaning node descriptions
+function rev_source(item){
+    //strip off leading 'CC -' or 'C -' in source title
+    try {
+        const r = /[A-Z][A-Z]?[a-z]?[\s-]{1,4}(.*)/
+        const [,RevTitle] = r.exec(item.RevDetailNode)
+        return RevTitle
+    } catch (e) {
+        return item.RevCategory
+    }
+}
+
+const rev_category = ({ FundCode: code })=>getFundCategory(code)
+const ops_category = ({ fund: code })=>getFundCategory(code)
+
+//add a space to program to avoid duplicate fund titles
+const ops_decription =(({program})=>{return ` ${program}`})
+
 
 //take a string and finds it's index in data.nodes
 //adds the string as a new node if not found
@@ -52,16 +74,14 @@ function FindNodeIndex(NodeName){
     return node_names.indexOf(NodeName)
 }
 
-function BuildNodeFinder(context){
-    var {source, target, value, source_title, target_title } = context
+function BuildNodeFinder({source, target, value}){
     return function (item){
-        var source_name = ( source_title ? source_title(item[source]) : item[source])
+        var source_name = ( typeof source === 'function' ? source(item) : item[source])
         if (!source_name){ source_name = "Unknown Source"}
 
-        var target_name = ( target_title ? target_title(item[target]) : item[target])
+        var target_name = ( typeof target === 'function' ? target(item) : item[target])
         if (!target_name){ target_name = "Unknown Target"}
 
-        var value_name = this.value
         var source_index = FindNodeIndex(source_name)
         var target_index = FindNodeIndex(target_name)
         var calc_value = Math.trunc(Math.abs((item[value])))
@@ -70,53 +90,34 @@ function BuildNodeFinder(context){
     }
 }
 
-// functions for cleaning node descriptions
-function RevenueSource(RevDetail){
-    //strip off leading 'CC -' or 'C -' in source title
-    try {
-        var r = /[A-Z][A-Z]?[a-z]?[\s-]{1,4}(.*)/
-        return r.exec(RevDetail)[1]
-    } catch(e) {
-        return ''
-    }
-}
+const sorted_revenues = _.sortBy(revenues,"amount").reverse()
+const sorted_operations = _.sortBy(operations,"value").reverse()
 
-function full_fund_desc(FundCode){
-    return `${FundCode} ${getFundCategory(FundCode)}`
-}
-
-function ops_decription(operation){
-    // append char to distinquish from fund categories
-    return ` ${operation}`
-}
-
-revenue_context ={
-    "source" : "RevDetailNode",
-    "source_title" : RevenueSource,
-    "target" : "FundCode",
-    "target_title" : getFundCategory,
+const revenue_context ={
+    "source" : rev_source,
+    "target" : rev_category,
     "value" : "amount"
 }
 
-operations_context ={
-    "source" : "fund",
-    "source_title" : getFundCategory,
-    "target" : "program",
-    "target_title" : ops_decription,
+const operations_context ={
+    "source" : ops_category,
+    "target" : ops_decription,
     "value" : "value"
 }
 
-revenues.map(BuildNodeFinder(revenue_context))
-operations.map(BuildNodeFinder(operations_context))
+const rev_node_finder = BuildNodeFinder(revenue_context)
+const ops_node_finder = BuildNodeFinder(operations_context)
 
-// revSummary = jtils.sumBy(revenues,"RevCategory")
-// opsSummary = jtils.sumBy(operations,"program")
-// revSummary.map(BuildNodeFinder(revenue_context))
-// opsSummary.map(BuildNodeFinder(operations_context))
+for(let item of sorted_revenues ){
+    rev_node_finder(item)
+}
 
-// compress and sort links from biggest to smallest
-unique_links = jtils.sumDuplicates(data.links,["source","target"])
-data.links = _.sortBy(unique_links,"value").reverse()
+for(let item of sorted_operations){
+    ops_node_finder(item)
+}
+
+// dedup links
+data.links = sumDuplicates(data.links,["source","target"])
 
 ArrayOutput("nodes", data.nodes)
 ArrayOutput("links", data.links)
