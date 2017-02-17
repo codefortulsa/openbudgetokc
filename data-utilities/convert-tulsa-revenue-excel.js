@@ -20,6 +20,7 @@ var jsonfile = require('jsonfile');
 var colIndex = require('./convert-tulsa-common').colIndex;
 var getFundDescriptions = require('./convert-tulsa-common').getFundDescriptions;
 var getFundNumbers = require('./convert-tulsa-common').getFundNumbers;
+var getFundCategory = require('./convert-tulsa-common').getFundCategory;
 
 //Descriptions of each of the revenue sources
 var FIRST_DESC_ROW = 3;
@@ -123,6 +124,11 @@ function getRevenueAmounts(TulsaRevenueBudgetWksht, fundNumbers, fundDescription
             if (!category) {
                 var newCategoryAmt = TulsaRevenueBudgetWksht[TOTAL_FUND_COL + row].v;
                 category = categoryMap[newCategoryAmt];
+
+                if(!category) {
+                    console.log('Could not find category for row ' + row + ', falling back to category code');
+                    category = getFundCategory(fundCode);
+                }
                 console.log('Amount ' + amt + ' on row ' + row + ' has no exact match, subtotal was ' + newCategoryAmt + ' which is associated with ' + category);
             }
 

@@ -619,6 +619,7 @@
     "BusUnit": "TUL",
     "FundCode": "8011",
     "FundDescription": "Office Services",
+    "RevCategory": "Internal Service",
     "RevDetailNode": "M Internal Service Charges",
     "amount": 991000
   },
@@ -626,6 +627,7 @@
     "BusUnit": "TUL",
     "FundCode": "8020",
     "FundDescription": "Workers' Compensation Fund",
+    "RevCategory": "Internal Service",
     "RevDetailNode": "M Internal Service Charges",
     "amount": 5700000
   },
@@ -633,6 +635,7 @@
     "BusUnit": "TUL",
     "FundCode": "8025",
     "FundDescription": "Employees' Benefits Fund",
+    "RevCategory": "Internal Service",
     "RevDetailNode": "M Internal Service Charges",
     "amount": 25334000
   },
@@ -640,6 +643,7 @@
     "BusUnit": "TUL",
     "FundCode": "8030",
     "FundDescription": "Equipment Management",
+    "RevCategory": "Internal Service",
     "RevDetailNode": "M Internal Service Charges",
     "amount": 14400000
   }
