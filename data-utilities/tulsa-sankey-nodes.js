@@ -86,7 +86,7 @@ function BuildNodeFinder({source, target, value}){
         var target_index = FindNodeIndex(target_name)
         var calc_value = Math.trunc(Math.abs((item[value])))
 
-        data.links.push({"source":source_index,"target":target_index,"value":calc_value})
+        data.links.push({"source_name":source_name, "source":source_index, "target_name": target_name, "target":target_index,"value":calc_value})
     }
 }
 
