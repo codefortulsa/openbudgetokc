@@ -29,11 +29,9 @@ const jsonfile = require('jsonfile');
 const {sumDuplicates} = require("../data-utilities/json-utils")
 const {getFundCategory} = require('../data-utilities/convert-tulsa-common')
 
-
 const revenues = require("../_src/data/tulsa/c4tul_fy2017Revenue.json")
 const operations = require("../_src/data/tulsa/c4tul_fy2017.json")
 const OUTPUT_JSON_LOCATION = './_src/data/tulsa/sankey-nodes-links.json';
-
 
 const node_names = []
 const data ={"nodes":[],"links":[]}
@@ -63,7 +61,6 @@ const ops_category = ({ fund: code })=>getFundCategory(code)
 //add a space to program to avoid duplicate fund titles
 const ops_decription =(({program})=>{return ` ${program}`})
 
-
 //take a string and finds it's index in data.nodes
 //adds the string as a new node if not found
 function FindNodeIndex(NodeName){
@@ -74,35 +71,51 @@ function FindNodeIndex(NodeName){
     return node_names.indexOf(NodeName)
 }
 
-function BuildNodeFinder({source, target, value}){
+function BuildNodeFinder({source, target, value, carryover}){
+
     return function (item){
+
+        link_value = Math.abs(item[value])
+
+        //use carryover values for negative values
+        if (item[value]<0 && carryover){
+            ({source, target} = carryover)
+        }
+
         var source_name = ( typeof source === 'function' ? source(item) : item[source])
         if (!source_name){ source_name = "Unknown Source"}
+        var source_index = FindNodeIndex(source_name)
 
         var target_name = ( typeof target === 'function' ? target(item) : item[target])
         if (!target_name){ target_name = "Unknown Target"}
-
-        var source_index = FindNodeIndex(source_name)
         var target_index = FindNodeIndex(target_name)
-        var calc_value = Math.trunc(Math.abs((item[value])))
 
-        data.links.push({"source_name":source_name, "source":source_index, "target_name": target_name, "target":target_index,"value":calc_value})
-    }
+        data.links.push(
+            {   "source_name": source_name,
+                "source": source_index,
+                "target_name": target_name,
+                "target": target_index,
+                "value": link_value})
+            }
 }
 
 const sorted_revenues = _.sortBy(revenues,"amount").reverse()
 const sorted_operations = _.sortBy(operations,"value").reverse()
 
 const revenue_context ={
-    "source" : rev_source,
-    "target" : rev_category,
-    "value" : "amount"
+    "source": rev_source,
+    "target": rev_category,
+    "value": "amount"
 }
 
 const operations_context ={
-    "source" : ops_category,
-    "target" : ops_decription,
-    "value" : "value"
+    "source": ops_category,
+    "target": ops_decription,
+    "value": "value",
+    "carryover": {
+        "source": "key",
+        "target": ops_category
+    }
 }
 
 const rev_node_finder = BuildNodeFinder(revenue_context)
@@ -122,8 +135,8 @@ data.links = sumDuplicates(data.links,["source","target"])
 ArrayOutput("nodes", data.nodes)
 ArrayOutput("links", data.links)
 
-jsonfile.writeFile(OUTPUT_JSON_LOCATION, data, function (err) {
-    console.error(err);
-});
+jsonfile.writeFile(
+    OUTPUT_JSON_LOCATION, data, err=>{(err) ? console.error(err):''}
+)
 
 process.stdout.write("<END>")
