@@ -73,21 +73,42 @@ function FindNodeIndex(NodeName){
 
 function BuildNodeFinder({source, target, value, carryover}){
 
-    return function (item){
+    const makeNameFinder = (process)=>{
+        return (typeof process === 'function'  ? process : (item)=>item[process])
+    }
+
+
+
+    const makeItemProcessor = (type, processor)=>{
+        const getName = makeNameFinder(processor)
+        return (item)=>{
+            const name = getName(item)
+            return name ? name : `Unknown ${type}`
+        }
+    }
+
+    const getSourceName = makeItemProcessor("Source",source)
+    const getTargetName = makeItemProcessor("Target",target)
+
+    if (carryover){
+        const getCarryoverSourceName = makeItemProcessor("Source",carryover.source)
+        const getCarryoverTargetName = makeItemProcessor("Target",carryover.target)
+    }
+
+
+    return (item)=>{
 
         link_value = Math.abs(item[value])
 
-        //use carryover values for negative values
+        // //use carryover values for negative values
         if (item[value]<0 && carryover){
             ({source, target} = carryover)
         }
 
-        var source_name = ( typeof source === 'function' ? source(item) : item[source])
-        if (!source_name){ source_name = "Unknown Source"}
+        var source_name = getSourceName(item)
         var source_index = FindNodeIndex(source_name)
 
-        var target_name = ( typeof target === 'function' ? target(item) : item[target])
-        if (!target_name){ target_name = "Unknown Target"}
+        var target_name = getTargetName(item)
         var target_index = FindNodeIndex(target_name)
 
         data.links.push(
@@ -95,8 +116,10 @@ function BuildNodeFinder({source, target, value, carryover}){
                 "source": source_index,
                 "target_name": target_name,
                 "target": target_index,
-                "value": link_value})
+                "value": link_value
             }
+        )
+    }
 }
 
 const sorted_revenues = _.sortBy(revenues,"amount").reverse()
