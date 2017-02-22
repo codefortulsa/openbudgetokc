@@ -2,29 +2,31 @@ const margin = {top: 4, right: 1, bottom: 6, left: 1}
 const width = ( ({left,right})=> 1100 - left - right)(margin)
 const height = ( ({top,bottom})=> 600 - top - bottom)(margin)
 
+let sankey_data ={}
+
 const formatNumber = d3.format(",.0f"),
     format = (d)=> { return "$" + formatNumber(d); },
     sankey_color = d3.scale.category20();
 
 var svg = d3.select("#chart").append("svg")
-            .attr("width", width + margin.left + margin.right)
-            .attr("height", height + margin.top + margin.bottom)
-            .append("g")
-            .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+    .append("g")
+    .attr("transform", `translate(${margin.left}, ${margin.top})`);
 
 var sankey = d3.sankey()
-            .nodeWidth(30)
-            .nodePadding(10)
-            .size([width, height]);
+    .nodeWidth(30)
+    .nodePadding(10)
+    .size([width, height]);
 
 var path = sankey.link();
 
-// label function
+// label functions
 const link_title = ({source, target, value})=>{
     return `${source.name} → ${target.name} ${format(value)}`
 }
 
-const title_text = ({name, value})=>{ return `${name} \\n ${format(value)}`}
+const title_text = ({name, value})=>{ return `${name}\n${format(value)}`}
 
 const budget_fill = ({color, name})=>{
      return color = sankey_color(name.replace(/ .*/, ""))
@@ -56,20 +58,21 @@ function draw_sankey_with(data) {
         .attr("class", "link")
         .attr("d", path)
         .style("stroke-width", ({dy})=>{return Math.max(1, dy) })
-        .sort((a, b)=>{ b.dy - a.dy})
+        .sort(({dy:a}, {dy:b})=>{ b - a })
         .on("mouseover", hover_link)
         .on("mouseout", unhover_link);
 
     link.append("title").text(link_title)
 
-    var node = svg.append("g").selectAll(".node")
+    var node = svg.append("g")
+        .selectAll(".node")
         .data(data.nodes)
             .enter().append("g")
             .attr("class", "node")
             .attr("transform", ({x,y})=>{ return `translate(${x}, ${y})`} )
 
         node.append("rect")
-            .attr("height", d=>d.dy)
+            .attr("height", ({dy})=>dy)
             .attr("width", sankey.nodeWidth())
             .style("fill", budget_fill)
             .style("stroke", ({color})=>{ return d3.rgb(color).darker(2) })
@@ -90,5 +93,6 @@ function draw_sankey_with(data) {
 };
 
 d3.json("/data/tulsa/sankey-nodes-links.json", function(budget) {
+    // sankey_data = budget
     draw_sankey_with(budget);
 })

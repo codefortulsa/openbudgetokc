@@ -44,14 +44,14 @@ function ArrayOutput (name,array){
 }
 
 // functions for cleaning node descriptions
-function rev_source(item){
+function rev_source({RevDetailNode: rev_title , RevCategory: fallback }){
     //strip off leading 'CC -' or 'C -' in source title
     try {
         const r = /[A-Z][A-Z]?[a-z]?[\s-]{1,4}(.*)/
-        const [,RevTitle] = r.exec(item.RevDetailNode)
-        return RevTitle
+        const [,title] = r.exec(rev_title)
+        return title
     } catch (e) {
-        return item.RevCategory
+        return fallback
     }
 }
 
@@ -71,59 +71,41 @@ function FindNodeIndex(NodeName){
     return node_names.indexOf(NodeName)
 }
 
-function BuildNodeFinder({source, target, value, carryover}){
+function BuildNodeFinder({source, target, value}){
 
-    const makeNameFinder = (process)=>{
-        return (typeof process === 'function'  ? process : (item)=>item[process])
-    }
-
-
-
-    const makeItemProcessor = (type, processor)=>{
-        const getName = makeNameFinder(processor)
+    const makeNameProcessor = (type, processor)=>{
+        const getName = (
+            typeof processor === 'function' ? processor : ((item)=>item[processor])
+        )
         return (item)=>{
             const name = getName(item)
             return name ? name : `Unknown ${type}`
         }
     }
 
-    const getSourceName = makeItemProcessor("Source",source)
-    const getTargetName = makeItemProcessor("Target",target)
-
-    if (carryover){
-        const getCarryoverSourceName = makeItemProcessor("Source",carryover.source)
-        const getCarryoverTargetName = makeItemProcessor("Target",carryover.target)
+    const makeValueProcessor = (processor)=>{
+        return (
+            typeof processor === 'function' ? processor : ((item)=>Math.abs(item[processor]))
+        )
     }
 
+    let getSourceName = makeNameProcessor("Source",source)
+    let getTargetName = makeNameProcessor("Target",target)
+    let getValue = makeValueProcessor(value)
 
     return (item)=>{
-
-        link_value = Math.abs(item[value])
-
-        // //use carryover values for negative values
-        if (item[value]<0 && carryover){
-            ({source, target} = carryover)
-        }
-
-        var source_name = getSourceName(item)
-        var source_index = FindNodeIndex(source_name)
-
-        var target_name = getTargetName(item)
-        var target_index = FindNodeIndex(target_name)
-
-        data.links.push(
-            {   "source_name": source_name,
-                "source": source_index,
-                "target_name": target_name,
-                "target": target_index,
-                "value": link_value
-            }
-        )
+        const source_name = getSourceName(item)
+        const target_name = getTargetName(item)
+        const source = FindNodeIndex(source_name)
+        const target = FindNodeIndex(target_name)
+        const value = getValue(item)
+        data.links.push({source_name, target_name, source, target,value})
     }
 }
 
 const sorted_revenues = _.sortBy(revenues,"amount").reverse()
 const sorted_operations = _.sortBy(operations,"value").reverse()
+
 
 const revenue_context ={
     "source": rev_source,
@@ -134,22 +116,30 @@ const revenue_context ={
 const operations_context ={
     "source": ops_category,
     "target": ops_decription,
-    "value": "value",
-    "carryover": {
-        "source": "key",
-        "target": ops_category
-    }
+    "value": "value"
+}
+
+const ops_carryover = {
+    "source": "key",
+    "target": ops_category,
+    "value": "value"
 }
 
 const rev_node_finder = BuildNodeFinder(revenue_context)
 const ops_node_finder = BuildNodeFinder(operations_context)
+const carryover_node_finder = BuildNodeFinder(ops_carryover)
+
 
 for(let item of sorted_revenues ){
     rev_node_finder(item)
 }
 
 for(let item of sorted_operations){
-    ops_node_finder(item)
+    if (item.value<0){
+        carryover_node_finder(item)
+    } else {
+        ops_node_finder(item)
+    }
 }
 
 // dedup links
