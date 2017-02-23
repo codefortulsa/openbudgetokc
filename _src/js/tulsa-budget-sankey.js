@@ -8,11 +8,24 @@ const formatNumber = d3.format(",.0f"),
     format = (d)=> { return "$" + formatNumber(d); },
     sankey_color = d3.scale.category20();
 
-var svg = d3.select("#chart").append("svg")
+
+let svg = d3.select("#chart").append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
     .append("g")
-    .attr("transform", `translate(${margin.left}, ${margin.top})`);
+        .attr("transform", `translate(${margin.left}, ${margin.top})`);
+
+function clear_svg(){
+    svg.selectAll("*").remove();
+}
+
+function toggle_data(){
+    toggle_data.index = toggle_data.index === 0 ? 1 : 0
+    clear_svg()
+    draw_sankey_with(sankey_data[toggle_data.index]);
+}
+
+toggle_data.index = 1
 
 var sankey = d3.sankey()
     .nodeWidth(30)
@@ -42,7 +55,7 @@ function unhover_link(){
 }
 
 function click_node(d){
-    debugger
+    toggle_data()
 }
 
 // Changed to budget
@@ -93,6 +106,6 @@ function draw_sankey_with(data) {
 };
 
 d3.json("/data/tulsa/sankey-nodes-links.json", function(budget) {
-    // sankey_data = budget
+    sankey_data = budget
     draw_sankey_with(budget[0]);
 })
