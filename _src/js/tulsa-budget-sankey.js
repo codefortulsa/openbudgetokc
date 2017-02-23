@@ -94,5 +94,5 @@ function draw_sankey_with(data) {
 
 d3.json("/data/tulsa/sankey-nodes-links.json", function(budget) {
     // sankey_data = budget
-    draw_sankey_with(budget);
+    draw_sankey_with(budget[0]);
 })
