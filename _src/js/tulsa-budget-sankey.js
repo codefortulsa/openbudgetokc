@@ -1,73 +1,111 @@
+const margin = {top: 4, right: 1, bottom: 6, left: 1}
+const width = ( ({left,right})=> 1100 - left - right)(margin)
+const height = ( ({top,bottom})=> 600 - top - bottom)(margin)
 
-    var margin = {top: 1, right: 1, bottom: 6, left: 1},
-        width = 1100 - margin.left - margin.right,
-        height = 600 - margin.top - margin.bottom;
+let sankey_data ={}
 
-    var formatNumber = d3.format(",.0f"),
-        format = function(d) { return "$" + formatNumber(d); },
-        color = d3.scale.category20();
+const formatNumber = d3.format(",.0f"),
+    format = (d)=> { return "$" + formatNumber(d); },
+    sankey_color = d3.scale.category20();
 
-    var svg = d3.select("#chart").append("svg")
-                .attr("width", width + margin.left + margin.right)
-                .attr("height", height + margin.top + margin.bottom)
-                .append("g")
-                .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-    var sankey = d3.sankey()
-                .nodeWidth(30)
-                .nodePadding(5)
-                .size([width, height]);
+let svg = d3.select("#chart").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+    .append("g")
+        .attr("transform", `translate(${margin.left}, ${margin.top})`);
 
-    var path = sankey.link();
+function clear_svg(){
+    svg.selectAll("*").remove();
+}
 
-    // Changed to budget
-    function do_with_budget(energy) {
-        sankey
-            .nodes(energy.nodes)
-            .links(energy.links)
-            .layout(32);
+function toggle_data(){
+    toggle_data.index = toggle_data.index === 0 ? 1 : 0
+    clear_svg()
+    draw_sankey_with(sankey_data[toggle_data.index]);
+}
 
-        var link = svg.append("g").selectAll(".link")
-            .data(energy.links)
-            .enter().append("path")
-            .attr("class", "link")
-            .attr("d", path)
-            .style("stroke-width", function(d) { return Math.max(1, d.dy); })
-            .sort(function(a, b) { return b.dy - a.dy; })
-            .on("mouseover", function(d){$("#hover_description").append($("<span>" + d.source.name + " to " + d.target.name + ":  " + format(d.value) + "</span>"));})
-            .on("mouseout", function(){$("#hover_description").find("span:last").remove();});;
-            link.append("title")
-            .text(function(d) { return d.source.name + " → " + d.target.name + "\\n" + format(d.value); })
+toggle_data.index = 1
 
-        var node = svg.append("g").selectAll(".node")
-            .data(energy.nodes)
+var sankey = d3.sankey()
+    .nodeWidth(30)
+    .nodePadding(10)
+    .size([width, height]);
+
+var path = sankey.link();
+
+// label functions
+const link_title = ({source, target, value})=>{
+    return `${source.name} → ${target.name} ${format(value)}`
+}
+
+const title_text = ({name, value})=>{ return `${name}\n${format(value)}`}
+
+const budget_fill = ({color, name})=>{
+     return color = sankey_color(name.replace(/ .*/, ""))
+ }
+
+// mouse event functions
+function hover_link({source, target, value}){
+    const new_span = `<span>${source.name} to ${target.name} :  ${format(value)}</span>`
+    $("#hover_description").append($(new_span))
+}
+function unhover_link(){
+    $("#hover_description").find("span:last").remove()
+}
+
+function click_node(d){
+    toggle_data()
+}
+
+// Changed to budget
+function draw_sankey_with(data) {
+    sankey
+        .nodes(data.nodes)
+        .links(data.links)
+        .layout(32);
+
+    var link = svg.append("g").selectAll(".link")
+        .data(data.links)
+        .enter().append("path")
+        .attr("class", "link")
+        .attr("d", path)
+        .style("stroke-width", ({dy})=>{return Math.max(1, dy) })
+        .sort(({dy:a}, {dy:b})=>{ b - a })
+        .on("mouseover", hover_link)
+        .on("mouseout", unhover_link);
+
+    link.append("title").text(link_title)
+
+    var node = svg.append("g")
+        .selectAll(".node")
+        .data(data.nodes)
             .enter().append("g")
             .attr("class", "node")
-            .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; })
+            .attr("transform", ({x,y})=>{ return `translate(${x}, ${y})`} )
 
-            node.append("rect")
-            .attr("height", function(d) { return d.dy; })
+        node.append("rect")
+            .attr("height", ({dy})=>dy)
             .attr("width", sankey.nodeWidth())
-            .style("fill", function(d) {
-                 return d.color = color(d.name.replace(/ .*/, "")); }
-             )
-            .style("stroke", function(d) { return d3.rgb(d.color).darker(2); })
+            .style("fill", budget_fill)
+            .style("stroke", ({color})=>{ return d3.rgb(color).darker(2) })
+            .on("click", click_node)
             .append("title")
-            .text(function(d) { return d.name + "\\n" + format(d.value); });
+                .text(title_text)
 
-            node.append("text")
+        node.append("text")
             .attr("x", -6)
-            .attr("y", function(d) { return d.dy / 2; })
+            .attr("y", ({dy})=>{ return dy / 2 })
             .attr("dy", ".35em")
             .attr("text-anchor", "end")
             .attr("transform", null)
-            .text(function(d) { return d.name; })
-            .filter(function(d) { return d.x < width / 2; })
-            .attr("x", 6 + sankey.nodeWidth())
-            .attr("text-anchor", "start");
-    };
+            .text(d=>d.name)
+                .filter(({x})=>{ return x < width / 2 })
+                .attr("x", 6 + sankey.nodeWidth())
+                .attr("text-anchor", "start");
+};
 
-
-d3.json("/data/tulsa/sankey-nodes-links.json", function(data) {
-    do_with_budget(data);
+d3.json("/data/tulsa/sankey-nodes-links.json", function(budget) {
+    sankey_data = budget
+    draw_sankey_with(budget[0]);
 })
