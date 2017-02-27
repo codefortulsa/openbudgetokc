@@ -59,8 +59,6 @@ const fund = ({ fund: code })=>getFundCategory(code)
 const program =(({program: name})=>{return ` ${name}`})
 const RevCategory =(({RevCategory: name})=>{return ` ${name}`})
 
-
-
 const sorted_revenues = _.sortBy(revenues,"amount").reverse()
 const sorted_operations = _.sortBy(operations,"value").reverse()
 
@@ -111,12 +109,12 @@ function buildSankeyData({revenue_context: rev, operations_context: ops, ops_car
 
     //take a string and finds it's index in data.nodes
     //adds the string as a new node if not found
-    function FindNodeIndex(NodeName){
-        if (node_names.indexOf(NodeName) === -1) {
-            node_names.push(NodeName)
-            data.nodes.push({"name": NodeName})
+    function FindNodeIndex(name){
+        if (node_names.indexOf(name) === -1) {
+            node_names.push(name)
+            data.nodes.push({name})
         }
-        return node_names.indexOf(NodeName)
+        return node_names.indexOf(name)
     }
 
     function BuildNodeFinder({source, target, value}){
