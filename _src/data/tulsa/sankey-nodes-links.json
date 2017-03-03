@@ -1,1 +1,868 @@
-{"nodes":[{"name":"Sales Tax"},{"name":"General Fund"},{"name":"Special Revenue"},{"name":"Capital Projects"},{"name":"Use Tax"},{"name":"Franchise"},{"name":"Hotel /MOTEL TAX"},{"name":"Ad Valorem"},{"name":"Debt Service"},{"name":"Golf"},{"name":"Enterprise"},{"name":"Water"},{"name":"Sewer"},{"name":"Refuse"},{"name":"Trust & Agency Enterprise"},{"name":"Stormwater"},{"name":"Emergency Medical Fee"},{"name":"OTC Rental Income"},{"name":"PAC"},{"name":"Other"},{"name":"Business Lic"},{"name":"Bldg Inspections"},{"name":"Other Permits "},{"name":"Public Safety"},{"name":"E911 Fees"},{"name":"Gen Gov - Indirect"},{"name":"Streets & Highways"},{"name":"Fines & Forfeits"},{"name":"Interest Income "},{"name":"Special Assessment"},{"name":"Internal Service"},{"name":"Other Misc. Income"},{"name":"Special Revenue (Grants)"},{"name":"Grants and Reimbursements"},{"name":"Liquor,Gas, Tobacco, Vehicle Tax"},{"name":"Other Intergovmt Rev"},{"name":"Internal Service Charges"},{"name":" Municipal Court"},{"name":" Police"},{"name":" Fire"},{"name":" Emergency Medical Services Authority"},{"name":" Tulsa Area Emergency Mgmt."},{"name":" Parks and Recreation"},{"name":" Gilcrease Museum"},{"name":" Performing Arts Center"},{"name":" River Parks Authority"},{"name":" Mayor's Office of Economic Development"},{"name":" Working in Neighborhoods"},{"name":" Planning & Development"},{"name":" Engineering Services"},{"name":" Streets and Stormwater"},{"name":" Water and Sewer"},{"name":" Tulsa Transit"},{"name":" Mayor"},{"name":" City Auditor"},{"name":" City Council"},{"name":" Mayor's Office of Human Rights"},{"name":" Legal"},{"name":" Human Resources"},{"name":" Workers' Compensation"},{"name":" General Government"},{"name":" INCOG"},{"name":" Finance"},{"name":" Information Technology"},{"name":" Customer Care"},{"name":" Communications"},{"name":" Asset Management"},{"name":" Transfers - Internal & Outside"},{"name":" Debt Service"}],"links":[{"source":10,"target":67,"value":154668000},{"source":0,"target":1,"value":151735000},{"source":10,"target":51,"value":119361000},{"source":11,"target":10,"value":106963000},{"source":3,"target":49,"value":104691000},{"source":12,"target":10,"value":98404000},{"source":1,"target":38,"value":92436000},{"source":8,"target":68,"value":83091000},{"source":0,"target":3,"value":83047000},{"source":7,"target":8,"value":74481000},{"source":1,"target":39,"value":69293000},{"source":36,"target":30,"value":46425000},{"source":10,"target":68,"value":45376000},{"source":15,"target":10,"value":27369000},{"source":13,"target":14,"value":25940000},{"source":4,"target":1,"value":23321000},{"source":14,"target":50,"value":23198000},{"source":5,"target":1,"value":22949000},{"source":10,"target":50,"value":16928000},{"source":1,"target":50,"value":16059000},{"source":1,"target":42,"value":15047000},{"source":30,"target":66,"value":14607498},{"source":10,"target":49,"value":11324000},{"source":1,"target":63,"value":10364000},{"source":17,"target":14,"value":9952000},{"source":31,"target":10,"value":8800000},{"source":27,"target":1,"value":8800000},{"source":3,"target":42,"value":8235000},{"source":25,"target":1,"value":8145000},{"source":1,"target":62,"value":8004000},{"source":6,"target":2,"value":7411000},{"source":34,"target":1,"value":7345000},{"source":1,"target":52,"value":7344000},{"source":16,"target":10,"value":7012000},{"source":10,"target":40,"value":6831000},{"source":0,"target":2,"value":6782000},{"source":26,"target":1,"value":6526000},{"source":14,"target":68,"value":6449000},{"source":2,"target":38,"value":6283000},{"source":14,"target":66,"value":6087920},{"source":1,"target":48,"value":6071000},{"source":30,"target":59,"value":5700000},{"source":10,"target":62,"value":5470000},{"source":33,"target":32,"value":5019000},{"source":1,"target":47,"value":4666000},{"source":10,"target":63,"value":4324000},{"source":1,"target":66,"value":4015000},{"source":21,"target":1,"value":3987000},{"source":2,"target":63,"value":3686000},{"source":1,"target":58,"value":3654000},{"source":23,"target":1,"value":3600000},{"source":24,"target":2,"value":3573000},{"source":31,"target":29,"value":3495000},{"source":1,"target":49,"value":3438000},{"source":1,"target":57,"value":3412000},{"source":10,"target":42,"value":3256000},{"source":3,"target":67,"value":3100000},{"source":28,"target":1,"value":3081000},{"source":22,"target":1,"value":3025000},{"source":1,"target":43,"value":3003000},{"source":1,"target":37,"value":2895000},{"source":3,"target":44,"value":2850000},{"source":9,"target":10,"value":2825000},{"source":31,"target":1,"value":2771000},{"source":1,"target":60,"value":2705000},{"source":29,"target":68,"value":2218000},{"source":10,"target":66,"value":2191000},{"source":35,"target":1,"value":2180000},{"source":31,"target":2,"value":2160000},{"source":28,"target":3,"value":2133000},{"source":1,"target":44,"value":2041000},{"source":30,"target":67,"value":2000000},{"source":2,"target":68,"value":1779000},{"source":18,"target":1,"value":1705000},{"source":2,"target":66,"value":1670000},{"source":35,"target":2,"value":1560000},{"source":3,"target":50,"value":1550000},{"source":10,"target":64,"value":1544000},{"source":20,"target":1,"value":1330000},{"source":29,"target":46,"value":1262000},{"source":1,"target":55,"value":1249000},{"source":2,"target":50,"value":1227000},{"source":31,"target":32,"value":1169000},{"source":1,"target":54,"value":1122000},{"source":30,"target":63,"value":991000},{"source":1,"target":61,"value":951000},{"source":1,"target":53,"value":932000},{"source":2,"target":44,"value":907000},{"source":31,"target":3,"value":846000},{"source":3,"target":66,"value":840000},{"source":28,"target":10,"value":771000},{"source":19,"target":1,"value":700000},{"source":1,"target":45,"value":639000},{"source":1,"target":65,"value":553000},{"source":14,"target":62,"value":506000},{"source":1,"target":56,"value":490000},{"source":1,"target":46,"value":481000},{"source":1,"target":67,"value":428000},{"source":2,"target":39,"value":427000},{"source":1,"target":64,"value":401000},{"source":14,"target":63,"value":389000},{"source":2,"target":67,"value":386000},{"source":2,"target":46,"value":358000},{"source":31,"target":14,"value":358000},{"source":10,"target":39,"value":350000},{"source":14,"target":58,"value":345016},{"source":3,"target":48,"value":300000},{"source":14,"target":67,"value":276000},{"source":2,"target":47,"value":197000},{"source":14,"target":64,"value":169000},{"source":6,"target":1,"value":151000},{"source":1,"target":41,"value":144000},{"source":28,"target":30,"value":132000},{"source":28,"target":14,"value":128000},{"source":29,"target":62,"value":104000},{"source":2,"target":52,"value":92000},{"source":2,"target":48,"value":84000},{"source":27,"target":2,"value":83000},{"source":10,"target":47,"value":73000},{"source":31,"target":30,"value":65000},{"source":2,"target":58,"value":57000},{"source":22,"target":10,"value":52000},{"source":28,"target":2,"value":38000},{"source":2,"target":45,"value":36000},{"source":28,"target":29,"value":16000},{"source":2,"target":37,"value":15000},{"source":2,"target":57,"value":14000},{"source":14,"target":51,"value":12000},{"source":2,"target":55,"value":6000},{"source":2,"target":65,"value":3000},{"source":2,"target":62,"value":3000}]}
+{
+    "nodes": [
+        {
+            "name": "Sales Tax"
+        },
+        {
+            "name": "General Fund"
+        },
+        {
+            "name": "Special Revenue"
+        },
+        {
+            "name": "Capital Projects"
+        },
+        {
+            "name": "Use Tax"
+        },
+        {
+            "name": "Franchise"
+        },
+        {
+            "name": "Hotel /MOTEL TAX"
+        },
+        {
+            "name": "Ad Valorem"
+        },
+        {
+            "name": "Debt Service"
+        },
+        {
+            "name": "Golf"
+        },
+        {
+            "name": "Enterprise"
+        },
+        {
+            "name": "Water"
+        },
+        {
+            "name": "Sewer"
+        },
+        {
+            "name": "Refuse"
+        },
+        {
+            "name": "Trust & Agency Enterprise"
+        },
+        {
+            "name": "Stormwater"
+        },
+        {
+            "name": "Emergency Medical Fee"
+        },
+        {
+            "name": "OTC Rental Income"
+        },
+        {
+            "name": "PAC"
+        },
+        {
+            "name": "Other"
+        },
+        {
+            "name": "Business Lic"
+        },
+        {
+            "name": "Bldg Inspections"
+        },
+        {
+            "name": "Other Permits "
+        },
+        {
+            "name": "Public Safety"
+        },
+        {
+            "name": "E911 Fees"
+        },
+        {
+            "name": "Gen Gov - Indirect"
+        },
+        {
+            "name": "Streets & Highways"
+        },
+        {
+            "name": "Fines & Forfeits"
+        },
+        {
+            "name": "Interest Income "
+        },
+        {
+            "name": "Special Assessment"
+        },
+        {
+            "name": "Internal Service"
+        },
+        {
+            "name": "Other Misc. Income"
+        },
+        {
+            "name": "Special Revenue (Grants)"
+        },
+        {
+            "name": "Grants and Reimbursements"
+        },
+        {
+            "name": "Liquor,Gas, Tobacco, Vehicle Tax"
+        },
+        {
+            "name": "Other Intergovmt Rev"
+        },
+        {
+            "name": "Internal Service Charges"
+        },
+        {
+            "name": " Municipal Court"
+        },
+        {
+            "name": " Police"
+        },
+        {
+            "name": " Fire"
+        },
+        {
+            "name": " Emergency Medical Services Authority"
+        },
+        {
+            "name": " Tulsa Area Emergency Mgmt."
+        },
+        {
+            "name": " Parks and Recreation"
+        },
+        {
+            "name": " Gilcrease Museum"
+        },
+        {
+            "name": " Performing Arts Center"
+        },
+        {
+            "name": " River Parks Authority"
+        },
+        {
+            "name": " Mayor's Office of Economic Development"
+        },
+        {
+            "name": " Working in Neighborhoods"
+        },
+        {
+            "name": " Planning & Development"
+        },
+        {
+            "name": " Engineering Services"
+        },
+        {
+            "name": " Streets and Stormwater"
+        },
+        {
+            "name": " Water and Sewer"
+        },
+        {
+            "name": " Tulsa Transit"
+        },
+        {
+            "name": " Mayor"
+        },
+        {
+            "name": " City Auditor"
+        },
+        {
+            "name": " City Council"
+        },
+        {
+            "name": " Mayor's Office of Human Rights"
+        },
+        {
+            "name": " Legal"
+        },
+        {
+            "name": " Human Resources"
+        },
+        {
+            "name": " Workers' Compensation"
+        },
+        {
+            "name": " General Government"
+        },
+        {
+            "name": " INCOG"
+        },
+        {
+            "name": " Finance"
+        },
+        {
+            "name": " Information Technology"
+        },
+        {
+            "name": " Customer Care"
+        },
+        {
+            "name": " Communications"
+        },
+        {
+            "name": " Asset Management"
+        },
+        {
+            "name": " Transfers - Internal & Outside"
+        },
+        {
+            "name": " Debt Service"
+        }
+    ],
+    "links": [
+        {
+            "source": 10,
+            "target": 67,
+            "value": 154668000
+        },
+        {
+            "source": 0,
+            "target": 1,
+            "value": 151735000
+        },
+        {
+            "source": 10,
+            "target": 51,
+            "value": 119361000
+        },
+        {
+            "source": 11,
+            "target": 10,
+            "value": 106963000
+        },
+        {
+            "source": 3,
+            "target": 49,
+            "value": 104691000
+        },
+        {
+            "source": 12,
+            "target": 10,
+            "value": 98404000
+        },
+        {
+            "source": 1,
+            "target": 38,
+            "value": 92436000
+        },
+        {
+            "source": 8,
+            "target": 68,
+            "value": 83091000
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "value": 83047000
+        },
+        {
+            "source": 7,
+            "target": 8,
+            "value": 74481000
+        },
+        {
+            "source": 1,
+            "target": 39,
+            "value": 69293000
+        },
+        {
+            "source": 36,
+            "target": 30,
+            "value": 46425000
+        },
+        {
+            "source": 10,
+            "target": 68,
+            "value": 45376000
+        },
+        {
+            "source": 15,
+            "target": 10,
+            "value": 27369000
+        },
+        {
+            "source": 13,
+            "target": 14,
+            "value": 25940000
+        },
+        {
+            "source": 4,
+            "target": 1,
+            "value": 23321000
+        },
+        {
+            "source": 14,
+            "target": 50,
+            "value": 23198000
+        },
+        {
+            "source": 5,
+            "target": 1,
+            "value": 22949000
+        },
+        {
+            "source": 10,
+            "target": 50,
+            "value": 16928000
+        },
+        {
+            "source": 1,
+            "target": 50,
+            "value": 16059000
+        },
+        {
+            "source": 1,
+            "target": 42,
+            "value": 15047000
+        },
+        {
+            "source": 30,
+            "target": 66,
+            "value": 14607498
+        },
+        {
+            "source": 10,
+            "target": 49,
+            "value": 11324000
+        },
+        {
+            "source": 1,
+            "target": 63,
+            "value": 10364000
+        },
+        {
+            "source": 17,
+            "target": 14,
+            "value": 9952000
+        },
+        {
+            "source": 31,
+            "target": 10,
+            "value": 8800000
+        },
+        {
+            "source": 27,
+            "target": 1,
+            "value": 8800000
+        },
+        {
+            "source": 3,
+            "target": 42,
+            "value": 8235000
+        },
+        {
+            "source": 25,
+            "target": 1,
+            "value": 8145000
+        },
+        {
+            "source": 1,
+            "target": 62,
+            "value": 8004000
+        },
+        {
+            "source": 6,
+            "target": 2,
+            "value": 7411000
+        },
+        {
+            "source": 34,
+            "target": 1,
+            "value": 7345000
+        },
+        {
+            "source": 1,
+            "target": 52,
+            "value": 7344000
+        },
+        {
+            "source": 16,
+            "target": 10,
+            "value": 7012000
+        },
+        {
+            "source": 10,
+            "target": 40,
+            "value": 6831000
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "value": 6782000
+        },
+        {
+            "source": 26,
+            "target": 1,
+            "value": 6526000
+        },
+        {
+            "source": 14,
+            "target": 68,
+            "value": 6449000
+        },
+        {
+            "source": 2,
+            "target": 38,
+            "value": 6283000
+        },
+        {
+            "source": 14,
+            "target": 66,
+            "value": 6087920
+        },
+        {
+            "source": 1,
+            "target": 48,
+            "value": 6071000
+        },
+        {
+            "source": 30,
+            "target": 59,
+            "value": 5700000
+        },
+        {
+            "source": 10,
+            "target": 62,
+            "value": 5470000
+        },
+        {
+            "source": 33,
+            "target": 32,
+            "value": 5019000
+        },
+        {
+            "source": 1,
+            "target": 47,
+            "value": 4666000
+        },
+        {
+            "source": 10,
+            "target": 63,
+            "value": 4324000
+        },
+        {
+            "source": 1,
+            "target": 66,
+            "value": 4015000
+        },
+        {
+            "source": 21,
+            "target": 1,
+            "value": 3987000
+        },
+        {
+            "source": 2,
+            "target": 63,
+            "value": 3686000
+        },
+        {
+            "source": 1,
+            "target": 58,
+            "value": 3654000
+        },
+        {
+            "source": 23,
+            "target": 1,
+            "value": 3600000
+        },
+        {
+            "source": 24,
+            "target": 2,
+            "value": 3573000
+        },
+        {
+            "source": 31,
+            "target": 29,
+            "value": 3495000
+        },
+        {
+            "source": 1,
+            "target": 49,
+            "value": 3438000
+        },
+        {
+            "source": 1,
+            "target": 57,
+            "value": 3412000
+        },
+        {
+            "source": 10,
+            "target": 42,
+            "value": 3256000
+        },
+        {
+            "source": 3,
+            "target": 67,
+            "value": 3100000
+        },
+        {
+            "source": 28,
+            "target": 1,
+            "value": 3081000
+        },
+        {
+            "source": 22,
+            "target": 1,
+            "value": 3025000
+        },
+        {
+            "source": 1,
+            "target": 43,
+            "value": 3003000
+        },
+        {
+            "source": 1,
+            "target": 37,
+            "value": 2895000
+        },
+        {
+            "source": 3,
+            "target": 44,
+            "value": 2850000
+        },
+        {
+            "source": 9,
+            "target": 10,
+            "value": 2825000
+        },
+        {
+            "source": 31,
+            "target": 1,
+            "value": 2771000
+        },
+        {
+            "source": 1,
+            "target": 60,
+            "value": 2705000
+        },
+        {
+            "source": 29,
+            "target": 68,
+            "value": 2218000
+        },
+        {
+            "source": 10,
+            "target": 66,
+            "value": 2191000
+        },
+        {
+            "source": 35,
+            "target": 1,
+            "value": 2180000
+        },
+        {
+            "source": 31,
+            "target": 2,
+            "value": 2160000
+        },
+        {
+            "source": 28,
+            "target": 3,
+            "value": 2133000
+        },
+        {
+            "source": 1,
+            "target": 44,
+            "value": 2041000
+        },
+        {
+            "source": 30,
+            "target": 67,
+            "value": 2000000
+        },
+        {
+            "source": 2,
+            "target": 68,
+            "value": 1779000
+        },
+        {
+            "source": 18,
+            "target": 1,
+            "value": 1705000
+        },
+        {
+            "source": 2,
+            "target": 66,
+            "value": 1670000
+        },
+        {
+            "source": 35,
+            "target": 2,
+            "value": 1560000
+        },
+        {
+            "source": 3,
+            "target": 50,
+            "value": 1550000
+        },
+        {
+            "source": 10,
+            "target": 64,
+            "value": 1544000
+        },
+        {
+            "source": 20,
+            "target": 1,
+            "value": 1330000
+        },
+        {
+            "source": 29,
+            "target": 46,
+            "value": 1262000
+        },
+        {
+            "source": 1,
+            "target": 55,
+            "value": 1249000
+        },
+        {
+            "source": 2,
+            "target": 50,
+            "value": 1227000
+        },
+        {
+            "source": 31,
+            "target": 32,
+            "value": 1169000
+        },
+        {
+            "source": 1,
+            "target": 54,
+            "value": 1122000
+        },
+        {
+            "source": 30,
+            "target": 63,
+            "value": 991000
+        },
+        {
+            "source": 1,
+            "target": 61,
+            "value": 951000
+        },
+        {
+            "source": 1,
+            "target": 53,
+            "value": 932000
+        },
+        {
+            "source": 2,
+            "target": 44,
+            "value": 907000
+        },
+        {
+            "source": 31,
+            "target": 3,
+            "value": 846000
+        },
+        {
+            "source": 3,
+            "target": 66,
+            "value": 840000
+        },
+        {
+            "source": 28,
+            "target": 10,
+            "value": 771000
+        },
+        {
+            "source": 19,
+            "target": 1,
+            "value": 700000
+        },
+        {
+            "source": 1,
+            "target": 45,
+            "value": 639000
+        },
+        {
+            "source": 1,
+            "target": 65,
+            "value": 553000
+        },
+        {
+            "source": 14,
+            "target": 62,
+            "value": 506000
+        },
+        {
+            "source": 1,
+            "target": 56,
+            "value": 490000
+        },
+        {
+            "source": 1,
+            "target": 46,
+            "value": 481000
+        },
+        {
+            "source": 1,
+            "target": 67,
+            "value": 428000
+        },
+        {
+            "source": 2,
+            "target": 39,
+            "value": 427000
+        },
+        {
+            "source": 1,
+            "target": 64,
+            "value": 401000
+        },
+        {
+            "source": 14,
+            "target": 63,
+            "value": 389000
+        },
+        {
+            "source": 2,
+            "target": 67,
+            "value": 386000
+        },
+        {
+            "source": 2,
+            "target": 46,
+            "value": 358000
+        },
+        {
+            "source": 31,
+            "target": 14,
+            "value": 358000
+        },
+        {
+            "source": 10,
+            "target": 39,
+            "value": 350000
+        },
+        {
+            "source": 14,
+            "target": 58,
+            "value": 345016
+        },
+        {
+            "source": 3,
+            "target": 48,
+            "value": 300000
+        },
+        {
+            "source": 14,
+            "target": 67,
+            "value": 276000
+        },
+        {
+            "source": 2,
+            "target": 47,
+            "value": 197000
+        },
+        {
+            "source": 14,
+            "target": 64,
+            "value": 169000
+        },
+        {
+            "source": 6,
+            "target": 1,
+            "value": 151000
+        },
+        {
+            "source": 1,
+            "target": 41,
+            "value": 144000
+        },
+        {
+            "source": 28,
+            "target": 30,
+            "value": 132000
+        },
+        {
+            "source": 28,
+            "target": 14,
+            "value": 128000
+        },
+        {
+            "source": 29,
+            "target": 62,
+            "value": 104000
+        },
+        {
+            "source": 2,
+            "target": 52,
+            "value": 92000
+        },
+        {
+            "source": 2,
+            "target": 48,
+            "value": 84000
+        },
+        {
+            "source": 27,
+            "target": 2,
+            "value": 83000
+        },
+        {
+            "source": 10,
+            "target": 47,
+            "value": 73000
+        },
+        {
+            "source": 31,
+            "target": 30,
+            "value": 65000
+        },
+        {
+            "source": 2,
+            "target": 58,
+            "value": 57000
+        },
+        {
+            "source": 22,
+            "target": 10,
+            "value": 52000
+        },
+        {
+            "source": 28,
+            "target": 2,
+            "value": 38000
+        },
+        {
+            "source": 2,
+            "target": 45,
+            "value": 36000
+        },
+        {
+            "source": 28,
+            "target": 29,
+            "value": 16000
+        },
+        {
+            "source": 2,
+            "target": 37,
+            "value": 15000
+        },
+        {
+            "source": 2,
+            "target": 57,
+            "value": 14000
+        },
+        {
+            "source": 14,
+            "target": 51,
+            "value": 12000
+        },
+        {
+            "source": 2,
+            "target": 55,
+            "value": 6000
+        },
+        {
+            "source": 2,
+            "target": 65,
+            "value": 3000
+        },
+        {
+            "source": 2,
+            "target": 62,
+            "value": 3000
+        }
+    ]
+}
