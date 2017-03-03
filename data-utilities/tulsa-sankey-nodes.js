@@ -52,14 +52,15 @@ function RevDetailNode({RevDetailNode: rev_title , RevCategory: fallback }){
     }
 }
 
-const FundCode = ({ FundCode: code })=>getFundCategory(code)
-const fund = ({ fund: code })=>getFundCategory(code)
+const codeFinder = (string)=>{return function({[string]:code}){return getFundCategory(code)}}
+const FundCode = codeFinder('FundCode')
+const fund = codeFinder('fund')
+
 
 //add a space to names to avoid duplicate fund titles
-const program =(({program: name})=>{return ` ${name}`})
-const RevCategory =(({RevCategory: name})=>{return ` ${name}`})
-
-
+const spacerAdder = (string)=>{return function ({[string]:name}){return ` ${name}`}}
+const program = spacerAdder('program')
+const RevCategory = spacerAdder('RevCategory')
 
 const sorted_revenues = _.sortBy(revenues,"amount").reverse()
 const sorted_operations = _.sortBy(operations,"value").reverse()
@@ -106,17 +107,20 @@ const detail_contexts = {
 
 
 function buildSankeyData({revenue_context: rev, operations_context: ops, ops_carryover: carry}){
-    const node_names = []
-    const data ={"nodes":[],"links":[]}
+    // const node_names = []
+    const nodes =[]
+    let links =[]
 
-    //take a string and finds it's index in data.nodes
+    //takes a string and finds it's index in nodes
     //adds the string as a new node if not found
-    function FindNodeIndex(NodeName){
-        if (node_names.indexOf(NodeName) === -1) {
-            node_names.push(NodeName)
-            data.nodes.push({"name": NodeName})
+    function getNodeIndex(name){
+        const nameIndex = function({name: n}){return name === n}
+        const idx = nodes.findIndex(nameIndex)
+        if (idx === -1) {
+            nodes.push({name})
+            return nodes.findIndex(nameIndex)
         }
-        return node_names.indexOf(NodeName)
+        return idx
     }
 
     function BuildNodeFinder({source, target, value}){
@@ -141,10 +145,10 @@ function buildSankeyData({revenue_context: rev, operations_context: ops, ops_car
         return (item)=>{
             const source_name = getSourceName(item)
             const target_name = getTargetName(item)
-            const source = FindNodeIndex(source_name)
-            const target = FindNodeIndex(target_name)
+            const source = getNodeIndex(source_name)
+            const target = getNodeIndex(target_name)
             const value = getValue(item)
-            data.links.push({source_name, target_name, source, target,value})
+            links.push({source_name, target_name, source, target,value})
         }
     }
 
@@ -165,12 +169,12 @@ function buildSankeyData({revenue_context: rev, operations_context: ops, ops_car
     }
 
     // dedup links
-    data.links = sumDuplicates(data.links,["source","target"])
+    links = sumDuplicates(links,["source","target"])
 
-    ArrayOutput("nodes", data.nodes)
-    ArrayOutput("links", data.links)
+    ArrayOutput("nodes", nodes)
+    ArrayOutput("links", links)
 
-    return data
+    return {nodes,links}
 }
 
 const detail_sankey = buildSankeyData(detail_contexts)

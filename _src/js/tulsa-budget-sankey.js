@@ -15,17 +15,64 @@ let svg = d3.select("#chart").append("svg")
     .append("g")
         .attr("transform", `translate(${margin.left}, ${margin.top})`);
 
-function clear_svg(){
-    svg.selectAll("*").remove();
-}
-
 function toggle_data(){
     toggle_data.index = toggle_data.index === 0 ? 1 : 0
-    clear_svg()
     draw_sankey_with(sankey_data[toggle_data.index]);
 }
 
-toggle_data.index = 1
+toggle_data.index = 0
+
+$('#detail_button').on('click',toggle_data)
+
+const redraw = ()=>{
+    draw_sankey_with(sankey_data[toggle_data.index]);
+}
+
+function filter_data({name, sourceLinks, targetLinks}){
+    const getTargetName  = ({target:{name}})=>name
+    const getSourceName  = ({source:{name}})=>name
+
+    // reset if the same node is clicked
+    if (filter_data.node === name ){
+        filter_data.node = undefined
+        redraw()
+        return
+    } else {
+        filter_data.node = name
+    }
+
+    //create an array of all the associated node names
+    let relatives = sourceLinks.map(getTargetName)
+    relatives = relatives.concat(targetLinks.map(getSourceName))
+    relatives.push(name)
+
+    //reset if at the lowest level
+    if (relatives.length<=2){
+        return
+    }
+
+
+    const nodes = relatives.map((name)=>{return{name}})
+
+    // build new array of links
+    const links = []
+    const data = sankey_data[toggle_data.index]
+
+    for (let {source: s, target: t, value} of data.links){
+        //test source link
+        function getNewIndex({name}){
+            return relatives.indexOf(name)
+        }
+        const source = getNewIndex(s)
+        const target = getNewIndex(t)
+        const isValid = (idx)=>{return idx != -1}
+        if (isValid(source) & isValid(target) ){
+            links.push({value, source, target})
+        }
+    }
+    draw_sankey_with({nodes,links})
+
+}
 
 var sankey = d3.sankey()
     .nodeWidth(30)
@@ -55,11 +102,12 @@ function unhover_link(){
 }
 
 function click_node(d){
-    toggle_data()
+    filter_data(d)
 }
 
 // Changed to budget
 function draw_sankey_with(data) {
+    svg.selectAll("g").remove();
     sankey
         .nodes(data.nodes)
         .links(data.links)

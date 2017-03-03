@@ -1,4 +1,4 @@
-# Open Budget OKC
+# Open Budget TUL
 
 [![Build Status](https://travis-ci.org/codeforokc/openbudgetokc.svg?branch=master)](https://travis-ci.org/codeforokc/openbudgetokc)
 
