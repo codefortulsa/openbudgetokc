@@ -20,6 +20,7 @@ let jsonfile = require('jsonfile');
 let {colIndex, getFundDescription, getFundCategory, getFundNumbers} = require('./convert-tulsa-common');
 let {revenueConfig} = require('../_src/config/extractConfig');
 let _ = require('lodash');
+let fs = require('fs');
 
 /**
  * Gets the revenue's 'Category' as listed on the first worksheet.  This is a bit more detailed than Appendix 9.
@@ -53,6 +54,21 @@ function loadRevenueCategories(TulsaRevenueBudgetWksht) {
     return (crossRef) => _.find(categories, {crossRef});
 }
 
+function getReadableCategory(crossRefCode, getRevenueCategory) {
+    let category;
+
+    if(crossRefCode === 'M Internal Service Charges') {
+        category = revenueConfig.categories.internalServiceCategory
+    } else if(crossRefCode === 'n TRANSFERS IN') {
+        category = {...getRevenueCategory(crossRefCode)};
+        category.detail = revenueConfig.categories.transfersInCategoryDesc;
+    } else {
+        category = getRevenueCategory(crossRefCode);
+    }
+
+    return category;
+}
+
 /**
  * Once we have all of the reference data we need, now we can walk through the revenue worksheet and get how
  * much money went from each revenue source to each funding source.  0's are excluded.
@@ -65,7 +81,7 @@ function getRevenueAmounts(TulsaRevenueBudgetWksht, getRevenueCategory) {
     let revAmt = [];
 
     for (let col = revenueConfig.funds.firstColumn; col < revenueConfig.funds.lastColumn; col++) {
-        for (let row = revenueConfig.descriptionRows.first; row < revenueConfig.descriptionRows.last; row++) {
+        for (let row = revenueConfig.descriptionRows.first; row <= revenueConfig.descriptionRows.last; row++) {
             let colLetter = colIndex(col);
 
             let crossRefCode = TulsaRevenueBudgetWksht[revenueConfig.funds.catgCrossRefColumn + row].v;
@@ -73,8 +89,7 @@ function getRevenueAmounts(TulsaRevenueBudgetWksht, getRevenueCategory) {
             let fundCode = _.toInteger(TulsaRevenueBudgetWksht[colLetter + revenueConfig.funds.fundCodeRow].v);
 
             //If Internal Service charge, use "made up" category from config
-            let category = crossRefCode === 'M Internal Service Charges' ? revenueConfig.categories.internalServiceCategory
-                : getRevenueCategory(crossRefCode);
+            let category = getReadableCategory(crossRefCode, getRevenueCategory);
 
             if (amt > 0) {
                 console.log('Revenue amount for cell', colLetter + row, 'was', amt, 'with cross-ref', crossRefCode, 'with category', JSON.stringify(category));
@@ -116,4 +131,21 @@ let revenueFigures = getRevenueAmounts(revenueWorksheet, getRevenueCategory);
 console.log('Writing output file...');
 jsonfile.writeFile(revenueConfig.outputJsonLocation, revenueFigures, function (err) {
     console.error(err);
+});
+
+let auditText = fs.readFileSync('../_src/data/tulsa/audit/revenue.txt');
+
+let lines = _.split(auditText, '\n');
+
+_.map(lines, (line) => {
+    let recs = _.split(line, '\t');
+    let auditValue = _.toInteger(recs[1]);
+
+    let data = _.find(revenueFigures, {amount: auditValue});
+
+    if(data) {
+        console.log(recs[0], ', which was previously', recs[2], ', has checked out');
+    } else {
+        console.error(recs[0], ', which was previously', recs[2], ', cannot be found with amount', recs[1]);
+    }
 });

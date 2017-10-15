@@ -137,6 +137,14 @@
   },
   {
     "BusUnit": "TUL",
+    "FundCode": 1080,
+    "FundDescription": "General Fund",
+    "RevCategory": "INTERGOVERNMENTAL REVENUE",
+    "RevDetailNode": "Transfers In",
+    "amount": 16531000
+  },
+  {
+    "BusUnit": "TUL",
     "FundCode": 2240,
     "FundDescription": "Air Force Plant 3",
     "RevCategory": "MISCELLANEOUS REVENUE",
@@ -257,11 +265,27 @@
   },
   {
     "BusUnit": "TUL",
+    "FundCode": 2910,
+    "FundDescription": "Short-Term Capital",
+    "RevCategory": "INTERGOVERNMENTAL REVENUE",
+    "RevDetailNode": "Transfers In",
+    "amount": 9680000
+  },
+  {
+    "BusUnit": "TUL",
     "FundCode": 3000,
     "FundDescription": "Municipal Emp. Retirement Fund",
     "RevCategory": "MISCELLANEOUS REVENUE",
     "RevDetailNode": "Interest Income",
     "amount": 2000
+  },
+  {
+    "BusUnit": "TUL",
+    "FundCode": 3000,
+    "FundDescription": "Municipal Emp. Retirement Fund",
+    "RevCategory": "INTERGOVERNMENTAL REVENUE",
+    "RevDetailNode": "Transfers In",
+    "amount": 250000
   },
   {
     "BusUnit": "TUL",
@@ -337,11 +361,27 @@
   },
   {
     "BusUnit": "TUL",
+    "FundCode": 4122,
+    "FundDescription": "Whittier Square Improvement District",
+    "RevCategory": "INTERGOVERNMENTAL REVENUE",
+    "RevDetailNode": "Transfers In",
+    "amount": 10000
+  },
+  {
+    "BusUnit": "TUL",
     "FundCode": 4306,
     "FundDescription": "Sinking Fund",
     "RevCategory": "TAXES",
     "RevDetailNode": "Ad Valorem",
     "amount": 74481000
+  },
+  {
+    "BusUnit": "TUL",
+    "FundCode": 4306,
+    "FundDescription": "Sinking Fund",
+    "RevCategory": "INTERGOVERNMENTAL REVENUE",
+    "RevDetailNode": "Transfers In",
+    "amount": 3492000
   },
   {
     "BusUnit": "TUL",
@@ -457,6 +497,30 @@
   },
   {
     "BusUnit": "TUL",
+    "FundCode": 6021,
+    "FundDescription": "TMUA-Water Capital Projects Fund",
+    "RevCategory": "INTERGOVERNMENTAL REVENUE",
+    "RevDetailNode": "Transfers In",
+    "amount": 30061000
+  },
+  {
+    "BusUnit": "TUL",
+    "FundCode": 6031,
+    "FundDescription": "TMUA-Sewer Captial Projects Fund",
+    "RevCategory": "INTERGOVERNMENTAL REVENUE",
+    "RevDetailNode": "Transfers In",
+    "amount": 14221000
+  },
+  {
+    "BusUnit": "TUL",
+    "FundCode": 6041,
+    "FundDescription": "Stormwater Capital Projects Fund",
+    "RevCategory": "INTERGOVERNMENTAL REVENUE",
+    "RevDetailNode": "Transfers In",
+    "amount": 5500000
+  },
+  {
+    "BusUnit": "TUL",
     "FundCode": 7010,
     "FundDescription": "Tulsa Authority for Recovery of Energy",
     "RevCategory": "ENTERPRISE REVENUE",
@@ -561,6 +625,14 @@
   },
   {
     "BusUnit": "TUL",
+    "FundCode": 7050,
+    "FundDescription": "Golf Course Operating",
+    "RevCategory": "INTERGOVERNMENTAL REVENUE",
+    "RevDetailNode": "Transfers In",
+    "amount": 167000
+  },
+  {
+    "BusUnit": "TUL",
     "FundCode": 7060,
     "FundDescription": "EMSA",
     "RevCategory": "ENTERPRISE REVENUE",
@@ -625,6 +697,14 @@
   },
   {
     "BusUnit": "TUL",
+    "FundCode": 8025,
+    "FundDescription": "Employee Insurance Service Fund",
+    "RevCategory": "INTERGOVERNMENTAL REVENUE",
+    "RevDetailNode": "Transfers In",
+    "amount": 2000000
+  },
+  {
+    "BusUnit": "TUL",
     "FundCode": 8030,
     "FundDescription": "Equip. Mgmt. Service Fund",
     "RevCategory": "MISCELLANEOUS REVENUE",
@@ -646,5 +726,13 @@
     "RevCategory": "Internal Service",
     "RevDetailNode": "Internal Service Charges",
     "amount": 14400000
+  },
+  {
+    "BusUnit": "TUL",
+    "FundCode": 8030,
+    "FundDescription": "Equip. Mgmt. Service Fund",
+    "RevCategory": "INTERGOVERNMENTAL REVENUE",
+    "RevDetailNode": "Transfers In",
+    "amount": 294000
   }
 ]

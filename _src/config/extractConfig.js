@@ -113,14 +113,16 @@ const revenueConfig = {
         catgCrossRefColumn: 'AN',
         detailsColumn: 'B',
         firstRow: 10,
-        lastRow: 66,
+        lastRow: 68,
         sheetName: 'REVenue(2)',
 
         //Internal service categories are not enumerated on the 'REVenue(2)' spreadsheet, so we have to make one up.
         internalServiceCategory: {
             categoryDescription: 'Internal Service',
             detail: 'Internal Service Charges'
-        }
+        },
+
+        transfersInCategoryDesc: 'Transfers In'
     },
 
     colForAdpBudg: 'E',
