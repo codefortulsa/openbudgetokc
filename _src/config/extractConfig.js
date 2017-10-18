@@ -75,18 +75,6 @@ const commonConfig = {
         ]
     },
 
-    //Fund group codes.  These were not provided in the spreadsheet.
-    //According to Nathan Pickard, the codes are all the same under State Law, though, so they were copied from OKC's data.
-    characterClasses: [
-        {code: 51, description: 'Personnel Services'},
-        {code: 52, description: 'Professional Services'},
-        {code: 53, description: 'Materials and Supplies'},
-        {code: 54, description: 'Capital Purchase'},
-        {code: 55, description: 'Debt Service'},
-        {code: 58, description: 'Transfers'},
-        {code: 59, description: 'Transfers'}
-    ],
-
     categories: [
         {code: 1080, description: 'General Fund'},
         {code: 2000, description: 'Special Revenue'},
@@ -140,4 +128,111 @@ const revenueConfig = {
     }
 };
 
-module.exports = {revenueConfig, commonConfig};
+const ADMINISTRATION = 'Administration';
+const COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION = 'Community Development and Transportation';
+const OFFICE_OF_THE_MAYOR = 'Office of the Mayor';
+const CITY_COUNCIL = 'City Council';
+const CITY_AUDITOR = 'City Auditor';
+
+const opCapConfig = {
+    //Columns for revenue categories and amounts; we have to map amounts back to categories to get the right description
+    program: {
+        column: 'A',
+        prettyDescriptionColumn: 'B',
+        programDescriptionColumn: 'AK',
+
+        firstRow: 12,
+        lastRow: 57
+    },
+    funds: {
+        firstColumn: 2,
+        lastColumn: 40,
+    },
+    accounts: {
+        descriptionColumn: 'A',
+        groupCodeColumn: 'B'
+    },
+    expenses: {
+        firstRow: 3,
+        finalRow: 148
+    },
+
+    divisions: {
+        administration: ADMINISTRATION,
+        commDevTransport: COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION,
+        mayorsOffice: OFFICE_OF_THE_MAYOR,
+        cityCouncil: CITY_COUNCIL,
+        cityAuditor: CITY_AUDITOR
+    },
+
+    //Fund group codes.  These were not provided in the spreadsheet.
+    //According to Nathan Pickard, the codes are all the same under State Law, though, so they were copied from OKC's data.
+    characterClasses: [
+        {code: 51, description: 'Personnel Services'},
+        {code: 52, description: 'Professional Services'},
+        {code: 53, description: 'Materials and Supplies'},
+        {code: 54, description: 'Capital Purchase'},
+        {code: 55, description: 'Debt Service'},
+        {code: 58, description: 'Transfers'},
+        {code: 59, description: 'Transfers'}
+    ],
+
+    agencies: [
+        { name: 'City Council', division: CITY_COUNCIL },
+        { name: 'City Auditor', division: CITY_AUDITOR },
+        { name: 'Finance', division: ADMINISTRATION },
+        { name: 'Human Resources', division: ADMINISTRATION },
+        { name: 'Communications', division: ADMINISTRATION },
+        { name: 'Municipal Court', division: ADMINISTRATION },
+        { name: 'Information Technology', division: ADMINISTRATION },
+        { name: 'Debt Service', division: ADMINISTRATION }, //TODO Ask about this one
+        { name: 'Asset Management', division: ADMINISTRATION },
+        { name: 'Transfers - Internal & Outside', division: ADMINISTRATION }, //TODO Ask about this one
+        { name: 'Customer Care', division: ADMINISTRATION },
+        { name: 'General Government', division: ADMINISTRATION }, //TODO Ask about this one
+        { name: 'Employees Insurance Administration', division: ADMINISTRATION }, //TODO Ask about this one
+        { name: "Workers' Compensation", division: ADMINISTRATION }, //TODO Ask about this one
+
+        { name: 'Parks and Recreation', division: COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION },
+        { name: 'Performing Arts Center', division: COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION },
+        { name: 'Planning and Development', division: COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION },
+        { name: 'Streets and Stormwater', division: COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION },
+        { name: 'Working in Neighborhoods', division: COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION },
+        { name: 'Gilcrease', division: COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION },
+        { name: 'River Parks', division: COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION },
+        { name: 'Engineering Services', division: COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION },
+        { name: 'River Parks Authority', division: COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION },
+        { name: 'Gilcrease Museum', division: COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION },
+        { name: 'Tulsa Transit', division: COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION },
+        { name: 'Water and Sewer', division: COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION },
+        { name: 'Social and Economic Development', division: COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION },
+        { name: 'INCOG', division: COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION },
+        { name: 'Planning & Development', division: COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION },
+
+        { name: "Mayor's Office of Human Rights", division: OFFICE_OF_THE_MAYOR },
+        { name: 'Legal', division: OFFICE_OF_THE_MAYOR },
+        { name: 'Tulsa Area Emergency Mgmt.', division: OFFICE_OF_THE_MAYOR }, //TODO Ask about this one
+        { name: 'Emergency Medical Services Authority', division: OFFICE_OF_THE_MAYOR }, //TODO Ask about this one
+        { name: 'Fire', division: OFFICE_OF_THE_MAYOR },
+        { name: 'Police', division: OFFICE_OF_THE_MAYOR },
+        { name: "Mayor's Office of Economic Development", division: OFFICE_OF_THE_MAYOR },
+        { name: 'Mayor', division: OFFICE_OF_THE_MAYOR }
+    ],
+
+    aliases: [
+        { name: "Park and Recreation", root: "Parks and Recreation" },
+        { name: "Mayor's Office of Economic", root: "Mayor's Office of Economic Development" }
+    ],
+
+    //Spreadsheet data
+    inputSpreadsheetLocation: '../_src/data/tulsa/originals/FY17 Oper + Capital.xlsx',
+    outputJsonLocation: '../_src/data/tulsa/c4tul_fy2017.json',
+    accountTableSheetName: 'Adopted Oper + Capital Table',
+    categorySheetName: 'OPBUDProgDP (2)',
+
+    operatingUnit: {
+        operating: [6000, 7000]
+    }
+};
+
+module.exports = {revenueConfig, commonConfig, opCapConfig};

@@ -1,16 +1,13 @@
-var xlsx = require('xlsx');
-var jsonfile = require('jsonfile');
-var colIndex = require('./convert-tulsa-common').colIndex;
-var getFundNumbers = require('./convert-tulsa-common').getFundNumbers;
-var getFundDescriptions = require('./convert-tulsa-common').getFundDescriptions;
-var getOperUnitDesc = require('./convert-tulsa-common').getFundCategory;
-var characterClasses = require('./convert-tulsa-common').characterClasses;
+let {getFundNumbers, getFundCategory, getFundDescription} = require('./convert-tulsa-common');
+let xlsx = require('xlsx');
+let jsonfile = require('jsonfile');
+let _ = require('lodash');
 
-//Spreadsheet data
-var INPUT_SPREADSHEET_LOCATION = '../_src/data/tulsa/originals/FY17 Oper + Capital.xlsx';
-var OUTPUT_JSON_LOCATION = '../_src/data/tulsa/c4tul_fy2017.json';
-var AMOUNT_TBL_SHEET_NM = 'Adopted Oper + Capital Table';
-var CATG_SHEET_NM = 'OPBUDProgDP (2)';
+let colIndex = require('./convert-tulsa-common').colIndex;
+let characterClasses = require('./convert-tulsa-common').characterClasses;
+let {opCapConfig} = require('../_src/config/extractConfig');
+
+
 
 //Fund code->Fund
 //Fund Description->Sheet 1
@@ -29,101 +26,29 @@ var CATG_SHEET_NM = 'OPBUDProgDP (2)';
 //Operating or Non->Based on fund code (6000 vs everything else), get as you go
 //FY2107 budget->Table
 
-
-//Columns for revenue categories and amounts; we have to map amounts back to categories to get the right description
-var COL_FOR_PGM = 'A';
-var COL_FOR_PRETTY_DESC = 'B';
-var COL_FOR_PGM_DESC = 'AK';
-
-//Rows for programs
-var FIRST_ROW_PGM = 12;
-var FINAL_ROW_PGM = 57;
-
-var FINAL_FUND_COL = 40;
-var FIRST_FUND_COL = 2;
-
-var ACCOUNT_DESCRIPTION_COL = 'A';
-var ACCOUNT_GROUP_CODE_COL = 'B';
-var FIRST_ROW_FOR_EXP = 3;
-var FINAL_ROW_FOR_EXP = 148;
-
-//From Appendix 9
-var AGENCIES = [];
-var ADMINISTRATION = 'Administration';
-var COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION = 'Community Development and Transportation';
-var OFFICE_OF_THE_MAYOR = 'Office of the Mayor';
-var CITY_COUNCIL = 'City Council';
-var CITY_AUDITOR = 'City Auditor';
-
-AGENCIES['City Council'] = CITY_COUNCIL;
-AGENCIES['City Auditor'] = CITY_AUDITOR;
-
-AGENCIES['Finance'] = ADMINISTRATION;
-AGENCIES['Human Resources'] = ADMINISTRATION;
-AGENCIES['Communications'] = ADMINISTRATION;
-AGENCIES['Municipal Court'] = ADMINISTRATION;
-AGENCIES['Information Technology'] = ADMINISTRATION;
-AGENCIES['Asset Management'] = ADMINISTRATION;
-AGENCIES['Debt Service'] = ADMINISTRATION; //TODO Ask about this one
-AGENCIES['Asset Management'] = ADMINISTRATION;
-AGENCIES['Transfers - Internal & Outside'] = ADMINISTRATION; //TODO Ask about this one
-AGENCIES['Customer Care'] = ADMINISTRATION;
-AGENCIES['Water & Sewer'] = ADMINISTRATION;
-AGENCIES['General Government'] = ADMINISTRATION; //TODO Ask about this one
-AGENCIES['Employees Insurance Administration'] = ADMINISTRATION; //TODO Ask about this one
-AGENCIES['Workers\' Compensation'] = ADMINISTRATION; //TODO Ask about this one
-
-
-AGENCIES['Parks and Recreation'] = COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION;
-AGENCIES['Performing Arts Center'] = COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION;
-AGENCIES['BOK and Convention Centers'] = COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION;
-AGENCIES['Planning and Development'] = COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION;
-AGENCIES['Streets and Stormwater'] = COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION;
-AGENCIES['Working in Neighborhoods'] = COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION;
-AGENCIES['Gilcrease'] = COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION;
-AGENCIES['River Parks'] = COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION;
-AGENCIES['Engineering Services'] = COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION;
-AGENCIES['River Parks Authority'] = COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION;
-AGENCIES['Gilcrease Museum'] = COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION;
-AGENCIES['Tulsa Transit'] = COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION;
-AGENCIES['Water and Sewer'] = COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION;
-AGENCIES['Social and Economic Development'] = COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION;
-AGENCIES['INCOG'] = COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION;
-AGENCIES['Planning & Development'] = COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION;
-
-
-AGENCIES['Mayor\'s Office of Human Rights'] = OFFICE_OF_THE_MAYOR;
-AGENCIES['Legal'] = OFFICE_OF_THE_MAYOR;
-AGENCIES['Mayor'] = OFFICE_OF_THE_MAYOR;
-AGENCIES['Tulsa Area Emergency Mgmt.'] = OFFICE_OF_THE_MAYOR; //TODO Ask about this one
-AGENCIES['Emergency Medical Services Authority'] = OFFICE_OF_THE_MAYOR; //TODO Ask about this one
-AGENCIES['Fire'] = OFFICE_OF_THE_MAYOR;
-AGENCIES['Police'] = OFFICE_OF_THE_MAYOR;
-AGENCIES['Mayor\'s Office of Economic Development'] = OFFICE_OF_THE_MAYOR;
-
 /**
  * Gets the revenue's 'Program' as listed on the second worksheet.
  * @param TulsaSummOpCapWksht The worksheet with summaries
  * @returns {Array} a map of descriptions to programs; associations are in column AK
  */
 function getPrograms(TulsaSummOpCapWksht) {
-    var program = '***PLACEHOLDER***';
-    var descriptionsToPgm = [];
+    let program = '***PLACEHOLDER***';
+    let descriptionsToPgm = [];
 
-    for(var row=FIRST_ROW_PGM; row<=FINAL_ROW_PGM; row++) {
-        var maybePgm = TulsaSummOpCapWksht[COL_FOR_PGM + row];
-        var codedDescription = TulsaSummOpCapWksht[COL_FOR_PGM_DESC + row];
-        var prettyDesc = TulsaSummOpCapWksht[COL_FOR_PRETTY_DESC + row];
+    for(let row=opCapConfig.program.firstRow; row<=opCapConfig.program.lastRow; row++) {
+        let maybePgm = TulsaSummOpCapWksht[opCapConfig.program.column + row];
+        let codedDescription = TulsaSummOpCapWksht[opCapConfig.program.programDescriptionColumn + row];
+        let prettyDesc = TulsaSummOpCapWksht[opCapConfig.program.prettyDescriptionColumn + row];
 
         if(codedDescription) {
-            var descriptionCode = codedDescription.v.substr(0,2);
+            let descriptionCode = codedDescription.v.substr(0,2);
             descriptionsToPgm[codedDescription.v] = {program: program, accountDescription: prettyDesc.v, accountCode: descriptionCode};
-            console.log('Cell ' + COL_FOR_PGM_DESC + row + ': Program ' + program + ' has desc ' + codedDescription.v);
+            console.log('Cell ' + opCapConfig.program.programDescriptionColumn + row + ': Program ' + program + ' has desc ' + codedDescription.v);
         } else if(!codedDescription && maybePgm) {
             program = maybePgm.v;
-            console.log('Cell ' + COL_FOR_PGM + row + ': ' + JSON.stringify(program));
+            console.log('Cell ', opCapConfig.program.column + row, ': ', JSON.stringify(program));
         } else {
-            console.log('Row ' + row + ' is blank.');
+            console.log('Row ', row, ' is blank.');
         }
     }
 
@@ -131,64 +56,91 @@ function getPrograms(TulsaSummOpCapWksht) {
 }
 
 function getOperatingUnitType(accountCode) {
-    return accountCode > 6000 && accountCode < 7000 ? 'Capital' : 'Operating';
+    return accountCode > opCapConfig.operatingUnit.operating[0] && opCapConfig.operatingUnit.operating[1] < 7000 ? 'Capital' : 'Operating';
 }
 
 
-function getExpenseAmounts(ExpenseWksht, programs, fundNumbers, fundDescriptions) {
-    var departmentName = '****PLACEHOLDER****';
-    var programName = '****PLACEHOLDER****';
-    var expenses = [];
-    var i = 0;
+function correctTypos(name) {
+//Correct typos
+    let alias = _.find(opCapConfig.aliases, {name});
 
-    for(var row=FIRST_ROW_FOR_EXP; row<FINAL_ROW_FOR_EXP; row++) {
-        var groupNumber = ExpenseWksht[ACCOUNT_GROUP_CODE_COL + row];
-        console.log('Row %d', row);
+    if(alias) {
+        return alias.root;
+    } else {
+        return name;
+    }
+}
+
+function getExpenseAmounts(ExpenseWksht, programs, fundNumbers) {
+    let departmentName = '****PLACEHOLDER****';
+    let programName = '****PLACEHOLDER****';
+    let expenses = [];
+    let i = 0;
+
+    for(let row=opCapConfig.expenses.firstRow; row<opCapConfig.expenses.finalRow; row++) {
+        let groupNumber = ExpenseWksht[opCapConfig.accounts.groupCodeColumn + row];
+        console.log('Row', row);
 
         if(groupNumber) {
-            var departmentNameMaybe = ExpenseWksht[ACCOUNT_DESCRIPTION_COL + row];
+            let departmentNameMaybe = ExpenseWksht[opCapConfig.accounts.descriptionColumn + row];
 
             if (departmentNameMaybe) {
                 departmentName = programs[departmentNameMaybe.v].accountDescription.trim();
                 programName = programs[departmentNameMaybe.v].program;
                 console.log('\tSwitched to department %s with program %s', departmentName, programName)
             }
+            departmentName = correctTypos(departmentName);
 
-            //Correct typos
-            if(departmentName === 'Park and Recreation') {
-                departmentName = 'Parks and Recreation';
-            } else if(departmentName === 'Mayor\'s Office of Economic') {
-                departmentName = 'Mayor\'s Office of Economic Development';
+            console.log('Searching agencies for', departmentName, 'group', groupNumber.v);
+
+            let agencyObj = _.find(opCapConfig.agencies, {name: departmentName});
+            let characterClassObj = _.find(opCapConfig.characterClasses, {code: _.toInteger(groupNumber.v)});
+
+            let agency;
+            let characterClass;
+            let skip = [];
+
+            if(_.isNil(agencyObj)) {
+                agency = '?';
+                characterClass = '?';
+            } else {
+                agency = agencyObj.division;
+                characterClass = characterClassObj.description;
             }
-
-            var agency = AGENCIES[departmentName];
-            var characterClass = characterClasses[groupNumber.v];
 
             console.log('\tLine of business is %s', agency);
 
-            for (var col = FIRST_FUND_COL; col < FINAL_FUND_COL; col++) {
-                var fundNumber = fundNumbers[col];
-                var fundDescription = fundDescriptions[fundNumber];
-                var opUnitDescription = getOperUnitDesc(fundNumber);
+            for (let col = opCapConfig.funds.firstColumn; col < opCapConfig.funds.lastColumn; col++) {
+                try {
+                    let fundNumber = fundNumbers[col];
+                    let fundDescription = getFundDescription(fundNumber);
+                    let opUnitDescription = getFundCategory(fundNumber);
 
-                var opUnitType = getOperatingUnitType(fundNumber);
-                var amount = ExpenseWksht[colIndex(col) + row];
+                    let opUnitType = getOperatingUnitType(fundNumber);
+                    let amount = ExpenseWksht[colIndex(col) + row];
 
-                console.log('For fund number %d, %s, class %d (%s)...', fundNumber, fundDescription, groupNumber.v, characterClass);
+                    console.log('For fund number %d, %s, class %d (%s)...', fundNumber, fundDescription, groupNumber.v, characterClass);
 
-                if(amount && amount.v != 0) {
-                    expenses[i++] = {
-                        agency: agency,
-                        fund: fundNumber,
-                        lob: programName,
-                        program: departmentName,
-                        key: characterClass + " (" + fundDescription + ")",
-                        value: amount.v
-                    };
+                    if (amount && amount.v !== 0) {
+                        expenses[i++] = {
+                            agency: agency,
+                            fund: fundNumber,
+                            lob: programName,
+                            program: departmentName,
+                            key: characterClass + " (" + fundDescription + ")",
+                            value: amount.v
+                        };
 
-                    console.log('Department %s with fund number %d, operating unit %s, spends %s', departmentName, fundNumber, opUnitDescription, amount.v);
-                } else {
-                    console.log('Col %s is blank.', colIndex(col));
+                        console.log('Department %s with fund number %d, operating unit %s, spends %s', departmentName, fundNumber, opUnitDescription, amount.v);
+                    } else {
+                        console.log('Col %s is blank.', colIndex(col));
+                    }
+                } catch (e) {
+                    if(e.indexOf('No Category Found for Fund') > -1 || e.indexOf('No Fund Description Found for Code') > -1) {
+                        console.error(e);
+                    } else {
+                        throw e;
+                    }
                 }
             }
         } else {
@@ -201,29 +153,24 @@ function getExpenseAmounts(ExpenseWksht, programs, fundNumbers, fundDescriptions
 
 console.log('Opening Tulsa Budget data...');
 
-var workbook = xlsx.readFile(INPUT_SPREADSHEET_LOCATION);
+let workbook = xlsx.readFile(opCapConfig.inputSpreadsheetLocation);
 
 console.log('Opened file. Finding operating and capital tab...');
-var dollarWksht = workbook.Sheets[AMOUNT_TBL_SHEET_NM];
-var categoryDescWorksheet = workbook.Sheets[CATG_SHEET_NM];
+let dollarWksht = workbook.Sheets[opCapConfig.accountTableSheetName];
+let categoryDescWorksheet = workbook.Sheets[opCapConfig.categorySheetName];
 
 
 console.log('Getting fund numbers...');
-var fundNumbers = getFundNumbers(dollarWksht, FIRST_FUND_COL, FINAL_FUND_COL);
-
-console.log('Getting fund descriptions...');
-var fundDescriptions = getFundDescriptions(workbook);
-
-console.log('Getting operating units...');
+let fundNumbers = getFundNumbers(dollarWksht, opCapConfig.funds.firstColumn, opCapConfig.funds.lastColumn);
 
 console.log('Finding fund programs...');
-var programs = getPrograms(categoryDescWorksheet);
+let programs = getPrograms(categoryDescWorksheet);
 
 
 console.log('Getting amounts for each fund and category source...');
-var expenseAmounts = getExpenseAmounts(dollarWksht, programs, fundNumbers, fundDescriptions);
+let expenseAmounts = getExpenseAmounts(dollarWksht, programs, fundNumbers);
 
 console.log('Writing output file...');
-jsonfile.writeFile(OUTPUT_JSON_LOCATION, expenseAmounts, function (err) {
+jsonfile.writeFile(opCapConfig.outputJsonLocation, expenseAmounts, function (err) {
     console.error(err);
 });

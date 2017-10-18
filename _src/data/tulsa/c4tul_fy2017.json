@@ -36,7 +36,7 @@
     "fund": "2320",
     "lob": "Public Safety and Protection",
     "program": "Municipal Court",
-    "key": "Materials and Supplies (P.A. Law Enforcement)",
+    "key": "Materials and Supplies (PA Law Enforcement Training)",
     "value": 2000
   },
   {
@@ -84,7 +84,7 @@
     "fund": "2320",
     "lob": "Public Safety and Protection",
     "program": "Police",
-    "key": "Materials and Supplies (P.A. Law Enforcement)",
+    "key": "Materials and Supplies (PA Law Enforcement Training)",
     "value": 65000
   },
   {
@@ -108,7 +108,7 @@
     "fund": "2910",
     "lob": "Public Safety and Protection",
     "program": "Police",
-    "key": "Capital Purchase (Short Term Capital)",
+    "key": "Capital Purchase (Short-Term Capital)",
     "value": 3521000
   },
   {
@@ -132,7 +132,7 @@
     "fund": "7060",
     "lob": "Public Safety and Protection",
     "program": "Fire",
-    "key": "Professional Services (EMSA Enterprise Fund)",
+    "key": "Professional Services (EMSA)",
     "value": 175000
   },
   {
@@ -148,7 +148,7 @@
     "fund": "7060",
     "lob": "Public Safety and Protection",
     "program": "Fire",
-    "key": "Materials and Supplies (EMSA Enterprise Fund)",
+    "key": "Materials and Supplies (EMSA)",
     "value": 120000
   },
   {
@@ -156,7 +156,7 @@
     "fund": "2910",
     "lob": "Public Safety and Protection",
     "program": "Fire",
-    "key": "Capital Purchase (Short Term Capital)",
+    "key": "Capital Purchase (Short-Term Capital)",
     "value": 427000
   },
   {
@@ -164,7 +164,7 @@
     "fund": "7060",
     "lob": "Public Safety and Protection",
     "program": "Fire",
-    "key": "Capital Purchase (EMSA Enterprise Fund)",
+    "key": "Capital Purchase (EMSA)",
     "value": 55000
   },
   {
@@ -172,7 +172,7 @@
     "fund": "7060",
     "lob": "Public Safety and Protection",
     "program": "Emergency Medical Services Authority",
-    "key": "Materials and Supplies (EMSA Enterprise Fund)",
+    "key": "Materials and Supplies (EMSA)",
     "value": 6831000
   },
   {
@@ -196,7 +196,7 @@
     "fund": "7010",
     "lob": "Cultural Development And Recreation",
     "program": "Parks and Recreation",
-    "key": "Personnel Services (Stormwater)",
+    "key": "Personnel Services (Tulsa Authority for Recovery of Energy)",
     "value": 107000
   },
   {
@@ -212,7 +212,7 @@
     "fund": "7010",
     "lob": "Cultural Development And Recreation",
     "program": "Parks and Recreation",
-    "key": "Professional Services (Stormwater)",
+    "key": "Professional Services (Tulsa Authority for Recovery of Energy)",
     "value": 15000
   },
   {
@@ -228,7 +228,7 @@
     "fund": "7010",
     "lob": "Cultural Development And Recreation",
     "program": "Parks and Recreation",
-    "key": "Materials and Supplies (Stormwater)",
+    "key": "Materials and Supplies (Tulsa Authority for Recovery of Energy)",
     "value": 63000
   },
   {
@@ -236,7 +236,7 @@
     "fund": "7050",
     "lob": "Cultural Development And Recreation",
     "program": "Parks and Recreation",
-    "key": "Materials and Supplies (Golf Course Operations)",
+    "key": "Materials and Supplies (Golf Course Operating)",
     "value": 2979000
   },
   {
@@ -244,7 +244,7 @@
     "fund": "2910",
     "lob": "Cultural Development And Recreation",
     "program": "Parks and Recreation",
-    "key": "Capital Purchase (Short Term Capital)",
+    "key": "Capital Purchase (Short-Term Capital)",
     "value": 277000
   },
   {
@@ -260,7 +260,7 @@
     "fund": "7050",
     "lob": "Cultural Development And Recreation",
     "program": "Parks and Recreation",
-    "key": "Capital Purchase (Golf Course Operations)",
+    "key": "Capital Purchase (Golf Course Operating)",
     "value": 92000
   },
   {
@@ -284,7 +284,7 @@
     "fund": "2810",
     "lob": "Cultural Development And Recreation",
     "program": "Performing Arts Center",
-    "key": "Personnel Services (Convention Fund)",
+    "key": "Personnel Services (Convention and Tourism Facilities)",
     "value": 184000
   },
   {
@@ -300,7 +300,7 @@
     "fund": "2810",
     "lob": "Cultural Development And Recreation",
     "program": "Performing Arts Center",
-    "key": "Professional Services (Convention Fund)",
+    "key": "Professional Services (Convention and Tourism Facilities)",
     "value": 29000
   },
   {
@@ -316,7 +316,7 @@
     "fund": "2810",
     "lob": "Cultural Development And Recreation",
     "program": "Performing Arts Center",
-    "key": "Materials and Supplies (Convention Fund)",
+    "key": "Materials and Supplies (Convention and Tourism Facilities)",
     "value": 533000
   },
   {
@@ -324,7 +324,7 @@
     "fund": "2810",
     "lob": "Cultural Development And Recreation",
     "program": "Performing Arts Center",
-    "key": "Capital Purchase (Convention Fund)",
+    "key": "Capital Purchase (Convention and Tourism Facilities)",
     "value": 161000
   },
   {
@@ -348,7 +348,7 @@
     "fund": "2910",
     "lob": "Cultural Development And Recreation",
     "program": "River Parks Authority",
-    "key": "Capital Purchase (Short Term Capital)",
+    "key": "Capital Purchase (Short-Term Capital)",
     "value": 36000
   },
   {
@@ -364,7 +364,7 @@
     "fund": "2710",
     "lob": "Social and Economic Development",
     "program": "Mayor's Office of Economic Development",
-    "key": "Personnel Services (Economic Development)",
+    "key": "Personnel Services (Econ. Dev. Commission)",
     "value": 54000
   },
   {
@@ -372,7 +372,7 @@
     "fund": "4102",
     "lob": "Social and Economic Development",
     "program": "Mayor's Office of Economic Development",
-    "key": "Personnel Services (Tulsa Stadium Improvement)",
+    "key": "Personnel Services (Tulsa Stadium Improvement District)",
     "value": 305000
   },
   {
@@ -388,7 +388,7 @@
     "fund": "2710",
     "lob": "Social and Economic Development",
     "program": "Mayor's Office of Economic Development",
-    "key": "Professional Services (Economic Development)",
+    "key": "Professional Services (Econ. Dev. Commission)",
     "value": 5000
   },
   {
@@ -396,7 +396,7 @@
     "fund": "4102",
     "lob": "Social and Economic Development",
     "program": "Mayor's Office of Economic Development",
-    "key": "Professional Services (Tulsa Stadium Improvement)",
+    "key": "Professional Services (Tulsa Stadium Improvement District)",
     "value": 56000
   },
   {
@@ -412,7 +412,7 @@
     "fund": "2710",
     "lob": "Social and Economic Development",
     "program": "Mayor's Office of Economic Development",
-    "key": "Materials and Supplies (Economic Development)",
+    "key": "Materials and Supplies (Econ. Dev. Commission)",
     "value": 299000
   },
   {
@@ -420,7 +420,7 @@
     "fund": "4102",
     "lob": "Social and Economic Development",
     "program": "Mayor's Office of Economic Development",
-    "key": "Materials and Supplies (Tulsa Stadium Improvement)",
+    "key": "Materials and Supplies (Tulsa Stadium Improvement District)",
     "value": 864000
   },
   {
@@ -428,7 +428,7 @@
     "fund": "4102",
     "lob": "Social and Economic Development",
     "program": "Mayor's Office of Economic Development",
-    "key": "Capital Purchase (Tulsa Stadium Improvement)",
+    "key": "Capital Purchase (Tulsa Stadium Improvement District)",
     "value": 37000
   },
   {
@@ -444,7 +444,7 @@
     "fund": "7060",
     "lob": "Social and Economic Development",
     "program": "Working in Neighborhoods",
-    "key": "Personnel Services (EMSA Enterprise Fund)",
+    "key": "Personnel Services (EMSA)",
     "value": 73000
   },
   {
@@ -468,7 +468,7 @@
     "fund": "2910",
     "lob": "Social and Economic Development",
     "program": "Working in Neighborhoods",
-    "key": "Capital Purchase (Short Term Capital)",
+    "key": "Capital Purchase (Short-Term Capital)",
     "value": 197000
   },
   {
@@ -500,7 +500,7 @@
     "fund": "2910",
     "lob": "Social and Economic Development",
     "program": "Planning & Development",
-    "key": "Capital Purchase (Short Term Capital)",
+    "key": "Capital Purchase (Short-Term Capital)",
     "value": 84000
   },
   {
@@ -524,7 +524,7 @@
     "fund": "7010",
     "lob": "Transportation and Public Works",
     "program": "Engineering Services",
-    "key": "Personnel Services (Stormwater)",
+    "key": "Personnel Services (Tulsa Authority for Recovery of Energy)",
     "value": 2200000
   },
   {
@@ -532,7 +532,7 @@
     "fund": "7020",
     "lob": "Transportation and Public Works",
     "program": "Engineering Services",
-    "key": "Personnel Services (Water Operating)",
+    "key": "Personnel Services (TMUA Water Operating)",
     "value": 2670000
   },
   {
@@ -540,7 +540,7 @@
     "fund": "7030",
     "lob": "Transportation and Public Works",
     "program": "Engineering Services",
-    "key": "Personnel Services (Sewer Operating)",
+    "key": "Personnel Services (TMUA Sewer Operating)",
     "value": 2468000
   },
   {
@@ -556,7 +556,7 @@
     "fund": "7010",
     "lob": "Transportation and Public Works",
     "program": "Engineering Services",
-    "key": "Professional Services (Stormwater)",
+    "key": "Professional Services (Tulsa Authority for Recovery of Energy)",
     "value": 28000
   },
   {
@@ -564,7 +564,7 @@
     "fund": "7020",
     "lob": "Transportation and Public Works",
     "program": "Engineering Services",
-    "key": "Professional Services (Water Operating)",
+    "key": "Professional Services (TMUA Water Operating)",
     "value": 23000
   },
   {
@@ -572,7 +572,7 @@
     "fund": "7030",
     "lob": "Transportation and Public Works",
     "program": "Engineering Services",
-    "key": "Professional Services (Sewer Operating)",
+    "key": "Professional Services (TMUA Sewer Operating)",
     "value": 23000
   },
   {
@@ -588,7 +588,7 @@
     "fund": "7010",
     "lob": "Transportation and Public Works",
     "program": "Engineering Services",
-    "key": "Materials and Supplies (Stormwater)",
+    "key": "Materials and Supplies (Tulsa Authority for Recovery of Energy)",
     "value": 2030000
   },
   {
@@ -596,7 +596,7 @@
     "fund": "7020",
     "lob": "Transportation and Public Works",
     "program": "Engineering Services",
-    "key": "Materials and Supplies (Water Operating)",
+    "key": "Materials and Supplies (TMUA Water Operating)",
     "value": 618000
   },
   {
@@ -604,7 +604,7 @@
     "fund": "7030",
     "lob": "Transportation and Public Works",
     "program": "Engineering Services",
-    "key": "Materials and Supplies (Sewer Operating)",
+    "key": "Materials and Supplies (TMUA Sewer Operating)",
     "value": 1234000
   },
   {
@@ -660,7 +660,7 @@
     "fund": "7020",
     "lob": "Transportation and Public Works",
     "program": "Engineering Services",
-    "key": "Capital Purchase (Water Operating)",
+    "key": "Capital Purchase (TMUA Water Operating)",
     "value": 30000
   },
   {
@@ -676,7 +676,7 @@
     "fund": "3623",
     "lob": "Transportation and Public Works",
     "program": "Streets and Stormwater",
-    "key": "Personnel Services (TARE)",
+    "key": "Personnel Services (Tulsa Authority for Recovery of Energy)",
     "value": 3278000
   },
   {
@@ -684,7 +684,7 @@
     "fund": "7010",
     "lob": "Transportation and Public Works",
     "program": "Streets and Stormwater",
-    "key": "Personnel Services (Stormwater)",
+    "key": "Personnel Services (Tulsa Authority for Recovery of Energy)",
     "value": 5986000
   },
   {
@@ -692,7 +692,7 @@
     "fund": "7020",
     "lob": "Transportation and Public Works",
     "program": "Streets and Stormwater",
-    "key": "Personnel Services (Water Operating)",
+    "key": "Personnel Services (TMUA Water Operating)",
     "value": 330000
   },
   {
@@ -700,7 +700,7 @@
     "fund": "7030",
     "lob": "Transportation and Public Works",
     "program": "Streets and Stormwater",
-    "key": "Personnel Services (Sewer Operating)",
+    "key": "Personnel Services (TMUA Sewer Operating)",
     "value": 11000
   },
   {
@@ -716,7 +716,7 @@
     "fund": "3623",
     "lob": "Transportation and Public Works",
     "program": "Streets and Stormwater",
-    "key": "Professional Services (TARE)",
+    "key": "Professional Services (Tulsa Authority for Recovery of Energy)",
     "value": 434000
   },
   {
@@ -724,7 +724,7 @@
     "fund": "7010",
     "lob": "Transportation and Public Works",
     "program": "Streets and Stormwater",
-    "key": "Professional Services (Stormwater)",
+    "key": "Professional Services (Tulsa Authority for Recovery of Energy)",
     "value": 863000
   },
   {
@@ -732,7 +732,7 @@
     "fund": "7030",
     "lob": "Transportation and Public Works",
     "program": "Streets and Stormwater",
-    "key": "Professional Services (Sewer Operating)",
+    "key": "Professional Services (TMUA Sewer Operating)",
     "value": 8000
   },
   {
@@ -748,7 +748,7 @@
     "fund": "3623",
     "lob": "Transportation and Public Works",
     "program": "Streets and Stormwater",
-    "key": "Materials and Supplies (TARE)",
+    "key": "Materials and Supplies (Tulsa Authority for Recovery of Energy)",
     "value": 19328000
   },
   {
@@ -756,7 +756,7 @@
     "fund": "7010",
     "lob": "Transportation and Public Works",
     "program": "Streets and Stormwater",
-    "key": "Materials and Supplies (Stormwater)",
+    "key": "Materials and Supplies (Tulsa Authority for Recovery of Energy)",
     "value": 9223000
   },
   {
@@ -764,7 +764,7 @@
     "fund": "7020",
     "lob": "Transportation and Public Works",
     "program": "Streets and Stormwater",
-    "key": "Materials and Supplies (Water Operating)",
+    "key": "Materials and Supplies (TMUA Water Operating)",
     "value": 13000
   },
   {
@@ -772,7 +772,7 @@
     "fund": "7030",
     "lob": "Transportation and Public Works",
     "program": "Streets and Stormwater",
-    "key": "Materials and Supplies (Sewer Operating)",
+    "key": "Materials and Supplies (TMUA Sewer Operating)",
     "value": 55000
   },
   {
@@ -780,7 +780,7 @@
     "fund": "2910",
     "lob": "Transportation and Public Works",
     "program": "Streets and Stormwater",
-    "key": "Capital Purchase (Short Term Capital)",
+    "key": "Capital Purchase (Short-Term Capital)",
     "value": 1227000
   },
   {
@@ -788,7 +788,7 @@
     "fund": "3623",
     "lob": "Transportation and Public Works",
     "program": "Streets and Stormwater",
-    "key": "Capital Purchase (TARE)",
+    "key": "Capital Purchase (Tulsa Authority for Recovery of Energy)",
     "value": 158000
   },
   {
@@ -804,7 +804,7 @@
     "fund": "7010",
     "lob": "Transportation and Public Works",
     "program": "Streets and Stormwater",
-    "key": "Capital Purchase (Stormwater)",
+    "key": "Capital Purchase (Tulsa Authority for Recovery of Energy)",
     "value": 439000
   },
   {
@@ -812,7 +812,7 @@
     "fund": "3623",
     "lob": "Transportation and Public Works",
     "program": "Water and Sewer",
-    "key": "Personnel Services (TARE)",
+    "key": "Personnel Services (Tulsa Authority for Recovery of Energy)",
     "value": 12000
   },
   {
@@ -820,7 +820,7 @@
     "fund": "7010",
     "lob": "Transportation and Public Works",
     "program": "Water and Sewer",
-    "key": "Personnel Services (Stormwater)",
+    "key": "Personnel Services (Tulsa Authority for Recovery of Energy)",
     "value": 435000
   },
   {
@@ -828,7 +828,7 @@
     "fund": "7020",
     "lob": "Transportation and Public Works",
     "program": "Water and Sewer",
-    "key": "Personnel Services (Water Operating)",
+    "key": "Personnel Services (TMUA Water Operating)",
     "value": 21053000
   },
   {
@@ -836,7 +836,7 @@
     "fund": "7030",
     "lob": "Transportation and Public Works",
     "program": "Water and Sewer",
-    "key": "Personnel Services (Sewer Operating)",
+    "key": "Personnel Services (TMUA Sewer Operating)",
     "value": 17750000
   },
   {
@@ -844,7 +844,7 @@
     "fund": "7060",
     "lob": "Transportation and Public Works",
     "program": "Water and Sewer",
-    "key": "Personnel Services (EMSA Enterprise Fund)",
+    "key": "Personnel Services (EMSA)",
     "value": 12000
   },
   {
@@ -852,7 +852,7 @@
     "fund": "7010",
     "lob": "Transportation and Public Works",
     "program": "Water and Sewer",
-    "key": "Professional Services (Stormwater)",
+    "key": "Professional Services (Tulsa Authority for Recovery of Energy)",
     "value": 91000
   },
   {
@@ -860,7 +860,7 @@
     "fund": "7020",
     "lob": "Transportation and Public Works",
     "program": "Water and Sewer",
-    "key": "Professional Services (Water Operating)",
+    "key": "Professional Services (TMUA Water Operating)",
     "value": 9838000
   },
   {
@@ -868,7 +868,7 @@
     "fund": "7030",
     "lob": "Transportation and Public Works",
     "program": "Water and Sewer",
-    "key": "Professional Services (Sewer Operating)",
+    "key": "Professional Services (TMUA Sewer Operating)",
     "value": 4982000
   },
   {
@@ -876,7 +876,7 @@
     "fund": "7010",
     "lob": "Transportation and Public Works",
     "program": "Water and Sewer",
-    "key": "Materials and Supplies (Stormwater)",
+    "key": "Materials and Supplies (Tulsa Authority for Recovery of Energy)",
     "value": 107000
   },
   {
@@ -884,7 +884,7 @@
     "fund": "7020",
     "lob": "Transportation and Public Works",
     "program": "Water and Sewer",
-    "key": "Materials and Supplies (Water Operating)",
+    "key": "Materials and Supplies (TMUA Water Operating)",
     "value": 29160000
   },
   {
@@ -892,7 +892,7 @@
     "fund": "7030",
     "lob": "Transportation and Public Works",
     "program": "Water and Sewer",
-    "key": "Materials and Supplies (Sewer Operating)",
+    "key": "Materials and Supplies (TMUA Sewer Operating)",
     "value": 22248000
   },
   {
@@ -908,7 +908,7 @@
     "fund": "7010",
     "lob": "Transportation and Public Works",
     "program": "Water and Sewer",
-    "key": "Capital Purchase (Stormwater)",
+    "key": "Capital Purchase (Tulsa Authority for Recovery of Energy)",
     "value": 138000
   },
   {
@@ -916,7 +916,7 @@
     "fund": "7020",
     "lob": "Transportation and Public Works",
     "program": "Water and Sewer",
-    "key": "Capital Purchase (Water Operating)",
+    "key": "Capital Purchase (TMUA Water Operating)",
     "value": 5905000
   },
   {
@@ -924,7 +924,7 @@
     "fund": "7030",
     "lob": "Transportation and Public Works",
     "program": "Water and Sewer",
-    "key": "Capital Purchase (Sewer Operating)",
+    "key": "Capital Purchase (TMUA Sewer Operating)",
     "value": 7642000
   },
   {
@@ -940,7 +940,7 @@
     "fund": "2910",
     "lob": "Transportation and Public Works",
     "program": "Tulsa Transit",
-    "key": "Capital Purchase (Short Term Capital)",
+    "key": "Capital Purchase (Short-Term Capital)",
     "value": 92000
   },
   {
@@ -1028,7 +1028,7 @@
     "fund": "2910",
     "lob": "Administration",
     "program": "City Council",
-    "key": "Capital Purchase (Short Term Capital)",
+    "key": "Capital Purchase (Short-Term Capital)",
     "value": 6000
   },
   {
@@ -1084,7 +1084,7 @@
     "fund": "2320",
     "lob": "Administration",
     "program": "Legal",
-    "key": "Materials and Supplies (P.A. Law Enforcement)",
+    "key": "Materials and Supplies (PA Law Enforcement Training)",
     "value": 2000
   },
   {
@@ -1092,7 +1092,7 @@
     "fund": "2910",
     "lob": "Administration",
     "program": "Legal",
-    "key": "Capital Purchase (Short Term Capital)",
+    "key": "Capital Purchase (Short-Term Capital)",
     "value": 12000
   },
   {
@@ -1108,7 +1108,7 @@
     "fund": "3000",
     "lob": "Administration",
     "program": "Human Resources",
-    "key": "Personnel Services (Municipal Employee Pension)",
+    "key": "Personnel Services (Municipal Emp. Retirement Fund)",
     "value": 313527
   },
   {
@@ -1124,7 +1124,7 @@
     "fund": "3000",
     "lob": "Administration",
     "program": "Human Resources",
-    "key": "Professional Services (Municipal Employee Pension)",
+    "key": "Professional Services (Municipal Emp. Retirement Fund)",
     "value": 3489
   },
   {
@@ -1140,7 +1140,7 @@
     "fund": "3000",
     "lob": "Administration",
     "program": "Human Resources",
-    "key": "Materials and Supplies (Municipal Employee Pension)",
+    "key": "Materials and Supplies (Municipal Emp. Retirement Fund)",
     "value": 28000
   },
   {
@@ -1148,7 +1148,7 @@
     "fund": "2910",
     "lob": "Administration",
     "program": "Human Resources",
-    "key": "Capital Purchase (Short Term Capital)",
+    "key": "Capital Purchase (Short-Term Capital)",
     "value": 57000
   },
   {
@@ -1156,7 +1156,7 @@
     "fund": "8020",
     "lob": "Administration",
     "program": "Workers' Compensation",
-    "key": "Professional Services (Workers' Compensation Fund)",
+    "key": "Professional Services (Worker's Compensation Service Fund)",
     "value": 33000
   },
   {
@@ -1164,7 +1164,7 @@
     "fund": "8020",
     "lob": "Administration",
     "program": "Workers' Compensation",
-    "key": "Materials and Supplies (Workers' Compensation Fund)",
+    "key": "Materials and Supplies (Worker's Compensation Service Fund)",
     "value": 5667000
   },
   {
@@ -1196,7 +1196,7 @@
     "fund": "3623",
     "lob": "Administration",
     "program": "Finance",
-    "key": "Personnel Services (TARE)",
+    "key": "Personnel Services (Tulsa Authority for Recovery of Energy)",
     "value": 319000
   },
   {
@@ -1204,7 +1204,7 @@
     "fund": "4102",
     "lob": "Administration",
     "program": "Finance",
-    "key": "Personnel Services (Tulsa Stadium Improvement)",
+    "key": "Personnel Services (Tulsa Stadium Improvement District)",
     "value": 68000
   },
   {
@@ -1212,7 +1212,7 @@
     "fund": "7010",
     "lob": "Administration",
     "program": "Finance",
-    "key": "Personnel Services (Stormwater)",
+    "key": "Personnel Services (Tulsa Authority for Recovery of Energy)",
     "value": 358000
   },
   {
@@ -1220,7 +1220,7 @@
     "fund": "7020",
     "lob": "Administration",
     "program": "Finance",
-    "key": "Personnel Services (Water Operating)",
+    "key": "Personnel Services (TMUA Water Operating)",
     "value": 1718000
   },
   {
@@ -1228,7 +1228,7 @@
     "fund": "7030",
     "lob": "Administration",
     "program": "Finance",
-    "key": "Personnel Services (Sewer Operating)",
+    "key": "Personnel Services (TMUA Sewer Operating)",
     "value": 1326000
   },
   {
@@ -1236,7 +1236,7 @@
     "fund": "7060",
     "lob": "Administration",
     "program": "Finance",
-    "key": "Personnel Services (EMSA Enterprise Fund)",
+    "key": "Personnel Services (EMSA)",
     "value": 94000
   },
   {
@@ -1252,7 +1252,7 @@
     "fund": "3623",
     "lob": "Administration",
     "program": "Finance",
-    "key": "Professional Services (TARE)",
+    "key": "Professional Services (Tulsa Authority for Recovery of Energy)",
     "value": 10000
   },
   {
@@ -1260,7 +1260,7 @@
     "fund": "4102",
     "lob": "Administration",
     "program": "Finance",
-    "key": "Professional Services (Tulsa Stadium Improvement)",
+    "key": "Professional Services (Tulsa Stadium Improvement District)",
     "value": 6000
   },
   {
@@ -1268,7 +1268,7 @@
     "fund": "7010",
     "lob": "Administration",
     "program": "Finance",
-    "key": "Professional Services (Stormwater)",
+    "key": "Professional Services (Tulsa Authority for Recovery of Energy)",
     "value": 14000
   },
   {
@@ -1276,7 +1276,7 @@
     "fund": "7020",
     "lob": "Administration",
     "program": "Finance",
-    "key": "Professional Services (Water Operating)",
+    "key": "Professional Services (TMUA Water Operating)",
     "value": 186000
   },
   {
@@ -1284,7 +1284,7 @@
     "fund": "7030",
     "lob": "Administration",
     "program": "Finance",
-    "key": "Professional Services (Sewer Operating)",
+    "key": "Professional Services (TMUA Sewer Operating)",
     "value": 109000
   },
   {
@@ -1292,7 +1292,7 @@
     "fund": "7060",
     "lob": "Administration",
     "program": "Finance",
-    "key": "Professional Services (EMSA Enterprise Fund)",
+    "key": "Professional Services (EMSA)",
     "value": 2000
   },
   {
@@ -1308,7 +1308,7 @@
     "fund": "3623",
     "lob": "Administration",
     "program": "Finance",
-    "key": "Materials and Supplies (TARE)",
+    "key": "Materials and Supplies (Tulsa Authority for Recovery of Energy)",
     "value": 177000
   },
   {
@@ -1316,7 +1316,7 @@
     "fund": "4102",
     "lob": "Administration",
     "program": "Finance",
-    "key": "Materials and Supplies (Tulsa Stadium Improvement)",
+    "key": "Materials and Supplies (Tulsa Stadium Improvement District)",
     "value": 10000
   },
   {
@@ -1324,7 +1324,7 @@
     "fund": "4122",
     "lob": "Administration",
     "program": "Finance",
-    "key": "Materials and Supplies (Whittier Square Improvement)",
+    "key": "Materials and Supplies (Whittier Square Improvement District)",
     "value": 20000
   },
   {
@@ -1332,7 +1332,7 @@
     "fund": "7010",
     "lob": "Administration",
     "program": "Finance",
-    "key": "Materials and Supplies (Stormwater)",
+    "key": "Materials and Supplies (Tulsa Authority for Recovery of Energy)",
     "value": 195000
   },
   {
@@ -1340,7 +1340,7 @@
     "fund": "7020",
     "lob": "Administration",
     "program": "Finance",
-    "key": "Materials and Supplies (Water Operating)",
+    "key": "Materials and Supplies (TMUA Water Operating)",
     "value": 752000
   },
   {
@@ -1348,7 +1348,7 @@
     "fund": "7030",
     "lob": "Administration",
     "program": "Finance",
-    "key": "Materials and Supplies (Sewer Operating)",
+    "key": "Materials and Supplies (TMUA Sewer Operating)",
     "value": 633000
   },
   {
@@ -1356,7 +1356,7 @@
     "fund": "7060",
     "lob": "Administration",
     "program": "Finance",
-    "key": "Materials and Supplies (EMSA Enterprise Fund)",
+    "key": "Materials and Supplies (EMSA)",
     "value": 53000
   },
   {
@@ -1364,7 +1364,7 @@
     "fund": "2910",
     "lob": "Administration",
     "program": "Finance",
-    "key": "Capital Purchase (Short Term Capital)",
+    "key": "Capital Purchase (Short-Term Capital)",
     "value": 3000
   },
   {
@@ -1372,7 +1372,7 @@
     "fund": "7020",
     "lob": "Administration",
     "program": "Finance",
-    "key": "Capital Purchase (Water Operating)",
+    "key": "Capital Purchase (TMUA Water Operating)",
     "value": 30000
   },
   {
@@ -1396,7 +1396,7 @@
     "fund": "3623",
     "lob": "Administration",
     "program": "Information Technology",
-    "key": "Personnel Services (TARE)",
+    "key": "Personnel Services (Tulsa Authority for Recovery of Energy)",
     "value": 224000
   },
   {
@@ -1404,7 +1404,7 @@
     "fund": "7010",
     "lob": "Administration",
     "program": "Information Technology",
-    "key": "Personnel Services (Stormwater)",
+    "key": "Personnel Services (Tulsa Authority for Recovery of Energy)",
     "value": 261000
   },
   {
@@ -1412,7 +1412,7 @@
     "fund": "7020",
     "lob": "Administration",
     "program": "Information Technology",
-    "key": "Personnel Services (Water Operating)",
+    "key": "Personnel Services (TMUA Water Operating)",
     "value": 1315000
   },
   {
@@ -1420,7 +1420,7 @@
     "fund": "7030",
     "lob": "Administration",
     "program": "Information Technology",
-    "key": "Personnel Services (Sewer Operating)",
+    "key": "Personnel Services (TMUA Sewer Operating)",
     "value": 1123000
   },
   {
@@ -1444,7 +1444,7 @@
     "fund": "3623",
     "lob": "Administration",
     "program": "Information Technology",
-    "key": "Professional Services (TARE)",
+    "key": "Professional Services (Tulsa Authority for Recovery of Energy)",
     "value": 10000
   },
   {
@@ -1452,7 +1452,7 @@
     "fund": "7010",
     "lob": "Administration",
     "program": "Information Technology",
-    "key": "Professional Services (Stormwater)",
+    "key": "Professional Services (Tulsa Authority for Recovery of Energy)",
     "value": 9000
   },
   {
@@ -1460,7 +1460,7 @@
     "fund": "7020",
     "lob": "Administration",
     "program": "Information Technology",
-    "key": "Professional Services (Water Operating)",
+    "key": "Professional Services (TMUA Water Operating)",
     "value": 47000
   },
   {
@@ -1468,7 +1468,7 @@
     "fund": "7030",
     "lob": "Administration",
     "program": "Information Technology",
-    "key": "Professional Services (Sewer Operating)",
+    "key": "Professional Services (TMUA Sewer Operating)",
     "value": 35000
   },
   {
@@ -1492,7 +1492,7 @@
     "fund": "3623",
     "lob": "Administration",
     "program": "Information Technology",
-    "key": "Materials and Supplies (TARE)",
+    "key": "Materials and Supplies (Tulsa Authority for Recovery of Energy)",
     "value": 103000
   },
   {
@@ -1500,7 +1500,7 @@
     "fund": "7010",
     "lob": "Administration",
     "program": "Information Technology",
-    "key": "Materials and Supplies (Stormwater)",
+    "key": "Materials and Supplies (Tulsa Authority for Recovery of Energy)",
     "value": 112000
   },
   {
@@ -1508,7 +1508,7 @@
     "fund": "7020",
     "lob": "Administration",
     "program": "Information Technology",
-    "key": "Materials and Supplies (Water Operating)",
+    "key": "Materials and Supplies (TMUA Water Operating)",
     "value": 602000
   },
   {
@@ -1516,7 +1516,7 @@
     "fund": "7030",
     "lob": "Administration",
     "program": "Information Technology",
-    "key": "Materials and Supplies (Sewer Operating)",
+    "key": "Materials and Supplies (TMUA Sewer Operating)",
     "value": 512000
   },
   {
@@ -1524,7 +1524,7 @@
     "fund": "8011",
     "lob": "Administration",
     "program": "Information Technology",
-    "key": "Materials and Supplies (Office Services)",
+    "key": "Materials and Supplies (Office Services Service Fund)",
     "value": 991000
   },
   {
@@ -1532,7 +1532,7 @@
     "fund": "2910",
     "lob": "Administration",
     "program": "Information Technology",
-    "key": "Capital Purchase (Short Term Capital)",
+    "key": "Capital Purchase (Short-Term Capital)",
     "value": 3315000
   },
   {
@@ -1540,7 +1540,7 @@
     "fund": "3623",
     "lob": "Administration",
     "program": "Information Technology",
-    "key": "Capital Purchase (TARE)",
+    "key": "Capital Purchase (Tulsa Authority for Recovery of Energy)",
     "value": 52000
   },
   {
@@ -1548,7 +1548,7 @@
     "fund": "7010",
     "lob": "Administration",
     "program": "Information Technology",
-    "key": "Capital Purchase (Stormwater)",
+    "key": "Capital Purchase (Tulsa Authority for Recovery of Energy)",
     "value": 36000
   },
   {
@@ -1556,7 +1556,7 @@
     "fund": "7020",
     "lob": "Administration",
     "program": "Information Technology",
-    "key": "Capital Purchase (Water Operating)",
+    "key": "Capital Purchase (TMUA Water Operating)",
     "value": 208000
   },
   {
@@ -1564,7 +1564,7 @@
     "fund": "7030",
     "lob": "Administration",
     "program": "Information Technology",
-    "key": "Capital Purchase (Sewer Operating)",
+    "key": "Capital Purchase (TMUA Sewer Operating)",
     "value": 64000
   },
   {
@@ -1580,7 +1580,7 @@
     "fund": "3623",
     "lob": "Administration",
     "program": "Customer Care",
-    "key": "Personnel Services (TARE)",
+    "key": "Personnel Services (Tulsa Authority for Recovery of Energy)",
     "value": 156000
   },
   {
@@ -1588,7 +1588,7 @@
     "fund": "7010",
     "lob": "Administration",
     "program": "Customer Care",
-    "key": "Personnel Services (Stormwater)",
+    "key": "Personnel Services (Tulsa Authority for Recovery of Energy)",
     "value": 176000
   },
   {
@@ -1596,7 +1596,7 @@
     "fund": "7020",
     "lob": "Administration",
     "program": "Customer Care",
-    "key": "Personnel Services (Water Operating)",
+    "key": "Personnel Services (TMUA Water Operating)",
     "value": 645000
   },
   {
@@ -1604,7 +1604,7 @@
     "fund": "7030",
     "lob": "Administration",
     "program": "Customer Care",
-    "key": "Personnel Services (Sewer Operating)",
+    "key": "Personnel Services (TMUA Sewer Operating)",
     "value": 547000
   },
   {
@@ -1612,7 +1612,7 @@
     "fund": "7060",
     "lob": "Administration",
     "program": "Customer Care",
-    "key": "Personnel Services (EMSA Enterprise Fund)",
+    "key": "Personnel Services (EMSA)",
     "value": 59000
   },
   {
@@ -1628,7 +1628,7 @@
     "fund": "3623",
     "lob": "Administration",
     "program": "Customer Care",
-    "key": "Professional Services (TARE)",
+    "key": "Professional Services (Tulsa Authority for Recovery of Energy)",
     "value": 3000
   },
   {
@@ -1636,7 +1636,7 @@
     "fund": "7010",
     "lob": "Administration",
     "program": "Customer Care",
-    "key": "Professional Services (Stormwater)",
+    "key": "Professional Services (Tulsa Authority for Recovery of Energy)",
     "value": 3000
   },
   {
@@ -1644,7 +1644,7 @@
     "fund": "7020",
     "lob": "Administration",
     "program": "Customer Care",
-    "key": "Professional Services (Water Operating)",
+    "key": "Professional Services (TMUA Water Operating)",
     "value": 11000
   },
   {
@@ -1652,7 +1652,7 @@
     "fund": "7030",
     "lob": "Administration",
     "program": "Customer Care",
-    "key": "Professional Services (Sewer Operating)",
+    "key": "Professional Services (TMUA Sewer Operating)",
     "value": 10000
   },
   {
@@ -1660,7 +1660,7 @@
     "fund": "7060",
     "lob": "Administration",
     "program": "Customer Care",
-    "key": "Professional Services (EMSA Enterprise Fund)",
+    "key": "Professional Services (EMSA)",
     "value": 2000
   },
   {
@@ -1676,7 +1676,7 @@
     "fund": "3623",
     "lob": "Administration",
     "program": "Customer Care",
-    "key": "Materials and Supplies (TARE)",
+    "key": "Materials and Supplies (Tulsa Authority for Recovery of Energy)",
     "value": 10000
   },
   {
@@ -1684,7 +1684,7 @@
     "fund": "7010",
     "lob": "Administration",
     "program": "Customer Care",
-    "key": "Materials and Supplies (Stormwater)",
+    "key": "Materials and Supplies (Tulsa Authority for Recovery of Energy)",
     "value": 11000
   },
   {
@@ -1692,7 +1692,7 @@
     "fund": "7020",
     "lob": "Administration",
     "program": "Customer Care",
-    "key": "Materials and Supplies (Water Operating)",
+    "key": "Materials and Supplies (TMUA Water Operating)",
     "value": 41000
   },
   {
@@ -1700,7 +1700,7 @@
     "fund": "7030",
     "lob": "Administration",
     "program": "Customer Care",
-    "key": "Materials and Supplies (Sewer Operating)",
+    "key": "Materials and Supplies (TMUA Sewer Operating)",
     "value": 35000
   },
   {
@@ -1708,7 +1708,7 @@
     "fund": "7060",
     "lob": "Administration",
     "program": "Customer Care",
-    "key": "Materials and Supplies (EMSA Enterprise Fund)",
+    "key": "Materials and Supplies (EMSA)",
     "value": 4000
   },
   {
@@ -1740,7 +1740,7 @@
     "fund": "2910",
     "lob": "Administration",
     "program": "Communications",
-    "key": "Capital Purchase (Short Term Capital)",
+    "key": "Capital Purchase (Short-Term Capital)",
     "value": 3000
   },
   {
@@ -1764,7 +1764,7 @@
     "fund": "3450",
     "lob": "Administration",
     "program": "Asset Management",
-    "key": "Personnel Services (One Technology Center Fund)",
+    "key": "Personnel Services (One Tech Center)",
     "value": 764000
   },
   {
@@ -1772,7 +1772,7 @@
     "fund": "3623",
     "lob": "Administration",
     "program": "Asset Management",
-    "key": "Personnel Services (TARE)",
+    "key": "Personnel Services (Tulsa Authority for Recovery of Energy)",
     "value": 91000
   },
   {
@@ -1780,7 +1780,7 @@
     "fund": "7010",
     "lob": "Administration",
     "program": "Asset Management",
-    "key": "Personnel Services (Stormwater)",
+    "key": "Personnel Services (Tulsa Authority for Recovery of Energy)",
     "value": 199000
   },
   {
@@ -1788,7 +1788,7 @@
     "fund": "7020",
     "lob": "Administration",
     "program": "Asset Management",
-    "key": "Personnel Services (Water Operating)",
+    "key": "Personnel Services (TMUA Water Operating)",
     "value": 336000
   },
   {
@@ -1796,7 +1796,7 @@
     "fund": "7030",
     "lob": "Administration",
     "program": "Asset Management",
-    "key": "Personnel Services (Sewer Operating)",
+    "key": "Personnel Services (TMUA Sewer Operating)",
     "value": 316000
   },
   {
@@ -1804,7 +1804,7 @@
     "fund": "8030",
     "lob": "Administration",
     "program": "Asset Management",
-    "key": "Personnel Services (Equipment Management)",
+    "key": "Personnel Services (Equip. Mgmt. Service Fund)",
     "value": 4688380.92
   },
   {
@@ -1828,7 +1828,7 @@
     "fund": "3450",
     "lob": "Administration",
     "program": "Asset Management",
-    "key": "Professional Services (One Technology Center Fund)",
+    "key": "Professional Services (One Tech Center)",
     "value": 191000
   },
   {
@@ -1836,7 +1836,7 @@
     "fund": "3623",
     "lob": "Administration",
     "program": "Asset Management",
-    "key": "Professional Services (TARE)",
+    "key": "Professional Services (Tulsa Authority for Recovery of Energy)",
     "value": 59000
   },
   {
@@ -1844,7 +1844,7 @@
     "fund": "7010",
     "lob": "Administration",
     "program": "Asset Management",
-    "key": "Professional Services (Stormwater)",
+    "key": "Professional Services (Tulsa Authority for Recovery of Energy)",
     "value": 20000
   },
   {
@@ -1852,7 +1852,7 @@
     "fund": "7020",
     "lob": "Administration",
     "program": "Asset Management",
-    "key": "Professional Services (Water Operating)",
+    "key": "Professional Services (TMUA Water Operating)",
     "value": 37000
   },
   {
@@ -1860,7 +1860,7 @@
     "fund": "7030",
     "lob": "Administration",
     "program": "Asset Management",
-    "key": "Professional Services (Sewer Operating)",
+    "key": "Professional Services (TMUA Sewer Operating)",
     "value": 33000
   },
   {
@@ -1868,7 +1868,7 @@
     "fund": "8030",
     "lob": "Administration",
     "program": "Asset Management",
-    "key": "Professional Services (Equipment Management)",
+    "key": "Professional Services (Equip. Mgmt. Service Fund)",
     "value": 7828550
   },
   {
@@ -1884,7 +1884,7 @@
     "fund": "2240",
     "lob": "Administration",
     "program": "Asset Management",
-    "key": "Materials and Supplies (Airforce Plant 3 Fund)",
+    "key": "Materials and Supplies (Air Force Plant 3)",
     "value": 20000
   },
   {
@@ -1900,7 +1900,7 @@
     "fund": "3450",
     "lob": "Administration",
     "program": "Asset Management",
-    "key": "Materials and Supplies (One Technology Center Fund)",
+    "key": "Materials and Supplies (One Tech Center)",
     "value": 4200000
   },
   {
@@ -1908,7 +1908,7 @@
     "fund": "3623",
     "lob": "Administration",
     "program": "Asset Management",
-    "key": "Materials and Supplies (TARE)",
+    "key": "Materials and Supplies (Tulsa Authority for Recovery of Energy)",
     "value": 474000
   },
   {
@@ -1916,7 +1916,7 @@
     "fund": "7010",
     "lob": "Administration",
     "program": "Asset Management",
-    "key": "Materials and Supplies (Stormwater)",
+    "key": "Materials and Supplies (Tulsa Authority for Recovery of Energy)",
     "value": 215000
   },
   {
@@ -1924,7 +1924,7 @@
     "fund": "7020",
     "lob": "Administration",
     "program": "Asset Management",
-    "key": "Materials and Supplies (Water Operating)",
+    "key": "Materials and Supplies (TMUA Water Operating)",
     "value": 514000
   },
   {
@@ -1932,7 +1932,7 @@
     "fund": "7030",
     "lob": "Administration",
     "program": "Asset Management",
-    "key": "Materials and Supplies (Sewer Operating)",
+    "key": "Materials and Supplies (TMUA Sewer Operating)",
     "value": 453000
   },
   {
@@ -1940,7 +1940,7 @@
     "fund": "8030",
     "lob": "Administration",
     "program": "Asset Management",
-    "key": "Materials and Supplies (Equipment Management)",
+    "key": "Materials and Supplies (Equip. Mgmt. Service Fund)",
     "value": 1796206
   },
   {
@@ -1948,7 +1948,7 @@
     "fund": "2240",
     "lob": "Administration",
     "program": "Asset Management",
-    "key": "Capital Purchase (Airforce Plant 3 Fund)",
+    "key": "Capital Purchase (Air Force Plant 3)",
     "value": 1285000
   },
   {
@@ -1956,7 +1956,7 @@
     "fund": "2910",
     "lob": "Administration",
     "program": "Asset Management",
-    "key": "Capital Purchase (Short Term Capital)",
+    "key": "Capital Purchase (Short-Term Capital)",
     "value": 71000
   },
   {
@@ -1964,7 +1964,7 @@
     "fund": "3450",
     "lob": "Administration",
     "program": "Asset Management",
-    "key": "Capital Purchase (One Technology Center Fund)",
+    "key": "Capital Purchase (One Tech Center)",
     "value": 223920
   },
   {
@@ -1972,7 +1972,7 @@
     "fund": "3623",
     "lob": "Administration",
     "program": "Asset Management",
-    "key": "Capital Purchase (TARE)",
+    "key": "Capital Purchase (Tulsa Authority for Recovery of Energy)",
     "value": 85000
   },
   {
@@ -1988,7 +1988,7 @@
     "fund": "7010",
     "lob": "Administration",
     "program": "Asset Management",
-    "key": "Capital Purchase (Stormwater)",
+    "key": "Capital Purchase (Tulsa Authority for Recovery of Energy)",
     "value": 68000
   },
   {
@@ -1996,7 +1996,7 @@
     "fund": "8030",
     "lob": "Administration",
     "program": "Asset Management",
-    "key": "Capital Purchase (Equipment Management)",
+    "key": "Capital Purchase (Equip. Mgmt. Service Fund)",
     "value": 294362
   },
   {
@@ -2012,7 +2012,7 @@
     "fund": "2910",
     "lob": "TRANSFERS AND DEBT",
     "program": "Transfers - Internal & Outside",
-    "key": "Transfers (Short Term Capital)",
+    "key": "Transfers (Short-Term Capital)",
     "value": 386000
   },
   {
@@ -2020,7 +2020,7 @@
     "fund": "3450",
     "lob": "TRANSFERS AND DEBT",
     "program": "Transfers - Internal & Outside",
-    "key": "Transfers (One Technology Center Fund)",
+    "key": "Transfers (One Tech Center)",
     "value": 276000
   },
   {
@@ -2036,7 +2036,7 @@
     "fund": "7010",
     "lob": "TRANSFERS AND DEBT",
     "program": "Transfers - Internal & Outside",
-    "key": "Transfers (Stormwater)",
+    "key": "Transfers (Tulsa Authority for Recovery of Energy)",
     "value": -23402000
   },
   {
@@ -2044,7 +2044,7 @@
     "fund": "7020",
     "lob": "TRANSFERS AND DEBT",
     "program": "Transfers - Internal & Outside",
-    "key": "Transfers (Water Operating)",
+    "key": "Transfers (TMUA Water Operating)",
     "value": 117206000
   },
   {
@@ -2052,7 +2052,7 @@
     "fund": "7030",
     "lob": "TRANSFERS AND DEBT",
     "program": "Transfers - Internal & Outside",
-    "key": "Transfers (Sewer Operating)",
+    "key": "Transfers (TMUA Sewer Operating)",
     "value": 13410000
   },
   {
@@ -2060,7 +2060,7 @@
     "fund": "7060",
     "lob": "TRANSFERS AND DEBT",
     "program": "Transfers - Internal & Outside",
-    "key": "Transfers (EMSA Enterprise Fund)",
+    "key": "Transfers (EMSA)",
     "value": 650000
   },
   {
@@ -2068,7 +2068,7 @@
     "fund": "8020",
     "lob": "TRANSFERS AND DEBT",
     "program": "Transfers - Internal & Outside",
-    "key": "Transfers (Workers' Compensation Fund)",
+    "key": "Transfers (Worker's Compensation Service Fund)",
     "value": 2000000
   },
   {
@@ -2076,7 +2076,7 @@
     "fund": "2810",
     "lob": "TRANSFERS AND DEBT",
     "program": "Debt Service",
-    "key": "Debt Service (Convention Fund)",
+    "key": "Debt Service (Convention and Tourism Facilities)",
     "value": 1779000
   },
   {
@@ -2084,7 +2084,7 @@
     "fund": "3450",
     "lob": "TRANSFERS AND DEBT",
     "program": "Debt Service",
-    "key": "Debt Service (One Technology Center Fund)",
+    "key": "Debt Service (One Tech Center)",
     "value": 4862000
   },
   {
@@ -2092,7 +2092,7 @@
     "fund": "3623",
     "lob": "TRANSFERS AND DEBT",
     "program": "Debt Service",
-    "key": "Debt Service (TARE)",
+    "key": "Debt Service (Tulsa Authority for Recovery of Energy)",
     "value": 1587000
   },
   {
@@ -2100,7 +2100,7 @@
     "fund": "4102",
     "lob": "TRANSFERS AND DEBT",
     "program": "Debt Service",
-    "key": "Debt Service (Tulsa Stadium Improvement)",
+    "key": "Debt Service (Tulsa Stadium Improvement District)",
     "value": 2218000
   },
   {
@@ -2108,7 +2108,7 @@
     "fund": "4306",
     "lob": "TRANSFERS AND DEBT",
     "program": "Debt Service",
-    "key": "Debt Service (Debt Service (Sinking Fund))",
+    "key": "Debt Service (Sinking Fund)",
     "value": 83091000
   },
   {
@@ -2116,7 +2116,7 @@
     "fund": "7020",
     "lob": "TRANSFERS AND DEBT",
     "program": "Debt Service",
-    "key": "Debt Service (Water Operating)",
+    "key": "Debt Service (TMUA Water Operating)",
     "value": 15363000
   },
   {
@@ -2124,7 +2124,7 @@
     "fund": "7030",
     "lob": "TRANSFERS AND DEBT",
     "program": "Debt Service",
-    "key": "Debt Service (Sewer Operating)",
+    "key": "Debt Service (TMUA Sewer Operating)",
     "value": 30013000
   }
 ]
