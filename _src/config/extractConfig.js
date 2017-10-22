@@ -207,11 +207,11 @@ const opCapConfig = {
         { name: 'Water and Sewer', division: COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION },
         { name: 'Social and Economic Development', division: COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION },
         { name: 'INCOG', division: COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION },
-        { name: 'Planning & Development', division: COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION },
+        { name: 'Planning and Development', division: COMMUNITY_DEVELOPMENT_AND_TRANSPORTATION },
 
         { name: "Mayor's Office of Human Rights", division: OFFICE_OF_THE_MAYOR },
         { name: 'Legal', division: OFFICE_OF_THE_MAYOR },
-        { name: 'Tulsa Area Emergency Mgmt.', division: OFFICE_OF_THE_MAYOR }, //TODO Ask about this one
+        { name: 'Tulsa Area Emergency Management Agency', division: OFFICE_OF_THE_MAYOR }, //TODO Ask about this one
         { name: 'Emergency Medical Services Authority', division: OFFICE_OF_THE_MAYOR }, //TODO Ask about this one
         { name: 'Fire', division: OFFICE_OF_THE_MAYOR },
         { name: 'Police', division: OFFICE_OF_THE_MAYOR },
@@ -221,7 +221,24 @@ const opCapConfig = {
 
     aliases: [
         { name: "Park and Recreation", root: "Parks and Recreation" },
-        { name: "Mayor's Office of Economic", root: "Mayor's Office of Economic Development" }
+        { name: "Mayor's Office of Economic", root: "Mayor's Office of Economic Development" },
+        { name: "AssetMgnmt", root: "Asset Management" },
+        { name: "TRANSFERS", root: "TRANSFERS AND DEBT" },
+        { name: "DEBT SERVICE", root: "Debt Service" },
+        { name: "EMSA", root: "Emergency Medical Services Authority" },
+        { name: "Fire Department", root: "Fire" },
+        { name: "Human Rights", root: "Mayor's Office of Human Rights" },
+        { name: "MayorsED", root: "Mayor's Office of Economic Development" },
+        { name: "Mayor’s Office", root: "Mayor" },
+        { name: "Park and Recreation", root: "Parks and Recreation" },
+        { name: "Planning & ED", root: "Planning and Development" },
+        { name: "Planning & Development", root: "Planning and Development" },
+        { name: "Police Department", root: "Police" },
+        { name: "WIN", root: "Working in Neighborhoods" },
+        { name: "Workers’ Comp", root: "Workers' Compensation" },
+        { name: "Tulsa Area Emergency Mgmt.", root: "Tulsa Area Emergency Management Agency" },
+        { name: "TAEMA", root: "Tulsa Area Emergency Management Agency" },
+        { name: "PAC", root: "Performing Arts Center" }
     ],
 
     //Spreadsheet data

@@ -1,0 +1,32 @@
+AssetMgnmt	29411418.92	 Different Amounts
+Engineering Services	118713000	 Different Amounts
+TRANSFERS	114054000	 Different Amounts
+INCOG	951000	 Name but no amount in Sankey
+City Auditor	1122000	 Good
+City Council	1255000	 Good
+Communications	556000	 Good
+Customer Care	2114000	 Good
+DEBT SERVICE	138913000	 Good
+EMSA	6831000	 Good
+Finance	14087000	 Good
+Fire Department	70070000	 Good
+General Government	2705000	 Good
+Gilcrease Museum	3003000	 Good
+Human Resources	4056016	 Good
+Human Rights	490000	 Good
+Information Technology	19754000	 Good
+Legal	3426000	 Good
+MayorsED	2101000	 Good
+Mayor’s Office	932000	 Good
+Municipal Court	2910000	 Good
+PAC	5798000	 Good
+Park and Recreation	26815000	 Good
+Planning & ED	6455000	 Good
+Police Department	98719000	 Good
+River Parks Authority	675000	 Good
+Streets and Stormwater	58962000	 Good
+TAEMA	144000	 Good
+Tulsa Transit	8986000	 Good
+WIN	4936000	 Good
+Water and Sewer	119933000	 Good
+Workers’ Comp	5700000	 Good

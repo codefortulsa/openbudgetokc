@@ -4,9 +4,8 @@ let jsonfile = require('jsonfile');
 let _ = require('lodash');
 
 let colIndex = require('./convert-tulsa-common').colIndex;
-let characterClasses = require('./convert-tulsa-common').characterClasses;
 let {opCapConfig} = require('../_src/config/extractConfig');
-
+let fs = require('fs');
 
 
 //Fund code->Fund
@@ -125,9 +124,10 @@ function getExpenseAmounts(ExpenseWksht, programs, fundNumbers) {
                         expenses[i++] = {
                             agency: agency,
                             fund: fundNumber,
+                            fundDescription: fundDescription,
                             lob: programName,
                             program: departmentName,
-                            key: characterClass + " (" + fundDescription + ")",
+                            key: characterClass,
                             value: amount.v
                         };
 
@@ -173,4 +173,33 @@ let expenseAmounts = getExpenseAmounts(dollarWksht, programs, fundNumbers);
 console.log('Writing output file...');
 jsonfile.writeFile(opCapConfig.outputJsonLocation, expenseAmounts, function (err) {
     console.error(err);
+});
+
+let auditText = fs.readFileSync('../_src/data/tulsa/audit/opcap.txt');
+
+let lines = _.split(auditText, '\n');
+
+function filterForAgency(program) {
+    let departments = _.filter(expenseAmounts, {program});
+
+    if(_.isEmpty(departments)) {
+        let realName = _.get(_.find(opCapConfig.aliases, {name: program}), 'root');
+        departments = _.filter(expenseAmounts, {program: realName});
+    }
+
+    return departments;
+}
+
+_.map(lines, (line) => {
+    let recs = _.split(line, '\t');
+    let auditValue = _.toInteger(recs[1]);
+
+    let dataValues = filterForAgency(recs[0]);
+    let data = _.reduce(dataValues, (acc, amt) => acc + amt.value);
+
+    if(data) {
+        console.log(recs[0], ', which was previously', recs[2], ', has checked out');
+    } else {
+        console.error(recs[0], ', which was previously', recs[2], ', cannot be found with amount', recs[1], '(total was ', data, 'out of', dataValues.length, 'agencies)');
+    }
 });

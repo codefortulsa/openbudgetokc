@@ -5,7 +5,7 @@
   "scripts": {
     "build-tul-revenue": "cd data-utilities; node ./convert-tulsa-revenue-excel.js",
     "build-tul-opcap": "cd data-utilities; node ./convert-tulsa-opercap-excel.js",
-    "build-tul-sankey": "node ../data-utilities/tulsa-sankey-nodes.js",
+    "build-tul-sankey": "node ./data-utilities/tulsa-sankey-nodes.js",
     "start": "cd _src && harp server",
     "build": "cd _src && harp compile ./ ../www",
     "test": "karma start"
