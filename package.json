@@ -1,11 +1,11 @@
 {
   "name": "openbudgetokc",
   "version": "1.0.0",
-  "description": "code for okc open budget project",
+  "description": "Code for Tulsa Open Budget project",
   "scripts": {
     "build-tul-revenue": "cd data-utilities; node ./convert-tulsa-revenue-excel.js",
     "build-tul-opcap": "cd data-utilities; node ./convert-tulsa-opercap-excel.js",
-    "build-tul-sankey": "node ../data-utilities/tulsa-sankey-nodes.js",
+    "build-tul-sankey": "node ./data-utilities/tulsa-sankey-nodes.js",
     "start": "cd _src && harp server",
     "build": "cd _src && harp compile ./ ../www",
     "test": "karma start"
@@ -16,7 +16,8 @@
   },
   "keywords": [
     "budget",
-    "okc"
+    "tulsa",
+    "TUL"
   ],
   "author": "codeforokc",
   "license": "ISC",
@@ -25,16 +26,16 @@
   },
   "homepage": "https://github.com/codeforokc/openbudgetokc#readme",
   "dependencies": {
-    "harp": "git+https://github.com/sintaxi/harp.git#v0.21.0-pre"
+    "harp": "^0.24.1"
   },
   "devDependencies": {
-    "jasmine-core": "^2.5.1",
-    "jsonfile": "^2.4.0",
-    "karma": "^1.3.0",
-    "karma-chrome-launcher": "^2.0.0",
-    "karma-firefox-launcher": "^1.0.0",
-    "karma-jasmine": "^1.0.2",
-    "xlsx": "^0.8.1",
-    "underscore": "^1.8.3"
+    "jasmine-core": "^2.8.0",
+    "jsonfile": "^4.0.0",
+    "karma": "^1.7.1",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-firefox-launcher": "^1.0.1",
+    "karma-jasmine": "^1.1.0",
+    "lodash": "^4.17.4",
+    "xlsx": "^0.11.5"
   }
 }

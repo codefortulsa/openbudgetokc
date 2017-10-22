@@ -1,0 +1,38 @@
+TARE - Refuse Dept.Operating	26280000	Not on Sankey with this name
+TMUA - Sewer Capital Proj.	14221000	Not on Sankey with this name
+TMUA - Sewer Operating Fund	102118000	 Not on Sankey with this name
+TMUA - Water Operating Fund	112690000	 Not on Sankey with this name
+TMUA Water Capital Proj.	30061000	Not on Sankey with this name
+TPFA/OTC Building Operations Fund	10096000	Not on Sankey with this name
+Transportation Sales Tax	2353000	Not on Sankey with this name
+Tulsa Stadium Improvement District	3502000	 Not on Sankey with this name
+Whittier Square Improvement District	19000	 Not on Sankey with this name
+Fines & Forfeits	8883000	 Different Amounts
+Franchise	22949000	 Different Amounts
+Other Intergovmt Rev	1630000	 Different Amounts
+TRANSFERS IN	82206000	 Different Amounts
+Ad Valorem	74481000	 Good
+Bldg Inspections	3987000	 Good
+Business Lic	1330000	 Good
+E911 Fees	3296000	 Good
+Emergency Medical Fee	7012000	 Good
+Gen Gov - Indirect	8145000	 Good
+Golf	2825000	 Good
+Grants and Reimbursements	5019000	Good
+Hotel /MOTEL TAX	7562000	 Good
+Interest Income	6299000	 Good
+Internal Service Charges	46425000	 Good
+LiquorGas Tobacco Vehicle Tax	7345000	 Good
+OTC Rental Income	9952000	 Good
+Other	700000	 Good
+Other Misc. Income	19664000	 Good
+Other Permits	3077000	 Good
+PAC	1705000	 Good
+Public Safety	3600000	 Good
+Refuse	25940000	 Good
+Sales Tax	241564000	 Good
+Sewer	98404000	 Good
+Stormwater	27369000	 Good
+Streets & Highways	6526000	 Good
+Use Tax	23321000	 Good
+Water	106963000	 Good

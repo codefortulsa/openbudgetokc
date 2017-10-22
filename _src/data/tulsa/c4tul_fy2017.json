@@ -2,2129 +2,2395 @@
   {
     "agency": "Administration",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Public Safety and Protection",
     "program": "Municipal Court",
-    "key": "Personnel Services (General Fund)",
+    "key": "Personnel Services",
     "value": 2048000
   },
   {
     "agency": "Administration",
     "fund": "2330",
+    "fundDescription": "Juvenile Curfew Fines",
     "lob": "Public Safety and Protection",
     "program": "Municipal Court",
-    "key": "Personnel Services (Juvenile Curfew Fines)",
+    "key": "Personnel Services",
     "value": 13000
   },
   {
     "agency": "Administration",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Public Safety and Protection",
     "program": "Municipal Court",
-    "key": "Professional Services (General Fund)",
+    "key": "Professional Services",
     "value": 26000
   },
   {
     "agency": "Administration",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Public Safety and Protection",
     "program": "Municipal Court",
-    "key": "Materials and Supplies (General Fund)",
+    "key": "Materials and Supplies",
     "value": 821000
   },
   {
     "agency": "Administration",
     "fund": "2320",
+    "fundDescription": "PA Law Enforcement Training",
     "lob": "Public Safety and Protection",
     "program": "Municipal Court",
-    "key": "Materials and Supplies (P.A. Law Enforcement)",
+    "key": "Materials and Supplies",
     "value": 2000
   },
   {
     "agency": "Office of the Mayor",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Public Safety and Protection",
     "program": "Police",
-    "key": "Personnel Services (General Fund)",
+    "key": "Personnel Services",
     "value": 84073000
   },
   {
     "agency": "Office of the Mayor",
     "fund": "2420",
+    "fundDescription": "E911 Fee Operating",
     "lob": "Public Safety and Protection",
     "program": "Police",
-    "key": "Personnel Services (E911 Fee Operating)",
+    "key": "Personnel Services",
     "value": 804000
   },
   {
     "agency": "Office of the Mayor",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Public Safety and Protection",
     "program": "Police",
-    "key": "Professional Services (General Fund)",
+    "key": "Professional Services",
     "value": 1451000
   },
   {
     "agency": "Office of the Mayor",
     "fund": "2420",
+    "fundDescription": "E911 Fee Operating",
     "lob": "Public Safety and Protection",
     "program": "Police",
-    "key": "Professional Services (E911 Fee Operating)",
+    "key": "Professional Services",
     "value": 47000
   },
   {
     "agency": "Office of the Mayor",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Public Safety and Protection",
     "program": "Police",
-    "key": "Materials and Supplies (General Fund)",
+    "key": "Materials and Supplies",
     "value": 6912000
   },
   {
     "agency": "Office of the Mayor",
     "fund": "2320",
+    "fundDescription": "PA Law Enforcement Training",
     "lob": "Public Safety and Protection",
     "program": "Police",
-    "key": "Materials and Supplies (P.A. Law Enforcement)",
+    "key": "Materials and Supplies",
     "value": 65000
   },
   {
     "agency": "Office of the Mayor",
     "fund": "2420",
+    "fundDescription": "E911 Fee Operating",
     "lob": "Public Safety and Protection",
     "program": "Police",
-    "key": "Materials and Supplies (E911 Fee Operating)",
+    "key": "Materials and Supplies",
     "value": 1804000
   },
   {
     "agency": "Office of the Mayor",
     "fund": "2420",
+    "fundDescription": "E911 Fee Operating",
     "lob": "Public Safety and Protection",
     "program": "Police",
-    "key": "Capital Purchase (E911 Fee Operating)",
+    "key": "Capital Purchase",
     "value": 42000
   },
   {
     "agency": "Office of the Mayor",
     "fund": "2910",
+    "fundDescription": "Short-Term Capital",
     "lob": "Public Safety and Protection",
     "program": "Police",
-    "key": "Capital Purchase (Short Term Capital)",
+    "key": "Capital Purchase",
     "value": 3521000
   },
   {
     "agency": "Office of the Mayor",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Public Safety and Protection",
     "program": "Fire",
-    "key": "Personnel Services (General Fund)",
+    "key": "Personnel Services",
     "value": 64436000
   },
   {
     "agency": "Office of the Mayor",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Public Safety and Protection",
     "program": "Fire",
-    "key": "Professional Services (General Fund)",
+    "key": "Professional Services",
     "value": 1307000
   },
   {
     "agency": "Office of the Mayor",
     "fund": "7060",
+    "fundDescription": "EMSA",
     "lob": "Public Safety and Protection",
     "program": "Fire",
-    "key": "Professional Services (EMSA Enterprise Fund)",
+    "key": "Professional Services",
     "value": 175000
   },
   {
     "agency": "Office of the Mayor",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Public Safety and Protection",
     "program": "Fire",
-    "key": "Materials and Supplies (General Fund)",
+    "key": "Materials and Supplies",
     "value": 3550000
   },
   {
     "agency": "Office of the Mayor",
     "fund": "7060",
+    "fundDescription": "EMSA",
     "lob": "Public Safety and Protection",
     "program": "Fire",
-    "key": "Materials and Supplies (EMSA Enterprise Fund)",
+    "key": "Materials and Supplies",
     "value": 120000
   },
   {
     "agency": "Office of the Mayor",
     "fund": "2910",
+    "fundDescription": "Short-Term Capital",
     "lob": "Public Safety and Protection",
     "program": "Fire",
-    "key": "Capital Purchase (Short Term Capital)",
+    "key": "Capital Purchase",
     "value": 427000
   },
   {
     "agency": "Office of the Mayor",
     "fund": "7060",
+    "fundDescription": "EMSA",
     "lob": "Public Safety and Protection",
     "program": "Fire",
-    "key": "Capital Purchase (EMSA Enterprise Fund)",
+    "key": "Capital Purchase",
     "value": 55000
   },
   {
     "agency": "Office of the Mayor",
     "fund": "7060",
+    "fundDescription": "EMSA",
     "lob": "Public Safety and Protection",
     "program": "Emergency Medical Services Authority",
-    "key": "Materials and Supplies (EMSA Enterprise Fund)",
+    "key": "Materials and Supplies",
     "value": 6831000
   },
   {
     "agency": "Office of the Mayor",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Public Safety and Protection",
-    "program": "Tulsa Area Emergency Mgmt.",
-    "key": "Materials and Supplies (General Fund)",
+    "program": "Tulsa Area Emergency Management Agency",
+    "key": "Materials and Supplies",
     "value": 144000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Cultural Development And Recreation",
     "program": "Parks and Recreation",
-    "key": "Personnel Services (General Fund)",
+    "key": "Personnel Services",
     "value": 5427000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "7010",
+    "fundDescription": "Tulsa Authority for Recovery of Energy",
     "lob": "Cultural Development And Recreation",
     "program": "Parks and Recreation",
-    "key": "Personnel Services (Stormwater)",
+    "key": "Personnel Services",
     "value": 107000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Cultural Development And Recreation",
     "program": "Parks and Recreation",
-    "key": "Professional Services (General Fund)",
+    "key": "Professional Services",
     "value": 656000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "7010",
+    "fundDescription": "Tulsa Authority for Recovery of Energy",
     "lob": "Cultural Development And Recreation",
     "program": "Parks and Recreation",
-    "key": "Professional Services (Stormwater)",
+    "key": "Professional Services",
     "value": 15000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Cultural Development And Recreation",
     "program": "Parks and Recreation",
-    "key": "Materials and Supplies (General Fund)",
+    "key": "Materials and Supplies",
     "value": 8964000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "7010",
+    "fundDescription": "Tulsa Authority for Recovery of Energy",
     "lob": "Cultural Development And Recreation",
     "program": "Parks and Recreation",
-    "key": "Materials and Supplies (Stormwater)",
+    "key": "Materials and Supplies",
     "value": 63000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "7050",
+    "fundDescription": "Golf Course Operating",
     "lob": "Cultural Development And Recreation",
     "program": "Parks and Recreation",
-    "key": "Materials and Supplies (Golf Course Operations)",
+    "key": "Materials and Supplies",
     "value": 2979000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "2910",
+    "fundDescription": "Short-Term Capital",
     "lob": "Cultural Development And Recreation",
     "program": "Parks and Recreation",
-    "key": "Capital Purchase (Short Term Capital)",
+    "key": "Capital Purchase",
     "value": 277000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "6014",
+    "fundDescription": "2014 Sales Tax Fund",
     "lob": "Cultural Development And Recreation",
     "program": "Parks and Recreation",
-    "key": "Capital Purchase (2014 Sales Tax Fund)",
+    "key": "Capital Purchase",
     "value": 8235000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "7050",
+    "fundDescription": "Golf Course Operating",
     "lob": "Cultural Development And Recreation",
     "program": "Parks and Recreation",
-    "key": "Capital Purchase (Golf Course Operations)",
+    "key": "Capital Purchase",
     "value": 92000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Cultural Development And Recreation",
     "program": "Gilcrease Museum",
-    "key": "Materials and Supplies (General Fund)",
+    "key": "Materials and Supplies",
     "value": 3003000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Cultural Development And Recreation",
     "program": "Performing Arts Center",
-    "key": "Personnel Services (General Fund)",
+    "key": "Personnel Services",
     "value": 1494000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "2810",
+    "fundDescription": "Convention and Tourism Facilities",
     "lob": "Cultural Development And Recreation",
     "program": "Performing Arts Center",
-    "key": "Personnel Services (Convention Fund)",
+    "key": "Personnel Services",
     "value": 184000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Cultural Development And Recreation",
     "program": "Performing Arts Center",
-    "key": "Professional Services (General Fund)",
+    "key": "Professional Services",
     "value": 61000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "2810",
+    "fundDescription": "Convention and Tourism Facilities",
     "lob": "Cultural Development And Recreation",
     "program": "Performing Arts Center",
-    "key": "Professional Services (Convention Fund)",
+    "key": "Professional Services",
     "value": 29000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Cultural Development And Recreation",
     "program": "Performing Arts Center",
-    "key": "Materials and Supplies (General Fund)",
+    "key": "Materials and Supplies",
     "value": 486000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "2810",
+    "fundDescription": "Convention and Tourism Facilities",
     "lob": "Cultural Development And Recreation",
     "program": "Performing Arts Center",
-    "key": "Materials and Supplies (Convention Fund)",
+    "key": "Materials and Supplies",
     "value": 533000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "2810",
+    "fundDescription": "Convention and Tourism Facilities",
     "lob": "Cultural Development And Recreation",
     "program": "Performing Arts Center",
-    "key": "Capital Purchase (Convention Fund)",
+    "key": "Capital Purchase",
     "value": 161000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "6014",
+    "fundDescription": "2014 Sales Tax Fund",
     "lob": "Cultural Development And Recreation",
     "program": "Performing Arts Center",
-    "key": "Capital Purchase (2014 Sales Tax Fund)",
+    "key": "Capital Purchase",
     "value": 2850000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Cultural Development And Recreation",
     "program": "River Parks Authority",
-    "key": "Materials and Supplies (General Fund)",
+    "key": "Materials and Supplies",
     "value": 639000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "2910",
+    "fundDescription": "Short-Term Capital",
     "lob": "Cultural Development And Recreation",
     "program": "River Parks Authority",
-    "key": "Capital Purchase (Short Term Capital)",
+    "key": "Capital Purchase",
     "value": 36000
   },
   {
     "agency": "Office of the Mayor",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Social and Economic Development",
     "program": "Mayor's Office of Economic Development",
-    "key": "Personnel Services (General Fund)",
+    "key": "Personnel Services",
     "value": 467000
   },
   {
     "agency": "Office of the Mayor",
     "fund": "2710",
+    "fundDescription": "Econ. Dev. Commission",
     "lob": "Social and Economic Development",
     "program": "Mayor's Office of Economic Development",
-    "key": "Personnel Services (Economic Development)",
+    "key": "Personnel Services",
     "value": 54000
   },
   {
     "agency": "Office of the Mayor",
     "fund": "4102",
+    "fundDescription": "Tulsa Stadium Improvement District",
     "lob": "Social and Economic Development",
     "program": "Mayor's Office of Economic Development",
-    "key": "Personnel Services (Tulsa Stadium Improvement)",
+    "key": "Personnel Services",
     "value": 305000
   },
   {
     "agency": "Office of the Mayor",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Social and Economic Development",
     "program": "Mayor's Office of Economic Development",
-    "key": "Professional Services (General Fund)",
+    "key": "Professional Services",
     "value": 7000
   },
   {
     "agency": "Office of the Mayor",
     "fund": "2710",
+    "fundDescription": "Econ. Dev. Commission",
     "lob": "Social and Economic Development",
     "program": "Mayor's Office of Economic Development",
-    "key": "Professional Services (Economic Development)",
+    "key": "Professional Services",
     "value": 5000
   },
   {
     "agency": "Office of the Mayor",
     "fund": "4102",
+    "fundDescription": "Tulsa Stadium Improvement District",
     "lob": "Social and Economic Development",
     "program": "Mayor's Office of Economic Development",
-    "key": "Professional Services (Tulsa Stadium Improvement)",
+    "key": "Professional Services",
     "value": 56000
   },
   {
     "agency": "Office of the Mayor",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Social and Economic Development",
     "program": "Mayor's Office of Economic Development",
-    "key": "Materials and Supplies (General Fund)",
+    "key": "Materials and Supplies",
     "value": 7000
   },
   {
     "agency": "Office of the Mayor",
     "fund": "2710",
+    "fundDescription": "Econ. Dev. Commission",
     "lob": "Social and Economic Development",
     "program": "Mayor's Office of Economic Development",
-    "key": "Materials and Supplies (Economic Development)",
+    "key": "Materials and Supplies",
     "value": 299000
   },
   {
     "agency": "Office of the Mayor",
     "fund": "4102",
+    "fundDescription": "Tulsa Stadium Improvement District",
     "lob": "Social and Economic Development",
     "program": "Mayor's Office of Economic Development",
-    "key": "Materials and Supplies (Tulsa Stadium Improvement)",
+    "key": "Materials and Supplies",
     "value": 864000
   },
   {
     "agency": "Office of the Mayor",
     "fund": "4102",
+    "fundDescription": "Tulsa Stadium Improvement District",
     "lob": "Social and Economic Development",
     "program": "Mayor's Office of Economic Development",
-    "key": "Capital Purchase (Tulsa Stadium Improvement)",
+    "key": "Capital Purchase",
     "value": 37000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Social and Economic Development",
     "program": "Working in Neighborhoods",
-    "key": "Personnel Services (General Fund)",
+    "key": "Personnel Services",
     "value": 3235000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "7060",
+    "fundDescription": "EMSA",
     "lob": "Social and Economic Development",
     "program": "Working in Neighborhoods",
-    "key": "Personnel Services (EMSA Enterprise Fund)",
+    "key": "Personnel Services",
     "value": 73000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Social and Economic Development",
     "program": "Working in Neighborhoods",
-    "key": "Professional Services (General Fund)",
+    "key": "Professional Services",
     "value": 272000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Social and Economic Development",
     "program": "Working in Neighborhoods",
-    "key": "Materials and Supplies (General Fund)",
+    "key": "Materials and Supplies",
     "value": 1159000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "2910",
+    "fundDescription": "Short-Term Capital",
     "lob": "Social and Economic Development",
     "program": "Working in Neighborhoods",
-    "key": "Capital Purchase (Short Term Capital)",
+    "key": "Capital Purchase",
     "value": 197000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Social and Economic Development",
-    "program": "Planning & Development",
-    "key": "Personnel Services (General Fund)",
+    "program": "Planning and Development",
+    "key": "Personnel Services",
     "value": 5748000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Social and Economic Development",
-    "program": "Planning & Development",
-    "key": "Professional Services (General Fund)",
+    "program": "Planning and Development",
+    "key": "Professional Services",
     "value": 58000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Social and Economic Development",
-    "program": "Planning & Development",
-    "key": "Materials and Supplies (General Fund)",
+    "program": "Planning and Development",
+    "key": "Materials and Supplies",
     "value": 265000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "2910",
+    "fundDescription": "Short-Term Capital",
     "lob": "Social and Economic Development",
-    "program": "Planning & Development",
-    "key": "Capital Purchase (Short Term Capital)",
+    "program": "Planning and Development",
+    "key": "Capital Purchase",
     "value": 84000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "6014",
+    "fundDescription": "2014 Sales Tax Fund",
     "lob": "Social and Economic Development",
-    "program": "Planning & Development",
-    "key": "Capital Purchase (2014 Sales Tax Fund)",
+    "program": "Planning and Development",
+    "key": "Capital Purchase",
     "value": 300000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Transportation and Public Works",
     "program": "Engineering Services",
-    "key": "Personnel Services (General Fund)",
+    "key": "Personnel Services",
     "value": 3102000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "7010",
+    "fundDescription": "Tulsa Authority for Recovery of Energy",
     "lob": "Transportation and Public Works",
     "program": "Engineering Services",
-    "key": "Personnel Services (Stormwater)",
+    "key": "Personnel Services",
     "value": 2200000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "7020",
+    "fundDescription": "TMUA Water Operating",
     "lob": "Transportation and Public Works",
     "program": "Engineering Services",
-    "key": "Personnel Services (Water Operating)",
+    "key": "Personnel Services",
     "value": 2670000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "7030",
+    "fundDescription": "TMUA Sewer Operating",
     "lob": "Transportation and Public Works",
     "program": "Engineering Services",
-    "key": "Personnel Services (Sewer Operating)",
+    "key": "Personnel Services",
     "value": 2468000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Transportation and Public Works",
     "program": "Engineering Services",
-    "key": "Professional Services (General Fund)",
+    "key": "Professional Services",
     "value": 36000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "7010",
+    "fundDescription": "Tulsa Authority for Recovery of Energy",
     "lob": "Transportation and Public Works",
     "program": "Engineering Services",
-    "key": "Professional Services (Stormwater)",
+    "key": "Professional Services",
     "value": 28000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "7020",
+    "fundDescription": "TMUA Water Operating",
     "lob": "Transportation and Public Works",
     "program": "Engineering Services",
-    "key": "Professional Services (Water Operating)",
+    "key": "Professional Services",
     "value": 23000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "7030",
+    "fundDescription": "TMUA Sewer Operating",
     "lob": "Transportation and Public Works",
     "program": "Engineering Services",
-    "key": "Professional Services (Sewer Operating)",
+    "key": "Professional Services",
     "value": 23000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Transportation and Public Works",
     "program": "Engineering Services",
-    "key": "Materials and Supplies (General Fund)",
+    "key": "Materials and Supplies",
     "value": 300000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "7010",
+    "fundDescription": "Tulsa Authority for Recovery of Energy",
     "lob": "Transportation and Public Works",
     "program": "Engineering Services",
-    "key": "Materials and Supplies (Stormwater)",
+    "key": "Materials and Supplies",
     "value": 2030000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "7020",
+    "fundDescription": "TMUA Water Operating",
     "lob": "Transportation and Public Works",
     "program": "Engineering Services",
-    "key": "Materials and Supplies (Water Operating)",
+    "key": "Materials and Supplies",
     "value": 618000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "7030",
+    "fundDescription": "TMUA Sewer Operating",
     "lob": "Transportation and Public Works",
     "program": "Engineering Services",
-    "key": "Materials and Supplies (Sewer Operating)",
+    "key": "Materials and Supplies",
     "value": 1234000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "6008",
+    "fundDescription": "2001 Five-year Sales Tax Fund",
     "lob": "Transportation and Public Works",
     "program": "Engineering Services",
-    "key": "Capital Purchase (2001 Five-year Sales Tax Fund)",
+    "key": "Capital Purchase",
     "value": -370000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "6009",
+    "fundDescription": "2006 Special Extended Sales Tax Fund",
     "lob": "Transportation and Public Works",
     "program": "Engineering Services",
-    "key": "Capital Purchase (2006 Special Extended Sales Tax Fund)",
+    "key": "Capital Purchase",
     "value": 2200000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "6014",
+    "fundDescription": "2014 Sales Tax Fund",
     "lob": "Transportation and Public Works",
     "program": "Engineering Services",
-    "key": "Capital Purchase (2014 Sales Tax Fund)",
+    "key": "Capital Purchase",
     "value": 58010000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "6021",
+    "fundDescription": "TMUA-Water Capital Projects Fund",
     "lob": "Transportation and Public Works",
     "program": "Engineering Services",
-    "key": "Capital Purchase (TMUA-Water Capital Projects Fund)",
+    "key": "Capital Purchase",
     "value": 25201000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "6031",
+    "fundDescription": "TMUA-Sewer Captial Projects Fund",
     "lob": "Transportation and Public Works",
     "program": "Engineering Services",
-    "key": "Capital Purchase (TMUA-Sewer Captial Projects Fund)",
+    "key": "Capital Purchase",
     "value": 13410000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "6041",
+    "fundDescription": "Stormwater Capital Projects Fund",
     "lob": "Transportation and Public Works",
     "program": "Engineering Services",
-    "key": "Capital Purchase (Stormwater Capital Projects Fund)",
+    "key": "Capital Purchase",
     "value": 5500000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "7020",
+    "fundDescription": "TMUA Water Operating",
     "lob": "Transportation and Public Works",
     "program": "Engineering Services",
-    "key": "Capital Purchase (Water Operating)",
+    "key": "Capital Purchase",
     "value": 30000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Transportation and Public Works",
     "program": "Streets and Stormwater",
-    "key": "Personnel Services (General Fund)",
+    "key": "Personnel Services",
     "value": 5028000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "3623",
+    "fundDescription": "Tulsa Authority for Recovery of Energy",
     "lob": "Transportation and Public Works",
     "program": "Streets and Stormwater",
-    "key": "Personnel Services (TARE)",
+    "key": "Personnel Services",
     "value": 3278000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "7010",
+    "fundDescription": "Tulsa Authority for Recovery of Energy",
     "lob": "Transportation and Public Works",
     "program": "Streets and Stormwater",
-    "key": "Personnel Services (Stormwater)",
+    "key": "Personnel Services",
     "value": 5986000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "7020",
+    "fundDescription": "TMUA Water Operating",
     "lob": "Transportation and Public Works",
     "program": "Streets and Stormwater",
-    "key": "Personnel Services (Water Operating)",
+    "key": "Personnel Services",
     "value": 330000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "7030",
+    "fundDescription": "TMUA Sewer Operating",
     "lob": "Transportation and Public Works",
     "program": "Streets and Stormwater",
-    "key": "Personnel Services (Sewer Operating)",
+    "key": "Personnel Services",
     "value": 11000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Transportation and Public Works",
     "program": "Streets and Stormwater",
-    "key": "Professional Services (General Fund)",
+    "key": "Professional Services",
     "value": 682000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "3623",
+    "fundDescription": "Tulsa Authority for Recovery of Energy",
     "lob": "Transportation and Public Works",
     "program": "Streets and Stormwater",
-    "key": "Professional Services (TARE)",
+    "key": "Professional Services",
     "value": 434000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "7010",
+    "fundDescription": "Tulsa Authority for Recovery of Energy",
     "lob": "Transportation and Public Works",
     "program": "Streets and Stormwater",
-    "key": "Professional Services (Stormwater)",
+    "key": "Professional Services",
     "value": 863000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "7030",
+    "fundDescription": "TMUA Sewer Operating",
     "lob": "Transportation and Public Works",
     "program": "Streets and Stormwater",
-    "key": "Professional Services (Sewer Operating)",
+    "key": "Professional Services",
     "value": 8000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Transportation and Public Works",
     "program": "Streets and Stormwater",
-    "key": "Materials and Supplies (General Fund)",
+    "key": "Materials and Supplies",
     "value": 10349000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "3623",
+    "fundDescription": "Tulsa Authority for Recovery of Energy",
     "lob": "Transportation and Public Works",
     "program": "Streets and Stormwater",
-    "key": "Materials and Supplies (TARE)",
+    "key": "Materials and Supplies",
     "value": 19328000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "7010",
+    "fundDescription": "Tulsa Authority for Recovery of Energy",
     "lob": "Transportation and Public Works",
     "program": "Streets and Stormwater",
-    "key": "Materials and Supplies (Stormwater)",
+    "key": "Materials and Supplies",
     "value": 9223000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "7020",
+    "fundDescription": "TMUA Water Operating",
     "lob": "Transportation and Public Works",
     "program": "Streets and Stormwater",
-    "key": "Materials and Supplies (Water Operating)",
+    "key": "Materials and Supplies",
     "value": 13000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "7030",
+    "fundDescription": "TMUA Sewer Operating",
     "lob": "Transportation and Public Works",
     "program": "Streets and Stormwater",
-    "key": "Materials and Supplies (Sewer Operating)",
+    "key": "Materials and Supplies",
     "value": 55000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "2910",
+    "fundDescription": "Short-Term Capital",
     "lob": "Transportation and Public Works",
     "program": "Streets and Stormwater",
-    "key": "Capital Purchase (Short Term Capital)",
+    "key": "Capital Purchase",
     "value": 1227000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "3623",
+    "fundDescription": "Tulsa Authority for Recovery of Energy",
     "lob": "Transportation and Public Works",
     "program": "Streets and Stormwater",
-    "key": "Capital Purchase (TARE)",
+    "key": "Capital Purchase",
     "value": 158000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "6014",
+    "fundDescription": "2014 Sales Tax Fund",
     "lob": "Transportation and Public Works",
     "program": "Streets and Stormwater",
-    "key": "Capital Purchase (2014 Sales Tax Fund)",
+    "key": "Capital Purchase",
     "value": 1550000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "7010",
+    "fundDescription": "Tulsa Authority for Recovery of Energy",
     "lob": "Transportation and Public Works",
     "program": "Streets and Stormwater",
-    "key": "Capital Purchase (Stormwater)",
+    "key": "Capital Purchase",
     "value": 439000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "3623",
+    "fundDescription": "Tulsa Authority for Recovery of Energy",
     "lob": "Transportation and Public Works",
     "program": "Water and Sewer",
-    "key": "Personnel Services (TARE)",
+    "key": "Personnel Services",
     "value": 12000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "7010",
+    "fundDescription": "Tulsa Authority for Recovery of Energy",
     "lob": "Transportation and Public Works",
     "program": "Water and Sewer",
-    "key": "Personnel Services (Stormwater)",
+    "key": "Personnel Services",
     "value": 435000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "7020",
+    "fundDescription": "TMUA Water Operating",
     "lob": "Transportation and Public Works",
     "program": "Water and Sewer",
-    "key": "Personnel Services (Water Operating)",
+    "key": "Personnel Services",
     "value": 21053000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "7030",
+    "fundDescription": "TMUA Sewer Operating",
     "lob": "Transportation and Public Works",
     "program": "Water and Sewer",
-    "key": "Personnel Services (Sewer Operating)",
+    "key": "Personnel Services",
     "value": 17750000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "7060",
+    "fundDescription": "EMSA",
     "lob": "Transportation and Public Works",
     "program": "Water and Sewer",
-    "key": "Personnel Services (EMSA Enterprise Fund)",
+    "key": "Personnel Services",
     "value": 12000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "7010",
+    "fundDescription": "Tulsa Authority for Recovery of Energy",
     "lob": "Transportation and Public Works",
     "program": "Water and Sewer",
-    "key": "Professional Services (Stormwater)",
+    "key": "Professional Services",
     "value": 91000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "7020",
+    "fundDescription": "TMUA Water Operating",
     "lob": "Transportation and Public Works",
     "program": "Water and Sewer",
-    "key": "Professional Services (Water Operating)",
+    "key": "Professional Services",
     "value": 9838000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "7030",
+    "fundDescription": "TMUA Sewer Operating",
     "lob": "Transportation and Public Works",
     "program": "Water and Sewer",
-    "key": "Professional Services (Sewer Operating)",
+    "key": "Professional Services",
     "value": 4982000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "7010",
+    "fundDescription": "Tulsa Authority for Recovery of Energy",
     "lob": "Transportation and Public Works",
     "program": "Water and Sewer",
-    "key": "Materials and Supplies (Stormwater)",
+    "key": "Materials and Supplies",
     "value": 107000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "7020",
+    "fundDescription": "TMUA Water Operating",
     "lob": "Transportation and Public Works",
     "program": "Water and Sewer",
-    "key": "Materials and Supplies (Water Operating)",
+    "key": "Materials and Supplies",
     "value": 29160000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "7030",
+    "fundDescription": "TMUA Sewer Operating",
     "lob": "Transportation and Public Works",
     "program": "Water and Sewer",
-    "key": "Materials and Supplies (Sewer Operating)",
+    "key": "Materials and Supplies",
     "value": 22248000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "6021",
+    "fundDescription": "TMUA-Water Capital Projects Fund",
     "lob": "Transportation and Public Works",
     "program": "Water and Sewer",
-    "key": "Capital Purchase (TMUA-Water Capital Projects Fund)",
+    "key": "Capital Purchase",
     "value": 560000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "7010",
+    "fundDescription": "Tulsa Authority for Recovery of Energy",
     "lob": "Transportation and Public Works",
     "program": "Water and Sewer",
-    "key": "Capital Purchase (Stormwater)",
+    "key": "Capital Purchase",
     "value": 138000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "7020",
+    "fundDescription": "TMUA Water Operating",
     "lob": "Transportation and Public Works",
     "program": "Water and Sewer",
-    "key": "Capital Purchase (Water Operating)",
+    "key": "Capital Purchase",
     "value": 5905000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "7030",
+    "fundDescription": "TMUA Sewer Operating",
     "lob": "Transportation and Public Works",
     "program": "Water and Sewer",
-    "key": "Capital Purchase (Sewer Operating)",
+    "key": "Capital Purchase",
     "value": 7642000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Transportation and Public Works",
     "program": "Tulsa Transit",
-    "key": "Materials and Supplies (General Fund)",
+    "key": "Materials and Supplies",
     "value": 7344000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "2910",
+    "fundDescription": "Short-Term Capital",
     "lob": "Transportation and Public Works",
     "program": "Tulsa Transit",
-    "key": "Capital Purchase (Short Term Capital)",
+    "key": "Capital Purchase",
     "value": 92000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "6014",
+    "fundDescription": "2014 Sales Tax Fund",
     "lob": "Transportation and Public Works",
     "program": "Tulsa Transit",
-    "key": "Capital Purchase (2014 Sales Tax Fund)",
+    "key": "Capital Purchase",
     "value": 1550000
   },
   {
     "agency": "Office of the Mayor",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Administration",
     "program": "Mayor",
-    "key": "Personnel Services (General Fund)",
+    "key": "Personnel Services",
     "value": 811000
   },
   {
     "agency": "Office of the Mayor",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Administration",
     "program": "Mayor",
-    "key": "Professional Services (General Fund)",
+    "key": "Professional Services",
     "value": 11000
   },
   {
     "agency": "Office of the Mayor",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Administration",
     "program": "Mayor",
-    "key": "Materials and Supplies (General Fund)",
+    "key": "Materials and Supplies",
     "value": 110000
   },
   {
     "agency": "City Auditor",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Administration",
     "program": "City Auditor",
-    "key": "Personnel Services (General Fund)",
+    "key": "Personnel Services",
     "value": 1062000
   },
   {
     "agency": "City Auditor",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Administration",
     "program": "City Auditor",
-    "key": "Professional Services (General Fund)",
+    "key": "Professional Services",
     "value": 10000
   },
   {
     "agency": "City Auditor",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Administration",
     "program": "City Auditor",
-    "key": "Materials and Supplies (General Fund)",
+    "key": "Materials and Supplies",
     "value": 50000
   },
   {
     "agency": "City Council",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Administration",
     "program": "City Council",
-    "key": "Personnel Services (General Fund)",
+    "key": "Personnel Services",
     "value": 1163000
   },
   {
     "agency": "City Council",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Administration",
     "program": "City Council",
-    "key": "Professional Services (General Fund)",
+    "key": "Professional Services",
     "value": 12000
   },
   {
     "agency": "City Council",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Administration",
     "program": "City Council",
-    "key": "Materials and Supplies (General Fund)",
+    "key": "Materials and Supplies",
     "value": 74000
   },
   {
     "agency": "City Council",
     "fund": "2910",
+    "fundDescription": "Short-Term Capital",
     "lob": "Administration",
     "program": "City Council",
-    "key": "Capital Purchase (Short Term Capital)",
+    "key": "Capital Purchase",
     "value": 6000
   },
   {
     "agency": "Office of the Mayor",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Administration",
     "program": "Mayor's Office of Human Rights",
-    "key": "Personnel Services (General Fund)",
+    "key": "Personnel Services",
     "value": 468000
   },
   {
     "agency": "Office of the Mayor",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Administration",
     "program": "Mayor's Office of Human Rights",
-    "key": "Professional Services (General Fund)",
+    "key": "Professional Services",
     "value": 6000
   },
   {
     "agency": "Office of the Mayor",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Administration",
     "program": "Mayor's Office of Human Rights",
-    "key": "Materials and Supplies (General Fund)",
+    "key": "Materials and Supplies",
     "value": 16000
   },
   {
     "agency": "Office of the Mayor",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Administration",
     "program": "Legal",
-    "key": "Personnel Services (General Fund)",
+    "key": "Personnel Services",
     "value": 3098000
   },
   {
     "agency": "Office of the Mayor",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Administration",
     "program": "Legal",
-    "key": "Professional Services (General Fund)",
+    "key": "Professional Services",
     "value": 76000
   },
   {
     "agency": "Office of the Mayor",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Administration",
     "program": "Legal",
-    "key": "Materials and Supplies (General Fund)",
+    "key": "Materials and Supplies",
     "value": 238000
   },
   {
     "agency": "Office of the Mayor",
     "fund": "2320",
+    "fundDescription": "PA Law Enforcement Training",
     "lob": "Administration",
     "program": "Legal",
-    "key": "Materials and Supplies (P.A. Law Enforcement)",
+    "key": "Materials and Supplies",
     "value": 2000
   },
   {
     "agency": "Office of the Mayor",
     "fund": "2910",
+    "fundDescription": "Short-Term Capital",
     "lob": "Administration",
     "program": "Legal",
-    "key": "Capital Purchase (Short Term Capital)",
+    "key": "Capital Purchase",
     "value": 12000
   },
   {
     "agency": "Administration",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Administration",
     "program": "Human Resources",
-    "key": "Personnel Services (General Fund)",
+    "key": "Personnel Services",
     "value": 2677000
   },
   {
     "agency": "Administration",
     "fund": "3000",
+    "fundDescription": "Municipal Emp. Retirement Fund",
     "lob": "Administration",
     "program": "Human Resources",
-    "key": "Personnel Services (Municipal Employee Pension)",
+    "key": "Personnel Services",
     "value": 313527
   },
   {
     "agency": "Administration",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Administration",
     "program": "Human Resources",
-    "key": "Professional Services (General Fund)",
+    "key": "Professional Services",
     "value": 112000
   },
   {
     "agency": "Administration",
     "fund": "3000",
+    "fundDescription": "Municipal Emp. Retirement Fund",
     "lob": "Administration",
     "program": "Human Resources",
-    "key": "Professional Services (Municipal Employee Pension)",
+    "key": "Professional Services",
     "value": 3489
   },
   {
     "agency": "Administration",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Administration",
     "program": "Human Resources",
-    "key": "Materials and Supplies (General Fund)",
+    "key": "Materials and Supplies",
     "value": 865000
   },
   {
     "agency": "Administration",
     "fund": "3000",
+    "fundDescription": "Municipal Emp. Retirement Fund",
     "lob": "Administration",
     "program": "Human Resources",
-    "key": "Materials and Supplies (Municipal Employee Pension)",
+    "key": "Materials and Supplies",
     "value": 28000
   },
   {
     "agency": "Administration",
     "fund": "2910",
+    "fundDescription": "Short-Term Capital",
     "lob": "Administration",
     "program": "Human Resources",
-    "key": "Capital Purchase (Short Term Capital)",
+    "key": "Capital Purchase",
     "value": 57000
   },
   {
     "agency": "Administration",
     "fund": "8020",
+    "fundDescription": "Worker's Compensation Service Fund",
     "lob": "Administration",
     "program": "Workers' Compensation",
-    "key": "Professional Services (Workers' Compensation Fund)",
+    "key": "Professional Services",
     "value": 33000
   },
   {
     "agency": "Administration",
     "fund": "8020",
+    "fundDescription": "Worker's Compensation Service Fund",
     "lob": "Administration",
     "program": "Workers' Compensation",
-    "key": "Materials and Supplies (Workers' Compensation Fund)",
+    "key": "Materials and Supplies",
     "value": 5667000
   },
   {
     "agency": "Administration",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Administration",
     "program": "General Government",
-    "key": "Materials and Supplies (General Fund)",
+    "key": "Materials and Supplies",
     "value": 2705000
   },
   {
     "agency": "Community Development and Transportation",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Administration",
     "program": "INCOG",
-    "key": "Materials and Supplies (General Fund)",
+    "key": "Materials and Supplies",
     "value": 951000
   },
   {
     "agency": "Administration",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Administration",
     "program": "Finance",
-    "key": "Personnel Services (General Fund)",
+    "key": "Personnel Services",
     "value": 5863000
   },
   {
     "agency": "Administration",
     "fund": "3623",
+    "fundDescription": "Tulsa Authority for Recovery of Energy",
     "lob": "Administration",
     "program": "Finance",
-    "key": "Personnel Services (TARE)",
+    "key": "Personnel Services",
     "value": 319000
   },
   {
     "agency": "Administration",
     "fund": "4102",
+    "fundDescription": "Tulsa Stadium Improvement District",
     "lob": "Administration",
     "program": "Finance",
-    "key": "Personnel Services (Tulsa Stadium Improvement)",
+    "key": "Personnel Services",
     "value": 68000
   },
   {
     "agency": "Administration",
     "fund": "7010",
+    "fundDescription": "Tulsa Authority for Recovery of Energy",
     "lob": "Administration",
     "program": "Finance",
-    "key": "Personnel Services (Stormwater)",
+    "key": "Personnel Services",
     "value": 358000
   },
   {
     "agency": "Administration",
     "fund": "7020",
+    "fundDescription": "TMUA Water Operating",
     "lob": "Administration",
     "program": "Finance",
-    "key": "Personnel Services (Water Operating)",
+    "key": "Personnel Services",
     "value": 1718000
   },
   {
     "agency": "Administration",
     "fund": "7030",
+    "fundDescription": "TMUA Sewer Operating",
     "lob": "Administration",
     "program": "Finance",
-    "key": "Personnel Services (Sewer Operating)",
+    "key": "Personnel Services",
     "value": 1326000
   },
   {
     "agency": "Administration",
     "fund": "7060",
+    "fundDescription": "EMSA",
     "lob": "Administration",
     "program": "Finance",
-    "key": "Personnel Services (EMSA Enterprise Fund)",
+    "key": "Personnel Services",
     "value": 94000
   },
   {
     "agency": "Administration",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Administration",
     "program": "Finance",
-    "key": "Professional Services (General Fund)",
+    "key": "Professional Services",
     "value": 80000
   },
   {
     "agency": "Administration",
     "fund": "3623",
+    "fundDescription": "Tulsa Authority for Recovery of Energy",
     "lob": "Administration",
     "program": "Finance",
-    "key": "Professional Services (TARE)",
+    "key": "Professional Services",
     "value": 10000
   },
   {
     "agency": "Administration",
     "fund": "4102",
+    "fundDescription": "Tulsa Stadium Improvement District",
     "lob": "Administration",
     "program": "Finance",
-    "key": "Professional Services (Tulsa Stadium Improvement)",
+    "key": "Professional Services",
     "value": 6000
   },
   {
     "agency": "Administration",
     "fund": "7010",
+    "fundDescription": "Tulsa Authority for Recovery of Energy",
     "lob": "Administration",
     "program": "Finance",
-    "key": "Professional Services (Stormwater)",
+    "key": "Professional Services",
     "value": 14000
   },
   {
     "agency": "Administration",
     "fund": "7020",
+    "fundDescription": "TMUA Water Operating",
     "lob": "Administration",
     "program": "Finance",
-    "key": "Professional Services (Water Operating)",
+    "key": "Professional Services",
     "value": 186000
   },
   {
     "agency": "Administration",
     "fund": "7030",
+    "fundDescription": "TMUA Sewer Operating",
     "lob": "Administration",
     "program": "Finance",
-    "key": "Professional Services (Sewer Operating)",
+    "key": "Professional Services",
     "value": 109000
   },
   {
     "agency": "Administration",
     "fund": "7060",
+    "fundDescription": "EMSA",
     "lob": "Administration",
     "program": "Finance",
-    "key": "Professional Services (EMSA Enterprise Fund)",
+    "key": "Professional Services",
     "value": 2000
   },
   {
     "agency": "Administration",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Administration",
     "program": "Finance",
-    "key": "Materials and Supplies (General Fund)",
+    "key": "Materials and Supplies",
     "value": 2061000
   },
   {
     "agency": "Administration",
     "fund": "3623",
+    "fundDescription": "Tulsa Authority for Recovery of Energy",
     "lob": "Administration",
     "program": "Finance",
-    "key": "Materials and Supplies (TARE)",
+    "key": "Materials and Supplies",
     "value": 177000
   },
   {
     "agency": "Administration",
     "fund": "4102",
+    "fundDescription": "Tulsa Stadium Improvement District",
     "lob": "Administration",
     "program": "Finance",
-    "key": "Materials and Supplies (Tulsa Stadium Improvement)",
+    "key": "Materials and Supplies",
     "value": 10000
   },
   {
     "agency": "Administration",
     "fund": "4122",
+    "fundDescription": "Whittier Square Improvement District",
     "lob": "Administration",
     "program": "Finance",
-    "key": "Materials and Supplies (Whittier Square Improvement)",
+    "key": "Materials and Supplies",
     "value": 20000
   },
   {
     "agency": "Administration",
     "fund": "7010",
+    "fundDescription": "Tulsa Authority for Recovery of Energy",
     "lob": "Administration",
     "program": "Finance",
-    "key": "Materials and Supplies (Stormwater)",
+    "key": "Materials and Supplies",
     "value": 195000
   },
   {
     "agency": "Administration",
     "fund": "7020",
+    "fundDescription": "TMUA Water Operating",
     "lob": "Administration",
     "program": "Finance",
-    "key": "Materials and Supplies (Water Operating)",
+    "key": "Materials and Supplies",
     "value": 752000
   },
   {
     "agency": "Administration",
     "fund": "7030",
+    "fundDescription": "TMUA Sewer Operating",
     "lob": "Administration",
     "program": "Finance",
-    "key": "Materials and Supplies (Sewer Operating)",
+    "key": "Materials and Supplies",
     "value": 633000
   },
   {
     "agency": "Administration",
     "fund": "7060",
+    "fundDescription": "EMSA",
     "lob": "Administration",
     "program": "Finance",
-    "key": "Materials and Supplies (EMSA Enterprise Fund)",
+    "key": "Materials and Supplies",
     "value": 53000
   },
   {
     "agency": "Administration",
     "fund": "2910",
+    "fundDescription": "Short-Term Capital",
     "lob": "Administration",
     "program": "Finance",
-    "key": "Capital Purchase (Short Term Capital)",
+    "key": "Capital Purchase",
     "value": 3000
   },
   {
     "agency": "Administration",
     "fund": "7020",
+    "fundDescription": "TMUA Water Operating",
     "lob": "Administration",
     "program": "Finance",
-    "key": "Capital Purchase (Water Operating)",
+    "key": "Capital Purchase",
     "value": 30000
   },
   {
     "agency": "Administration",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Administration",
     "program": "Information Technology",
-    "key": "Personnel Services (General Fund)",
+    "key": "Personnel Services",
     "value": 7267000
   },
   {
     "agency": "Administration",
     "fund": "2420",
+    "fundDescription": "E911 Fee Operating",
     "lob": "Administration",
     "program": "Information Technology",
-    "key": "Personnel Services (E911 Fee Operating)",
+    "key": "Personnel Services",
     "value": 320000
   },
   {
     "agency": "Administration",
     "fund": "3623",
+    "fundDescription": "Tulsa Authority for Recovery of Energy",
     "lob": "Administration",
     "program": "Information Technology",
-    "key": "Personnel Services (TARE)",
+    "key": "Personnel Services",
     "value": 224000
   },
   {
     "agency": "Administration",
     "fund": "7010",
+    "fundDescription": "Tulsa Authority for Recovery of Energy",
     "lob": "Administration",
     "program": "Information Technology",
-    "key": "Personnel Services (Stormwater)",
+    "key": "Personnel Services",
     "value": 261000
   },
   {
     "agency": "Administration",
     "fund": "7020",
+    "fundDescription": "TMUA Water Operating",
     "lob": "Administration",
     "program": "Information Technology",
-    "key": "Personnel Services (Water Operating)",
+    "key": "Personnel Services",
     "value": 1315000
   },
   {
     "agency": "Administration",
     "fund": "7030",
+    "fundDescription": "TMUA Sewer Operating",
     "lob": "Administration",
     "program": "Information Technology",
-    "key": "Personnel Services (Sewer Operating)",
+    "key": "Personnel Services",
     "value": 1123000
   },
   {
     "agency": "Administration",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Administration",
     "program": "Information Technology",
-    "key": "Professional Services (General Fund)",
+    "key": "Professional Services",
     "value": 315000
   },
   {
     "agency": "Administration",
     "fund": "2420",
+    "fundDescription": "E911 Fee Operating",
     "lob": "Administration",
     "program": "Information Technology",
-    "key": "Professional Services (E911 Fee Operating)",
+    "key": "Professional Services",
     "value": 9000
   },
   {
     "agency": "Administration",
     "fund": "3623",
+    "fundDescription": "Tulsa Authority for Recovery of Energy",
     "lob": "Administration",
     "program": "Information Technology",
-    "key": "Professional Services (TARE)",
+    "key": "Professional Services",
     "value": 10000
   },
   {
     "agency": "Administration",
     "fund": "7010",
+    "fundDescription": "Tulsa Authority for Recovery of Energy",
     "lob": "Administration",
     "program": "Information Technology",
-    "key": "Professional Services (Stormwater)",
+    "key": "Professional Services",
     "value": 9000
   },
   {
     "agency": "Administration",
     "fund": "7020",
+    "fundDescription": "TMUA Water Operating",
     "lob": "Administration",
     "program": "Information Technology",
-    "key": "Professional Services (Water Operating)",
+    "key": "Professional Services",
     "value": 47000
   },
   {
     "agency": "Administration",
     "fund": "7030",
+    "fundDescription": "TMUA Sewer Operating",
     "lob": "Administration",
     "program": "Information Technology",
-    "key": "Professional Services (Sewer Operating)",
+    "key": "Professional Services",
     "value": 35000
   },
   {
     "agency": "Administration",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Administration",
     "program": "Information Technology",
-    "key": "Materials and Supplies (General Fund)",
+    "key": "Materials and Supplies",
     "value": 2782000
   },
   {
     "agency": "Administration",
     "fund": "2420",
+    "fundDescription": "E911 Fee Operating",
     "lob": "Administration",
     "program": "Information Technology",
-    "key": "Materials and Supplies (E911 Fee Operating)",
+    "key": "Materials and Supplies",
     "value": 42000
   },
   {
     "agency": "Administration",
     "fund": "3623",
+    "fundDescription": "Tulsa Authority for Recovery of Energy",
     "lob": "Administration",
     "program": "Information Technology",
-    "key": "Materials and Supplies (TARE)",
+    "key": "Materials and Supplies",
     "value": 103000
   },
   {
     "agency": "Administration",
     "fund": "7010",
+    "fundDescription": "Tulsa Authority for Recovery of Energy",
     "lob": "Administration",
     "program": "Information Technology",
-    "key": "Materials and Supplies (Stormwater)",
+    "key": "Materials and Supplies",
     "value": 112000
   },
   {
     "agency": "Administration",
     "fund": "7020",
+    "fundDescription": "TMUA Water Operating",
     "lob": "Administration",
     "program": "Information Technology",
-    "key": "Materials and Supplies (Water Operating)",
+    "key": "Materials and Supplies",
     "value": 602000
   },
   {
     "agency": "Administration",
     "fund": "7030",
+    "fundDescription": "TMUA Sewer Operating",
     "lob": "Administration",
     "program": "Information Technology",
-    "key": "Materials and Supplies (Sewer Operating)",
+    "key": "Materials and Supplies",
     "value": 512000
   },
   {
     "agency": "Administration",
     "fund": "8011",
+    "fundDescription": "Office Services Service Fund",
     "lob": "Administration",
     "program": "Information Technology",
-    "key": "Materials and Supplies (Office Services)",
+    "key": "Materials and Supplies",
     "value": 991000
   },
   {
     "agency": "Administration",
     "fund": "2910",
+    "fundDescription": "Short-Term Capital",
     "lob": "Administration",
     "program": "Information Technology",
-    "key": "Capital Purchase (Short Term Capital)",
+    "key": "Capital Purchase",
     "value": 3315000
   },
   {
     "agency": "Administration",
     "fund": "3623",
+    "fundDescription": "Tulsa Authority for Recovery of Energy",
     "lob": "Administration",
     "program": "Information Technology",
-    "key": "Capital Purchase (TARE)",
+    "key": "Capital Purchase",
     "value": 52000
   },
   {
     "agency": "Administration",
     "fund": "7010",
+    "fundDescription": "Tulsa Authority for Recovery of Energy",
     "lob": "Administration",
     "program": "Information Technology",
-    "key": "Capital Purchase (Stormwater)",
+    "key": "Capital Purchase",
     "value": 36000
   },
   {
     "agency": "Administration",
     "fund": "7020",
+    "fundDescription": "TMUA Water Operating",
     "lob": "Administration",
     "program": "Information Technology",
-    "key": "Capital Purchase (Water Operating)",
+    "key": "Capital Purchase",
     "value": 208000
   },
   {
     "agency": "Administration",
     "fund": "7030",
+    "fundDescription": "TMUA Sewer Operating",
     "lob": "Administration",
     "program": "Information Technology",
-    "key": "Capital Purchase (Sewer Operating)",
+    "key": "Capital Purchase",
     "value": 64000
   },
   {
     "agency": "Administration",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Administration",
     "program": "Customer Care",
-    "key": "Personnel Services (General Fund)",
+    "key": "Personnel Services",
     "value": 371000
   },
   {
     "agency": "Administration",
     "fund": "3623",
+    "fundDescription": "Tulsa Authority for Recovery of Energy",
     "lob": "Administration",
     "program": "Customer Care",
-    "key": "Personnel Services (TARE)",
+    "key": "Personnel Services",
     "value": 156000
   },
   {
     "agency": "Administration",
     "fund": "7010",
+    "fundDescription": "Tulsa Authority for Recovery of Energy",
     "lob": "Administration",
     "program": "Customer Care",
-    "key": "Personnel Services (Stormwater)",
+    "key": "Personnel Services",
     "value": 176000
   },
   {
     "agency": "Administration",
     "fund": "7020",
+    "fundDescription": "TMUA Water Operating",
     "lob": "Administration",
     "program": "Customer Care",
-    "key": "Personnel Services (Water Operating)",
+    "key": "Personnel Services",
     "value": 645000
   },
   {
     "agency": "Administration",
     "fund": "7030",
+    "fundDescription": "TMUA Sewer Operating",
     "lob": "Administration",
     "program": "Customer Care",
-    "key": "Personnel Services (Sewer Operating)",
+    "key": "Personnel Services",
     "value": 547000
   },
   {
     "agency": "Administration",
     "fund": "7060",
+    "fundDescription": "EMSA",
     "lob": "Administration",
     "program": "Customer Care",
-    "key": "Personnel Services (EMSA Enterprise Fund)",
+    "key": "Personnel Services",
     "value": 59000
   },
   {
     "agency": "Administration",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Administration",
     "program": "Customer Care",
-    "key": "Professional Services (General Fund)",
+    "key": "Professional Services",
     "value": 7000
   },
   {
     "agency": "Administration",
     "fund": "3623",
+    "fundDescription": "Tulsa Authority for Recovery of Energy",
     "lob": "Administration",
     "program": "Customer Care",
-    "key": "Professional Services (TARE)",
+    "key": "Professional Services",
     "value": 3000
   },
   {
     "agency": "Administration",
     "fund": "7010",
+    "fundDescription": "Tulsa Authority for Recovery of Energy",
     "lob": "Administration",
     "program": "Customer Care",
-    "key": "Professional Services (Stormwater)",
+    "key": "Professional Services",
     "value": 3000
   },
   {
     "agency": "Administration",
     "fund": "7020",
+    "fundDescription": "TMUA Water Operating",
     "lob": "Administration",
     "program": "Customer Care",
-    "key": "Professional Services (Water Operating)",
+    "key": "Professional Services",
     "value": 11000
   },
   {
     "agency": "Administration",
     "fund": "7030",
+    "fundDescription": "TMUA Sewer Operating",
     "lob": "Administration",
     "program": "Customer Care",
-    "key": "Professional Services (Sewer Operating)",
+    "key": "Professional Services",
     "value": 10000
   },
   {
     "agency": "Administration",
     "fund": "7060",
+    "fundDescription": "EMSA",
     "lob": "Administration",
     "program": "Customer Care",
-    "key": "Professional Services (EMSA Enterprise Fund)",
+    "key": "Professional Services",
     "value": 2000
   },
   {
     "agency": "Administration",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Administration",
     "program": "Customer Care",
-    "key": "Materials and Supplies (General Fund)",
+    "key": "Materials and Supplies",
     "value": 23000
   },
   {
     "agency": "Administration",
     "fund": "3623",
+    "fundDescription": "Tulsa Authority for Recovery of Energy",
     "lob": "Administration",
     "program": "Customer Care",
-    "key": "Materials and Supplies (TARE)",
+    "key": "Materials and Supplies",
     "value": 10000
   },
   {
     "agency": "Administration",
     "fund": "7010",
+    "fundDescription": "Tulsa Authority for Recovery of Energy",
     "lob": "Administration",
     "program": "Customer Care",
-    "key": "Materials and Supplies (Stormwater)",
+    "key": "Materials and Supplies",
     "value": 11000
   },
   {
     "agency": "Administration",
     "fund": "7020",
+    "fundDescription": "TMUA Water Operating",
     "lob": "Administration",
     "program": "Customer Care",
-    "key": "Materials and Supplies (Water Operating)",
+    "key": "Materials and Supplies",
     "value": 41000
   },
   {
     "agency": "Administration",
     "fund": "7030",
+    "fundDescription": "TMUA Sewer Operating",
     "lob": "Administration",
     "program": "Customer Care",
-    "key": "Materials and Supplies (Sewer Operating)",
+    "key": "Materials and Supplies",
     "value": 35000
   },
   {
     "agency": "Administration",
     "fund": "7060",
+    "fundDescription": "EMSA",
     "lob": "Administration",
     "program": "Customer Care",
-    "key": "Materials and Supplies (EMSA Enterprise Fund)",
+    "key": "Materials and Supplies",
     "value": 4000
   },
   {
     "agency": "Administration",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Administration",
     "program": "Communications",
-    "key": "Personnel Services (General Fund)",
+    "key": "Personnel Services",
     "value": 519000
   },
   {
     "agency": "Administration",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Administration",
     "program": "Communications",
-    "key": "Professional Services (General Fund)",
+    "key": "Professional Services",
     "value": 13000
   },
   {
     "agency": "Administration",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Administration",
     "program": "Communications",
-    "key": "Materials and Supplies (General Fund)",
+    "key": "Materials and Supplies",
     "value": 21000
   },
   {
     "agency": "Administration",
     "fund": "2910",
+    "fundDescription": "Short-Term Capital",
     "lob": "Administration",
     "program": "Communications",
-    "key": "Capital Purchase (Short Term Capital)",
+    "key": "Capital Purchase",
     "value": 3000
   },
   {
     "agency": "Administration",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Administration",
     "program": "Asset Management",
-    "key": "Personnel Services (General Fund)",
+    "key": "Personnel Services",
     "value": 1722000
   },
   {
     "agency": "Administration",
     "fund": "2420",
+    "fundDescription": "E911 Fee Operating",
     "lob": "Administration",
     "program": "Asset Management",
-    "key": "Personnel Services (E911 Fee Operating)",
+    "key": "Personnel Services",
     "value": 49000
   },
   {
     "agency": "Administration",
     "fund": "3450",
+    "fundDescription": "One Tech Center",
     "lob": "Administration",
     "program": "Asset Management",
-    "key": "Personnel Services (One Technology Center Fund)",
+    "key": "Personnel Services",
     "value": 764000
   },
   {
     "agency": "Administration",
     "fund": "3623",
+    "fundDescription": "Tulsa Authority for Recovery of Energy",
     "lob": "Administration",
     "program": "Asset Management",
-    "key": "Personnel Services (TARE)",
+    "key": "Personnel Services",
     "value": 91000
   },
   {
     "agency": "Administration",
     "fund": "7010",
+    "fundDescription": "Tulsa Authority for Recovery of Energy",
     "lob": "Administration",
     "program": "Asset Management",
-    "key": "Personnel Services (Stormwater)",
+    "key": "Personnel Services",
     "value": 199000
   },
   {
     "agency": "Administration",
     "fund": "7020",
+    "fundDescription": "TMUA Water Operating",
     "lob": "Administration",
     "program": "Asset Management",
-    "key": "Personnel Services (Water Operating)",
+    "key": "Personnel Services",
     "value": 336000
   },
   {
     "agency": "Administration",
     "fund": "7030",
+    "fundDescription": "TMUA Sewer Operating",
     "lob": "Administration",
     "program": "Asset Management",
-    "key": "Personnel Services (Sewer Operating)",
+    "key": "Personnel Services",
     "value": 316000
   },
   {
     "agency": "Administration",
     "fund": "8030",
+    "fundDescription": "Equip. Mgmt. Service Fund",
     "lob": "Administration",
     "program": "Asset Management",
-    "key": "Personnel Services (Equipment Management)",
+    "key": "Personnel Services",
     "value": 4688380.92
   },
   {
     "agency": "Administration",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Administration",
     "program": "Asset Management",
-    "key": "Professional Services (General Fund)",
+    "key": "Professional Services",
     "value": 336000
   },
   {
     "agency": "Administration",
     "fund": "2420",
+    "fundDescription": "E911 Fee Operating",
     "lob": "Administration",
     "program": "Asset Management",
-    "key": "Professional Services (E911 Fee Operating)",
+    "key": "Professional Services",
     "value": 10000
   },
   {
     "agency": "Administration",
     "fund": "3450",
+    "fundDescription": "One Tech Center",
     "lob": "Administration",
     "program": "Asset Management",
-    "key": "Professional Services (One Technology Center Fund)",
+    "key": "Professional Services",
     "value": 191000
   },
   {
     "agency": "Administration",
     "fund": "3623",
+    "fundDescription": "Tulsa Authority for Recovery of Energy",
     "lob": "Administration",
     "program": "Asset Management",
-    "key": "Professional Services (TARE)",
+    "key": "Professional Services",
     "value": 59000
   },
   {
     "agency": "Administration",
     "fund": "7010",
+    "fundDescription": "Tulsa Authority for Recovery of Energy",
     "lob": "Administration",
     "program": "Asset Management",
-    "key": "Professional Services (Stormwater)",
+    "key": "Professional Services",
     "value": 20000
   },
   {
     "agency": "Administration",
     "fund": "7020",
+    "fundDescription": "TMUA Water Operating",
     "lob": "Administration",
     "program": "Asset Management",
-    "key": "Professional Services (Water Operating)",
+    "key": "Professional Services",
     "value": 37000
   },
   {
     "agency": "Administration",
     "fund": "7030",
+    "fundDescription": "TMUA Sewer Operating",
     "lob": "Administration",
     "program": "Asset Management",
-    "key": "Professional Services (Sewer Operating)",
+    "key": "Professional Services",
     "value": 33000
   },
   {
     "agency": "Administration",
     "fund": "8030",
+    "fundDescription": "Equip. Mgmt. Service Fund",
     "lob": "Administration",
     "program": "Asset Management",
-    "key": "Professional Services (Equipment Management)",
+    "key": "Professional Services",
     "value": 7828550
   },
   {
     "agency": "Administration",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "Administration",
     "program": "Asset Management",
-    "key": "Materials and Supplies (General Fund)",
+    "key": "Materials and Supplies",
     "value": 1957000
   },
   {
     "agency": "Administration",
     "fund": "2240",
+    "fundDescription": "Air Force Plant 3",
     "lob": "Administration",
     "program": "Asset Management",
-    "key": "Materials and Supplies (Airforce Plant 3 Fund)",
+    "key": "Materials and Supplies",
     "value": 20000
   },
   {
     "agency": "Administration",
     "fund": "2420",
+    "fundDescription": "E911 Fee Operating",
     "lob": "Administration",
     "program": "Asset Management",
-    "key": "Materials and Supplies (E911 Fee Operating)",
+    "key": "Materials and Supplies",
     "value": 235000
   },
   {
     "agency": "Administration",
     "fund": "3450",
+    "fundDescription": "One Tech Center",
     "lob": "Administration",
     "program": "Asset Management",
-    "key": "Materials and Supplies (One Technology Center Fund)",
+    "key": "Materials and Supplies",
     "value": 4200000
   },
   {
     "agency": "Administration",
     "fund": "3623",
+    "fundDescription": "Tulsa Authority for Recovery of Energy",
     "lob": "Administration",
     "program": "Asset Management",
-    "key": "Materials and Supplies (TARE)",
+    "key": "Materials and Supplies",
     "value": 474000
   },
   {
     "agency": "Administration",
     "fund": "7010",
+    "fundDescription": "Tulsa Authority for Recovery of Energy",
     "lob": "Administration",
     "program": "Asset Management",
-    "key": "Materials and Supplies (Stormwater)",
+    "key": "Materials and Supplies",
     "value": 215000
   },
   {
     "agency": "Administration",
     "fund": "7020",
+    "fundDescription": "TMUA Water Operating",
     "lob": "Administration",
     "program": "Asset Management",
-    "key": "Materials and Supplies (Water Operating)",
+    "key": "Materials and Supplies",
     "value": 514000
   },
   {
     "agency": "Administration",
     "fund": "7030",
+    "fundDescription": "TMUA Sewer Operating",
     "lob": "Administration",
     "program": "Asset Management",
-    "key": "Materials and Supplies (Sewer Operating)",
+    "key": "Materials and Supplies",
     "value": 453000
   },
   {
     "agency": "Administration",
     "fund": "8030",
+    "fundDescription": "Equip. Mgmt. Service Fund",
     "lob": "Administration",
     "program": "Asset Management",
-    "key": "Materials and Supplies (Equipment Management)",
+    "key": "Materials and Supplies",
     "value": 1796206
   },
   {
     "agency": "Administration",
     "fund": "2240",
+    "fundDescription": "Air Force Plant 3",
     "lob": "Administration",
     "program": "Asset Management",
-    "key": "Capital Purchase (Airforce Plant 3 Fund)",
+    "key": "Capital Purchase",
     "value": 1285000
   },
   {
     "agency": "Administration",
     "fund": "2910",
+    "fundDescription": "Short-Term Capital",
     "lob": "Administration",
     "program": "Asset Management",
-    "key": "Capital Purchase (Short Term Capital)",
+    "key": "Capital Purchase",
     "value": 71000
   },
   {
     "agency": "Administration",
     "fund": "3450",
+    "fundDescription": "One Tech Center",
     "lob": "Administration",
     "program": "Asset Management",
-    "key": "Capital Purchase (One Technology Center Fund)",
+    "key": "Capital Purchase",
     "value": 223920
   },
   {
     "agency": "Administration",
     "fund": "3623",
+    "fundDescription": "Tulsa Authority for Recovery of Energy",
     "lob": "Administration",
     "program": "Asset Management",
-    "key": "Capital Purchase (TARE)",
+    "key": "Capital Purchase",
     "value": 85000
   },
   {
     "agency": "Administration",
     "fund": "6014",
+    "fundDescription": "2014 Sales Tax Fund",
     "lob": "Administration",
     "program": "Asset Management",
-    "key": "Capital Purchase (2014 Sales Tax Fund)",
+    "key": "Capital Purchase",
     "value": 840000
   },
   {
     "agency": "Administration",
     "fund": "7010",
+    "fundDescription": "Tulsa Authority for Recovery of Energy",
     "lob": "Administration",
     "program": "Asset Management",
-    "key": "Capital Purchase (Stormwater)",
+    "key": "Capital Purchase",
     "value": 68000
   },
   {
     "agency": "Administration",
     "fund": "8030",
+    "fundDescription": "Equip. Mgmt. Service Fund",
     "lob": "Administration",
     "program": "Asset Management",
-    "key": "Capital Purchase (Equipment Management)",
+    "key": "Capital Purchase",
     "value": 294362
   },
   {
     "agency": "Administration",
     "fund": "1080",
+    "fundDescription": "General Fund",
     "lob": "TRANSFERS AND DEBT",
     "program": "Transfers - Internal & Outside",
-    "key": "Transfers (General Fund)",
+    "key": "Transfers",
     "value": 428000
   },
   {
     "agency": "Administration",
     "fund": "2910",
+    "fundDescription": "Short-Term Capital",
     "lob": "TRANSFERS AND DEBT",
     "program": "Transfers - Internal & Outside",
-    "key": "Transfers (Short Term Capital)",
+    "key": "Transfers",
     "value": 386000
   },
   {
     "agency": "Administration",
     "fund": "3450",
+    "fundDescription": "One Tech Center",
     "lob": "TRANSFERS AND DEBT",
     "program": "Transfers - Internal & Outside",
-    "key": "Transfers (One Technology Center Fund)",
+    "key": "Transfers",
     "value": 276000
   },
   {
     "agency": "Administration",
     "fund": "6014",
+    "fundDescription": "2014 Sales Tax Fund",
     "lob": "TRANSFERS AND DEBT",
     "program": "Transfers - Internal & Outside",
-    "key": "Transfers (2014 Sales Tax Fund)",
+    "key": "Transfers",
     "value": 3100000
   },
   {
     "agency": "Administration",
     "fund": "7010",
+    "fundDescription": "Tulsa Authority for Recovery of Energy",
     "lob": "TRANSFERS AND DEBT",
     "program": "Transfers - Internal & Outside",
-    "key": "Transfers (Stormwater)",
+    "key": "Transfers",
     "value": -23402000
   },
   {
     "agency": "Administration",
     "fund": "7020",
+    "fundDescription": "TMUA Water Operating",
     "lob": "TRANSFERS AND DEBT",
     "program": "Transfers - Internal & Outside",
-    "key": "Transfers (Water Operating)",
+    "key": "Transfers",
     "value": 117206000
   },
   {
     "agency": "Administration",
     "fund": "7030",
+    "fundDescription": "TMUA Sewer Operating",
     "lob": "TRANSFERS AND DEBT",
     "program": "Transfers - Internal & Outside",
-    "key": "Transfers (Sewer Operating)",
+    "key": "Transfers",
     "value": 13410000
   },
   {
     "agency": "Administration",
     "fund": "7060",
+    "fundDescription": "EMSA",
     "lob": "TRANSFERS AND DEBT",
     "program": "Transfers - Internal & Outside",
-    "key": "Transfers (EMSA Enterprise Fund)",
+    "key": "Transfers",
     "value": 650000
   },
   {
     "agency": "Administration",
     "fund": "8020",
+    "fundDescription": "Worker's Compensation Service Fund",
     "lob": "TRANSFERS AND DEBT",
     "program": "Transfers - Internal & Outside",
-    "key": "Transfers (Workers' Compensation Fund)",
+    "key": "Transfers",
     "value": 2000000
   },
   {
     "agency": "Administration",
     "fund": "2810",
+    "fundDescription": "Convention and Tourism Facilities",
     "lob": "TRANSFERS AND DEBT",
     "program": "Debt Service",
-    "key": "Debt Service (Convention Fund)",
+    "key": "Debt Service",
     "value": 1779000
   },
   {
     "agency": "Administration",
     "fund": "3450",
+    "fundDescription": "One Tech Center",
     "lob": "TRANSFERS AND DEBT",
     "program": "Debt Service",
-    "key": "Debt Service (One Technology Center Fund)",
+    "key": "Debt Service",
     "value": 4862000
   },
   {
     "agency": "Administration",
     "fund": "3623",
+    "fundDescription": "Tulsa Authority for Recovery of Energy",
     "lob": "TRANSFERS AND DEBT",
     "program": "Debt Service",
-    "key": "Debt Service (TARE)",
+    "key": "Debt Service",
     "value": 1587000
   },
   {
     "agency": "Administration",
     "fund": "4102",
+    "fundDescription": "Tulsa Stadium Improvement District",
     "lob": "TRANSFERS AND DEBT",
     "program": "Debt Service",
-    "key": "Debt Service (Tulsa Stadium Improvement)",
+    "key": "Debt Service",
     "value": 2218000
   },
   {
     "agency": "Administration",
     "fund": "4306",
+    "fundDescription": "Sinking Fund",
     "lob": "TRANSFERS AND DEBT",
     "program": "Debt Service",
-    "key": "Debt Service (Debt Service (Sinking Fund))",
+    "key": "Debt Service",
     "value": 83091000
   },
   {
     "agency": "Administration",
     "fund": "7020",
+    "fundDescription": "TMUA Water Operating",
     "lob": "TRANSFERS AND DEBT",
     "program": "Debt Service",
-    "key": "Debt Service (Water Operating)",
+    "key": "Debt Service",
     "value": 15363000
   },
   {
     "agency": "Administration",
     "fund": "7030",
+    "fundDescription": "TMUA Sewer Operating",
     "lob": "TRANSFERS AND DEBT",
     "program": "Debt Service",
-    "key": "Debt Service (Sewer Operating)",
+    "key": "Debt Service",
     "value": 30013000
   }
 ]

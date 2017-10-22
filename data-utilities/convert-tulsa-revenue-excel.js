@@ -15,84 +15,58 @@
  * This file licensed under Code4Tulsa charter.
  */
 
-var xlsx = require('xlsx');
-var jsonfile = require('jsonfile');
-var colIndex = require('./convert-tulsa-common').colIndex;
-var getFundDescriptions = require('./convert-tulsa-common').getFundDescriptions;
-var getFundNumbers = require('./convert-tulsa-common').getFundNumbers;
-
-//Descriptions of each of the revenue sources
-var FIRST_DESC_ROW = 3;
-var FINAL_DESC_ROW = 35;
-
-//Columns for revenue categories and amounts; we have to map amounts back to categories to get the right description
-var COL_FOR_REV_CATG = 'A';
-var COL_FOR_ADP_BUDG = 'E';
-
-//Rows for revenue categories
-var FIRST_ROW_CATG = 10;
-var FINAL_ROW_CATG = 66;
-
-//Spreadsheet data
-var INPUT_SPREADSHEET_LOCATION = '../_src/data/tulsa/originals/FY17 Revenues.xlsx';
-var OUTPUT_JSON_LOCATION = '../_src/data/tulsa/c4tul_fy2017Revenue.json';
-var AMOUNT_TBL_SHEET_NM = 'ADOPTED Rev Table';
-var CATG_SHEET_NM = 'REVenue(2)';
-
-//Fund codes where the revenue was credited
-
-var FINAL_FUND_COL = 43;
-var TOTAL_FUND_COL = 'AR';
-var FIRST_FUND_COL = 1;
-
-/**
- * Find the revenue descriptions for each row in the revenue table
- * @param TulsaRevenueBudgetWksht The revenue worksheet table with dollar amounts for each revenue source
- * @returns {Array} a map of row number to revenue descriptions
- */
-function getRevenueDetailNodes(TulsaRevenueBudgetWksht) {
-    var revenueDetailNodes = [];
-
-    for (var i = FIRST_DESC_ROW; i < FINAL_DESC_ROW; i++) {
-        var cell = 'A' + i;
-
-        console.log('Revenue description for index ', cell, TulsaRevenueBudgetWksht[cell].v);
-
-        revenueDetailNodes[i] = TulsaRevenueBudgetWksht[cell].v;
-    }
-
-    return revenueDetailNodes;
-}
-
+let xlsx = require('xlsx');
+let jsonfile = require('jsonfile');
+let {colIndex, getFundDescription, getFundCategory, getFundNumbers} = require('./convert-tulsa-common');
+let {revenueConfig} = require('../_src/config/extractConfig');
+let _ = require('lodash');
+let fs = require('fs');
 
 /**
  * Gets the revenue's 'Category' as listed on the first worksheet.  This is a bit more detailed than Appendix 9.
  * @param TulsaRevenueBudgetWksht The worksheet with summaries
- * @returns {Array} a map of amounts to categories.  We have to use this because we have no other way of figuring out
- * what category a revenue source belongs to (since in the table, the descriptions and codes are different than they
- * are in the summary).  These numbers are long enough that they are unique.
+ * @returns {function} a function that can be used to look up detail and category information by cross-reference code (column A in the 'ADOPTED Rev Table' worksheet)
  */
-function getRevCategories(TulsaRevenueBudgetWksht) {
-    var catg = '***PLACEHOLDER***';
-    var amountsToCatg = [];
+function loadRevenueCategories(TulsaRevenueBudgetWksht) {
+    let categoryDescription = '***PLACEHOLDER***';
+    let categories = [];
 
-    for (var row = FIRST_ROW_CATG; row <= FINAL_ROW_CATG; row++) {
-        var amount = TulsaRevenueBudgetWksht[COL_FOR_ADP_BUDG + row];
-        var maybeCatg = TulsaRevenueBudgetWksht[COL_FOR_REV_CATG + row];
+    for (let row = revenueConfig.categories.firstRow; row <= revenueConfig.categories.lastRow; row++) {
+        let categoryDescriptionCell = TulsaRevenueBudgetWksht[revenueConfig.categories.categoryColumn + row];
+        let detailCell = TulsaRevenueBudgetWksht[revenueConfig.categories.detailsColumn + row];
+        let crossRefCell = TulsaRevenueBudgetWksht[revenueConfig.categories.catgCrossRefColumn + row];
 
-        if (amount && !maybeCatg) {
-            amountsToCatg[amount.v] = catg;
-            console.log('Cell ' + COL_FOR_ADP_BUDG + row + ': Category ' + catg + ' has amount ' + amount.v);
-        } else if (maybeCatg) {
+        console.log('Loading row', row);
 
-            catg = maybeCatg.v;
-            console.log('Cell ' + COL_FOR_REV_CATG + row + ': ' + JSON.stringify(catg));
+        if( !(_.isNil(categoryDescriptionCell) || _.isEmpty(categoryDescriptionCell.v)) ) {
+            categoryDescription = categoryDescriptionCell.v;
+            console.log('Now in the', categoryDescription, 'category');
+        } else if( !(_.isNil(crossRefCell) || _.isEmpty(crossRefCell)) ){
+            let detail = detailCell.v;
+            let crossRef = crossRefCell.v;
+            categories.push({categoryDescription, detail, crossRef});
+            console.log('Cross-ref code', crossRef, 'is category', categoryDescription);
         } else {
-            console.log('Row ' + row + ' is blank.');
+            console.log('Row', row, 'was skipped because it is missing a cross-reference code');
         }
     }
 
-    return amountsToCatg;
+    return (crossRef) => _.find(categories, {crossRef});
+}
+
+function getReadableCategory(crossRefCode, getRevenueCategory) {
+    let category;
+
+    if(crossRefCode === 'M Internal Service Charges') {
+        category = revenueConfig.categories.internalServiceCategory
+    } else if(crossRefCode === 'n TRANSFERS IN') {
+        category = {...getRevenueCategory(crossRefCode)};
+        category.detail = revenueConfig.categories.transfersInCategoryDesc;
+    } else {
+        category = getRevenueCategory(crossRefCode);
+    }
+
+    return category;
 }
 
 /**
@@ -100,79 +74,78 @@ function getRevCategories(TulsaRevenueBudgetWksht) {
  * much money went from each revenue source to each funding source.  0's are excluded.
  *
  * @param TulsaRevenueBudgetWksht The revenue worksheet table with dollar amounts for each fund
- * @param fundNumbers Column to fund number associations
- * @param fundDescriptions Cross-referenced fund descriptions
- * @param revenueDescs Row to revenue source associations
- * @param categoryMap Row to revenue category associations
+ * @param getRevenueCategory A function that can be used to locate the category object containing the category description, detail, cross reference, and subcategory
  * @returns {Array} The JSON objects for all funding and revenue sources for the City of Tulsa
  */
-function getRevenueAmounts(TulsaRevenueBudgetWksht, fundNumbers, fundDescriptions, revenueDescs, categoryMap) {
-    var revAmt = [];
-    var i = 0;
+function getRevenueAmounts(TulsaRevenueBudgetWksht, getRevenueCategory) {
+    let revAmt = [];
 
-    for (var row = FIRST_DESC_ROW; row < FINAL_DESC_ROW; row++) {
-        var logRow = '';
-        var delim = '';
+    for (let col = revenueConfig.funds.firstColumn; col < revenueConfig.funds.lastColumn; col++) {
+        for (let row = revenueConfig.descriptionRows.first; row <= revenueConfig.descriptionRows.last; row++) {
+            let colLetter = colIndex(col);
 
-        for (var col = FIRST_FUND_COL; col < FINAL_FUND_COL; col++) {
-            var colLetter = colIndex(col);
-            var amt = TulsaRevenueBudgetWksht[colLetter + row].v;
-            var fundCode = fundNumbers[col];
-            var category = categoryMap[amt];
+            let crossRefCode = TulsaRevenueBudgetWksht[revenueConfig.funds.catgCrossRefColumn + row].v;
+            let amt = TulsaRevenueBudgetWksht[colLetter + row].v;
+            let fundCode = _.toInteger(TulsaRevenueBudgetWksht[colLetter + revenueConfig.funds.fundCodeRow].v);
 
-            if (!category) {
-                var newCategoryAmt = TulsaRevenueBudgetWksht[TOTAL_FUND_COL + row].v;
-                category = categoryMap[newCategoryAmt];
-                console.log('Amount ' + amt + ' on row ' + row + ' has no exact match, subtotal was ' + newCategoryAmt + ' which is associated with ' + category);
-            }
-
-            var revenueObject = {
-                BusUnit: 'TUL',
-                FundCode: fundCode,
-                FundDescription: fundDescriptions[fundCode],
-                RevCategory: category,
-                RevDetailNode: revenueDescs[row],
-                amount: amt
-            };
+            //If Internal Service charge, use "made up" category from config
+            let category = getReadableCategory(crossRefCode, getRevenueCategory);
 
             if (amt > 0) {
-                revAmt[i++] = revenueObject;
+                console.log('Revenue amount for cell', colLetter + row, 'was', amt, 'with cross-ref', crossRefCode, 'with category', JSON.stringify(category));
+                revAmt.push({
+                    BusUnit: 'TUL',
+                    FundCode: fundCode,
+                    FundDescription: getFundDescription(fundCode),
+                    RevCategory: category.categoryDescription,
+                    RevDetailNode: category.detail,
+                    amount: amt
+                });
+            } else {
+                console.log('Revenue amount for cell', colLetter + row, 'was 0 or less and not recorded.');
             }
-
-            logRow += delim + TulsaRevenueBudgetWksht[colLetter + row].v;
-            delim = ',';
         }
-
-        console.log(revenueDescs[row] + ':' + logRow);
     }
 
     return revAmt;
 }
 
+
 console.log('Opening Tulsa Budget data...');
 
-var workbook = xlsx.readFile(INPUT_SPREADSHEET_LOCATION);
+let workbook = xlsx.readFile(revenueConfig.localFileLocation);
 
 console.log('Opened file. Finding revenue tab...');
-var revenueWorksheet = workbook.Sheets[AMOUNT_TBL_SHEET_NM];
-var categoryDescWorksheet = workbook.Sheets[CATG_SHEET_NM];
+let revenueWorksheet = workbook.Sheets[revenueConfig.amountTableSheetName];
+let categoryDescWorksheet = workbook.Sheets[revenueConfig.categories.sheetName];
 
-console.log('Finding fund categories...');
-var categoryMap = getRevCategories(categoryDescWorksheet);
+console.log('Loading fund categories...');
+let getRevenueCategory = loadRevenueCategories(categoryDescWorksheet);
 
 console.log('Getting fund numbers...');
-var fundNumbers = getFundNumbers(revenueWorksheet, FIRST_FUND_COL, FINAL_FUND_COL);
-
-console.log('Getting fund descriptions...');
-var fundDescriptions = getFundDescriptions();
-
-console.log('Getting revenue source descriptions...');
-var revenueDescriptions = getRevenueDetailNodes(revenueWorksheet);
+let fundNumbers = getFundNumbers(revenueWorksheet, revenueConfig.funds.firstColumn, revenueConfig.funds.lastColumn);
 
 console.log('Getting amounts for each fund revenue source...');
-var revenueFigures = getRevenueAmounts(revenueWorksheet, fundNumbers, fundDescriptions, revenueDescriptions, categoryMap);
+let revenueFigures = getRevenueAmounts(revenueWorksheet, getRevenueCategory);
 
 console.log('Writing output file...');
-jsonfile.writeFile(OUTPUT_JSON_LOCATION, revenueFigures, function (err) {
+jsonfile.writeFile(revenueConfig.outputJsonLocation, revenueFigures, function (err) {
     console.error(err);
+});
+
+let auditText = fs.readFileSync('../_src/data/tulsa/audit/revenue.txt');
+
+let lines = _.split(auditText, '\n');
+
+_.map(lines, (line) => {
+    let recs = _.split(line, '\t');
+    let auditValue = _.toInteger(recs[1]);
+
+    let data = _.find(revenueFigures, {amount: auditValue});
+
+    if(data) {
+        console.log(recs[0], ', which was previously', recs[2], ', has checked out');
+    } else {
+        console.error(recs[0], ', which was previously', recs[2], ', cannot be found with amount', recs[1]);
+    }
 });
