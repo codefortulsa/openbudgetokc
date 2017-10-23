@@ -12,19 +12,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/codeforokc/openbudgetokc.git"
+    "url": "git+https://github.com/codefortulsa/openbudgettulsa.git"
   },
   "keywords": [
     "budget",
     "tulsa",
     "TUL"
   ],
-  "author": "codeforokc",
+  "author": "codefortul",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/codeforokc/openbudgetokc/issues"
+    "url": "https://github.com/codefortulsa/openbudgettulsa/issues"
   },
-  "homepage": "https://github.com/codeforokc/openbudgetokc#readme",
+  "homepage": "https://github.com/codefortulsa/openbudgettulsa#readme",
   "dependencies": {
     "harp": "^0.24.1"
   },
