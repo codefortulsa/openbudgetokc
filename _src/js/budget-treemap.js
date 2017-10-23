@@ -368,7 +368,7 @@ ob.display = ob.display || {};
               return _get_value(d) <= 0 ? 0.001 : _get_value(d);
             })
             .columns(["", "Item", "Expense", "Revenue"])
-            .column(function(d, i, elem) {
+            .detailsColumn(function(d, i, elem) {
               if (i == 1) {
                 elem.attr("class", "item").html(d);
               }
