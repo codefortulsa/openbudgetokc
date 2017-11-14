@@ -1,1 +1,1381 @@
-[{"nodes":[{"name":" TAXES"},{"name":"General Fund"},{"name":" ENTERPRISE REVENUE"},{"name":"Enterprise"},{"name":"Capital Projects"},{"name":"Special Assessment"},{"name":" INTERGOVERNMENTAL REVENUE"},{"name":"Trust & Agency Enterprise"},{"name":" Internal Service"},{"name":"Internal Service"},{"name":"Special Revenue"},{"name":" MISCELLANEOUS REVENUE"},{"name":" LICENSES AND PERMITS"},{"name":"Special Revenue (Grants)"},{"name":" CULTURAL AND RECREATION"},{"name":"TRANSFERS AND DEBT"},{"name":"Public Safety and Protection"},{"name":"Transportation and Public Works"},{"name":"Cultural Development And Recreation"},{"name":"Administration"},{"name":"Social and Economic Development"},{"name":"Capital Purchase"},{"name":"Transfers"}],"links":[{"source_name":" TAXES","target_name":"General Fund","source":0,"target":1,"value":198156000},{"source_name":" ENTERPRISE REVENUE","target_name":"Enterprise","source":2,"target":3,"value":242573000},{"source_name":" TAXES","target_name":"Capital Projects","source":0,"target":4,"value":83047000},{"source_name":" TAXES","target_name":"Special Assessment","source":0,"target":5,"value":74481000},{"source_name":" INTERGOVERNMENTAL REVENUE","target_name":"Capital Projects","source":6,"target":4,"value":49782000},{"source_name":" ENTERPRISE REVENUE","target_name":"Trust & Agency Enterprise","source":2,"target":7,"value":35892000},{"source_name":" Internal Service","target_name":"Internal Service","source":8,"target":9,"value":46425000},{"source_name":" INTERGOVERNMENTAL REVENUE","target_name":"General Fund","source":6,"target":1,"value":25496000},{"source_name":" INTERGOVERNMENTAL REVENUE","target_name":"Special Revenue","source":6,"target":10,"value":9690000},{"source_name":" MISCELLANEOUS REVENUE","target_name":"General Fund","source":11,"target":1,"value":32923000},{"source_name":" MISCELLANEOUS REVENUE","target_name":"Enterprise","source":11,"target":3,"value":9571000},{"source_name":" TAXES","target_name":"Special Revenue","source":0,"target":10,"value":14193000},{"source_name":" LICENSES AND PERMITS","target_name":"General Fund","source":12,"target":1,"value":8342000},{"source_name":" INTERGOVERNMENTAL REVENUE","target_name":"Special Assessment","source":6,"target":5,"value":3502000},{"source_name":" MISCELLANEOUS REVENUE","target_name":"Special Assessment","source":11,"target":5,"value":3939000},{"source_name":" MISCELLANEOUS REVENUE","target_name":"Special Revenue","source":11,"target":10,"value":5577000},{"source_name":" INTERGOVERNMENTAL REVENUE","target_name":"Special Revenue (Grants)","source":6,"target":13,"value":5019000},{"source_name":" INTERGOVERNMENTAL REVENUE","target_name":"Internal Service","source":6,"target":9,"value":2294000},{"source_name":" CULTURAL AND RECREATION","target_name":"General Fund","source":14,"target":1,"value":2405000},{"source_name":" MISCELLANEOUS REVENUE","target_name":"Special Revenue (Grants)","source":11,"target":13,"value":1169000},{"source_name":" MISCELLANEOUS REVENUE","target_name":"Capital Projects","source":11,"target":4,"value":2979000},{"source_name":" MISCELLANEOUS REVENUE","target_name":"Trust & Agency Enterprise","source":11,"target":7,"value":27327000},{"source_name":" INTERGOVERNMENTAL REVENUE","target_name":"Trust & Agency Enterprise","source":6,"target":7,"value":250000},{"source_name":" INTERGOVERNMENTAL REVENUE","target_name":"Enterprise","source":6,"target":3,"value":167000},{"source_name":" MISCELLANEOUS REVENUE","target_name":"Internal Service","source":11,"target":9,"value":38049000},{"source_name":" LICENSES AND PERMITS","target_name":"Enterprise","source":12,"target":3,"value":52000},{"source_name":"Enterprise","target_name":"TRANSFERS AND DEBT","source":3,"target":15,"value":176642000},{"source_name":"General Fund","target_name":"Public Safety and Protection","source":1,"target":16,"value":164768000},{"source_name":"Special Assessment","target_name":"TRANSFERS AND DEBT","source":5,"target":15,"value":85309000},{"source_name":"Capital Projects","target_name":"Transportation and Public Works","source":4,"target":17,"value":107981000},{"source_name":"Enterprise","target_name":"Transportation and Public Works","source":3,"target":17,"value":147613000},{"source_name":"Trust & Agency Enterprise","target_name":"Transportation and Public Works","source":7,"target":17,"value":23210000},{"source_name":"General Fund","target_name":"Cultural Development And Recreation","source":1,"target":18,"value":20730000},{"source_name":"Capital Projects","target_name":"Cultural Development And Recreation","source":4,"target":18,"value":11085000},{"source_name":"Internal Service","target_name":"Administration","source":9,"target":19,"value":16610118},{"source_name":"Enterprise","target_name":"Public Safety and Protection","source":3,"target":16,"value":7181000},{"source_name":"General Fund","target_name":"Social and Economic Development","source":1,"target":20,"value":11218000},{"source_name":"Trust & Agency Enterprise","target_name":"TRANSFERS AND DEBT","source":7,"target":15,"value":6725000},{"source_name":"Trust & Agency Enterprise","target_name":"Administration","source":7,"target":19,"value":7496936},{"source_name":"Special Revenue","target_name":"Public Safety and Protection","source":10,"target":16,"value":6725000},{"source_name":"Special Revenue","target_name":"Administration","source":10,"target":19,"value":5439000},{"source_name":"Capital Projects","target_name":"TRANSFERS AND DEBT","source":4,"target":15,"value":3100000},{"source_name":"Enterprise","target_name":"Cultural Development And Recreation","source":3,"target":18,"value":3256000},{"source_name":"Internal Service","target_name":"TRANSFERS AND DEBT","source":9,"target":15,"value":2000000},{"source_name":"Special Revenue","target_name":"TRANSFERS AND DEBT","source":10,"target":15,"value":2165000},{"source_name":"Enterprise","target_name":"Administration","source":3,"target":19,"value":13529000},{"source_name":"Special Revenue","target_name":"Transportation and Public Works","source":10,"target":17,"value":1319000},{"source_name":"Special Assessment","target_name":"Social and Economic Development","source":5,"target":20,"value":1262000},{"source_name":"Capital Projects","target_name":"Administration","source":4,"target":19,"value":840000},{"source_name":"Special Revenue","target_name":"Cultural Development And Recreation","source":10,"target":18,"value":1220000},{"source_name":"Capital Projects","target_name":"Social and Economic Development","source":4,"target":20,"value":300000},{"source_name":"Special Revenue","target_name":"Social and Economic Development","source":10,"target":20,"value":639000},{"source_name":"Enterprise","target_name":"Social and Economic Development","source":3,"target":20,"value":73000},{"source_name":"Special Assessment","target_name":"Administration","source":5,"target":19,"value":104000},{"source_name":"Capital Purchase","target_name":"Capital Projects","source":21,"target":4,"value":370000},{"source_name":"Transfers","target_name":"Enterprise","source":22,"target":3,"value":23402000}]},{"nodes":[{"name":"TAXES"},{"name":"General Fund"},{"name":"ENTERPRISE REVENUE"},{"name":"Enterprise"},{"name":"Capital Projects"},{"name":"Valorem"},{"name":"Special Assessment"},{"name":"INTERGOVERNMENTAL REVENUE"},{"name":"Trust & Agency Enterprise"},{"name":"Internal Service"},{"name":"Rental Income"},{"name":"Special Revenue"},{"name":"MISCELLANEOUS REVENUE"},{"name":"LICENSES AND PERMITS"},{"name":"Special Revenue (Grants)"},{"name":"CULTURAL AND RECREATION"},{"name":" Transfers - Internal & Outside"},{"name":" Police"},{"name":" Debt Service"},{"name":" Fire"},{"name":" Engineering Services"},{"name":" Water and Sewer"},{"name":" Streets and Stormwater"},{"name":" Parks and Recreation"},{"name":" Asset Management"},{"name":" Tulsa Transit"},{"name":" Information Technology"},{"name":" Emergency Medical Services Authority"},{"name":" Finance"},{"name":" Planning and Development"},{"name":" Workers' Compensation"},{"name":" Working in Neighborhoods"},{"name":" Legal"},{"name":" Gilcrease Museum"},{"name":" Performing Arts Center"},{"name":" General Government"},{"name":" Human Resources"},{"name":" Municipal Court"},{"name":" City Council"},{"name":" City Auditor"},{"name":" INCOG"},{"name":" Mayor's Office of Economic Development"},{"name":" Mayor"},{"name":" Customer Care"},{"name":" River Parks Authority"},{"name":" Communications"},{"name":" Mayor's Office of Human Rights"},{"name":" Tulsa Area Emergency Management Agency"},{"name":"Capital Purchase"},{"name":"Transfers"}],"links":[{"source_name":"TAXES","target_name":"General Fund","source":0,"target":1,"value":198156000},{"source_name":"ENTERPRISE REVENUE","target_name":"Enterprise","source":2,"target":3,"value":242573000},{"source_name":"TAXES","target_name":"Capital Projects","source":0,"target":4,"value":83047000},{"source_name":"Valorem","target_name":"Special Assessment","source":5,"target":6,"value":74481000},{"source_name":"INTERGOVERNMENTAL REVENUE","target_name":"Capital Projects","source":7,"target":4,"value":49782000},{"source_name":"ENTERPRISE REVENUE","target_name":"Trust & Agency Enterprise","source":2,"target":8,"value":25940000},{"source_name":"Internal Service","target_name":"Internal Service","source":9,"target":9,"value":46425000},{"source_name":"INTERGOVERNMENTAL REVENUE","target_name":"General Fund","source":7,"target":1,"value":25496000},{"source_name":"Rental Income","target_name":"Trust & Agency Enterprise","source":10,"target":8,"value":9952000},{"source_name":"INTERGOVERNMENTAL REVENUE","target_name":"Special Revenue","source":7,"target":11,"value":9690000},{"source_name":"MISCELLANEOUS REVENUE","target_name":"General Fund","source":12,"target":1,"value":32923000},{"source_name":"MISCELLANEOUS REVENUE","target_name":"Enterprise","source":12,"target":3,"value":24618000},{"source_name":"TAXES","target_name":"Special Revenue","source":0,"target":11,"value":14193000},{"source_name":"LICENSES AND PERMITS","target_name":"General Fund","source":13,"target":1,"value":13008000},{"source_name":"INTERGOVERNMENTAL REVENUE","target_name":"Special Assessment","source":7,"target":6,"value":3502000},{"source_name":"MISCELLANEOUS REVENUE","target_name":"Special Assessment","source":12,"target":6,"value":13875000},{"source_name":"MISCELLANEOUS REVENUE","target_name":"Special Revenue","source":12,"target":11,"value":5577000},{"source_name":"INTERGOVERNMENTAL REVENUE","target_name":"Special Revenue (Grants)","source":7,"target":14,"value":5019000},{"source_name":"INTERGOVERNMENTAL REVENUE","target_name":"Internal Service","source":7,"target":9,"value":2294000},{"source_name":"CULTURAL AND RECREATION","target_name":"General Fund","source":15,"target":1,"value":2405000},{"source_name":"MISCELLANEOUS REVENUE","target_name":"Special Revenue (Grants)","source":12,"target":14,"value":1169000},{"source_name":"MISCELLANEOUS REVENUE","target_name":"Capital Projects","source":12,"target":4,"value":6994000},{"source_name":"MISCELLANEOUS REVENUE","target_name":"Trust & Agency Enterprise","source":12,"target":8,"value":8490000},{"source_name":"INTERGOVERNMENTAL REVENUE","target_name":"Trust & Agency Enterprise","source":7,"target":8,"value":250000},{"source_name":"INTERGOVERNMENTAL REVENUE","target_name":"Enterprise","source":7,"target":3,"value":167000},{"source_name":"MISCELLANEOUS REVENUE","target_name":"Internal Service","source":12,"target":9,"value":6268000},{"source_name":"LICENSES AND PERMITS","target_name":"Enterprise","source":13,"target":3,"value":3055000},{"source_name":"Enterprise","target_name":" Transfers - Internal & Outside","source":3,"target":16,"value":131266000},{"source_name":"General Fund","target_name":" Police","source":1,"target":17,"value":92436000},{"source_name":"Special Assessment","target_name":" Debt Service","source":6,"target":18,"value":85309000},{"source_name":"General Fund","target_name":" Fire","source":1,"target":19,"value":69293000},{"source_name":"Capital Projects","target_name":" Engineering Services","source":4,"target":20,"value":104321000},{"source_name":"Enterprise","target_name":" Debt Service","source":3,"target":18,"value":45376000},{"source_name":"Enterprise","target_name":" Water and Sewer","source":3,"target":21,"value":119361000},{"source_name":"Trust & Agency Enterprise","target_name":" Streets and Stormwater","source":8,"target":22,"value":23198000},{"source_name":"General Fund","target_name":" Streets and Stormwater","source":1,"target":22,"value":16059000},{"source_name":"Enterprise","target_name":" Streets and Stormwater","source":3,"target":22,"value":16928000},{"source_name":"Capital Projects","target_name":" Parks and Recreation","source":4,"target":23,"value":8235000},{"source_name":"Internal Service","target_name":" Asset Management","source":9,"target":24,"value":9919118},{"source_name":"General Fund","target_name":" Tulsa Transit","source":1,"target":25,"value":7344000},{"source_name":"Enterprise","target_name":" Emergency Medical Services Authority","source":3,"target":27,"value":6831000},{"source_name":"Internal Service","target_name":" Workers' Compensation","source":9,"target":30,"value":5700000},{"source_name":"Trust & Agency Enterprise","target_name":" Debt Service","source":8,"target":18,"value":6449000},{"source_name":"Trust & Agency Enterprise","target_name":" Asset Management","source":8,"target":24,"value":6087920},{"source_name":"Special Revenue","target_name":" Police","source":11,"target":17,"value":6283000},{"source_name":"Special Revenue","target_name":" Information Technology","source":11,"target":26,"value":3686000},{"source_name":"General Fund","target_name":" Engineering Services","source":1,"target":20,"value":3438000},{"source_name":"Capital Projects","target_name":" Transfers - Internal & Outside","source":4,"target":16,"value":3100000},{"source_name":"General Fund","target_name":" Legal","source":1,"target":32,"value":3412000},{"source_name":"Enterprise","target_name":" Parks and Recreation","source":3,"target":23,"value":3256000},{"source_name":"Capital Projects","target_name":" Performing Arts Center","source":4,"target":34,"value":2850000},{"source_name":"General Fund","target_name":" General Government","source":1,"target":35,"value":2705000},{"source_name":"General Fund","target_name":" Human Resources","source":1,"target":36,"value":3654000},{"source_name":"Enterprise","target_name":" Engineering Services","source":3,"target":20,"value":11324000},{"source_name":"General Fund","target_name":" Municipal Court","source":1,"target":37,"value":2895000},{"source_name":"Internal Service","target_name":" Transfers - Internal & Outside","source":9,"target":16,"value":2000000},{"source_name":"Special Revenue","target_name":" Debt Service","source":11,"target":18,"value":1779000},{"source_name":"Enterprise","target_name":" Finance","source":3,"target":28,"value":5470000},{"source_name":"Capital Projects","target_name":" Tulsa Transit","source":4,"target":25,"value":1550000},{"source_name":"Capital Projects","target_name":" Streets and Stormwater","source":4,"target":22,"value":1550000},{"source_name":"General Fund","target_name":" Performing Arts Center","source":1,"target":34,"value":2041000},{"source_name":"Enterprise","target_name":" Information Technology","source":3,"target":26,"value":4324000},{"source_name":"Special Revenue","target_name":" Asset Management","source":11,"target":24,"value":1670000},{"source_name":"Special Revenue","target_name":" Streets and Stormwater","source":11,"target":22,"value":1227000},{"source_name":"General Fund","target_name":" City Council","source":1,"target":38,"value":1249000},{"source_name":"General Fund","target_name":" City Auditor","source":1,"target":39,"value":1122000},{"source_name":"Internal Service","target_name":" Information Technology","source":9,"target":26,"value":991000},{"source_name":"General Fund","target_name":" INCOG","source":1,"target":40,"value":951000},{"source_name":"Special Assessment","target_name":" Mayor's Office of Economic Development","source":6,"target":41,"value":1262000},{"source_name":"Capital Projects","target_name":" Asset Management","source":4,"target":24,"value":840000},{"source_name":"General Fund","target_name":" Mayor","source":1,"target":42,"value":932000},{"source_name":"Enterprise","target_name":" Customer Care","source":3,"target":43,"value":1544000},{"source_name":"General Fund","target_name":" River Parks Authority","source":1,"target":44,"value":639000},{"source_name":"Capital Projects","target_name":" Water and Sewer","source":4,"target":21,"value":560000},{"source_name":"Special Revenue","target_name":" Performing Arts Center","source":11,"target":34,"value":907000},{"source_name":"General Fund","target_name":" Communications","source":1,"target":45,"value":553000},{"source_name":"Enterprise","target_name":" Asset Management","source":3,"target":24,"value":2191000},{"source_name":"General Fund","target_name":" Mayor's Office of Human Rights","source":1,"target":46,"value":490000},{"source_name":"General Fund","target_name":" Mayor's Office of Economic Development","source":1,"target":41,"value":481000},{"source_name":"General Fund","target_name":" Transfers - Internal & Outside","source":1,"target":16,"value":428000},{"source_name":"Special Revenue","target_name":" Fire","source":11,"target":19,"value":427000},{"source_name":"Special Revenue","target_name":" Transfers - Internal & Outside","source":11,"target":16,"value":386000},{"source_name":"General Fund","target_name":" Customer Care","source":1,"target":43,"value":401000},{"source_name":"Trust & Agency Enterprise","target_name":" Finance","source":8,"target":28,"value":506000},{"source_name":"Trust & Agency Enterprise","target_name":" Human Resources","source":8,"target":36,"value":345016},{"source_name":"Capital Projects","target_name":" Planning and Development","source":4,"target":29,"value":300000},{"source_name":"Special Revenue","target_name":" Mayor's Office of Economic Development","source":11,"target":41,"value":358000},{"source_name":"Special Revenue","target_name":" Parks and Recreation","source":11,"target":23,"value":277000},{"source_name":"Trust & Agency Enterprise","target_name":" Transfers - Internal & Outside","source":8,"target":16,"value":276000},{"source_name":"Trust & Agency Enterprise","target_name":" Information Technology","source":8,"target":26,"value":389000},{"source_name":"Special Revenue","target_name":" Working in Neighborhoods","source":11,"target":31,"value":197000},{"source_name":"Enterprise","target_name":" Fire","source":3,"target":19,"value":350000},{"source_name":"Trust & Agency Enterprise","target_name":" Customer Care","source":8,"target":43,"value":169000},{"source_name":"General Fund","target_name":" Tulsa Area Emergency Management Agency","source":1,"target":47,"value":144000},{"source_name":"Special Revenue","target_name":" Tulsa Transit","source":11,"target":25,"value":92000},{"source_name":"Special Revenue","target_name":" Planning and Development","source":11,"target":29,"value":84000},{"source_name":"Enterprise","target_name":" Working in Neighborhoods","source":3,"target":31,"value":73000},{"source_name":"Special Assessment","target_name":" Finance","source":6,"target":28,"value":104000},{"source_name":"Special Revenue","target_name":" Human Resources","source":11,"target":36,"value":57000},{"source_name":"Special Revenue","target_name":" River Parks Authority","source":11,"target":44,"value":36000},{"source_name":"Special Revenue","target_name":" Municipal Court","source":11,"target":37,"value":15000},{"source_name":"Special Revenue","target_name":" Legal","source":11,"target":32,"value":14000},{"source_name":"Trust & Agency Enterprise","target_name":" Water and Sewer","source":8,"target":21,"value":12000},{"source_name":"Special Revenue","target_name":" City Council","source":11,"target":38,"value":6000},{"source_name":"Special Revenue","target_name":" Communications","source":11,"target":45,"value":3000},{"source_name":"Special Revenue","target_name":" Finance","source":11,"target":28,"value":3000},{"source_name":"Capital Purchase","target_name":"Capital Projects","source":48,"target":4,"value":370000},{"source_name":"Transfers","target_name":"Enterprise","source":49,"target":3,"value":23402000}]}]
+[
+  {
+    "nodes": [
+      {
+        "name": " TAXES"
+      },
+      {
+        "name": "General Fund"
+      },
+      {
+        "name": " ENTERPRISE REVENUE"
+      },
+      {
+        "name": "Enterprise"
+      },
+      {
+        "name": "Capital Projects"
+      },
+      {
+        "name": "Special Assessment"
+      },
+      {
+        "name": " INTERGOVERNMENTAL REVENUE"
+      },
+      {
+        "name": "Trust & Agency Enterprise"
+      },
+      {
+        "name": " Internal Service"
+      },
+      {
+        "name": "Internal Service"
+      },
+      {
+        "name": "Special Revenue"
+      },
+      {
+        "name": " MISCELLANEOUS REVENUE"
+      },
+      {
+        "name": " LICENSES AND PERMITS"
+      },
+      {
+        "name": "Special Revenue (Grants)"
+      },
+      {
+        "name": " CULTURAL AND RECREATION"
+      },
+      {
+        "name": "TRANSFERS AND DEBT"
+      },
+      {
+        "name": "Public Safety and Protection"
+      },
+      {
+        "name": "Transportation and Public Works"
+      },
+      {
+        "name": "Cultural Development And Recreation"
+      },
+      {
+        "name": "Administration"
+      },
+      {
+        "name": "Social and Economic Development"
+      },
+      {
+        "name": "Capital Purchase"
+      },
+      {
+        "name": "Transfers"
+      }
+    ],
+    "links": [
+      {
+        "source_name": " TAXES",
+        "target_name": "General Fund",
+        "source": 0,
+        "target": 1,
+        "value": 198156000
+      },
+      {
+        "source_name": " ENTERPRISE REVENUE",
+        "target_name": "Enterprise",
+        "source": 2,
+        "target": 3,
+        "value": 242573000
+      },
+      {
+        "source_name": " TAXES",
+        "target_name": "Capital Projects",
+        "source": 0,
+        "target": 4,
+        "value": 83047000
+      },
+      {
+        "source_name": " TAXES",
+        "target_name": "Special Assessment",
+        "source": 0,
+        "target": 5,
+        "value": 74481000
+      },
+      {
+        "source_name": " INTERGOVERNMENTAL REVENUE",
+        "target_name": "Capital Projects",
+        "source": 6,
+        "target": 4,
+        "value": 49782000
+      },
+      {
+        "source_name": " ENTERPRISE REVENUE",
+        "target_name": "Trust & Agency Enterprise",
+        "source": 2,
+        "target": 7,
+        "value": 35892000
+      },
+      {
+        "source_name": " Internal Service",
+        "target_name": "Internal Service",
+        "source": 8,
+        "target": 9,
+        "value": 46425000
+      },
+      {
+        "source_name": " INTERGOVERNMENTAL REVENUE",
+        "target_name": "General Fund",
+        "source": 6,
+        "target": 1,
+        "value": 25496000
+      },
+      {
+        "source_name": " INTERGOVERNMENTAL REVENUE",
+        "target_name": "Special Revenue",
+        "source": 6,
+        "target": 10,
+        "value": 9690000
+      },
+      {
+        "source_name": " MISCELLANEOUS REVENUE",
+        "target_name": "General Fund",
+        "source": 11,
+        "target": 1,
+        "value": 32923000
+      },
+      {
+        "source_name": " MISCELLANEOUS REVENUE",
+        "target_name": "Enterprise",
+        "source": 11,
+        "target": 3,
+        "value": 9571000
+      },
+      {
+        "source_name": " TAXES",
+        "target_name": "Special Revenue",
+        "source": 0,
+        "target": 10,
+        "value": 14193000
+      },
+      {
+        "source_name": " LICENSES AND PERMITS",
+        "target_name": "General Fund",
+        "source": 12,
+        "target": 1,
+        "value": 8342000
+      },
+      {
+        "source_name": " INTERGOVERNMENTAL REVENUE",
+        "target_name": "Special Assessment",
+        "source": 6,
+        "target": 5,
+        "value": 3502000
+      },
+      {
+        "source_name": " MISCELLANEOUS REVENUE",
+        "target_name": "Special Assessment",
+        "source": 11,
+        "target": 5,
+        "value": 3939000
+      },
+      {
+        "source_name": " MISCELLANEOUS REVENUE",
+        "target_name": "Special Revenue",
+        "source": 11,
+        "target": 10,
+        "value": 5577000
+      },
+      {
+        "source_name": " INTERGOVERNMENTAL REVENUE",
+        "target_name": "Special Revenue (Grants)",
+        "source": 6,
+        "target": 13,
+        "value": 5019000
+      },
+      {
+        "source_name": " INTERGOVERNMENTAL REVENUE",
+        "target_name": "Internal Service",
+        "source": 6,
+        "target": 9,
+        "value": 2294000
+      },
+      {
+        "source_name": " CULTURAL AND RECREATION",
+        "target_name": "General Fund",
+        "source": 14,
+        "target": 1,
+        "value": 2405000
+      },
+      {
+        "source_name": " MISCELLANEOUS REVENUE",
+        "target_name": "Special Revenue (Grants)",
+        "source": 11,
+        "target": 13,
+        "value": 1169000
+      },
+      {
+        "source_name": " MISCELLANEOUS REVENUE",
+        "target_name": "Capital Projects",
+        "source": 11,
+        "target": 4,
+        "value": 2979000
+      },
+      {
+        "source_name": " MISCELLANEOUS REVENUE",
+        "target_name": "Trust & Agency Enterprise",
+        "source": 11,
+        "target": 7,
+        "value": 27327000
+      },
+      {
+        "source_name": " INTERGOVERNMENTAL REVENUE",
+        "target_name": "Trust & Agency Enterprise",
+        "source": 6,
+        "target": 7,
+        "value": 250000
+      },
+      {
+        "source_name": " INTERGOVERNMENTAL REVENUE",
+        "target_name": "Enterprise",
+        "source": 6,
+        "target": 3,
+        "value": 167000
+      },
+      {
+        "source_name": " MISCELLANEOUS REVENUE",
+        "target_name": "Internal Service",
+        "source": 11,
+        "target": 9,
+        "value": 38049000
+      },
+      {
+        "source_name": " LICENSES AND PERMITS",
+        "target_name": "Enterprise",
+        "source": 12,
+        "target": 3,
+        "value": 52000
+      },
+      {
+        "source_name": "Enterprise",
+        "target_name": "TRANSFERS AND DEBT",
+        "source": 3,
+        "target": 15,
+        "value": 176642000
+      },
+      {
+        "source_name": "General Fund",
+        "target_name": "Public Safety and Protection",
+        "source": 1,
+        "target": 16,
+        "value": 164768000
+      },
+      {
+        "source_name": "Special Assessment",
+        "target_name": "TRANSFERS AND DEBT",
+        "source": 5,
+        "target": 15,
+        "value": 85309000
+      },
+      {
+        "source_name": "Capital Projects",
+        "target_name": "Transportation and Public Works",
+        "source": 4,
+        "target": 17,
+        "value": 107981000
+      },
+      {
+        "source_name": "Enterprise",
+        "target_name": "Transportation and Public Works",
+        "source": 3,
+        "target": 17,
+        "value": 147613000
+      },
+      {
+        "source_name": "Trust & Agency Enterprise",
+        "target_name": "Transportation and Public Works",
+        "source": 7,
+        "target": 17,
+        "value": 23210000
+      },
+      {
+        "source_name": "General Fund",
+        "target_name": "Cultural Development And Recreation",
+        "source": 1,
+        "target": 18,
+        "value": 20730000
+      },
+      {
+        "source_name": "Capital Projects",
+        "target_name": "Cultural Development And Recreation",
+        "source": 4,
+        "target": 18,
+        "value": 11085000
+      },
+      {
+        "source_name": "Internal Service",
+        "target_name": "Administration",
+        "source": 9,
+        "target": 19,
+        "value": 16610118
+      },
+      {
+        "source_name": "Enterprise",
+        "target_name": "Public Safety and Protection",
+        "source": 3,
+        "target": 16,
+        "value": 7181000
+      },
+      {
+        "source_name": "General Fund",
+        "target_name": "Social and Economic Development",
+        "source": 1,
+        "target": 20,
+        "value": 11218000
+      },
+      {
+        "source_name": "Trust & Agency Enterprise",
+        "target_name": "TRANSFERS AND DEBT",
+        "source": 7,
+        "target": 15,
+        "value": 6725000
+      },
+      {
+        "source_name": "Trust & Agency Enterprise",
+        "target_name": "Administration",
+        "source": 7,
+        "target": 19,
+        "value": 7496936
+      },
+      {
+        "source_name": "Special Revenue",
+        "target_name": "Public Safety and Protection",
+        "source": 10,
+        "target": 16,
+        "value": 6725000
+      },
+      {
+        "source_name": "Special Revenue",
+        "target_name": "Administration",
+        "source": 10,
+        "target": 19,
+        "value": 5439000
+      },
+      {
+        "source_name": "Capital Projects",
+        "target_name": "TRANSFERS AND DEBT",
+        "source": 4,
+        "target": 15,
+        "value": 3100000
+      },
+      {
+        "source_name": "Enterprise",
+        "target_name": "Cultural Development And Recreation",
+        "source": 3,
+        "target": 18,
+        "value": 3256000
+      },
+      {
+        "source_name": "Internal Service",
+        "target_name": "TRANSFERS AND DEBT",
+        "source": 9,
+        "target": 15,
+        "value": 2000000
+      },
+      {
+        "source_name": "Special Revenue",
+        "target_name": "TRANSFERS AND DEBT",
+        "source": 10,
+        "target": 15,
+        "value": 2165000
+      },
+      {
+        "source_name": "Enterprise",
+        "target_name": "Administration",
+        "source": 3,
+        "target": 19,
+        "value": 13529000
+      },
+      {
+        "source_name": "Special Revenue",
+        "target_name": "Transportation and Public Works",
+        "source": 10,
+        "target": 17,
+        "value": 1319000
+      },
+      {
+        "source_name": "Special Assessment",
+        "target_name": "Social and Economic Development",
+        "source": 5,
+        "target": 20,
+        "value": 1262000
+      },
+      {
+        "source_name": "Capital Projects",
+        "target_name": "Administration",
+        "source": 4,
+        "target": 19,
+        "value": 840000
+      },
+      {
+        "source_name": "Special Revenue",
+        "target_name": "Cultural Development And Recreation",
+        "source": 10,
+        "target": 18,
+        "value": 1220000
+      },
+      {
+        "source_name": "Capital Projects",
+        "target_name": "Social and Economic Development",
+        "source": 4,
+        "target": 20,
+        "value": 300000
+      },
+      {
+        "source_name": "Special Revenue",
+        "target_name": "Social and Economic Development",
+        "source": 10,
+        "target": 20,
+        "value": 639000
+      },
+      {
+        "source_name": "Enterprise",
+        "target_name": "Social and Economic Development",
+        "source": 3,
+        "target": 20,
+        "value": 73000
+      },
+      {
+        "source_name": "Special Assessment",
+        "target_name": "Administration",
+        "source": 5,
+        "target": 19,
+        "value": 104000
+      },
+      {
+        "source_name": "Capital Purchase",
+        "target_name": "Capital Projects",
+        "source": 21,
+        "target": 4,
+        "value": 370000
+      },
+      {
+        "source_name": "Transfers",
+        "target_name": "Enterprise",
+        "source": 22,
+        "target": 3,
+        "value": 23402000
+      }
+    ]
+  },
+  {
+    "nodes": [
+      {
+        "name": "TAXES"
+      },
+      {
+        "name": "General Fund"
+      },
+      {
+        "name": "ENTERPRISE REVENUE"
+      },
+      {
+        "name": "Enterprise"
+      },
+      {
+        "name": "Capital Projects"
+      },
+      {
+        "name": "Valorem"
+      },
+      {
+        "name": "Special Assessment"
+      },
+      {
+        "name": "INTERGOVERNMENTAL REVENUE"
+      },
+      {
+        "name": "Trust & Agency Enterprise"
+      },
+      {
+        "name": "Internal Service"
+      },
+      {
+        "name": "Rental Income"
+      },
+      {
+        "name": "Special Revenue"
+      },
+      {
+        "name": "MISCELLANEOUS REVENUE"
+      },
+      {
+        "name": "LICENSES AND PERMITS"
+      },
+      {
+        "name": "Special Revenue (Grants)"
+      },
+      {
+        "name": "CULTURAL AND RECREATION"
+      },
+      {
+        "name": " Transfers - Internal & Outside"
+      },
+      {
+        "name": " Police"
+      },
+      {
+        "name": " Debt Service"
+      },
+      {
+        "name": " Fire"
+      },
+      {
+        "name": " Engineering Services"
+      },
+      {
+        "name": " Water and Sewer"
+      },
+      {
+        "name": " Streets and Stormwater"
+      },
+      {
+        "name": " Parks and Recreation"
+      },
+      {
+        "name": " Asset Management"
+      },
+      {
+        "name": " Tulsa Transit"
+      },
+      {
+        "name": " Information Technology"
+      },
+      {
+        "name": " Emergency Medical Services Authority"
+      },
+      {
+        "name": " Finance"
+      },
+      {
+        "name": " Planning and Development"
+      },
+      {
+        "name": " Workers' Compensation"
+      },
+      {
+        "name": " Working in Neighborhoods"
+      },
+      {
+        "name": " Legal"
+      },
+      {
+        "name": " Gilcrease Museum"
+      },
+      {
+        "name": " Performing Arts Center"
+      },
+      {
+        "name": " General Government"
+      },
+      {
+        "name": " Human Resources"
+      },
+      {
+        "name": " Municipal Court"
+      },
+      {
+        "name": " City Council"
+      },
+      {
+        "name": " City Auditor"
+      },
+      {
+        "name": " INCOG"
+      },
+      {
+        "name": " Mayor's Office of Economic Development"
+      },
+      {
+        "name": " Mayor"
+      },
+      {
+        "name": " Customer Care"
+      },
+      {
+        "name": " River Parks Authority"
+      },
+      {
+        "name": " Communications"
+      },
+      {
+        "name": " Mayor's Office of Human Rights"
+      },
+      {
+        "name": " Tulsa Area Emergency Management Agency"
+      },
+      {
+        "name": "Capital Purchase"
+      },
+      {
+        "name": "Transfers"
+      }
+    ],
+    "links": [
+      {
+        "source_name": "TAXES",
+        "target_name": "General Fund",
+        "source": 0,
+        "target": 1,
+        "value": 198156000
+      },
+      {
+        "source_name": "ENTERPRISE REVENUE",
+        "target_name": "Enterprise",
+        "source": 2,
+        "target": 3,
+        "value": 242573000
+      },
+      {
+        "source_name": "TAXES",
+        "target_name": "Capital Projects",
+        "source": 0,
+        "target": 4,
+        "value": 83047000
+      },
+      {
+        "source_name": "Valorem",
+        "target_name": "Special Assessment",
+        "source": 5,
+        "target": 6,
+        "value": 74481000
+      },
+      {
+        "source_name": "INTERGOVERNMENTAL REVENUE",
+        "target_name": "Capital Projects",
+        "source": 7,
+        "target": 4,
+        "value": 49782000
+      },
+      {
+        "source_name": "ENTERPRISE REVENUE",
+        "target_name": "Trust & Agency Enterprise",
+        "source": 2,
+        "target": 8,
+        "value": 25940000
+      },
+      {
+        "source_name": "Internal Service",
+        "target_name": "Internal Service",
+        "source": 9,
+        "target": 9,
+        "value": 46425000
+      },
+      {
+        "source_name": "INTERGOVERNMENTAL REVENUE",
+        "target_name": "General Fund",
+        "source": 7,
+        "target": 1,
+        "value": 25496000
+      },
+      {
+        "source_name": "Rental Income",
+        "target_name": "Trust & Agency Enterprise",
+        "source": 10,
+        "target": 8,
+        "value": 9952000
+      },
+      {
+        "source_name": "INTERGOVERNMENTAL REVENUE",
+        "target_name": "Special Revenue",
+        "source": 7,
+        "target": 11,
+        "value": 9690000
+      },
+      {
+        "source_name": "MISCELLANEOUS REVENUE",
+        "target_name": "General Fund",
+        "source": 12,
+        "target": 1,
+        "value": 32923000
+      },
+      {
+        "source_name": "MISCELLANEOUS REVENUE",
+        "target_name": "Enterprise",
+        "source": 12,
+        "target": 3,
+        "value": 24618000
+      },
+      {
+        "source_name": "TAXES",
+        "target_name": "Special Revenue",
+        "source": 0,
+        "target": 11,
+        "value": 14193000
+      },
+      {
+        "source_name": "LICENSES AND PERMITS",
+        "target_name": "General Fund",
+        "source": 13,
+        "target": 1,
+        "value": 13008000
+      },
+      {
+        "source_name": "INTERGOVERNMENTAL REVENUE",
+        "target_name": "Special Assessment",
+        "source": 7,
+        "target": 6,
+        "value": 3502000
+      },
+      {
+        "source_name": "MISCELLANEOUS REVENUE",
+        "target_name": "Special Assessment",
+        "source": 12,
+        "target": 6,
+        "value": 13875000
+      },
+      {
+        "source_name": "MISCELLANEOUS REVENUE",
+        "target_name": "Special Revenue",
+        "source": 12,
+        "target": 11,
+        "value": 5577000
+      },
+      {
+        "source_name": "INTERGOVERNMENTAL REVENUE",
+        "target_name": "Special Revenue (Grants)",
+        "source": 7,
+        "target": 14,
+        "value": 5019000
+      },
+      {
+        "source_name": "INTERGOVERNMENTAL REVENUE",
+        "target_name": "Internal Service",
+        "source": 7,
+        "target": 9,
+        "value": 2294000
+      },
+      {
+        "source_name": "CULTURAL AND RECREATION",
+        "target_name": "General Fund",
+        "source": 15,
+        "target": 1,
+        "value": 2405000
+      },
+      {
+        "source_name": "MISCELLANEOUS REVENUE",
+        "target_name": "Special Revenue (Grants)",
+        "source": 12,
+        "target": 14,
+        "value": 1169000
+      },
+      {
+        "source_name": "MISCELLANEOUS REVENUE",
+        "target_name": "Capital Projects",
+        "source": 12,
+        "target": 4,
+        "value": 6994000
+      },
+      {
+        "source_name": "MISCELLANEOUS REVENUE",
+        "target_name": "Trust & Agency Enterprise",
+        "source": 12,
+        "target": 8,
+        "value": 8490000
+      },
+      {
+        "source_name": "INTERGOVERNMENTAL REVENUE",
+        "target_name": "Trust & Agency Enterprise",
+        "source": 7,
+        "target": 8,
+        "value": 250000
+      },
+      {
+        "source_name": "INTERGOVERNMENTAL REVENUE",
+        "target_name": "Enterprise",
+        "source": 7,
+        "target": 3,
+        "value": 167000
+      },
+      {
+        "source_name": "MISCELLANEOUS REVENUE",
+        "target_name": "Internal Service",
+        "source": 12,
+        "target": 9,
+        "value": 6268000
+      },
+      {
+        "source_name": "LICENSES AND PERMITS",
+        "target_name": "Enterprise",
+        "source": 13,
+        "target": 3,
+        "value": 3055000
+      },
+      {
+        "source_name": "Enterprise",
+        "target_name": " Transfers - Internal & Outside",
+        "source": 3,
+        "target": 16,
+        "value": 131266000
+      },
+      {
+        "source_name": "General Fund",
+        "target_name": " Police",
+        "source": 1,
+        "target": 17,
+        "value": 92436000
+      },
+      {
+        "source_name": "Special Assessment",
+        "target_name": " Debt Service",
+        "source": 6,
+        "target": 18,
+        "value": 85309000
+      },
+      {
+        "source_name": "General Fund",
+        "target_name": " Fire",
+        "source": 1,
+        "target": 19,
+        "value": 69293000
+      },
+      {
+        "source_name": "Capital Projects",
+        "target_name": " Engineering Services",
+        "source": 4,
+        "target": 20,
+        "value": 104321000
+      },
+      {
+        "source_name": "Enterprise",
+        "target_name": " Debt Service",
+        "source": 3,
+        "target": 18,
+        "value": 45376000
+      },
+      {
+        "source_name": "Enterprise",
+        "target_name": " Water and Sewer",
+        "source": 3,
+        "target": 21,
+        "value": 119361000
+      },
+      {
+        "source_name": "Trust & Agency Enterprise",
+        "target_name": " Streets and Stormwater",
+        "source": 8,
+        "target": 22,
+        "value": 23198000
+      },
+      {
+        "source_name": "General Fund",
+        "target_name": " Streets and Stormwater",
+        "source": 1,
+        "target": 22,
+        "value": 16059000
+      },
+      {
+        "source_name": "Enterprise",
+        "target_name": " Streets and Stormwater",
+        "source": 3,
+        "target": 22,
+        "value": 16928000
+      },
+      {
+        "source_name": "Capital Projects",
+        "target_name": " Parks and Recreation",
+        "source": 4,
+        "target": 23,
+        "value": 8235000
+      },
+      {
+        "source_name": "Internal Service",
+        "target_name": " Asset Management",
+        "source": 9,
+        "target": 24,
+        "value": 9919118
+      },
+      {
+        "source_name": "General Fund",
+        "target_name": " Tulsa Transit",
+        "source": 1,
+        "target": 25,
+        "value": 7344000
+      },
+      {
+        "source_name": "Enterprise",
+        "target_name": " Emergency Medical Services Authority",
+        "source": 3,
+        "target": 27,
+        "value": 6831000
+      },
+      {
+        "source_name": "Internal Service",
+        "target_name": " Workers' Compensation",
+        "source": 9,
+        "target": 30,
+        "value": 5700000
+      },
+      {
+        "source_name": "Trust & Agency Enterprise",
+        "target_name": " Debt Service",
+        "source": 8,
+        "target": 18,
+        "value": 6449000
+      },
+      {
+        "source_name": "Trust & Agency Enterprise",
+        "target_name": " Asset Management",
+        "source": 8,
+        "target": 24,
+        "value": 6087920
+      },
+      {
+        "source_name": "Special Revenue",
+        "target_name": " Police",
+        "source": 11,
+        "target": 17,
+        "value": 6283000
+      },
+      {
+        "source_name": "Special Revenue",
+        "target_name": " Information Technology",
+        "source": 11,
+        "target": 26,
+        "value": 3686000
+      },
+      {
+        "source_name": "General Fund",
+        "target_name": " Engineering Services",
+        "source": 1,
+        "target": 20,
+        "value": 3438000
+      },
+      {
+        "source_name": "Capital Projects",
+        "target_name": " Transfers - Internal & Outside",
+        "source": 4,
+        "target": 16,
+        "value": 3100000
+      },
+      {
+        "source_name": "General Fund",
+        "target_name": " Legal",
+        "source": 1,
+        "target": 32,
+        "value": 3412000
+      },
+      {
+        "source_name": "Enterprise",
+        "target_name": " Parks and Recreation",
+        "source": 3,
+        "target": 23,
+        "value": 3256000
+      },
+      {
+        "source_name": "Capital Projects",
+        "target_name": " Performing Arts Center",
+        "source": 4,
+        "target": 34,
+        "value": 2850000
+      },
+      {
+        "source_name": "General Fund",
+        "target_name": " General Government",
+        "source": 1,
+        "target": 35,
+        "value": 2705000
+      },
+      {
+        "source_name": "General Fund",
+        "target_name": " Human Resources",
+        "source": 1,
+        "target": 36,
+        "value": 3654000
+      },
+      {
+        "source_name": "Enterprise",
+        "target_name": " Engineering Services",
+        "source": 3,
+        "target": 20,
+        "value": 11324000
+      },
+      {
+        "source_name": "General Fund",
+        "target_name": " Municipal Court",
+        "source": 1,
+        "target": 37,
+        "value": 2895000
+      },
+      {
+        "source_name": "Internal Service",
+        "target_name": " Transfers - Internal & Outside",
+        "source": 9,
+        "target": 16,
+        "value": 2000000
+      },
+      {
+        "source_name": "Special Revenue",
+        "target_name": " Debt Service",
+        "source": 11,
+        "target": 18,
+        "value": 1779000
+      },
+      {
+        "source_name": "Enterprise",
+        "target_name": " Finance",
+        "source": 3,
+        "target": 28,
+        "value": 5470000
+      },
+      {
+        "source_name": "Capital Projects",
+        "target_name": " Tulsa Transit",
+        "source": 4,
+        "target": 25,
+        "value": 1550000
+      },
+      {
+        "source_name": "Capital Projects",
+        "target_name": " Streets and Stormwater",
+        "source": 4,
+        "target": 22,
+        "value": 1550000
+      },
+      {
+        "source_name": "General Fund",
+        "target_name": " Performing Arts Center",
+        "source": 1,
+        "target": 34,
+        "value": 2041000
+      },
+      {
+        "source_name": "Enterprise",
+        "target_name": " Information Technology",
+        "source": 3,
+        "target": 26,
+        "value": 4324000
+      },
+      {
+        "source_name": "Special Revenue",
+        "target_name": " Asset Management",
+        "source": 11,
+        "target": 24,
+        "value": 1670000
+      },
+      {
+        "source_name": "Special Revenue",
+        "target_name": " Streets and Stormwater",
+        "source": 11,
+        "target": 22,
+        "value": 1227000
+      },
+      {
+        "source_name": "General Fund",
+        "target_name": " City Council",
+        "source": 1,
+        "target": 38,
+        "value": 1249000
+      },
+      {
+        "source_name": "General Fund",
+        "target_name": " City Auditor",
+        "source": 1,
+        "target": 39,
+        "value": 1122000
+      },
+      {
+        "source_name": "Internal Service",
+        "target_name": " Information Technology",
+        "source": 9,
+        "target": 26,
+        "value": 991000
+      },
+      {
+        "source_name": "General Fund",
+        "target_name": " INCOG",
+        "source": 1,
+        "target": 40,
+        "value": 951000
+      },
+      {
+        "source_name": "Special Assessment",
+        "target_name": " Mayor's Office of Economic Development",
+        "source": 6,
+        "target": 41,
+        "value": 1262000
+      },
+      {
+        "source_name": "Capital Projects",
+        "target_name": " Asset Management",
+        "source": 4,
+        "target": 24,
+        "value": 840000
+      },
+      {
+        "source_name": "General Fund",
+        "target_name": " Mayor",
+        "source": 1,
+        "target": 42,
+        "value": 932000
+      },
+      {
+        "source_name": "Enterprise",
+        "target_name": " Customer Care",
+        "source": 3,
+        "target": 43,
+        "value": 1544000
+      },
+      {
+        "source_name": "General Fund",
+        "target_name": " River Parks Authority",
+        "source": 1,
+        "target": 44,
+        "value": 639000
+      },
+      {
+        "source_name": "Capital Projects",
+        "target_name": " Water and Sewer",
+        "source": 4,
+        "target": 21,
+        "value": 560000
+      },
+      {
+        "source_name": "Special Revenue",
+        "target_name": " Performing Arts Center",
+        "source": 11,
+        "target": 34,
+        "value": 907000
+      },
+      {
+        "source_name": "General Fund",
+        "target_name": " Communications",
+        "source": 1,
+        "target": 45,
+        "value": 553000
+      },
+      {
+        "source_name": "Enterprise",
+        "target_name": " Asset Management",
+        "source": 3,
+        "target": 24,
+        "value": 2191000
+      },
+      {
+        "source_name": "General Fund",
+        "target_name": " Mayor's Office of Human Rights",
+        "source": 1,
+        "target": 46,
+        "value": 490000
+      },
+      {
+        "source_name": "General Fund",
+        "target_name": " Mayor's Office of Economic Development",
+        "source": 1,
+        "target": 41,
+        "value": 481000
+      },
+      {
+        "source_name": "General Fund",
+        "target_name": " Transfers - Internal & Outside",
+        "source": 1,
+        "target": 16,
+        "value": 428000
+      },
+      {
+        "source_name": "Special Revenue",
+        "target_name": " Fire",
+        "source": 11,
+        "target": 19,
+        "value": 427000
+      },
+      {
+        "source_name": "Special Revenue",
+        "target_name": " Transfers - Internal & Outside",
+        "source": 11,
+        "target": 16,
+        "value": 386000
+      },
+      {
+        "source_name": "General Fund",
+        "target_name": " Customer Care",
+        "source": 1,
+        "target": 43,
+        "value": 401000
+      },
+      {
+        "source_name": "Trust & Agency Enterprise",
+        "target_name": " Finance",
+        "source": 8,
+        "target": 28,
+        "value": 506000
+      },
+      {
+        "source_name": "Trust & Agency Enterprise",
+        "target_name": " Human Resources",
+        "source": 8,
+        "target": 36,
+        "value": 345016
+      },
+      {
+        "source_name": "Capital Projects",
+        "target_name": " Planning and Development",
+        "source": 4,
+        "target": 29,
+        "value": 300000
+      },
+      {
+        "source_name": "Special Revenue",
+        "target_name": " Mayor's Office of Economic Development",
+        "source": 11,
+        "target": 41,
+        "value": 358000
+      },
+      {
+        "source_name": "Special Revenue",
+        "target_name": " Parks and Recreation",
+        "source": 11,
+        "target": 23,
+        "value": 277000
+      },
+      {
+        "source_name": "Trust & Agency Enterprise",
+        "target_name": " Transfers - Internal & Outside",
+        "source": 8,
+        "target": 16,
+        "value": 276000
+      },
+      {
+        "source_name": "Trust & Agency Enterprise",
+        "target_name": " Information Technology",
+        "source": 8,
+        "target": 26,
+        "value": 389000
+      },
+      {
+        "source_name": "Special Revenue",
+        "target_name": " Working in Neighborhoods",
+        "source": 11,
+        "target": 31,
+        "value": 197000
+      },
+      {
+        "source_name": "Enterprise",
+        "target_name": " Fire",
+        "source": 3,
+        "target": 19,
+        "value": 350000
+      },
+      {
+        "source_name": "Trust & Agency Enterprise",
+        "target_name": " Customer Care",
+        "source": 8,
+        "target": 43,
+        "value": 169000
+      },
+      {
+        "source_name": "General Fund",
+        "target_name": " Tulsa Area Emergency Management Agency",
+        "source": 1,
+        "target": 47,
+        "value": 144000
+      },
+      {
+        "source_name": "Special Revenue",
+        "target_name": " Tulsa Transit",
+        "source": 11,
+        "target": 25,
+        "value": 92000
+      },
+      {
+        "source_name": "Special Revenue",
+        "target_name": " Planning and Development",
+        "source": 11,
+        "target": 29,
+        "value": 84000
+      },
+      {
+        "source_name": "Enterprise",
+        "target_name": " Working in Neighborhoods",
+        "source": 3,
+        "target": 31,
+        "value": 73000
+      },
+      {
+        "source_name": "Special Assessment",
+        "target_name": " Finance",
+        "source": 6,
+        "target": 28,
+        "value": 104000
+      },
+      {
+        "source_name": "Special Revenue",
+        "target_name": " Human Resources",
+        "source": 11,
+        "target": 36,
+        "value": 57000
+      },
+      {
+        "source_name": "Special Revenue",
+        "target_name": " River Parks Authority",
+        "source": 11,
+        "target": 44,
+        "value": 36000
+      },
+      {
+        "source_name": "Special Revenue",
+        "target_name": " Municipal Court",
+        "source": 11,
+        "target": 37,
+        "value": 15000
+      },
+      {
+        "source_name": "Special Revenue",
+        "target_name": " Legal",
+        "source": 11,
+        "target": 32,
+        "value": 14000
+      },
+      {
+        "source_name": "Trust & Agency Enterprise",
+        "target_name": " Water and Sewer",
+        "source": 8,
+        "target": 21,
+        "value": 12000
+      },
+      {
+        "source_name": "Special Revenue",
+        "target_name": " City Council",
+        "source": 11,
+        "target": 38,
+        "value": 6000
+      },
+      {
+        "source_name": "Special Revenue",
+        "target_name": " Communications",
+        "source": 11,
+        "target": 45,
+        "value": 3000
+      },
+      {
+        "source_name": "Special Revenue",
+        "target_name": " Finance",
+        "source": 11,
+        "target": 28,
+        "value": 3000
+      },
+      {
+        "source_name": "Capital Purchase",
+        "target_name": "Capital Projects",
+        "source": 48,
+        "target": 4,
+        "value": 370000
+      },
+      {
+        "source_name": "Transfers",
+        "target_name": "Enterprise",
+        "source": 49,
+        "target": 3,
+        "value": 23402000
+      }
+    ]
+  }
+]

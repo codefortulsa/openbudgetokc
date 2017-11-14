@@ -1,738 +1,922 @@
 [
   {
-    "BusUnit": "TUL",
-    "FundCode": 1080,
-    "FundDescription": "General Fund",
-    "RevCategory": "TAXES",
-    "RevDetailNode": "Sales Tax",
-    "amount": 151735000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 1080,
-    "FundDescription": "General Fund",
-    "RevCategory": "TAXES",
-    "RevDetailNode": "Use Tax",
-    "amount": 23321000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 1080,
-    "FundDescription": "General Fund",
-    "RevCategory": "TAXES",
-    "RevDetailNode": "Franchise Taxes",
-    "amount": 22949000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 1080,
-    "FundDescription": "General Fund",
-    "RevCategory": "TAXES",
-    "RevDetailNode": "Hotel/Motel Tax",
-    "amount": 151000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 1080,
-    "FundDescription": "General Fund",
-    "RevCategory": "CULTURAL AND RECREATION",
-    "RevDetailNode": "Performing Arts Center",
-    "amount": 1705000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 1080,
-    "FundDescription": "General Fund",
-    "RevCategory": "CULTURAL AND RECREATION",
-    "RevDetailNode": "Other",
-    "amount": 700000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 1080,
-    "FundDescription": "General Fund",
-    "RevCategory": "LICENSES AND PERMITS",
-    "RevDetailNode": "Business Licenses",
-    "amount": 1330000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 1080,
-    "FundDescription": "General Fund",
-    "RevCategory": "LICENSES AND PERMITS",
-    "RevDetailNode": "Building Inspections",
-    "amount": 3987000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 1080,
-    "FundDescription": "General Fund",
-    "RevCategory": "LICENSES AND PERMITS",
-    "RevDetailNode": "Other Licenses and Permits",
-    "amount": 3025000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 1080,
-    "FundDescription": "General Fund",
-    "RevCategory": "MISCELLANEOUS REVENUE",
-    "RevDetailNode": "Public Safety",
-    "amount": 3600000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 1080,
-    "FundDescription": "General Fund",
-    "RevCategory": "MISCELLANEOUS REVENUE",
-    "RevDetailNode": "General Government - Indirects",
-    "amount": 8145000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 1080,
-    "FundDescription": "General Fund",
-    "RevCategory": "MISCELLANEOUS REVENUE",
-    "RevDetailNode": "Streets and Highways   ",
-    "amount": 6526000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 1080,
-    "FundDescription": "General Fund",
-    "RevCategory": "MISCELLANEOUS REVENUE",
-    "RevDetailNode": "Fines and Forfeitures ",
-    "amount": 8800000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 1080,
-    "FundDescription": "General Fund",
-    "RevCategory": "MISCELLANEOUS REVENUE",
-    "RevDetailNode": "Interest Income",
-    "amount": 3081000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 1080,
-    "FundDescription": "General Fund",
-    "RevCategory": "MISCELLANEOUS REVENUE",
-    "RevDetailNode": "Other Miscellaneous",
-    "amount": 2771000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 1080,
-    "FundDescription": "General Fund",
-    "RevCategory": "INTERGOVERNMENTAL REVENUE",
-    "RevDetailNode": "    Tobacco and Gasoline Taxes",
-    "amount": 7345000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 1080,
-    "FundDescription": "General Fund",
-    "RevCategory": "INTERGOVERNMENTAL REVENUE",
-    "RevDetailNode": "Other Intergovernmental Rev",
-    "amount": 1620000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 1080,
-    "FundDescription": "General Fund",
-    "RevCategory": "INTERGOVERNMENTAL REVENUE",
-    "RevDetailNode": "Transfers In",
-    "amount": 16531000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 2240,
-    "FundDescription": "Air Force Plant 3",
-    "RevCategory": "MISCELLANEOUS REVENUE",
-    "RevDetailNode": "Interest Income",
-    "amount": 13000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 2240,
-    "FundDescription": "Air Force Plant 3",
-    "RevCategory": "MISCELLANEOUS REVENUE",
-    "RevDetailNode": "Other Miscellaneous",
-    "amount": 58000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 2320,
-    "FundDescription": "PA Law Enforcement Training",
-    "RevCategory": "MISCELLANEOUS REVENUE",
-    "RevDetailNode": "Fines and Forfeitures ",
-    "amount": 70000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 2330,
-    "FundDescription": "Juvenile Curfew Fines",
-    "RevCategory": "MISCELLANEOUS REVENUE",
-    "RevDetailNode": "Fines and Forfeitures ",
-    "amount": 13000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 2420,
-    "FundDescription": "E911 Fee Operating",
-    "RevCategory": "MISCELLANEOUS REVENUE",
-    "RevDetailNode": "E911 Fees",
-    "amount": 3296000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 2420,
-    "FundDescription": "E911 Fee Operating",
-    "RevCategory": "MISCELLANEOUS REVENUE",
-    "RevDetailNode": "Interest Income",
-    "amount": 5000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 2420,
-    "FundDescription": "E911 Fee Operating",
-    "RevCategory": "INTERGOVERNMENTAL REVENUE",
-    "RevDetailNode": "Other Intergovernmental Rev",
-    "amount": 10000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 2710,
-    "FundDescription": "Econ. Dev. Commission",
-    "RevCategory": "TAXES",
-    "RevDetailNode": "Hotel/Motel Tax",
-    "amount": 340000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 2720,
-    "FundDescription": "Convention and Visitors",
-    "RevCategory": "TAXES",
-    "RevDetailNode": "Hotel/Motel Tax",
-    "amount": 3819000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 2740,
-    "FundDescription": "Public Safety",
-    "RevCategory": "TAXES",
-    "RevDetailNode": "Sales Tax",
-    "amount": 4429000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 2750,
-    "FundDescription": "Streets and Transportation",
-    "RevCategory": "TAXES",
-    "RevDetailNode": "Sales Tax",
-    "amount": 2353000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 2810,
-    "FundDescription": "Convention and Tourism Facilities",
-    "RevCategory": "TAXES",
-    "RevDetailNode": "Hotel/Motel Tax",
-    "amount": 3252000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 2810,
-    "FundDescription": "Convention and Tourism Facilities",
-    "RevCategory": "MISCELLANEOUS REVENUE",
-    "RevDetailNode": "Interest Income",
-    "amount": 20000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 2810,
-    "FundDescription": "Convention and Tourism Facilities",
-    "RevCategory": "MISCELLANEOUS REVENUE",
-    "RevDetailNode": "Other Miscellaneous",
-    "amount": 2099000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 2910,
-    "FundDescription": "Short-Term Capital",
-    "RevCategory": "MISCELLANEOUS REVENUE",
-    "RevDetailNode": "Other Miscellaneous",
-    "amount": 3000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 2910,
-    "FundDescription": "Short-Term Capital",
-    "RevCategory": "INTERGOVERNMENTAL REVENUE",
-    "RevDetailNode": "Transfers In",
-    "amount": 9680000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 3000,
-    "FundDescription": "Municipal Emp. Retirement Fund",
-    "RevCategory": "MISCELLANEOUS REVENUE",
-    "RevDetailNode": "Interest Income",
-    "amount": 2000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 3000,
-    "FundDescription": "Municipal Emp. Retirement Fund",
-    "RevCategory": "INTERGOVERNMENTAL REVENUE",
-    "RevDetailNode": "Transfers In",
-    "amount": 250000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 3450,
-    "FundDescription": "One Tech Center",
-    "RevCategory": "ENTERPRISE REVENUE",
-    "RevDetailNode": "OTC Rental Income",
-    "amount": 9952000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 3450,
-    "FundDescription": "One Tech Center",
-    "RevCategory": "MISCELLANEOUS REVENUE",
-    "RevDetailNode": "Interest Income",
-    "amount": 46000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 3450,
-    "FundDescription": "One Tech Center",
-    "RevCategory": "MISCELLANEOUS REVENUE",
-    "RevDetailNode": "Other Miscellaneous",
-    "amount": 98000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 3623,
-    "FundDescription": "Tulsa Authority for Recovery of Energy",
-    "RevCategory": "ENTERPRISE REVENUE",
-    "RevDetailNode": "Refuse",
-    "amount": 25940000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 3623,
-    "FundDescription": "Tulsa Authority for Recovery of Energy",
-    "RevCategory": "MISCELLANEOUS REVENUE",
-    "RevDetailNode": "Interest Income",
-    "amount": 80000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 3623,
-    "FundDescription": "Tulsa Authority for Recovery of Energy",
-    "RevCategory": "MISCELLANEOUS REVENUE",
-    "RevDetailNode": "Other Miscellaneous",
-    "amount": 260000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 4102,
-    "FundDescription": "Tulsa Stadium Improvement District",
-    "RevCategory": "MISCELLANEOUS REVENUE",
-    "RevDetailNode": "Interest Income",
-    "amount": 16000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 4102,
-    "FundDescription": "Tulsa Stadium Improvement District",
-    "RevCategory": "MISCELLANEOUS REVENUE",
-    "RevDetailNode": "Other Miscellaneous",
-    "amount": 3486000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 4122,
-    "FundDescription": "Whittier Square Improvement District",
-    "RevCategory": "MISCELLANEOUS REVENUE",
-    "RevDetailNode": "Other Miscellaneous",
-    "amount": 9000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 4122,
-    "FundDescription": "Whittier Square Improvement District",
-    "RevCategory": "INTERGOVERNMENTAL REVENUE",
-    "RevDetailNode": "Transfers In",
-    "amount": 10000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 4306,
-    "FundDescription": "Sinking Fund",
-    "RevCategory": "TAXES",
-    "RevDetailNode": "Ad Valorem",
-    "amount": 74481000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 4306,
-    "FundDescription": "Sinking Fund",
-    "RevCategory": "INTERGOVERNMENTAL REVENUE",
-    "RevDetailNode": "Transfers In",
-    "amount": 3492000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 5561,
-    "FundDescription": "Home",
-    "RevCategory": "MISCELLANEOUS REVENUE",
-    "RevDetailNode": "Other Miscellaneous",
-    "amount": 10000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 5561,
-    "FundDescription": "Home",
-    "RevCategory": "INTERGOVERNMENTAL REVENUE",
-    "RevDetailNode": "Grants",
-    "amount": 1266000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 5563,
-    "FundDescription": "Emergency Solutions Grant",
-    "RevCategory": "INTERGOVERNMENTAL REVENUE",
-    "RevDetailNode": "Grants",
-    "amount": 284000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 5565,
-    "FundDescription": "CDBG",
-    "RevCategory": "MISCELLANEOUS REVENUE",
-    "RevDetailNode": "Other Miscellaneous",
-    "amount": 1159000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 5565,
-    "FundDescription": "CDBG",
-    "RevCategory": "INTERGOVERNMENTAL REVENUE",
-    "RevDetailNode": "Grants",
-    "amount": 3108000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 5567,
-    "FundDescription": "Housing Opportunities for Persons with AIDS",
-    "RevCategory": "INTERGOVERNMENTAL REVENUE",
-    "RevDetailNode": "Grants",
-    "amount": 361000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 6001,
-    "FundDescription": "Misc. Capital Projects",
-    "RevCategory": "MISCELLANEOUS REVENUE",
-    "RevDetailNode": "Other Miscellaneous",
-    "amount": 840000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 6008,
-    "FundDescription": "2001 Five-year Sales Tax Fund",
-    "RevCategory": "MISCELLANEOUS REVENUE",
-    "RevDetailNode": "Interest Income",
-    "amount": 29000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 6008,
-    "FundDescription": "2001 Five-year Sales Tax Fund",
-    "RevCategory": "MISCELLANEOUS REVENUE",
-    "RevDetailNode": "Other Miscellaneous",
-    "amount": 6000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 6009,
-    "FundDescription": "2006 Special Extended Sales Tax Fund",
-    "RevCategory": "MISCELLANEOUS REVENUE",
-    "RevDetailNode": "Interest Income",
-    "amount": 625000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 6011,
-    "FundDescription": "2008 Sales Tax Special Temporary Streets Fund",
-    "RevCategory": "MISCELLANEOUS REVENUE",
-    "RevDetailNode": "Interest Income",
-    "amount": 794000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 6012,
-    "FundDescription": "1985 Sales Tax Economic Development Fund",
-    "RevCategory": "MISCELLANEOUS REVENUE",
-    "RevDetailNode": "Interest Income",
-    "amount": 2000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 6014,
-    "FundDescription": "2014 Sales Tax Fund",
-    "RevCategory": "TAXES",
-    "RevDetailNode": "Sales Tax",
-    "amount": 83047000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 6014,
-    "FundDescription": "2014 Sales Tax Fund",
-    "RevCategory": "MISCELLANEOUS REVENUE",
-    "RevDetailNode": "Interest Income",
-    "amount": 683000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 6021,
-    "FundDescription": "TMUA-Water Capital Projects Fund",
-    "RevCategory": "INTERGOVERNMENTAL REVENUE",
-    "RevDetailNode": "Transfers In",
-    "amount": 30061000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 6031,
-    "FundDescription": "TMUA-Sewer Captial Projects Fund",
-    "RevCategory": "INTERGOVERNMENTAL REVENUE",
-    "RevDetailNode": "Transfers In",
-    "amount": 14221000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 6041,
-    "FundDescription": "Stormwater Capital Projects Fund",
-    "RevCategory": "INTERGOVERNMENTAL REVENUE",
-    "RevDetailNode": "Transfers In",
-    "amount": 5500000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 7010,
-    "FundDescription": "Tulsa Authority for Recovery of Energy",
-    "RevCategory": "ENTERPRISE REVENUE",
-    "RevDetailNode": "Stormwater",
-    "amount": 27369000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 7010,
-    "FundDescription": "Tulsa Authority for Recovery of Energy",
-    "RevCategory": "MISCELLANEOUS REVENUE",
-    "RevDetailNode": "Interest Income",
-    "amount": 38000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 7010,
-    "FundDescription": "Tulsa Authority for Recovery of Energy",
-    "RevCategory": "MISCELLANEOUS REVENUE",
-    "RevDetailNode": "Other Miscellaneous",
-    "amount": 129000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 7020,
-    "FundDescription": "TMUA Water Operating",
-    "RevCategory": "ENTERPRISE REVENUE",
-    "RevDetailNode": "Water",
-    "amount": 106963000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 7020,
-    "FundDescription": "TMUA Water Operating",
-    "RevCategory": "LICENSES AND PERMITS",
-    "RevDetailNode": "Other Licenses and Permits",
-    "amount": 11000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 7020,
-    "FundDescription": "TMUA Water Operating",
-    "RevCategory": "MISCELLANEOUS REVENUE",
-    "RevDetailNode": "Interest Income",
-    "amount": 500000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 7020,
-    "FundDescription": "TMUA Water Operating",
-    "RevCategory": "MISCELLANEOUS REVENUE",
-    "RevDetailNode": "Other Miscellaneous",
-    "amount": 5216000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 7030,
-    "FundDescription": "TMUA Sewer Operating",
-    "RevCategory": "ENTERPRISE REVENUE",
-    "RevDetailNode": "Sewer",
-    "amount": 98404000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 7030,
-    "FundDescription": "TMUA Sewer Operating",
-    "RevCategory": "LICENSES AND PERMITS",
-    "RevDetailNode": "Other Licenses and Permits",
-    "amount": 41000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 7030,
-    "FundDescription": "TMUA Sewer Operating",
-    "RevCategory": "MISCELLANEOUS REVENUE",
-    "RevDetailNode": "Interest Income",
-    "amount": 218000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 7030,
-    "FundDescription": "TMUA Sewer Operating",
-    "RevCategory": "MISCELLANEOUS REVENUE",
-    "RevDetailNode": "Other Miscellaneous",
-    "amount": 3455000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 7050,
-    "FundDescription": "Golf Course Operating",
-    "RevCategory": "ENTERPRISE REVENUE",
-    "RevDetailNode": "Golf",
-    "amount": 2825000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 7050,
-    "FundDescription": "Golf Course Operating",
-    "RevCategory": "MISCELLANEOUS REVENUE",
-    "RevDetailNode": "Interest Income",
-    "amount": 2000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 7050,
-    "FundDescription": "Golf Course Operating",
-    "RevCategory": "INTERGOVERNMENTAL REVENUE",
-    "RevDetailNode": "Transfers In",
-    "amount": 167000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 7060,
-    "FundDescription": "EMSA",
-    "RevCategory": "ENTERPRISE REVENUE",
-    "RevDetailNode": "Emergency Medical Fee",
-    "amount": 7012000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 7060,
-    "FundDescription": "EMSA",
-    "RevCategory": "MISCELLANEOUS REVENUE",
-    "RevDetailNode": "Interest Income",
-    "amount": 13000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 8011,
-    "FundDescription": "Office Services Service Fund",
-    "RevCategory": "MISCELLANEOUS REVENUE",
-    "RevDetailNode": "Interest Income",
-    "amount": 1000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 8011,
-    "FundDescription": "Office Services Service Fund",
-    "RevCategory": "Internal Service",
-    "RevDetailNode": "Internal Service Charges",
-    "amount": 991000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 8020,
-    "FundDescription": "Worker's Compensation Service Fund",
-    "RevCategory": "MISCELLANEOUS REVENUE",
-    "RevDetailNode": "Interest Income",
-    "amount": 23000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 8020,
-    "FundDescription": "Worker's Compensation Service Fund",
-    "RevCategory": "Internal Service",
-    "RevDetailNode": "Internal Service Charges",
-    "amount": 5700000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 8025,
-    "FundDescription": "Employee Insurance Service Fund",
-    "RevCategory": "MISCELLANEOUS REVENUE",
-    "RevDetailNode": "Interest Income",
-    "amount": 105000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 8025,
-    "FundDescription": "Employee Insurance Service Fund",
-    "RevCategory": "Internal Service",
-    "RevDetailNode": "Internal Service Charges",
-    "amount": 25334000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 8025,
-    "FundDescription": "Employee Insurance Service Fund",
-    "RevCategory": "INTERGOVERNMENTAL REVENUE",
-    "RevDetailNode": "Transfers In",
-    "amount": 2000000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 8030,
-    "FundDescription": "Equip. Mgmt. Service Fund",
-    "RevCategory": "MISCELLANEOUS REVENUE",
-    "RevDetailNode": "Interest Income",
-    "amount": 3000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 8030,
-    "FundDescription": "Equip. Mgmt. Service Fund",
-    "RevCategory": "MISCELLANEOUS REVENUE",
-    "RevDetailNode": "Other Miscellaneous",
-    "amount": 65000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 8030,
-    "FundDescription": "Equip. Mgmt. Service Fund",
-    "RevCategory": "Internal Service",
-    "RevDetailNode": "Internal Service Charges",
-    "amount": 14400000
-  },
-  {
-    "BusUnit": "TUL",
-    "FundCode": 8030,
-    "FundDescription": "Equip. Mgmt. Service Fund",
-    "RevCategory": "INTERGOVERNMENTAL REVENUE",
-    "RevDetailNode": "Transfers In",
-    "amount": 294000
+    "busUnit": "TUL",
+    "fundCode": 1080,
+    "fundDescription": "General Fund",
+    "fundCategory": "General Fund",
+    "revenueAmount": 151735000,
+    "budgetBookDisplayCatg": "TAXES",
+    "budgetBookSubCatg": "Sales Tax",
+    "crossRef": "AA - Sales Tax"
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 1080,
+    "fundDescription": "General Fund",
+    "fundCategory": "General Fund",
+    "revenueAmount": 23321000,
+    "budgetBookDisplayCatg": "TAXES",
+    "budgetBookSubCatg": "Use Tax",
+    "crossRef": "AB - Use Tax"
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 1080,
+    "fundDescription": "General Fund",
+    "fundCategory": "General Fund",
+    "revenueAmount": 22949000,
+    "budgetBookDisplayCatg": "TAXES",
+    "budgetBookSubCatg": "Franchise Taxes",
+    "crossRef": "AC - Franchise"
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 1080,
+    "fundDescription": "General Fund",
+    "fundCategory": "General Fund",
+    "revenueAmount": 151000,
+    "budgetBookDisplayCatg": "TAXES",
+    "budgetBookSubCatg": "Hotel/Motel Tax",
+    "crossRef": "AD - Hotel /MOTEL TAX"
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 1080,
+    "fundDescription": "General Fund",
+    "fundCategory": "General Fund",
+    "revenueAmount": 1705000,
+    "budgetBookDisplayCatg": "CULTURAL AND RECREATION",
+    "budgetBookSubCatg": "Performing Arts Center",
+    "crossRef": "CB - PAC"
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 1080,
+    "fundDescription": "General Fund",
+    "fundCategory": "General Fund",
+    "revenueAmount": 700000,
+    "budgetBookDisplayCatg": "CULTURAL AND RECREATION",
+    "budgetBookSubCatg": "Other",
+    "crossRef": "CF - Other"
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 1080,
+    "fundDescription": "General Fund",
+    "fundCategory": "General Fund",
+    "revenueAmount": 1330000,
+    "budgetBookDisplayCatg": "LICENSES AND PERMITS",
+    "budgetBookSubCatg": "Business Licenses",
+    "crossRef": "DA - Business Lic"
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 1080,
+    "fundDescription": "General Fund",
+    "fundCategory": "General Fund",
+    "revenueAmount": 3987000,
+    "budgetBookDisplayCatg": "LICENSES AND PERMITS",
+    "budgetBookSubCatg": "Building Inspections",
+    "crossRef": "DB - Bldg Inspections"
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 1080,
+    "fundDescription": "General Fund",
+    "fundCategory": "General Fund",
+    "revenueAmount": 3025000,
+    "budgetBookDisplayCatg": "LICENSES AND PERMITS",
+    "budgetBookSubCatg": "Other Licenses and Permits",
+    "crossRef": "DC - Other Permits "
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 1080,
+    "fundDescription": "General Fund",
+    "fundCategory": "General Fund",
+    "revenueAmount": 3600000,
+    "budgetBookDisplayCatg": "MISCELLANEOUS REVENUE",
+    "budgetBookSubCatg": "Public Safety",
+    "crossRef": "EB - Public Safety"
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 1080,
+    "fundDescription": "General Fund",
+    "fundCategory": "General Fund",
+    "revenueAmount": 8145000,
+    "budgetBookDisplayCatg": "MISCELLANEOUS REVENUE",
+    "budgetBookSubCatg": "General Government - Indirects",
+    "crossRef": "EC - Gen Gov - Indirect"
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 1080,
+    "fundDescription": "General Fund",
+    "fundCategory": "General Fund",
+    "revenueAmount": 6526000,
+    "budgetBookDisplayCatg": "MISCELLANEOUS REVENUE",
+    "budgetBookSubCatg": "Streets and Highways   ",
+    "crossRef": "EC - Streets & Highways"
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 1080,
+    "fundDescription": "General Fund",
+    "fundCategory": "General Fund",
+    "revenueAmount": 8800000,
+    "budgetBookDisplayCatg": "MISCELLANEOUS REVENUE",
+    "budgetBookSubCatg": "Fines and Forfeitures ",
+    "crossRef": "ED - Fines & Forfeits"
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 1080,
+    "fundDescription": "General Fund",
+    "fundCategory": "General Fund",
+    "revenueAmount": 3081000,
+    "budgetBookDisplayCatg": "MISCELLANEOUS REVENUE",
+    "budgetBookSubCatg": "Interest Income",
+    "crossRef": "EE - Interest Income "
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 1080,
+    "fundDescription": "General Fund",
+    "fundCategory": "General Fund",
+    "revenueAmount": 2771000,
+    "budgetBookDisplayCatg": "MISCELLANEOUS REVENUE",
+    "budgetBookSubCatg": "Other Miscellaneous",
+    "crossRef": "EZ - Other Misc. Income"
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 1080,
+    "fundDescription": "General Fund",
+    "fundCategory": "General Fund",
+    "revenueAmount": 7345000,
+    "budgetBookDisplayCatg": "INTERGOVERNMENTAL REVENUE",
+    "budgetBookSubCatg": "    Tobacco and Gasoline Taxes",
+    "crossRef": "GB - Liquor,Gas, Tobacco, Vehicle Tax"
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 1080,
+    "fundDescription": "General Fund",
+    "fundCategory": "General Fund",
+    "revenueAmount": 1620000,
+    "budgetBookDisplayCatg": "INTERGOVERNMENTAL REVENUE",
+    "budgetBookSubCatg": "Other Intergovernmental Rev",
+    "crossRef": "GC -  Other Intergovmt Rev"
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 1080,
+    "fundDescription": "General Fund",
+    "fundCategory": "General Fund",
+    "revenueAmount": 16531000,
+    "budgetBookDisplayCatg": "Transfers In",
+    "budgetBookSubCatg": "TOTAL",
+    "crossRef": "n TRANSFERS IN"
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 2240,
+    "fundDescription": "Air Force Plant 3",
+    "fundCategory": "Special Revenue",
+    "revenueAmount": 13000,
+    "budgetBookDisplayCatg": "MISCELLANEOUS REVENUE",
+    "budgetBookSubCatg": "Interest Income",
+    "crossRef": "EE - Interest Income "
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 2240,
+    "fundDescription": "Air Force Plant 3",
+    "fundCategory": "Special Revenue",
+    "revenueAmount": 58000,
+    "budgetBookDisplayCatg": "MISCELLANEOUS REVENUE",
+    "budgetBookSubCatg": "Other Miscellaneous",
+    "crossRef": "EZ - Other Misc. Income"
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 2320,
+    "fundDescription": "PA Law Enforcement Training",
+    "fundCategory": "Special Revenue",
+    "revenueAmount": 70000,
+    "budgetBookDisplayCatg": "MISCELLANEOUS REVENUE",
+    "budgetBookSubCatg": "Fines and Forfeitures ",
+    "crossRef": "ED - Fines & Forfeits"
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 2330,
+    "fundDescription": "Juvenile Curfew Fines",
+    "fundCategory": "Special Revenue",
+    "revenueAmount": 13000,
+    "budgetBookDisplayCatg": "MISCELLANEOUS REVENUE",
+    "budgetBookSubCatg": "Fines and Forfeitures ",
+    "crossRef": "ED - Fines & Forfeits"
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 2420,
+    "fundDescription": "E911 Fee Operating",
+    "fundCategory": "Special Revenue",
+    "revenueAmount": 3296000,
+    "budgetBookDisplayCatg": "MISCELLANEOUS REVENUE",
+    "budgetBookSubCatg": "E911 Fees",
+    "crossRef": "EBb - E911 Fees"
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 2420,
+    "fundDescription": "E911 Fee Operating",
+    "fundCategory": "Special Revenue",
+    "revenueAmount": 5000,
+    "budgetBookDisplayCatg": "MISCELLANEOUS REVENUE",
+    "budgetBookSubCatg": "Interest Income",
+    "crossRef": "EE - Interest Income "
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 2420,
+    "fundDescription": "E911 Fee Operating",
+    "fundCategory": "Special Revenue",
+    "revenueAmount": 10000,
+    "budgetBookDisplayCatg": "INTERGOVERNMENTAL REVENUE",
+    "budgetBookSubCatg": "Other Intergovernmental Rev",
+    "crossRef": "GC -  Other Intergovmt Rev"
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 2710,
+    "fundDescription": "Econ. Dev. Commission",
+    "fundCategory": "Special Revenue",
+    "revenueAmount": 340000,
+    "budgetBookDisplayCatg": "TAXES",
+    "budgetBookSubCatg": "Hotel/Motel Tax",
+    "crossRef": "AD - Hotel /MOTEL TAX"
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 2720,
+    "fundDescription": "Convention and Visitors",
+    "fundCategory": "Special Revenue",
+    "revenueAmount": 3819000,
+    "budgetBookDisplayCatg": "TAXES",
+    "budgetBookSubCatg": "Hotel/Motel Tax",
+    "crossRef": "AD - Hotel /MOTEL TAX"
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 2740,
+    "fundDescription": "Public Safety",
+    "fundCategory": "Special Revenue",
+    "revenueAmount": 4429000,
+    "budgetBookDisplayCatg": "TAXES",
+    "budgetBookSubCatg": "Sales Tax",
+    "crossRef": "AA - Sales Tax"
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 2750,
+    "fundDescription": "Streets and Transportation",
+    "fundCategory": "Special Revenue",
+    "revenueAmount": 2353000,
+    "budgetBookDisplayCatg": "TAXES",
+    "budgetBookSubCatg": "Sales Tax",
+    "crossRef": "AA - Sales Tax"
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 2810,
+    "fundDescription": "Convention and Tourism Facilities",
+    "fundCategory": "Special Revenue",
+    "revenueAmount": 3252000,
+    "budgetBookDisplayCatg": "TAXES",
+    "budgetBookSubCatg": "Hotel/Motel Tax",
+    "crossRef": "AD - Hotel /MOTEL TAX"
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 2810,
+    "fundDescription": "Convention and Tourism Facilities",
+    "fundCategory": "Special Revenue",
+    "revenueAmount": 20000,
+    "budgetBookDisplayCatg": "MISCELLANEOUS REVENUE",
+    "budgetBookSubCatg": "Interest Income",
+    "crossRef": "EE - Interest Income "
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 2810,
+    "fundDescription": "Convention and Tourism Facilities",
+    "fundCategory": "Special Revenue",
+    "revenueAmount": 2099000,
+    "budgetBookDisplayCatg": "MISCELLANEOUS REVENUE",
+    "budgetBookSubCatg": "Other Miscellaneous",
+    "crossRef": "EZ - Other Misc. Income"
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 2910,
+    "fundDescription": "Short-Term Capital",
+    "fundCategory": "Special Revenue",
+    "revenueAmount": 3000,
+    "budgetBookDisplayCatg": "MISCELLANEOUS REVENUE",
+    "budgetBookSubCatg": "Other Miscellaneous",
+    "crossRef": "EZ - Other Misc. Income"
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 2910,
+    "fundDescription": "Short-Term Capital",
+    "fundCategory": "Special Revenue",
+    "revenueAmount": 9680000,
+    "budgetBookDisplayCatg": "Transfers In",
+    "budgetBookSubCatg": "TOTAL",
+    "crossRef": "n TRANSFERS IN"
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 3000,
+    "fundDescription": "Municipal Emp. Retirement Fund",
+    "fundCategory": "Trust & Agency Enterprise",
+    "revenueAmount": 2000,
+    "budgetBookDisplayCatg": "MISCELLANEOUS REVENUE",
+    "budgetBookSubCatg": "Interest Income",
+    "crossRef": "EE - Interest Income "
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 3000,
+    "fundDescription": "Municipal Emp. Retirement Fund",
+    "fundCategory": "Trust & Agency Enterprise",
+    "revenueAmount": 250000,
+    "budgetBookDisplayCatg": "Transfers In",
+    "budgetBookSubCatg": "TOTAL",
+    "crossRef": "n TRANSFERS IN"
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 3450,
+    "fundDescription": "One Tech Center",
+    "fundCategory": "Trust & Agency Enterprise",
+    "revenueAmount": 9952000,
+    "budgetBookDisplayCatg": "ENTERPRISE REVENUE",
+    "budgetBookSubCatg": "OTC Rental Income",
+    "crossRef": "BH - OTC Rental Income"
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 3450,
+    "fundDescription": "One Tech Center",
+    "fundCategory": "Trust & Agency Enterprise",
+    "revenueAmount": 46000,
+    "budgetBookDisplayCatg": "MISCELLANEOUS REVENUE",
+    "budgetBookSubCatg": "Interest Income",
+    "crossRef": "EE - Interest Income "
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 3450,
+    "fundDescription": "One Tech Center",
+    "fundCategory": "Trust & Agency Enterprise",
+    "revenueAmount": 98000,
+    "budgetBookDisplayCatg": "MISCELLANEOUS REVENUE",
+    "budgetBookSubCatg": "Other Miscellaneous",
+    "crossRef": "EZ - Other Misc. Income"
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 3623,
+    "fundDescription": "Tulsa Authority for Recovery of Energy",
+    "fundCategory": "Trust & Agency Enterprise",
+    "revenueAmount": 25940000,
+    "budgetBookDisplayCatg": "ENTERPRISE REVENUE",
+    "budgetBookSubCatg": "Refuse",
+    "crossRef": "BE - Refuse"
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 3623,
+    "fundDescription": "Tulsa Authority for Recovery of Energy",
+    "fundCategory": "Trust & Agency Enterprise",
+    "revenueAmount": 80000,
+    "budgetBookDisplayCatg": "MISCELLANEOUS REVENUE",
+    "budgetBookSubCatg": "Interest Income",
+    "crossRef": "EE - Interest Income "
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 3623,
+    "fundDescription": "Tulsa Authority for Recovery of Energy",
+    "fundCategory": "Trust & Agency Enterprise",
+    "revenueAmount": 260000,
+    "budgetBookDisplayCatg": "MISCELLANEOUS REVENUE",
+    "budgetBookSubCatg": "Other Miscellaneous",
+    "crossRef": "EZ - Other Misc. Income"
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 4102,
+    "fundDescription": "Tulsa Stadium Improvement District",
+    "fundCategory": "Special Assessment",
+    "revenueAmount": 16000,
+    "budgetBookDisplayCatg": "MISCELLANEOUS REVENUE",
+    "budgetBookSubCatg": "Interest Income",
+    "crossRef": "EE - Interest Income "
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 4102,
+    "fundDescription": "Tulsa Stadium Improvement District",
+    "fundCategory": "Special Assessment",
+    "revenueAmount": 3486000,
+    "budgetBookDisplayCatg": "MISCELLANEOUS REVENUE",
+    "budgetBookSubCatg": "Other Miscellaneous",
+    "crossRef": "EZ - Other Misc. Income"
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 4122,
+    "fundDescription": "Whittier Square Improvement District",
+    "fundCategory": "Special Assessment",
+    "revenueAmount": 9000,
+    "budgetBookDisplayCatg": "MISCELLANEOUS REVENUE",
+    "budgetBookSubCatg": "Other Miscellaneous",
+    "crossRef": "EZ - Other Misc. Income"
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 4122,
+    "fundDescription": "Whittier Square Improvement District",
+    "fundCategory": "Special Assessment",
+    "revenueAmount": 10000,
+    "budgetBookDisplayCatg": "Transfers In",
+    "budgetBookSubCatg": "TOTAL",
+    "crossRef": "n TRANSFERS IN"
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 4306,
+    "fundDescription": "Sinking Fund",
+    "fundCategory": "Special Assessment",
+    "revenueAmount": 74481000,
+    "budgetBookDisplayCatg": "TAXES",
+    "budgetBookSubCatg": "Ad Valorem",
+    "crossRef": "AE - Ad Valorem"
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 4306,
+    "fundDescription": "Sinking Fund",
+    "fundCategory": "Special Assessment",
+    "revenueAmount": 3492000,
+    "budgetBookDisplayCatg": "Transfers In",
+    "budgetBookSubCatg": "TOTAL",
+    "crossRef": "n TRANSFERS IN"
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 5561,
+    "fundDescription": "Home",
+    "fundCategory": "Special Revenue (Grants)",
+    "revenueAmount": 10000,
+    "budgetBookDisplayCatg": "MISCELLANEOUS REVENUE",
+    "budgetBookSubCatg": "Other Miscellaneous",
+    "crossRef": "EZ - Other Misc. Income"
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 5561,
+    "fundDescription": "Home",
+    "fundCategory": "Special Revenue (Grants)",
+    "revenueAmount": 1266000,
+    "budgetBookDisplayCatg": "INTERGOVERNMENTAL REVENUE",
+    "budgetBookSubCatg": "Grants",
+    "crossRef": "GA - Grants and Reimbursements"
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 5563,
+    "fundDescription": "Emergency Solutions Grant",
+    "fundCategory": "Special Revenue (Grants)",
+    "revenueAmount": 284000,
+    "budgetBookDisplayCatg": "INTERGOVERNMENTAL REVENUE",
+    "budgetBookSubCatg": "Grants",
+    "crossRef": "GA - Grants and Reimbursements"
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 5565,
+    "fundDescription": "CDBG",
+    "fundCategory": "Special Revenue (Grants)",
+    "revenueAmount": 1159000,
+    "budgetBookDisplayCatg": "MISCELLANEOUS REVENUE",
+    "budgetBookSubCatg": "Other Miscellaneous",
+    "crossRef": "EZ - Other Misc. Income"
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 5565,
+    "fundDescription": "CDBG",
+    "fundCategory": "Special Revenue (Grants)",
+    "revenueAmount": 3108000,
+    "budgetBookDisplayCatg": "INTERGOVERNMENTAL REVENUE",
+    "budgetBookSubCatg": "Grants",
+    "crossRef": "GA - Grants and Reimbursements"
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 5567,
+    "fundDescription": "Housing Opportunities for Persons with AIDS",
+    "fundCategory": "Special Revenue (Grants)",
+    "revenueAmount": 361000,
+    "budgetBookDisplayCatg": "INTERGOVERNMENTAL REVENUE",
+    "budgetBookSubCatg": "Grants",
+    "crossRef": "GA - Grants and Reimbursements"
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 6001,
+    "fundDescription": "Misc. Capital Projects",
+    "fundCategory": "Capital Projects",
+    "revenueAmount": 840000,
+    "budgetBookDisplayCatg": "MISCELLANEOUS REVENUE",
+    "budgetBookSubCatg": "Other Miscellaneous",
+    "crossRef": "EZ - Other Misc. Income"
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 6008,
+    "fundDescription": "2001 Five-year Sales Tax Fund",
+    "fundCategory": "Capital Projects",
+    "revenueAmount": 29000,
+    "budgetBookDisplayCatg": "MISCELLANEOUS REVENUE",
+    "budgetBookSubCatg": "Interest Income",
+    "crossRef": "EE - Interest Income "
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 6008,
+    "fundDescription": "2001 Five-year Sales Tax Fund",
+    "fundCategory": "Capital Projects",
+    "revenueAmount": 6000,
+    "budgetBookDisplayCatg": "MISCELLANEOUS REVENUE",
+    "budgetBookSubCatg": "Other Miscellaneous",
+    "crossRef": "EZ - Other Misc. Income"
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 6009,
+    "fundDescription": "2006 Special Extended Sales Tax Fund",
+    "fundCategory": "Capital Projects",
+    "revenueAmount": 625000,
+    "budgetBookDisplayCatg": "MISCELLANEOUS REVENUE",
+    "budgetBookSubCatg": "Interest Income",
+    "crossRef": "EE - Interest Income "
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 6011,
+    "fundDescription": "2008 Sales Tax Special Temporary Streets Fund",
+    "fundCategory": "Capital Projects",
+    "revenueAmount": 794000,
+    "budgetBookDisplayCatg": "MISCELLANEOUS REVENUE",
+    "budgetBookSubCatg": "Interest Income",
+    "crossRef": "EE - Interest Income "
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 6012,
+    "fundDescription": "1985 Sales Tax Economic Development Fund",
+    "fundCategory": "Capital Projects",
+    "revenueAmount": 2000,
+    "budgetBookDisplayCatg": "MISCELLANEOUS REVENUE",
+    "budgetBookSubCatg": "Interest Income",
+    "crossRef": "EE - Interest Income "
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 6014,
+    "fundDescription": "2014 Sales Tax Fund",
+    "fundCategory": "Capital Projects",
+    "revenueAmount": 83047000,
+    "budgetBookDisplayCatg": "TAXES",
+    "budgetBookSubCatg": "Sales Tax",
+    "crossRef": "AA - Sales Tax"
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 6014,
+    "fundDescription": "2014 Sales Tax Fund",
+    "fundCategory": "Capital Projects",
+    "revenueAmount": 683000,
+    "budgetBookDisplayCatg": "MISCELLANEOUS REVENUE",
+    "budgetBookSubCatg": "Interest Income",
+    "crossRef": "EE - Interest Income "
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 6021,
+    "fundDescription": "TMUA-Water Capital Projects Fund",
+    "fundCategory": "Capital Projects",
+    "revenueAmount": 30061000,
+    "budgetBookDisplayCatg": "Transfers In",
+    "budgetBookSubCatg": "TOTAL",
+    "crossRef": "n TRANSFERS IN"
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 6031,
+    "fundDescription": "TMUA-Sewer Captial Projects Fund",
+    "fundCategory": "Capital Projects",
+    "revenueAmount": 14221000,
+    "budgetBookDisplayCatg": "Transfers In",
+    "budgetBookSubCatg": "TOTAL",
+    "crossRef": "n TRANSFERS IN"
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 6041,
+    "fundDescription": "Stormwater Capital Projects Fund",
+    "fundCategory": "Capital Projects",
+    "revenueAmount": 5500000,
+    "budgetBookDisplayCatg": "Transfers In",
+    "budgetBookSubCatg": "TOTAL",
+    "crossRef": "n TRANSFERS IN"
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 7010,
+    "fundDescription": "Tulsa Authority for Recovery of Energy",
+    "fundCategory": "Enterprise",
+    "revenueAmount": 27369000,
+    "budgetBookDisplayCatg": "ENTERPRISE REVENUE",
+    "budgetBookSubCatg": "Stormwater",
+    "crossRef": "BF - Stormwater"
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 7010,
+    "fundDescription": "Tulsa Authority for Recovery of Energy",
+    "fundCategory": "Enterprise",
+    "revenueAmount": 38000,
+    "budgetBookDisplayCatg": "MISCELLANEOUS REVENUE",
+    "budgetBookSubCatg": "Interest Income",
+    "crossRef": "EE - Interest Income "
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 7010,
+    "fundDescription": "Tulsa Authority for Recovery of Energy",
+    "fundCategory": "Enterprise",
+    "revenueAmount": 129000,
+    "budgetBookDisplayCatg": "MISCELLANEOUS REVENUE",
+    "budgetBookSubCatg": "Other Miscellaneous",
+    "crossRef": "EZ - Other Misc. Income"
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 7020,
+    "fundDescription": "TMUA Water Operating",
+    "fundCategory": "Enterprise",
+    "revenueAmount": 106963000,
+    "budgetBookDisplayCatg": "ENTERPRISE REVENUE",
+    "budgetBookSubCatg": "Water",
+    "crossRef": "BC - Water"
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 7020,
+    "fundDescription": "TMUA Water Operating",
+    "fundCategory": "Enterprise",
+    "revenueAmount": 11000,
+    "budgetBookDisplayCatg": "LICENSES AND PERMITS",
+    "budgetBookSubCatg": "Other Licenses and Permits",
+    "crossRef": "DC - Other Permits "
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 7020,
+    "fundDescription": "TMUA Water Operating",
+    "fundCategory": "Enterprise",
+    "revenueAmount": 500000,
+    "budgetBookDisplayCatg": "MISCELLANEOUS REVENUE",
+    "budgetBookSubCatg": "Interest Income",
+    "crossRef": "EE - Interest Income "
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 7020,
+    "fundDescription": "TMUA Water Operating",
+    "fundCategory": "Enterprise",
+    "revenueAmount": 5216000,
+    "budgetBookDisplayCatg": "MISCELLANEOUS REVENUE",
+    "budgetBookSubCatg": "Other Miscellaneous",
+    "crossRef": "EZ - Other Misc. Income"
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 7030,
+    "fundDescription": "TMUA Sewer Operating",
+    "fundCategory": "Enterprise",
+    "revenueAmount": 98404000,
+    "budgetBookDisplayCatg": "ENTERPRISE REVENUE",
+    "budgetBookSubCatg": "Sewer",
+    "crossRef": "BD - Sewer"
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 7030,
+    "fundDescription": "TMUA Sewer Operating",
+    "fundCategory": "Enterprise",
+    "revenueAmount": 41000,
+    "budgetBookDisplayCatg": "LICENSES AND PERMITS",
+    "budgetBookSubCatg": "Other Licenses and Permits",
+    "crossRef": "DC - Other Permits "
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 7030,
+    "fundDescription": "TMUA Sewer Operating",
+    "fundCategory": "Enterprise",
+    "revenueAmount": 218000,
+    "budgetBookDisplayCatg": "MISCELLANEOUS REVENUE",
+    "budgetBookSubCatg": "Interest Income",
+    "crossRef": "EE - Interest Income "
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 7030,
+    "fundDescription": "TMUA Sewer Operating",
+    "fundCategory": "Enterprise",
+    "revenueAmount": 3455000,
+    "budgetBookDisplayCatg": "MISCELLANEOUS REVENUE",
+    "budgetBookSubCatg": "Other Miscellaneous",
+    "crossRef": "EZ - Other Misc. Income"
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 7050,
+    "fundDescription": "Golf Course Operating",
+    "fundCategory": "Enterprise",
+    "revenueAmount": 2825000,
+    "budgetBookDisplayCatg": "ENTERPRISE REVENUE",
+    "budgetBookSubCatg": "Golf",
+    "crossRef": "BB - Golf"
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 7050,
+    "fundDescription": "Golf Course Operating",
+    "fundCategory": "Enterprise",
+    "revenueAmount": 2000,
+    "budgetBookDisplayCatg": "MISCELLANEOUS REVENUE",
+    "budgetBookSubCatg": "Interest Income",
+    "crossRef": "EE - Interest Income "
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 7050,
+    "fundDescription": "Golf Course Operating",
+    "fundCategory": "Enterprise",
+    "revenueAmount": 167000,
+    "budgetBookDisplayCatg": "Transfers In",
+    "budgetBookSubCatg": "TOTAL",
+    "crossRef": "n TRANSFERS IN"
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 7060,
+    "fundDescription": "EMSA",
+    "fundCategory": "Enterprise",
+    "revenueAmount": 7012000,
+    "budgetBookDisplayCatg": "ENTERPRISE REVENUE",
+    "budgetBookSubCatg": "Emergency Medical Fee",
+    "crossRef": "BG - Emergency Medical Fee"
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 7060,
+    "fundDescription": "EMSA",
+    "fundCategory": "Enterprise",
+    "revenueAmount": 13000,
+    "budgetBookDisplayCatg": "MISCELLANEOUS REVENUE",
+    "budgetBookSubCatg": "Interest Income",
+    "crossRef": "EE - Interest Income "
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 8011,
+    "fundDescription": "Office Services Service Fund",
+    "fundCategory": "Internal Service",
+    "revenueAmount": 1000,
+    "budgetBookDisplayCatg": "MISCELLANEOUS REVENUE",
+    "budgetBookSubCatg": "Interest Income",
+    "crossRef": "EE - Interest Income "
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 8011,
+    "fundDescription": "Office Services Service Fund",
+    "fundCategory": "Internal Service",
+    "revenueAmount": 991000,
+    "budgetBookDisplayCatg": "Internal Service",
+    "budgetBookSubCatg": "Internal Service Charges",
+    "crossRef": "M Internal Service Charges"
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 8020,
+    "fundDescription": "Worker's Compensation Service Fund",
+    "fundCategory": "Internal Service",
+    "revenueAmount": 23000,
+    "budgetBookDisplayCatg": "MISCELLANEOUS REVENUE",
+    "budgetBookSubCatg": "Interest Income",
+    "crossRef": "EE - Interest Income "
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 8020,
+    "fundDescription": "Worker's Compensation Service Fund",
+    "fundCategory": "Internal Service",
+    "revenueAmount": 5700000,
+    "budgetBookDisplayCatg": "Internal Service",
+    "budgetBookSubCatg": "Internal Service Charges",
+    "crossRef": "M Internal Service Charges"
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 8025,
+    "fundDescription": "Employee Insurance Service Fund",
+    "fundCategory": "Internal Service",
+    "revenueAmount": 105000,
+    "budgetBookDisplayCatg": "MISCELLANEOUS REVENUE",
+    "budgetBookSubCatg": "Interest Income",
+    "crossRef": "EE - Interest Income "
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 8025,
+    "fundDescription": "Employee Insurance Service Fund",
+    "fundCategory": "Internal Service",
+    "revenueAmount": 25334000,
+    "budgetBookDisplayCatg": "Internal Service",
+    "budgetBookSubCatg": "Internal Service Charges",
+    "crossRef": "M Internal Service Charges"
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 8025,
+    "fundDescription": "Employee Insurance Service Fund",
+    "fundCategory": "Internal Service",
+    "revenueAmount": 2000000,
+    "budgetBookDisplayCatg": "Transfers In",
+    "budgetBookSubCatg": "TOTAL",
+    "crossRef": "n TRANSFERS IN"
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 8030,
+    "fundDescription": "Equip. Mgmt. Service Fund",
+    "fundCategory": "Internal Service",
+    "revenueAmount": 3000,
+    "budgetBookDisplayCatg": "MISCELLANEOUS REVENUE",
+    "budgetBookSubCatg": "Interest Income",
+    "crossRef": "EE - Interest Income "
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 8030,
+    "fundDescription": "Equip. Mgmt. Service Fund",
+    "fundCategory": "Internal Service",
+    "revenueAmount": 65000,
+    "budgetBookDisplayCatg": "MISCELLANEOUS REVENUE",
+    "budgetBookSubCatg": "Other Miscellaneous",
+    "crossRef": "EZ - Other Misc. Income"
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 8030,
+    "fundDescription": "Equip. Mgmt. Service Fund",
+    "fundCategory": "Internal Service",
+    "revenueAmount": 14400000,
+    "budgetBookDisplayCatg": "Internal Service",
+    "budgetBookSubCatg": "Internal Service Charges",
+    "crossRef": "M Internal Service Charges"
+  },
+  {
+    "busUnit": "TUL",
+    "fundCode": 8030,
+    "fundDescription": "Equip. Mgmt. Service Fund",
+    "fundCategory": "Internal Service",
+    "revenueAmount": 294000,
+    "budgetBookDisplayCatg": "Transfers In",
+    "budgetBookSubCatg": "TOTAL",
+    "crossRef": "n TRANSFERS IN"
   }
 ]

@@ -106,8 +106,9 @@ const revenueConfig = {
 
         //Internal service categories are not enumerated on the 'REVenue(2)' spreadsheet, so we have to make one up.
         internalServiceCategory: {
-            categoryDescription: 'Internal Service',
-            detail: 'Internal Service Charges'
+            budgetBookDisplayCatg: 'Internal Service',
+            budgetBookSubCatg: 'Internal Service Charges',
+            crossRef: 'M Internal Service Charges'
         },
 
         transfersInCategoryDesc: 'Transfers In'
@@ -125,7 +126,16 @@ const revenueConfig = {
         firstColumn: 1,
         totalColumn: 'AR',
         lastColumn: 43
-    }
+    },
+
+    aliases: [
+        { name: "TARE - Refuse Dept.Operating", root: {name: 'Tulsa Authority for Recovery of Energy', detail: 'Refuse'} },
+        { name: "TMUA - Sewer Capital Proj.", root: {name: 'TMUA-Sewer Captial Projects Fund', detail: 'TOTAL'} },
+        { name: "TMUA - Sewer Operating Fund", root: {name: 'TMUA Sewer Operating', detail: 'Sewer'} },
+        { name: "TMUA Water Capital Proj.", root: {name: 'TMUA-Water Capital Projects Fund', detail: 'TOTAL'} },
+        { name: "TMUA - Water Operating Fund", root: {name: 'TMUA Water Operating', detail: 'Water'} },
+        { name: 'TPFA/OTC Building Operations Fund', root: {name: 'One Tech Center'}}
+    ]
 };
 
 const ADMINISTRATION = 'Administration';

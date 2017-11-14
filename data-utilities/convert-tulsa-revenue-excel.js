@@ -28,24 +28,24 @@ let fs = require('fs');
  * @returns {function} a function that can be used to look up detail and category information by cross-reference code (column A in the 'ADOPTED Rev Table' worksheet)
  */
 function loadRevenueCategories(TulsaRevenueBudgetWksht) {
-    let categoryDescription = '***PLACEHOLDER***';
+    let budgetBookDisplayCatg = '***PLACEHOLDER***';
     let categories = [];
 
     for (let row = revenueConfig.categories.firstRow; row <= revenueConfig.categories.lastRow; row++) {
-        let categoryDescriptionCell = TulsaRevenueBudgetWksht[revenueConfig.categories.categoryColumn + row];
-        let detailCell = TulsaRevenueBudgetWksht[revenueConfig.categories.detailsColumn + row];
+        let budgetBookDisplayCatgCell = TulsaRevenueBudgetWksht[revenueConfig.categories.categoryColumn + row];
+        let budgetBookDispSubcatgCell = TulsaRevenueBudgetWksht[revenueConfig.categories.detailsColumn + row];
         let crossRefCell = TulsaRevenueBudgetWksht[revenueConfig.categories.catgCrossRefColumn + row];
 
         console.log('Loading row', row);
 
-        if( !(_.isNil(categoryDescriptionCell) || _.isEmpty(categoryDescriptionCell.v)) ) {
-            categoryDescription = categoryDescriptionCell.v;
-            console.log('Now in the', categoryDescription, 'category');
+        if( !(_.isNil(budgetBookDisplayCatgCell) || _.isEmpty(budgetBookDisplayCatgCell.v)) ) {
+            budgetBookDisplayCatg = budgetBookDisplayCatgCell.v;
+            console.log('Now in the', budgetBookDisplayCatg, 'category, as seen in the Tulsa Budget guide');
         } else if( !(_.isNil(crossRefCell) || _.isEmpty(crossRefCell)) ){
-            let detail = detailCell.v;
+            let budgetBookSubCatg = budgetBookDispSubcatgCell.v;
             let crossRef = crossRefCell.v;
-            categories.push({categoryDescription, detail, crossRef});
-            console.log('Cross-ref code', crossRef, 'is category', categoryDescription);
+            categories.push({budgetBookDisplayCatg, budgetBookSubCatg, crossRef});
+            console.log('Cross-ref code', crossRef, 'is category', budgetBookDisplayCatg);
         } else {
             console.log('Row', row, 'was skipped because it is missing a cross-reference code');
         }
@@ -54,14 +54,14 @@ function loadRevenueCategories(TulsaRevenueBudgetWksht) {
     return (crossRef) => _.find(categories, {crossRef});
 }
 
-function getReadableCategory(crossRefCode, getRevenueCategory) {
+function getReadableBookCategory(crossRefCode, getRevenueCategory) {
     let category;
 
     if(crossRefCode === 'M Internal Service Charges') {
         category = revenueConfig.categories.internalServiceCategory
     } else if(crossRefCode === 'n TRANSFERS IN') {
         category = {...getRevenueCategory(crossRefCode)};
-        category.detail = revenueConfig.categories.transfersInCategoryDesc;
+        category.budgetBookDisplayCatg = revenueConfig.categories.transfersInCategoryDesc;
     } else {
         category = getRevenueCategory(crossRefCode);
     }
@@ -89,17 +89,17 @@ function getRevenueAmounts(TulsaRevenueBudgetWksht, getRevenueCategory) {
             let fundCode = _.toInteger(TulsaRevenueBudgetWksht[colLetter + revenueConfig.funds.fundCodeRow].v);
 
             //If Internal Service charge, use "made up" category from config
-            let category = getReadableCategory(crossRefCode, getRevenueCategory);
+            let category = getReadableBookCategory(crossRefCode, getRevenueCategory);
 
             if (amt > 0) {
                 console.log('Revenue amount for cell', colLetter + row, 'was', amt, 'with cross-ref', crossRefCode, 'with category', JSON.stringify(category));
                 revAmt.push({
-                    BusUnit: 'TUL',
-                    FundCode: fundCode,
-                    FundDescription: getFundDescription(fundCode),
-                    RevCategory: category.categoryDescription,
-                    RevDetailNode: category.detail,
-                    amount: amt
+                    busUnit: 'TUL',
+                    fundCode: fundCode,
+                    fundDescription: getFundDescription(fundCode),
+                    fundCategory: getFundCategory(fundCode),
+                    revenueAmount: amt,
+                    ...category
                 });
             } else {
                 console.log('Revenue amount for cell', colLetter + row, 'was 0 or less and not recorded.');
@@ -137,15 +137,38 @@ let auditText = fs.readFileSync('../_src/data/tulsa/audit/revenue.txt');
 
 let lines = _.split(auditText, '\n');
 
+function filterForAgency({fundDescription, revenueAmount}) {
+    let dataValues = _.filter(revenueFigures, {fundDescription});
+
+    if(_.isEmpty(dataValues)) {
+        console.log('Looking for',fundDescription,'or', revenueAmount, 'in', revenueConfig.aliases.length, 'aliases');
+        let possibleMatches = _.find(revenueConfig.aliases, {name: fundDescription});
+
+        if(possibleMatches) {
+            let realNameAndDetail = _.get(possibleMatches, 'root');
+
+            console.log('Found record', JSON.stringify(realNameAndDetail), 'that matched an alias');
+            dataValues = _.filter(revenueFigures, {fundDescription: realNameAndDetail.name});
+        } else {
+            dataValues = _.filter(revenueFigures, {revenueAmount});
+        }
+
+        console.log('Found alias result(s)', JSON.stringify(dataValues));
+    }
+
+    return dataValues;
+}
+
 _.map(lines, (line) => {
     let recs = _.split(line, '\t');
     let auditValue = _.toInteger(recs[1]);
 
-    let data = _.find(revenueFigures, {amount: auditValue});
+    let dataValues = filterForAgency({fundDescription: recs[0], revenueAmount: _.toInteger(recs[1])});
+    let data = _.reduce(dataValues, (acc, amt) => acc + amt.revenueAmount, 0);
 
-    if(data) {
+    if(data === auditValue) {
         console.log(recs[0], ', which was previously', recs[2], ', has checked out');
     } else {
-        console.error(recs[0], ', which was previously', recs[2], ', cannot be found with amount', recs[1]);
+        console.error(recs[0], ', which was previously', recs[2], ', cannot be found with amount', recs[1], '(was', data,')');
     }
 });
