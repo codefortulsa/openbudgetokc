@@ -36,16 +36,13 @@ function loadRevenueCategories(TulsaRevenueBudgetWksht) {
         let budgetBookDispSubcatgCell = TulsaRevenueBudgetWksht[revenueConfig.categories.detailsColumn + row];
         let crossRefCell = TulsaRevenueBudgetWksht[revenueConfig.categories.catgCrossRefColumn + row];
 
-        console.log('Loading row', row);
-
         if( !(_.isNil(budgetBookDisplayCatgCell) || _.isEmpty(budgetBookDisplayCatgCell.v)) ) {
-            budgetBookDisplayCatg = budgetBookDisplayCatgCell.v;
+            budgetBookDisplayCatg = _.trim(budgetBookDisplayCatgCell.v);
             console.log('Now in the', budgetBookDisplayCatg, 'category, as seen in the Tulsa Budget guide');
         } else if( !(_.isNil(crossRefCell) || _.isEmpty(crossRefCell)) ){
-            let budgetBookSubCatg = budgetBookDispSubcatgCell.v;
-            let crossRef = crossRefCell.v;
+            let budgetBookSubCatg = _.trim(budgetBookDispSubcatgCell.v);
+            let crossRef = _.trim(crossRefCell.v);
             categories.push({budgetBookDisplayCatg, budgetBookSubCatg, crossRef});
-            console.log('Cross-ref code', crossRef, 'is category', budgetBookDisplayCatg);
         } else {
             console.log('Row', row, 'was skipped because it is missing a cross-reference code');
         }
@@ -58,7 +55,7 @@ function getReadableBookCategory(crossRefCode, getRevenueCategory) {
     let category;
 
     if(crossRefCode === 'M Internal Service Charges') {
-        category = revenueConfig.categories.internalServiceCategory
+        category = revenueConfig.categories.internalServiceCategory;
     } else if(crossRefCode === 'n TRANSFERS IN') {
         category = {...getRevenueCategory(crossRefCode)};
         category.budgetBookDisplayCatg = revenueConfig.categories.transfersInCategoryDesc;
@@ -89,10 +86,9 @@ function getRevenueAmounts(TulsaRevenueBudgetWksht, getRevenueCategory) {
             let fundCode = _.toInteger(TulsaRevenueBudgetWksht[colLetter + revenueConfig.funds.fundCodeRow].v);
 
             //If Internal Service charge, use "made up" category from config
-            let category = getReadableBookCategory(crossRefCode, getRevenueCategory);
+            let category = getReadableBookCategory(_.trim(crossRefCode), getRevenueCategory);
 
             if (amt > 0) {
-                console.log('Revenue amount for cell', colLetter + row, 'was', amt, 'with cross-ref', crossRefCode, 'with category', JSON.stringify(category));
                 revAmt.push({
                     busUnit: 'TUL',
                     fundCode: fundCode,
@@ -137,38 +133,49 @@ let auditText = fs.readFileSync('../_src/data/tulsa/audit/revenue.txt');
 
 let lines = _.split(auditText, '\n');
 
+let good = "The following audits have been checked and are consistent:\n";
+let bad = "These results may be in error:\n";
+
 function filterForAgency({fundDescription, revenueAmount}) {
     let dataValues = _.filter(revenueFigures, {fundDescription});
 
     if(_.isEmpty(dataValues)) {
-        console.log('Looking for',fundDescription,'or', revenueAmount, 'in', revenueConfig.aliases.length, 'aliases');
-        let possibleMatches = _.find(revenueConfig.aliases, {name: fundDescription});
+        console.log('Tried to find', fundDescription, 'and failed, now searching by amount', revenueAmount);
+        dataValues = _.filter(revenueFigures, {revenueAmount});
+    }
 
-        if(possibleMatches) {
-            let realNameAndDetail = _.get(possibleMatches, 'root');
+    if(_.isEmpty(dataValues)) {
+        let aliasTarget = _.get(_.find(revenueConfig.aliases, {alias: {fundDescription}}), 'target');
 
-            console.log('Found record', JSON.stringify(realNameAndDetail), 'that matched an alias');
-            dataValues = _.filter(revenueFigures, {fundDescription: realNameAndDetail.name});
+        if(aliasTarget) {
+            console.log('Still no matches for', fundDescription, 'resorting to alias checking, target is', aliasTarget.fundDescription);
+
+            dataValues = _.filter(revenueFigures, aliasTarget);
         } else {
-            dataValues = _.filter(revenueFigures, {revenueAmount});
+            bad += '!!!!!Could not find ' + fundDescription + '\n';
         }
-
-        console.log('Found alias result(s)', JSON.stringify(dataValues));
     }
 
     return dataValues;
 }
 
+
+
 _.map(lines, (line) => {
     let recs = _.split(line, '\t');
     let auditValue = _.toInteger(recs[1]);
+
 
     let dataValues = filterForAgency({fundDescription: recs[0], revenueAmount: _.toInteger(recs[1])});
     let data = _.reduce(dataValues, (acc, amt) => acc + amt.revenueAmount, 0);
 
     if(data === auditValue) {
-        console.log(recs[0], ', which was previously', recs[2], ', has checked out');
+        good += recs[0] + ', which was previously ' + recs[2] + ', has checked out\n';
     } else {
-        console.error(recs[0], ', which was previously', recs[2], ', cannot be found with amount', recs[1], '(was', data,')');
+        bad += recs[0] + ', which was previously ' + recs[2] + ', cannot be found with amount ' + recs[1] + ' (closest estimate is ' + data + ')\n';
     }
 });
+
+console.log(good);
+
+setTimeout(() => console.error(bad), 10);

@@ -129,12 +129,23 @@ const revenueConfig = {
     },
 
     aliases: [
-        { name: "TARE - Refuse Dept.Operating", root: {name: 'Tulsa Authority for Recovery of Energy', detail: 'Refuse'} },
-        { name: "TMUA - Sewer Capital Proj.", root: {name: 'TMUA-Sewer Captial Projects Fund', detail: 'TOTAL'} },
-        { name: "TMUA - Sewer Operating Fund", root: {name: 'TMUA Sewer Operating', detail: 'Sewer'} },
-        { name: "TMUA Water Capital Proj.", root: {name: 'TMUA-Water Capital Projects Fund', detail: 'TOTAL'} },
-        { name: "TMUA - Water Operating Fund", root: {name: 'TMUA Water Operating', detail: 'Water'} },
-        { name: 'TPFA/OTC Building Operations Fund', root: {name: 'One Tech Center'}}
+        { alias: {fundDescription: "TARE - Refuse Dept.Operating"}, target: {fundDescription: 'Tulsa Authority for Recovery of Energy', budgetBookSubCatg: 'Refuse'} },
+        { alias: {fundDescription: "TMUA - Sewer Capital Proj."}, target: {fundDescription: 'TMUA-Sewer Captial Projects Fund'} },
+        { alias: {fundDescription: "TMUA - Sewer Operating Fund"}, target: {fundDescription: 'TMUA Sewer Operating'} },
+        { alias: {fundDescription: "TMUA Water Capital Proj."}, target: {fundDescription: 'TMUA-Water Capital Projects Fund'} },
+        { alias: {fundDescription: "TMUA - Water Operating Fund"}, target: {fundDescription: 'TMUA Water Operating'} },
+        { alias: {fundDescription: 'TPFA/OTC Building Operations Fund'}, target: {fundDescription: 'One Tech Center'} },
+        { alias: {fundDescription: 'Fines & Forfeits'}, target: {budgetBookSubCatg: 'Fines and Forfeitures'} },
+        { alias: {fundDescription: 'Other Intergovmt Rev'}, target: {budgetBookSubCatg: "Other Intergovernmental Rev"} },
+        { alias: {fundDescription: 'TRANSFERS IN'}, target: {budgetBookDisplayCatg: 'Transfers In'} },
+        { alias: {fundDescription: 'Hotel /MOTEL TAX'}, target: {budgetBookSubCatg: 'Hotel/Motel Tax'} },
+        { alias: {fundDescription: 'Grants and Reimbursements'}, target: {crossRef: 'GA - Grants and Reimbursements'} },
+        { alias: {fundDescription: 'Interest Income'}, target: {crossRef: 'EE - Interest Income'} },
+        { alias: {fundDescription: 'Internal Service Charges'}, target: {budgetBookSubCatg: 'Internal Service Charges'} },
+        { alias: {fundDescription: 'Other Misc. Income'}, target: {budgetBookSubCatg: 'Other Miscellaneous'} },
+        { alias: {fundDescription: 'Other Permits'}, target: {budgetBookSubCatg: 'Other Licenses and Permits'} },
+        { alias: {fundDescription: 'Sales Tax'}, target: {budgetBookSubCatg: 'Sales Tax'} },
+        { alias: {fundDescription: 'Public Safety'}, target: {crossRef: 'EB - Public Safety'} },
     ]
 };
 
